@@ -73,7 +73,7 @@ async def main() -> None:
     with st.sidebar:
         st.header(f"{APP_ICON} {APP_TITLE}")
         ""
-        "Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit"
+        "FuCK YA toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit"
         with st.popover(":material/settings: Settings", use_container_width=True):
             m = st.radio("LLM to use", options=models.keys())
             model = models[m]
@@ -82,6 +82,7 @@ async def main() -> None:
                 options=[
                     "research-assistant",
                     "chatbot",
+                    "privacy-analyzer",
                 ],
             )
             use_streaming = st.toggle("Stream results", value=True)
@@ -154,6 +155,30 @@ async def main() -> None:
     if len(messages) > 0:
         with st.session_state.last_message:
             await handle_feedback()
+
+    if agent_client.agent == "privacy-analyzer":
+        st.markdown("""
+        ### Privacy Policy Analyzer
+        Enter a clause from a privacy policy to analyze it. The analyzer will:
+        1. Identify relevant privacy categories
+        2. Provide an explanation for the categorization
+        3. Save the analysis to a file
+        """)
+        
+        # Display the available categories
+        with st.expander("Available Categories"):
+            st.markdown("""
+            - First Party Collection/Use
+            - Third Party Sharing/Collection
+            - User Choice/Control
+            - User Access, Edit, and Deletion
+            - Data Retention
+            - Data Security
+            - Policy Change
+            - Do Not Track
+            - International and Specific Audiences
+            - Other
+            """)
 
 
 async def draw_messages(
@@ -265,6 +290,15 @@ async def draw_messages(
                             status.write("Output:")
                             status.write(tool_result.content)
                             status.update(state="complete")
+
+                    with st.session_state.last_message:
+                        if msg.privacy_analysis:
+                            st.markdown("### Analysis")
+                            st.markdown("**Labels:**")
+                            for label in msg.privacy_analysis.labels:
+                                st.markdown(f"- {label}")
+                            st.markdown("**Explanation:**")
+                            st.markdown(msg.privacy_analysis.explanation)
 
             # In case of an unexpected message type, log an error and stop
             case _:

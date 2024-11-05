@@ -253,3 +253,56 @@ class AgentClient:
             return ChatHistory.model_validate(response_object)
         else:
             raise Exception(f"Error: {response.status_code} - {response.text}")
+
+    async def analyze_privacy_policy(
+        self, clause: str, model: str | None = None
+    ) -> ChatMessage:
+        """
+        Analyze a privacy policy clause using the privacy analyzer agent.
+
+        Args:
+            clause (str): The privacy policy clause to analyze
+            model (str, optional): LLM model to use for the analysis
+
+        Returns:
+            ChatMessage: The analysis response containing labels and explanation
+        """
+        request = UserInput(message=clause)
+        if model:
+            request.model = model
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                f"{self.base_url}/privacy-analyzer/invoke",
+                json=request.model_dump(),
+                headers=self._headers,
+                timeout=self.timeout,
+            )
+            if response.status_code == 200:
+                return ChatMessage.model_validate(response.json())
+            raise Exception(f"Error: {response.status_code} - {response.text}")
+
+    def analyze_privacy_policy_sync(
+        self, clause: str, model: str | None = None
+    ) -> ChatMessage:
+        """
+        Analyze a privacy policy clause using the privacy analyzer agent (synchronous version).
+
+        Args:
+            clause (str): The privacy policy clause to analyze
+            model (str, optional): LLM model to use for the analysis
+
+        Returns:
+            ChatMessage: The analysis response containing labels and explanation
+        """
+        request = UserInput(message=clause)
+        if model:
+            request.model = model
+        response = httpx.post(
+            f"{self.base_url}/privacy-analyzer/invoke",
+            json=request.model_dump(),
+            headers=self._headers,
+            timeout=self.timeout,
+        )
+        if response.status_code == 200:
+            return ChatMessage.model_validate(response.json())
+        raise Exception(f"Error: {response.status_code} - {response.text}")

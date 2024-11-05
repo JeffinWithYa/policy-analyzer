@@ -44,6 +44,18 @@ class ToolCall(TypedDict):
     type: NotRequired[Literal["tool_call"]]
 
 
+class PrivacyAnalysis(BaseModel):
+    """Analysis of a privacy policy clause."""
+    labels: list[str] = Field(
+        description="Labels assigned to the privacy policy clause.",
+        examples=[["First Party Collection/Use", "Data Security"]],
+    )
+    explanation: str = Field(
+        description="Explanation of why these labels apply.",
+        examples=["This clause describes how the company collects user data."],
+    )
+
+
 class ChatMessage(BaseModel):
     """Message in a chat."""
 
@@ -76,6 +88,10 @@ class ChatMessage(BaseModel):
     custom_data: dict[str, Any] = Field(
         description="Custom message data.",
         default={},
+    )
+    privacy_analysis: PrivacyAnalysis | None = Field(
+        description="Privacy policy analysis results.",
+        default=None,
     )
 
     def pretty_repr(self) -> str:

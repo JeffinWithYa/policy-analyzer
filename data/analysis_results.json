@@ -1,0 +1,61 @@
+[
+  {
+    "document": 3828,
+    "annotationID": 1,
+    "segment": " Effective Date: May 7, 2015     Kraft Site Privacy Notice    This website is owned and operated by Kraft Foods Group, Inc. At Kraft, we recognize that visitors to our site may be concerned about the information they provide to us and how we handle that information. This Privacy Notice describes the types of information we collect from and about you when you visit this website (and the mobile optimized version of this website), how we may use and disclose such information, and your ability to control certain uses of it.  ",
+    "human_annotation": {
+      "Other": {
+        "Other Type": "Introductory/Generic"
+      }
+    },
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment serves as an introductory statement about the privacy policy, outlining the purpose of the notice and addressing visitor concerns, which fits the 'Introductory/Generic' category."
+    },
+    "match": true
+  },
+  {
+    "document": 3828,
+    "annotationID": 2,
+    "segment": " Effective Date: May 7, 2015     Kraft Site Privacy Notice    This website is owned and operated by Kraft Foods Group, Inc. At Kraft, we recognize that visitors to our site may be concerned about the information they provide to us and how we handle that information. This Privacy Notice describes the types of information we collect from and about you when you visit this website (and the mobile optimized version of this website), how we may use and disclose such information, and your ability to control certain uses of it.  ",
+    "human_annotation": {
+      "Other": {
+        "Other Type": "Introductory/Generic"
+      }
+    },
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment serves as an introductory statement to the privacy policy, outlining the purpose of the notice and expressing awareness of visitor concerns regarding their information."
+    },
+    "match": true
+  },
+  {
+    "document": 3828,
+    "annotationID": 3,
+    "segment": " Effective Date: May 7, 2015     Kraft Site Privacy Notice    This website is owned and operated by Kraft Foods Group, Inc. At Kraft, we recognize that visitors to our site may be concerned about the information they provide to us and how we handle that information. This Privacy Notice describes the types of information we collect from and about you when you visit this website (and the mobile optimized version of this website), how we may use and disclose such information, and your ability to control certain uses of it.  ",
+    "human_annotation": {
+      "Policy Change": {
+        "Change Type": "Unspecified",
+        "User Choice": "Unspecified",
+        "Notification Type": "General notice in privacy policy"
+      }
+    },
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment serves as an introductory statement outlining the purpose of the privacy notice and the company's recognition of user concerns regarding their information, fitting it into the 'Other' category."
+    },
+    "match": false
+  }
+]

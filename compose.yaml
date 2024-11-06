@@ -7,6 +7,8 @@ services:
       - "80:80"
     env_file:
       - .env
+    volumes:
+      - ./data:/app/data
     develop:
       watch:
         - path: src/agents/
@@ -18,6 +20,9 @@ services:
         - path: src/service/
           action: sync+restart
           target: /app/service/
+        - path: data/
+          action: sync
+          target: /app/data/
 
   streamlit_app:
     build:

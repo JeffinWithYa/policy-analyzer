@@ -1,65 +1,74 @@
-from datetime import datetime
-from typing import List
-
-from langchain_core.language_models.chat_models import BaseChatModel
+from typing import Literal
 from langchain_core.messages import AIMessage, SystemMessage
-from langchain_core.runnables import RunnableConfig, RunnableLambda, RunnableSerializable
+from langchain_core.runnables import RunnableConfig, RunnableLambda
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, MessagesState, StateGraph
 
 from agents.models import models
 
-PRIVACY_LABELS = [
-    "First Party Collection/Use",
-    "Third Party Sharing/Collection",
-    "User Choice/Control",
-    "User Access, Edit, and Deletion",
-    "Data Retention",
-    "Data Security",
-    "Policy Change",
-    "Do Not Track",
-    "International and Specific Audiences",
-    "Other"
-]
-
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
 
-current_date = datetime.now().strftime("%B %d, %Y")
-instructions = f"""
-You are a privacy policy analyzer. Your task is to analyze privacy policy clauses and assign appropriate labels.
+SYSTEM_PROMPT = """You are a privacy policy analyzer. Your task is to analyze privacy policy segments and categorize them according to a specific schema.
 
-When given a privacy policy clause, you should:
-1. Analyze the content carefully
-2. Assign one or more of the following labels that best describe the clause:
-{', '.join(PRIVACY_LABELS)}
+When analyzing a privacy policy segment, you should output your analysis in the following JSON format:
 
-Format your response as follows:
-Labels: [list of applicable labels]
-Explanation: [brief explanation of why these labels apply]
+{
+    "category": {
+        "Primary Category": {
+            "Sub Category": "specific type"
+        }
+    },
+    "explanation": "Brief explanation of why this categorization was chosen"
+}
 
-Today's date is {current_date}.
-"""
+The main categories and their sub-categories are:
+1. First Party Collection/Use
+   - Collection Mode
+   - Information Type
+   - Purpose
+   - User Choice/Control
+   
+2. Third Party Sharing/Collection
+   - Third Party Entity
+   - Purpose
+   - Information Type
+   - User Choice/Control
 
-def wrap_model(model: BaseChatModel) -> RunnableSerializable[AgentState, AIMessage]:
+3. User Access, Edit, & Deletion
+   - Access Type
+   - User Choice/Control
+
+4. Data Security
+   - Security Measure Type
+
+5. Data Retention
+   - Retention Period
+   - Retention Purpose
+
+6. Policy Change
+   - Change Type
+   - User Choice
+   - Notification Type
+
+7. Other
+   - Other Type (e.g., "Introductory/Generic", "Contact Information", etc.)
+
+Always output your analysis in the exact JSON format specified above. Be concise but precise in your explanations."""
+
+def wrap_model(model):
+    """Wrap the model with the system prompt"""
     preprocessor = RunnableLambda(
-        lambda state: [SystemMessage(content=instructions)] + state["messages"],
+        lambda state: [SystemMessage(content=SYSTEM_PROMPT)] + state["messages"],
         name="StateModifier",
     )
     return preprocessor | model
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
+    """Call the model and process its response"""
     m = models[config["configurable"].get("model", "gpt-4o-mini")]
     model_runnable = wrap_model(m)
     response = await model_runnable.ainvoke(state, config)
-    
-    # Save the analysis to a file
-    with open("privacy_policy_analysis.txt", "a") as f:
-        f.write(f"\n--- Analysis {datetime.now().isoformat()} ---\n")
-        f.write(f"Clause: {state['messages'][-1].content}\n")
-        f.write(f"Analysis: {response.content}\n")
-        f.write("-" * 80 + "\n")
-    
     return {"messages": [response]}
 
 # Define the graph
@@ -70,4 +79,4 @@ agent.add_edge("model", END)
 
 privacy_analyzer = agent.compile(
     checkpointer=MemorySaver(),
-) 
+)

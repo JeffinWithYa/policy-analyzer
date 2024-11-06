@@ -88,7 +88,7 @@ async def analyze_privacy_policies(input_file: str, output_file: str) -> None:
             print(f"Error writing output file: {e}")
 
 if __name__ == "__main__":
-    INPUT_FILE = "/app/data/records_test.json"
+    INPUT_FILE = "/app/data/records_sanitized.json"
     OUTPUT_FILE = "/app/data/analysis_results.json"
     
     print("Starting privacy policy analysis...")

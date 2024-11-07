@@ -106,3 +106,64 @@ Use the provided `records_test.json` to verify your setup and test new features.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Analysis Output Example
+
+The `analysis_results.json` contains detailed results for each policy segment. Here's an example:
+
+```json
+{
+    "document": 3828,
+    "policyURL": "http://www.kraftrecipes.com/about/privacynotice.aspx",
+    "segment": "Effective Date: May 7, 2015 Kraft Site Privacy Notice...",
+    "human_annotations": [
+      {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "User Choice": "Unspecified",
+          "Notification Type": "General notice in privacy policy"
+        }
+      }
+    ],
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment serves as an introductory statement..."
+    },
+    "matching_details": {
+      "top_level_match": true,
+      "exact_match": true,
+      "matching_subcategories": 1,
+      "total_subcategories": 1,
+      "subcategory_match_ratio": 1.0,
+      "matched_categories": [
+        {
+          "Other": {
+            "Other Type": "Introductory/Generic"
+          }
+        }
+      ]
+    }
+}
+```
+
+### Understanding Match Results
+
+The matching_details field provides metrics on how well the model's categorization matched human annotations:
+
+- `top_level_match`: True if the main category (e.g., "Other") matches at least one human annotation
+- `exact_match`: True if there's a perfect match between the model's category and one of the human annotations (including all subcategories)
+- `matching_subcategories`: Number of matching subcategories
+- `total_subcategories`: Total number of subcategories to match
+- `subcategory_match_ratio`: Ratio of matching subcategories (1.0 = perfect match)
+- `matched_categories`: List of human annotation categories that matched
+
+In this example, the model correctly identified the segment as "Other: Introductory/Generic", matching one of the human annotations perfectly. Note that human annotators may identify multiple applicable categories (in this case, both "Other" and "Policy Change"), while the model currently focuses on the primary category.

@@ -6,6 +6,15 @@ from langgraph.graph import END, MessagesState, StateGraph
 
 from agents.models import models
 
+import time
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type
+)
+from tqdm import tqdm
+
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
 
@@ -89,6 +98,34 @@ def wrap_model(model):
         name="StateModifier",
     )
     return preprocessor | model
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(Exception)
+)
+async def process_record(record):
+    try:
+        # Your existing processing code here
+        response = await openai.chat.completions.create(...)
+        
+    except Exception as e:
+        logger.error(f"Error processing record: {str(e)}")
+        # Add a small delay before retrying
+        time.sleep(1)
+        raise
+        
+async def process_records(records):
+    with tqdm(total=len(records)) as pbar:
+        for i, record in enumerate(records):
+            try:
+                result = await process_record(record)
+                pbar.update(1)
+                time.sleep(0.5)
+            except Exception as e:
+                logger.error(f"Failed to process record {i} after all retries: {str(e)}")
+                pbar.update(1)
+                continue
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""

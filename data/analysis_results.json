@@ -14,7 +14,7 @@
           "Other Type": "Introductory/Generic"
         }
       },
-      "explanation": "This segment serves as an introductory statement outlining the purpose of the privacy notice and the company's recognition of user concerns regarding information handling, fitting it into the 'Other' category as an introductory or generic statement."
+      "explanation": "This segment serves as an introductory statement outlining the purpose of the privacy notice and acknowledging user concerns about information handling, which fits the 'Introductory/Generic' category."
     },
     "match": true
   },
@@ -33,7 +33,7 @@
           "Other Type": "Introductory/Generic"
         }
       },
-      "explanation": "This segment serves as an introductory statement explaining the purpose of the privacy notice and the company's recognition of user concerns regarding information handling, thus categorizing it under 'Introductory/Generic'."
+      "explanation": "This segment serves as an introductory statement about the privacy policy, outlining the purpose of the document and the company's recognition of user concerns regarding information handling."
     },
     "match": true
   },
@@ -54,7 +54,7 @@
           "Other Type": "Introductory/Generic"
         }
       },
-      "explanation": "This segment serves as an introductory statement to the privacy policy, outlining the purpose of the notice and the company's recognition of visitor concerns regarding information handling."
+      "explanation": "This segment serves as an introductory statement to the privacy notice, outlining the purpose of the document and the company's recognition of user concerns regarding privacy."
     },
     "match": false
   }

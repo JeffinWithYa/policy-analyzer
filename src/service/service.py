@@ -98,7 +98,14 @@ async def invoke(user_input: UserInput) -> ChatMessage:
     Use thread_id to persist and continue a multi-turn conversation. run_id kwarg
     is also attached to messages for recording feedback.
     """
-    return await ainvoke(user_input=user_input)
+    logger.info(f"Received invoke request - Message: {user_input.message[:200]}...")
+    logger.info(f"Using model: {user_input.model}")
+    logger.info(f"Thread ID: {user_input.thread_id}")
+    
+    response = await ainvoke(user_input=user_input)
+    
+    logger.info(f"Returning response - Content: {response.content[:200]}...")
+    return response
 
 
 @router.post("/{agent_id}/invoke")

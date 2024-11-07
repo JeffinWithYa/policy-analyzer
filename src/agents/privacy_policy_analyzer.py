@@ -14,6 +14,7 @@ from tenacity import (
     retry_if_exception_type
 )
 from tqdm import tqdm
+from service.logging_config import logger
 
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
@@ -131,7 +132,17 @@ async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
     m = models[config["configurable"].get("model", "gpt-4o-mini")]
     model_runnable = wrap_model(m)
+    
+    # Log the input messages
+    logger.info("Sending messages to LLM:")
+    for msg in state["messages"]:
+        logger.info(f"Sent to LLM: {msg.content[:]}...")
+    
     response = await model_runnable.ainvoke(state, config)
+    
+    # Log the response
+    logger.info(f"Received response from LLM: {response.content[:]}...")
+    
     return {"messages": [response]}
 
 # Define the graph

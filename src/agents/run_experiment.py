@@ -75,7 +75,7 @@ async def analyze_privacy_policies(input_file: str, output_file: str) -> None:
                     "/privacy-analyzer/invoke",
                     json={
                         "message": record["segment"],
-                        "model": "gpt-4o-mini"
+                        "model": "gpt-4"
                     }
                 )
                 response.raise_for_status()

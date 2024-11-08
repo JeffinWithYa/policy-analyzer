@@ -11,6 +11,11 @@ from langchain_openai import ChatOpenAI
 models: dict[str, BaseChatModel] = {}
 if os.getenv("OPENAI_API_KEY") is not None:
     models["gpt-4o-mini"] = ChatOpenAI(model="gpt-4o-mini", temperature=0.5, streaming=True)
+    models["gpt-4o"] = ChatOpenAI(model="gpt-4o", temperature=0.5, streaming=True)
+    models["gpt-4"] = ChatOpenAI(model="gpt-4-turbo", temperature=0.5, streaming=True)
+    models["gpt-3.5"] = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.5, streaming=True)
+    models["o1-preview"] = ChatOpenAI(model="o1-preview", temperature=0.5, streaming=True)
+    models["o1-mini"] = ChatOpenAI(model="o1-mini", temperature=0.5, streaming=True)
 if os.getenv("GROQ_API_KEY") is not None:
     models["llama-3.1-70b"] = ChatGroq(model="llama-3.1-70b-versatile", temperature=0.5)
 if os.getenv("GOOGLE_API_KEY") is not None:

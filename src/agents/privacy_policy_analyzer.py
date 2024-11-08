@@ -16,12 +16,18 @@ from tenacity import (
 from tqdm import tqdm
 from service.logging_config import logger
 
+import json
+
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
 
 SYSTEM_PROMPT = """You are a privacy policy analyzer. Your task is to analyze privacy policy segments and categorize them according to a specific schema.
 
-When analyzing a privacy policy segment, you should output your analysis in the following JSON format:
+IMPORTANT: You must respond with pure JSON only. Do not include any markdown formatting, code blocks, or additional text.
+Do not wrap the JSON in ```json``` tags or any other formatting.
+Your entire response should be valid JSON that can be parsed directly.
+
+When analyzing a privacy policy segment, output your analysis in this exact JSON format:
 
 {
     "category": {
@@ -130,7 +136,7 @@ async def process_records(records):
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
-    m = models[config["configurable"].get("model", "gpt-4o-mini")]
+    m = models[config["configurable"].get("model", "gpt-4")]
     model_runnable = wrap_model(m)
     
     # Log the input messages
@@ -140,10 +146,35 @@ async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     
     response = await model_runnable.ainvoke(state, config)
     
-    # Log the response
-    logger.info(f"Received response from LLM: {response.content[:]}...")
-    
-    return {"messages": [response]}
+    # Ensure response is pure JSON
+    try:
+        # Try to parse the response content as JSON
+        content = response.content.strip()
+        if content.startswith('```json'):
+            content = content[7:]
+        if content.endswith('```'):
+            content = content[:-3]
+        
+        # Parse and re-serialize to ensure pure JSON
+        parsed_json = json.loads(content.strip())
+        clean_response = AIMessage(content=json.dumps(parsed_json))
+        
+        # Log the cleaned response
+        logger.info(f"Cleaned response from LLM: {clean_response.content}")
+        
+        return {"messages": [clean_response]}
+    except json.JSONDecodeError as e:
+        logger.error(f"Failed to parse JSON response: {e}")
+        # Return error message in expected JSON format
+        error_response = {
+            "category": {
+                "Error": {
+                    "Type": "Invalid JSON Response"
+                }
+            },
+            "explanation": "Failed to parse model response as valid JSON"
+        }
+        return {"messages": [AIMessage(content=json.dumps(error_response))]}
 
 # Define the graph
 agent = StateGraph(AgentState)

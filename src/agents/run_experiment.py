@@ -81,7 +81,7 @@ class ServiceConnectionManager:
             await self.current_client.aclose()
             self.current_client = None
     
-    async def make_request(self, segment: str, model: str = "gemini-1.5-flash-8b") -> Dict[str, Any]:
+    async def make_request(self, segment: str, model: str = "gemini-1.5-pro") -> Dict[str, Any]:
         backoff_time = self.initial_backoff
         
         for attempt in range(self.max_retries):

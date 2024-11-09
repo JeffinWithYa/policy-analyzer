@@ -136,7 +136,7 @@ async def process_records(records):
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
-    m = models[config["configurable"].get("model", "gpt-3.5")]
+    m = models[config["configurable"].get("model", "gemini-1.5-flash-8b")]
     model_runnable = wrap_model(m)
     
     # Log the input messages

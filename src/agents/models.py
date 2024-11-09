@@ -22,6 +22,12 @@ if os.getenv("GOOGLE_API_KEY") is not None:
     models["gemini-1.5-flash"] = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash", temperature=0.5, streaming=True
     )
+    models["gemini-1.5-flash-8b"] = ChatGoogleGenerativeAI(
+        model="gemini-1.5-flash-8b", temperature=0.5, streaming=True
+    )
+    models["gemini-1.5-pro"] = ChatGoogleGenerativeAI(
+        model="gemini-1.5-pro", temperature=0.5, streaming=True
+    )
 if os.getenv("ANTHROPIC_API_KEY") is not None:
     models["claude-3-haiku"] = ChatAnthropic(
         model="claude-3-haiku-20240307", temperature=0.5, streaming=True

@@ -77,7 +77,7 @@ class ServiceConnectionManager:
 
         self.current_client = httpx.AsyncClient(
             base_url=self.base_url,
-            timeout=30.0,
+            timeout=2200.0,  # Increased to 20 minutes to handle long rate limit waits
             limits=httpx.Limits(max_keepalive_connections=5, max_connections=10),
         )
 
@@ -103,10 +103,23 @@ class ServiceConnectionManager:
                 response.raise_for_status()
                 return response.json()
 
-            except httpx.HTTPStatusError as e:
+            except (httpx.HTTPStatusError, httpx.HTTPError) as e:
                 error_msg = str(e)
-                if "Rate limit wait completed" in error_msg:
-                    # The service has already waited, try again immediately
+                # Look for rate limit information in both the error message and response
+                wait_time_match = re.search(r"try again in (\d+)m([\d.]+)s", error_msg)
+
+                if wait_time_match or "Rate limit" in error_msg:
+                    if wait_time_match:
+                        minutes, seconds = wait_time_match.groups()
+                        wait_seconds = int(minutes) * 60 + float(seconds)
+                    else:
+                        # Default to a conservative wait if no specific time given
+                        wait_seconds = 300  # 5 minutes
+
+                    print(f"Rate limit reached. Waiting for {wait_seconds} seconds...")
+                    await asyncio.sleep(wait_seconds)
+                    # Create a new client after rate limit wait
+                    await self.create_client()
                     continue
 
                 # For any other error, use exponential backoff

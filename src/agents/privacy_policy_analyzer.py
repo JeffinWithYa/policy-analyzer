@@ -11,15 +11,22 @@ from tenacity import (
     retry,
     stop_after_attempt,
     wait_exponential,
-    retry_if_exception_type
+    retry_if_exception_type,
 )
 from tqdm import tqdm
 from service.logging_config import logger
 
 import json
+import re
+
+from fastapi import HTTPException
+
+import asyncio
+
 
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
+
 
 SYSTEM_PROMPT = """You are a privacy policy analyzer. Your task is to analyze privacy policy segments and categorize them according to a specific schema.
 
@@ -98,6 +105,7 @@ The main categories and their sub-categories are:
 
 Always output your analysis in the exact JSON format specified above. Be concise but precise in your explanations."""
 
+
 def wrap_model(model):
     """Wrap the model with the system prompt"""
     preprocessor = RunnableLambda(
@@ -106,22 +114,34 @@ def wrap_model(model):
     )
     return preprocessor | model
 
+
 @retry(
     stop=stop_after_attempt(3),
     wait=wait_exponential(multiplier=1, min=4, max=10),
-    retry=retry_if_exception_type(Exception)
+    retry=retry_if_exception_type(Exception),
 )
 async def process_record(record):
     try:
         # Your existing processing code here
         response = await openai.chat.completions.create(...)
-        
+
     except Exception as e:
-        logger.error(f"Error processing record: {str(e)}")
-        # Add a small delay before retrying
+        error_msg = str(e)
+        # Check for rate limit error and extract wait time
+        if "429" in error_msg:
+            wait_time_match = re.search(r"try again in (\d+)m([\d.]+)s", error_msg)
+            if wait_time_match:
+                minutes, seconds = wait_time_match.groups()
+                wait_seconds = int(minutes) * 60 + float(seconds)
+                logger.info(f"Rate limit reached. Waiting for {wait_seconds} seconds")
+                time.sleep(wait_seconds)
+                raise  # Retry after waiting
+
+        logger.error(f"Error processing record: {error_msg}")
         time.sleep(1)
         raise
-        
+
+
 async def process_records(records):
     with tqdm(total=len(records)) as pbar:
         for i, record in enumerate(records):
@@ -130,51 +150,63 @@ async def process_records(records):
                 pbar.update(1)
                 time.sleep(0.5)
             except Exception as e:
-                logger.error(f"Failed to process record {i} after all retries: {str(e)}")
+                logger.error(
+                    f"Failed to process record {i} after all retries: {str(e)}"
+                )
                 pbar.update(1)
                 continue
 
+
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
-    m = models[config["configurable"].get("model", "gemini-1.5-pro")]
+    m = models[config["configurable"].get("model", "llama-3.1-70b-versatile")]
     model_runnable = wrap_model(m)
-    
-    # Log the input messages
+
     logger.info("Sending messages to LLM:")
     for msg in state["messages"]:
         logger.info(f"Sent to LLM: {msg.content[:]}...")
-    
-    response = await model_runnable.ainvoke(state, config)
-    
-    # Ensure response is pure JSON
+
     try:
-        # Try to parse the response content as JSON
-        content = response.content.strip()
-        if content.startswith('```json'):
-            content = content[7:]
-        if content.endswith('```'):
-            content = content[:-3]
-        
-        # Parse and re-serialize to ensure pure JSON
-        parsed_json = json.loads(content.strip())
-        clean_response = AIMessage(content=json.dumps(parsed_json))
-        
-        # Log the cleaned response
-        logger.info(f"Cleaned response from LLM: {clean_response.content}")
-        
-        return {"messages": [clean_response]}
-    except json.JSONDecodeError as e:
-        logger.error(f"Failed to parse JSON response: {e}")
-        # Return error message in expected JSON format
-        error_response = {
-            "category": {
-                "Error": {
-                    "Type": "Invalid JSON Response"
-                }
-            },
-            "explanation": "Failed to parse model response as valid JSON"
-        }
-        return {"messages": [AIMessage(content=json.dumps(error_response))]}
+        response = await model_runnable.ainvoke(state, config)
+
+        # Process successful response...
+        try:
+            content = response.content.strip()
+            if content.startswith("```json"):
+                content = content[7:]
+            if content.endswith("```"):
+                content = content[:-3]
+
+            parsed_json = json.loads(content.strip())
+            clean_response = AIMessage(content=json.dumps(parsed_json))
+            logger.info(f"Cleaned response from LLM: {clean_response.content}")
+            return {"messages": [clean_response]}
+
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON response: {e}")
+            error_response = {
+                "category": {"Error": {"Type": "Invalid JSON Response"}},
+                "explanation": "Failed to parse model response as valid JSON",
+            }
+            return {"messages": [AIMessage(content=json.dumps(error_response))]}
+
+    except Exception as e:
+        error_msg = str(e)
+        if "429" in error_msg:
+            wait_time_match = re.search(r"try again in (\d+)m([\d.]+)s", error_msg)
+            if wait_time_match:
+                minutes, seconds = wait_time_match.groups()
+                wait_seconds = int(minutes) * 60 + float(seconds)
+                logger.info(f"Rate limit reached. Waiting for {wait_seconds} seconds")
+                # Actually wait here instead of just passing the wait time
+                await asyncio.sleep(wait_seconds)
+                # After waiting, raise a retry exception
+                raise HTTPException(
+                    status_code=500, detail="Rate limit wait completed, please retry"
+                )
+        logger.error(f"Error in model call: {error_msg}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 # Define the graph
 agent = StateGraph(AgentState)

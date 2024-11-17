@@ -87,7 +87,7 @@ class ServiceConnectionManager:
             self.current_client = None
 
     async def make_request(
-        self, segment: str, model: str = "gpt-4o-mini"
+        self, segment: str, model: str = "claude-3-haiku"
     ) -> Dict[str, Any]:
         backoff_time = self.initial_backoff
 

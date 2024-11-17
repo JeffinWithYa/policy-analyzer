@@ -159,7 +159,7 @@ async def process_records(records):
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
-    m = models[config["configurable"].get("model", "gpt-4o-mini")]
+    m = models[config["configurable"].get("model", "claude-3-haiku")]
     model_runnable = wrap_model(m)
 
     logger.info("Sending messages to LLM:")

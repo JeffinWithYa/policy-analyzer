@@ -21,6 +21,16 @@ if os.getenv("OPENAI_API_KEY") is not None:
     models["o1-preview"] = ChatOpenAI(
         model="o1-preview", temperature=0.5, streaming=True
     )
+    models["custom-privacy-policy-labeller-gpt4o-mini"] = ChatOpenAI(
+        model="ft:gpt-4o-mini-2024-07-18:personal::AUcoZd7T",
+        temperature=0.5,
+        streaming=True,
+    )
+    models["custom-privacy-policy-labeller-gpt3.5"] = ChatOpenAI(
+        model="ft:gpt-3.5-turbo-0125:personal::AUdWJwZQ",
+        temperature=0.5,
+        streaming=True,
+    )
     models["o1-mini"] = ChatOpenAI(model="o1-mini", temperature=0.5, streaming=True)
 if os.getenv("GROQ_API_KEY") is not None:
     models["llama-3.1-70b-versatile"] = ChatGroq(

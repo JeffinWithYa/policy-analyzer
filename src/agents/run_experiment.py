@@ -87,7 +87,7 @@ class ServiceConnectionManager:
             self.current_client = None
 
     async def make_request(
-        self, segment: str, model: str = "claude-3-haiku"
+        self, segment: str, model: str = "custom-privacy-policy-labeller-gpt3.5"
     ) -> Dict[str, Any]:
         backoff_time = self.initial_backoff
 

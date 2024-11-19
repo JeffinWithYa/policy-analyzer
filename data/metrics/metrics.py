@@ -94,34 +94,34 @@ def calcConfusionMatrix(trueSlice, predictedSlice):
 
     return accuracy, precision, recall, f1
 
-def getBarGraph(data, outFile):
+def getBarGraph(data, outFile, title, sizeX, sizeY):
     barW = 0.10
     numMetrics = len(data[0][1])
     numPlots = len(data)
-    plt.figure(figsize=(26,6))
+    plt.figure(figsize=(sizeX,sizeY))
 
     barPositions = [np.arange(numMetrics) + barW * i for i in range(numPlots)]
     colours = ["blue", "orange", "green", "red", "purple", "brown", "pink", "gray", "olive", "cyan"]
     for i, (label, values) in enumerate(data):
         plt.bar(barPositions[i], values, color=colours[i % len(colours)], width=barW, edgecolor="grey", label=label)
 
-    plt.title("Bar Graph of LLM Performance in Annotating Privacy Policies", fontweight="bold", fontsize=15)
+    plt.title(title, fontweight="bold", fontsize=15)
     plt.ylabel("Performance Metric Value", fontweight="bold")
     plt.xticks(barPositions[0] + barW * (numPlots - 1) / 2, ["Accuracy", "Precision", "Recall", "F1 Score"])
     plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
     plt.savefig("data/metrics/output/" + outFile)
     plt.close()
 
-def getHeatMap(data, outFile):
+def getHeatMap(data, outFile, title, sizeX, sizeY):
     # unpacks the data list into individual tuples, and then passes to zip function to create tuple of labels and tuple of metrics data
     labels, metrics = zip(*data)
     dataFrame = pd.DataFrame(metrics, index=labels, columns=["Accuracy", "Precision", "Recall", "F1 Score"])
 
-    plt.figure(figsize=(15,6))
+    plt.figure(figsize=(sizeX,sizeY))
     axes = sns.heatmap(dataFrame, annot=True, cmap="coolwarm_r", cbar=True, fmt=".2f")
     colourbar = axes.collections[0].colorbar
     colourbar.set_label("Performance Metric Value", rotation=270, labelpad=20)
-    plt.title("Heatmap of LLM Performance in Annotating Privacy Policies", fontweight="bold", fontsize=15)
+    plt.title(title, fontweight="bold", fontsize=15)
     plt.xlabel("Metrics")
     plt.ylabel("LLMs")
     plt.savefig("data/metrics/output/" + outFile)
@@ -133,26 +133,67 @@ def main():
     plotData = []
     subCategoryPlotData = []
 
+    finetunedFiles = {}
+    notFineTunedFiles = []
+
     for filename in os.listdir(directory):
-        if filename.startswith("analysis_results_") and filename.endswith(".json"):
+        if filename.startswith("analysis_results_trained_") and filename.endswith(".json"):
+            label = filename.replace("analysis_results_trained_", "").replace(".json", "")
+            finetunedFiles[label] = os.path.join(directory, filename)
+        elif filename.startswith("analysis_results_") and filename.endswith(".json"):
             label = filename.replace("analysis_results_", "").replace(".json", "")
+            notFineTunedFiles.append((label, os.path.join(directory, filename)))
 
-            filePath = os.path.join(directory, filename)
-            data = loadJson(filePath)
-            actual, predicted = normalize(data)
-            subCategoriesIncludedActual, subCategoriesIncludedPredicted = normalizeSubcategoryMatch(data)
+    # generate graphs for all not fine tuned
+    for label, filePath in notFineTunedFiles:
+        data = loadJson(filePath)
+        actual, predicted = normalize(data)
+        subCategoriesIncludedActual, subCategoriesIncludedPredicted = normalizeSubcategoryMatch(data)
 
-            accuracy, precision, recall, f1 = calcConfusionMatrix(actual, predicted)
-            subAccuracy, subPrecision, subRecall, subF1 = calcConfusionMatrix(subCategoriesIncludedActual, subCategoriesIncludedPredicted)
+        accuracy, precision, recall, f1 = calcConfusionMatrix(actual, predicted)
+        subAccuracy, subPrecision, subRecall, subF1 = calcConfusionMatrix(subCategoriesIncludedActual, subCategoriesIncludedPredicted)
+
+        plotData.append((label, [accuracy, precision, recall, f1]))
+        subCategoryPlotData.append((label, [subAccuracy, subPrecision, subRecall, subF1]))
 
 
-            plotData.append((label, [accuracy, precision, recall, f1]))
-            subCategoryPlotData.append((label, [subAccuracy, subPrecision, subRecall, subF1]))
+    getBarGraph(plotData, "TopLevelCategories_Bargraph.png", "Bar Graph of LLM Performance in Annotating Privacy Policies", 26, 6)
+    getBarGraph(subCategoryPlotData, "SubCategories_Bargraph.png", "Bar Graph of LLM Performance in Annotating Privacy Policies Including Subcategories", 26, 6)
+    getHeatMap(plotData, "TopLevelCategories_Heatmap.png", "Heatmap of LLM Performance in Annotating Privacy Policies", 18, 6)
+    getHeatMap(subCategoryPlotData, "SubCategories_Heatmap.png", "Heatmap of LLM Performance in Annotating Privacy Policies Including Subcategories", 18, 6)
 
-    getBarGraph(plotData, "TopLevelCategories_Bargraph.png")
-    getHeatMap(plotData, "TopLevelCategories_Heatmap.png")
-    getBarGraph(subCategoryPlotData, "SubCategories_Bargraph.png")
-    getHeatMap(subCategoryPlotData, "SubCategories_Heatmap.png")
+    # generate comparison graphs for fine tuned vs. not fined tuned
+    comparisonDataTopLevel = []
+    comparisonDataSubCategory = []
+    for label, notFineTunedFilePath in notFineTunedFiles:
+        matchedModel = None
+        for fineTunedLabel in finetunedFiles.keys():
+            if label.startswith(fineTunedLabel):
+                matchedModel = fineTunedLabel
+                break
+
+        if matchedModel:
+            finetunedData = loadJson(finetunedFiles[matchedModel])
+            notFineTunedData = loadJson(notFineTunedFilePath)
+
+            ft_actual, ft_predicted = normalize(finetunedData)
+            ft_subCategoriesIncludedActual, ft_subCategoriesIncludedPredicted = normalizeSubcategoryMatch(finetunedData)
+            nft_actual, nft_predicted = normalize(notFineTunedData)
+            nft_subCategoriesIncludedActual, nft_subCategoriesIncludedPredicted = normalizeSubcategoryMatch(notFineTunedData)
+
+            fineTunedMetricsTopLevel = calcConfusionMatrix(ft_actual, ft_predicted)
+            fineTunedMetricsInclSubCategories = calcConfusionMatrix(ft_subCategoriesIncludedActual, ft_subCategoriesIncludedPredicted)
+            notFineTunedMetricsTopLevel = calcConfusionMatrix(nft_actual, nft_predicted)
+            notFineTunedMetricsInclSubCategories = calcConfusionMatrix(nft_subCategoriesIncludedActual, nft_subCategoriesIncludedPredicted)
+
+            comparisonDataTopLevel.append((f"Trained {label}", list(fineTunedMetricsTopLevel)))
+            comparisonDataTopLevel.append((f"Untrained {label}", list(notFineTunedMetricsTopLevel)))
+            comparisonDataSubCategory.append((f"Trained {label}", list(fineTunedMetricsInclSubCategories)))
+            comparisonDataSubCategory.append((f"Untrained {label}", list(notFineTunedMetricsInclSubCategories)))
+    
+    getBarGraph(comparisonDataTopLevel, "Trained_vs_Untrained_TopLevelCategories_Bargraph.png", "Bar Graph of LLM Performance in Annotating Privacy Policies - Trained vs Untrained", 30, 6)
+    getBarGraph(comparisonDataSubCategory, "Trained_vs_Untrained_SubCategories_Bargraph.png", "Bar Graph of LLM Performance in Annotating Privacy Policies Including Subcategories - Trained vs Untrained", 30, 6)
+
 
 if __name__ == "__main__":
     main()

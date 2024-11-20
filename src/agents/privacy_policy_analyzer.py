@@ -23,6 +23,9 @@ from fastapi import HTTPException
 
 import asyncio
 
+from pydantic import BaseModel, Field
+from typing import List
+
 
 class AgentState(MessagesState, total=False):
     """State for privacy policy analyzer"""
@@ -159,55 +162,81 @@ async def process_records(records):
 
 async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     """Call the model and process its response"""
-    m = models[
-        config["configurable"].get("model", "custom-privacy-policy-labeller-gpt3.5")
-    ]
-    model_runnable = wrap_model(m)
-
-    logger.info("Sending messages to LLM:")
-    for msg in state["messages"]:
-        logger.info(f"Sent to LLM: {msg.content[:]}...")
-
     try:
-        response = await model_runnable.ainvoke(state, config)
+        # Add debug logging
+        logger.debug(f"Received state: {state}")
+        logger.debug(f"Received config: {config}")
 
-        # Process successful response...
+        # Add input validation
+        if not state.get("messages"):
+            raise HTTPException(status_code=422, detail="Request must contain messages")
+
+        # Validate model configuration
+        model_name = config["configurable"].get(
+            "model", "custom-privacy-policy-labeller-gpt3.5"
+        )
+        if model_name not in models:
+            raise HTTPException(
+                status_code=422,
+                detail=f"Invalid model name. Must be one of: {list(models.keys())}",
+            )
+
+        m = models[model_name]
+        model_runnable = wrap_model(m)
+
+        logger.info("Sending messages to LLM:")
+        for msg in state["messages"]:
+            logger.info(f"Sent to LLM: {msg.content[:]}...")
+
         try:
-            content = response.content.strip()
-            if content.startswith("```json"):
-                content = content[7:]
-            if content.endswith("```"):
-                content = content[:-3]
+            response = await model_runnable.ainvoke(state, config)
 
-            parsed_json = json.loads(content.strip())
-            clean_response = AIMessage(content=json.dumps(parsed_json))
-            logger.info(f"Cleaned response from LLM: {clean_response.content}")
-            return {"messages": [clean_response]}
+            # Process successful response...
+            try:
+                content = response.content.strip()
+                if content.startswith("```json"):
+                    content = content[7:]
+                if content.endswith("```"):
+                    content = content[:-3]
 
-        except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse JSON response: {e}")
-            error_response = {
-                "category": {"Error": {"Type": "Invalid JSON Response"}},
-                "explanation": "Failed to parse model response as valid JSON",
-            }
-            return {"messages": [AIMessage(content=json.dumps(error_response))]}
+                parsed_json = json.loads(content.strip())
+                clean_response = AIMessage(content=json.dumps(parsed_json))
+                logger.info(f"Cleaned response from LLM: {clean_response.content}")
+                return {"messages": [clean_response]}
+
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to parse JSON response: {e}")
+                error_response = {
+                    "category": {"Error": {"Type": "Invalid JSON Response"}},
+                    "explanation": "Failed to parse model response as valid JSON",
+                }
+                return {"messages": [AIMessage(content=json.dumps(error_response))]}
+
+        except Exception as e:
+            error_msg = str(e)
+            if "429" in error_msg:
+                wait_time_match = re.search(r"try again in (\d+)m([\d.]+)s", error_msg)
+                if wait_time_match:
+                    minutes, seconds = wait_time_match.groups()
+                    wait_seconds = int(minutes) * 60 + float(seconds)
+                    logger.info(
+                        f"Rate limit reached. Waiting for {wait_seconds} seconds"
+                    )
+                    # Actually wait here instead of just passing the wait time
+                    await asyncio.sleep(wait_seconds)
+                    # After waiting, raise a retry exception
+                    raise HTTPException(
+                        status_code=500,
+                        detail="Rate limit wait completed, please retry",
+                    )
+            logger.error(f"Error in model call: {error_msg}")
+            raise HTTPException(status_code=500, detail=str(e))
 
     except Exception as e:
-        error_msg = str(e)
-        if "429" in error_msg:
-            wait_time_match = re.search(r"try again in (\d+)m([\d.]+)s", error_msg)
-            if wait_time_match:
-                minutes, seconds = wait_time_match.groups()
-                wait_seconds = int(minutes) * 60 + float(seconds)
-                logger.info(f"Rate limit reached. Waiting for {wait_seconds} seconds")
-                # Actually wait here instead of just passing the wait time
-                await asyncio.sleep(wait_seconds)
-                # After waiting, raise a retry exception
-                raise HTTPException(
-                    status_code=500, detail="Rate limit wait completed, please retry"
-                )
-        logger.error(f"Error in model call: {error_msg}")
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error processing request: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=422, detail=f"Error processing request: {str(e)}"
+        )
 
 
 # Define the graph

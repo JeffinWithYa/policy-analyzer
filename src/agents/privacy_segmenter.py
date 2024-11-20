@@ -5,6 +5,7 @@ from langchain_core.runnables import RunnableConfig
 from langgraph.graph import StateGraph, END
 from agents.chatbot import AgentState, wrap_model
 from agents.models import models
+from service.logging_config import logger
 
 SYSTEM_PROMPT = """You are a privacy policy segmentation expert. Your task is to break down privacy policies into individual clauses or segments that each represent a distinct privacy practice or policy statement.
 
@@ -29,6 +30,10 @@ async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
     modified_state = state.copy()
     modified_state["messages"] = messages
 
+    logger.info("Sending messages to LLM:")
+    for msg in state["messages"]:
+        logger.info(f"Sent to LLM: {msg.content[:200]}...")  # Log first 200 chars
+
     accumulated_content = ""
     try:
         async for chunk in model_runnable.astream(modified_state, config):
@@ -44,25 +49,32 @@ async def acall_model(state: AgentState, config: RunnableConfig) -> AgentState:
 
             parsed_json = json.loads(content.strip())
             if not isinstance(parsed_json, list):
+                logger.error("Invalid response format: not a JSON array")
                 raise ValueError("Response must be a JSON array")
 
             # Validate format of each item
             for item in parsed_json:
                 if not isinstance(item, dict) or len(item) != 1:
+                    logger.error(f"Invalid segment format: {item}")
                     raise ValueError(
                         "Each item must be an object with exactly one numeric key"
                     )
                 key = next(iter(item))
                 if not isinstance(item[key], str):
+                    logger.error(f"Invalid segment value type for key {key}")
                     raise ValueError("Segment values must be strings")
 
+            logger.info(f"Successfully segmented into {len(parsed_json)} parts")
+            logger.debug(f"Full response: {json.dumps(parsed_json)}")
             return {"messages": [AIMessage(content=json.dumps(parsed_json))]}
 
         except (json.JSONDecodeError, ValueError) as e:
+            logger.error(f"Error processing response: {str(e)}")
             error_response = [{"error": str(e)}]
             return {"messages": [AIMessage(content=json.dumps(error_response))]}
 
     except Exception as e:
+        logger.error(f"Model error: {str(e)}")
         error_response = [{"error": f"Model error: {str(e)}"}]
         return {"messages": [AIMessage(content=json.dumps(error_response))]}
 

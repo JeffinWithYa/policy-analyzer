@@ -1,6 +1,7 @@
 import asyncio
 import os
 from collections.abc import AsyncGenerator
+import json
 
 import streamlit as st
 from streamlit.runtime.scriptrunner import get_script_run_ctx
@@ -83,6 +84,7 @@ async def main() -> None:
                     "research-assistant",
                     "chatbot",
                     "privacy-analyzer",
+                    "privacy-segmenter",
                 ],
             )
             use_streaming = st.toggle("Stream results", value=True)
@@ -119,7 +121,23 @@ async def main() -> None:
     messages: list[ChatMessage] = st.session_state.messages
 
     if len(messages) == 0:
-        WELCOME = "Hello! I'm an AI-powered research assistant with web search and a calculator. I may take a few seconds to boot up when you send your first message. Ask me anything!"
+        if agent_client.agent == "privacy-segmenter":
+            WELCOME = """Hello! I'm a privacy policy segmentation tool. I can help break down privacy policies into individual segments, where each segment contains one distinct privacy practice.
+
+To use me:
+1. Paste the complete privacy policy text you want to segment
+2. I'll break it down into individual segments
+3. Each segment will contain one distinct privacy practice
+
+Tips for best results:
+- Include complete paragraphs or sections
+- Use only the actual privacy policy text
+- Remove headers, navigation elements, etc.
+
+Please paste your privacy policy text to begin!"""
+        else:
+            WELCOME = "Hello! I'm an AI-powered research assistant with web search and a calculator. I may take a few seconds to boot up when you send your first message. Ask me anything!"
+
         with st.chat_message("ai"):
             st.write(WELCOME)
 
@@ -134,21 +152,27 @@ async def main() -> None:
     if user_input := st.chat_input():
         messages.append(ChatMessage(type="human", content=user_input))
         st.chat_message("human").write(user_input)
-        if use_streaming:
-            stream = agent_client.astream(
-                message=user_input,
-                model=model,
-                thread_id=st.session_state.thread_id,
-            )
-            await draw_messages(stream, is_new=True)
-        else:
-            response = await agent_client.ainvoke(
-                message=user_input,
-                model=model,
-                thread_id=st.session_state.thread_id,
-            )
-            messages.append(response)
-            st.chat_message("ai").write(response.content)
+        try:
+            if (
+                use_streaming and agent_client.agent != "privacy-segmenter"
+            ):  # Don't stream for segmenter
+                stream = agent_client.astream(
+                    message=user_input,
+                    model=model,
+                    thread_id=st.session_state.thread_id,
+                )
+                await draw_messages(stream, is_new=True)
+            else:
+                response = await agent_client.ainvoke(
+                    message=user_input,
+                    model=model,
+                    thread_id=st.session_state.thread_id,
+                )
+                messages.append(response)
+                st.chat_message("ai").write(response.content)
+        except Exception as e:
+            st.error(f"Error processing request: {str(e)}")
+            return
         st.rerun()  # Clear stale containers
 
     # If messages have been generated, show feedback widget
@@ -156,20 +180,43 @@ async def main() -> None:
         with st.session_state.last_message:
             await handle_feedback()
 
-    if agent_client.agent == "privacy-analyzer":
-        st.markdown("""
+    if agent_client.agent == "privacy-segmenter":
+        st.markdown(
+            """
+        ### Privacy Policy Segmenter
+        Enter a privacy policy text to break it down into individual segments, where each segment contains one distinct privacy practice.
+        """
+        )
+
+        col1, col2 = st.columns([1, 1])
+        with col2:
+            st.info(
+                """
+            **Tips for best results:**
+            - Enter complete paragraphs or sections
+            - Include only the actual privacy policy text
+            - Remove headers, navigation elements, etc.
+            - Each segment will contain one privacy practice
+            """
+            )
+
+    elif agent_client.agent == "privacy-analyzer":
+        st.markdown(
+            """
         ### Privacy Policy Analyzer
-        Enter a clause from a privacy policy to analyze it. The analyzer will:
+        Enter a privacy policy text to analyze it. The analyzer will:
         1. Identify relevant privacy categories
         2. Provide an explanation for the categorization
         3. Save the analysis to a file
-        """)
-        
+        """
+        )
+
         # Display the available categories
         with st.expander("Available Categories"):
-            st.markdown("""
+            st.markdown(
+                """
             - First Party Collection/Use
-            - Third Party Sharing/Collection
+            - Third Party Sharing/Collection  
             - User Choice/Control
             - User Access, Edit, and Deletion
             - Data Retention
@@ -178,7 +225,8 @@ async def main() -> None:
             - Do Not Track
             - International and Specific Audiences
             - Other
-            """)
+            """
+            )
 
 
 async def draw_messages(
@@ -278,7 +326,9 @@ async def draw_messages(
                         for _ in range(len(call_results)):
                             tool_result: ChatMessage = await anext(messages_agen)
                             if tool_result.type != "tool":
-                                st.error(f"Unexpected ChatMessage type: {tool_result.type}")
+                                st.error(
+                                    f"Unexpected ChatMessage type: {tool_result.type}"
+                                )
                                 st.write(tool_result)
                                 st.stop()
 
@@ -318,7 +368,10 @@ async def handle_feedback() -> None:
     feedback = st.feedback("stars", key=latest_run_id)
 
     # If the feedback value or run ID has changed, send a new feedback record
-    if feedback is not None and (latest_run_id, feedback) != st.session_state.last_feedback:
+    if (
+        feedback is not None
+        and (latest_run_id, feedback) != st.session_state.last_feedback
+    ):
         # Normalize the feedback value (an index) to a score between 0 and 1
         normalized_score = (feedback + 1) / 5.0
 

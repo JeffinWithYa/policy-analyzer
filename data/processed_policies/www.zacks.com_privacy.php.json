@@ -1,0 +1,178 @@
+[
+  {
+    "segment": " Zacks Investment Research Privacy Policy   ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The mention of 'Zacks Investment Research Privacy Policy' suggests this is an introductory or generic reference to the privacy policy document, without specific details provided."
+    }
+  },
+  {
+    "segment": "Since our inception in 1978, we have sought to have long-term relationships with our customers. Thus, we do not wish to profit from the unwanted distribution of your private information or to inundate you with unnecessary e-mails or other material. The information you may choose to provide includes any or all of the following: email address, name, postal address, and phone number. In fact, we only disclose the information you provide us or send you information if you authorize us to do so by choosing to receive e-mail services on our Zacks.com Web site or opting into third party mailings. With your approval, we use the information you provide us in the following ways:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Other",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of contact information on the company's website, which requires user authorization (opt-in) to be used or shared. The information is identifiable, and the choice scope includes both collection and use."
+    }
+  },
+  {
+    "segment": " Zacks Investment Research Internal List    Everyone who submits personal information to Zacks Investment Research online will receive, via e-mail, our free weekly newsletters: Profit from the Pros. Through Profit from the Pros, we provide original and exclusive content from Zacks Investment Research and Zacks.com. We also distribute commentary and investment ideas from independent third parties, who produce financial news publications and who compensate Zacks Investment Research for distributing their newsletters. From time-to-time, we will also send or contact you regarding special offers for products and services from Zacks Investment Research and our affiliates. You can unsubscribe from these e-mails at any time by going to http://register.zacks.com/unisub.php.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how Zacks Investment Research collects personal information online to send newsletters and marketing offers. Users can opt-out using a provided link, indicating identifiable contact information is collected explicitly for marketing purposes."
+    }
+  },
+  {
+    "segment": " Zacks Investment Research Opt-In Marketing List    During the Zacks.com registration process, we include the contact information you provide us on the Zacks Investment Research opt-in marketing list. We \"rent\" our opt-in marketing list to outside marketers who have special offers that may be of interest to you. Please note that we \"rent\" our marketing list, but we do not sell your information to third parties. Zacks Investment Research controls the process through an agreement with an e-mail service provider, which handles the distribution of e-mails from Zacks Investment Research and its business partners. We keep tight control over our marketing list at all times. We only give outside marketers the right to send you an e-mail through our e-mail service provider. Additionally, Zacks Investment Research is selective about which companies we permit to send you an offer. Zacks will use names for Market Research Our goal is for the e-mails to be of value to you. As always, you can unsubscribe from these e-mails at any time by going to http://register.zacks.com/unisub.php.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how Zacks Investment Research shares contact information with outside marketers through an email service provider, indicating third-party sharing of user data."
+    }
+  },
+  {
+    "segment": " Zacks Investment Research Postal and Telemarketing Lists    Everyone who submits personal postal and phone number information to Zacks Investment Research online may receive special direct mail and telemarketing offers from outside marketers that may be of interest to you. As with our other lists, we \"rent\" our postal and phone marketing lists and do not sell your information to third parties. Zacks Investment Research controls the process through an agreement with a postal list service bureau and phone call centers, which handles the distribution of direct mail and telemarketing offers from Zacks Investment Research and its business partners. Outside marketers are only given the right to send you a piece of direct mail through our bureau or call you through a telemarketing firm with our approval. All phone numbers on the Zacks telemarketing list are processed through the National Do Not Call Directory to remove anyone registered there. Zacks Investment Research is selective about the companies we permit to send your offers and the offers being sent. Naturally, you can unsubscribe from these direct marketing offers at any time by calling us at 1-800-767-3771 ext. 9339 or emailing your request to support@zacks.com.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how Zacks Investment Research shares personal postal and phone number information with outside marketers for direct mail and telemarketing offers. This fits the 'Receive/Shared with' action under Third Party Sharing/Collection."
+    }
+  },
+  {
+    "segment": " Zacks Premium    If you subscribe to the Zacks Premium subscription service, you will be included in our internal email and postal marketing lists. You will only be added to the Opt-In Marketing list if you do not uncheck the offer box included as part of registration. We collect your credit card information solely for payment of your subscription. It is shared only with our credit card processor in order to complete the transaction.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how Zacks Premium collects credit card information for subscription payment and adds users to marketing lists unless they opt-out, indicating implicit collection and opt-in choice for marketing purposes."
+    }
+  },
+  {
+    "segment": " Co-Registration    In various registration processes on the Zacks web site, we offer you the opportunity to take free offers from third-party publishers by checking an \"opt-in\" box by each offer. If you check any box to receive an offer, your name, email address, and/or mailing address will be shared with the appropriate publisher.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes a process where user information is shared with third-party publishers if the user opts in, indicating third party sharing of data."
+    }
+  },
+  {
+    "segment": " Paid Expert Newsletters    If you decide to subscribe to any of our paid newsletters, we collect your credit card information solely for payment of your subscription, and it is shared only with our credit card processor in order to complete the transaction.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of credit card information for subscription payment, indicating a clear collection action on the website with identifiable financial information for the purpose of providing a basic service feature."
+    }
+  },
+  {
+    "segment": " Other Privacy Issues    Cookies: Zacks Investment Research uses cookies, tags, pixels and similar technologies to enhance your experience on the internet. These technologies allow us to recognize your preference information, keep track of the choices you make concerning the e-mails you wish to receive, and to facilitate effective Web site administration. You may elect to refuse cookies. Please refer to your browser''s Help instructions to learn more about cookies.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment explains the use of cookies and similar technologies by Zacks Investment Research on their website to enhance user experience and manage user preferences. It also provides users with the choice to refuse cookies, which is related to first-party collection on the website."
+    }
+  },
+  {
+    "segment": "Do Not Email Lists: If you opt out from a Zacks.com Opt-In Marketing List, Zacks Investment Research Internal List, or unsubscribe from a Zacks offer sent by another list vendor, you will be added to our Do Not Email list, and we will suppress your email address from future mailings to the Zacks Investment Research Internal List and Opt-In Marketing List, as well as any other Zacks mailings done through a third party. This process usually completes within 72 hours but can take up to 10 days in rare situations. However, if you later register for a Zacks product again, your name will be removed from the Do Not Email list.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "This segment describes the process for users to opt-out of marketing emails, indicating a choice control over first-party use of their email for marketing purposes. The use of an opt-out link is specified."
+    }
+  },
+  {
+    "segment": "Please note that while Zacks will not freely distribute the information you submit, if you click to unsubscribe from mailings sent to the Zacks.com Opt-In Marketing List from a particular marketer, we are obligated to share your email address with that marketer for the purpose of being added to their Do Not Mail list. How that mailer manages your email address after that time is beyond Zacks.com control.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing the user's email address with a third-party marketer for the purpose of adding it to their Do Not Mail list."
+    }
+  },
+  {
+    "segment": "Children's Online Privacy Protection Rule: If a child has provided us with private information without parental or guardian consent, the parent or guardian should e-mail us to remove the information and unsubscribe the child from any promotional contact opportunities. Contact Information: If you experience any privacy related difficulties on Zacks.com, please use the following contact information: support@zacks.com.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses the procedure for removing a child's private information if collected without parental consent, which is related to the protection of children's privacy."
+    }
+  },
+  {
+    "segment": "Updated 5/14",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that there has been an update to the policy, but it does not specify the nature of the change."
+    }
+  }
+]

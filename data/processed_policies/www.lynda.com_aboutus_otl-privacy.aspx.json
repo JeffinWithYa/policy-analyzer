@@ -1,0 +1,938 @@
+[
+  {
+    "segment": "lynda.com Privacy Policy  ",
+    "model_analysis": {
+      "category": {
+        "Error": {
+          "Type": "Invalid JSON Response"
+        }
+      },
+      "explanation": "Failed to parse model response as valid JSON"
+    }
+  },
+  {
+    "segment": "Effective Date: March 5, 2014  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides the effective date of the privacy policy, which is introductory information."
+    }
+  },
+  {
+    "segment": "We are lynda.com, Inc., located at 6410 Via Real, Carpinteria, CA 93013, USA. We are committed to protecting and respecting your privacy. This Privacy Policy describes the types of information we may collect from you or that you may provide to us when you visit the lynda.com websites located at www.lynda.com, m.lynda.com and www.video2brain.com (the Websites) or the lynda.com mobile application (App) (collectively, the Services) , and our practices for collecting, using, maintaining, protecting and disclosing such information. This Privacy Policy applies to information we collect: (i) through our Services, (ii) in text and electronic messages between you and our Services, and (iii) via mobile applications you download from our Websites, which provide dedicated non-browser-based interactions between you and our Services. This Privacy Policy does not apply to any information collected by us offline or via third-party sites that may be accessed through hyperlinks on our Services.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides an introduction to the privacy policy, outlining the scope and applicability of the policy in terms of services and types of information collected, without detailing specific practices or user rights."
+    }
+  },
+  {
+    "segment": "lynda.com has been awarded TRUSTe's Privacy and Children's Privacy Seal signifying that this Privacy Policy and practices of lynda.com, have been reviewed by TRUSTe for compliance with TRUSTe's Web Privacy and the TRUSTed Cloud Program Requirements including transparency, accountability and choice regarding the collection and use of your personal information. TRUSTe's mission, as an independent third party, is to accelerate online trust among consumers and organizations globally through its leading privacy trustmark and innovative trust solutions. If you have questions or complaints regarding our privacy policy or practices, please contact us at businessaffairs@lynda.com. If you are not satisfied with our response you can contact TRUSTe here.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for privacy-related questions or complaints, indicating a method for users to address privacy concerns."
+    }
+  },
+  {
+    "segment": "The TRUSTe program covers information collected through the websites www.lynda.com, m.lynda.com and www.video2brain.com, the lynda.com mobile application, and the service platform associated with this website.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment specifies that information is collected through specific websites and a mobile application associated with lynda.com, indicating first-party collection on these platforms."
+    }
+  },
+  {
+    "segment": "We self-certify compliance with the following: the U.S. E.U. Safe Harbor Framework and U.S. Swiss Safe Harbor Framework as set forth by the U.S. Department of Commerce regarding the collection, use and retention of personal data from European Union member countries and Switzerland. lynda.com has certified that it adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement. To learn more about the Safe Harbor program, and to view the lynda.com certification, please visit http://www.export.gov/safeharbor.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment discusses compliance with the U.S. E.U. and U.S. Swiss Safe Harbor Frameworks, which are relevant to the collection, use, and retention of personal data from European Union member countries and Switzerland."
+    }
+  },
+  {
+    "segment": "lynda.com privacy practices described in this Policy comply with the APEC Cross Border Privacy Rules System.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The mention of compliance with the APEC Cross Border Privacy Rules System indicates that the privacy practices are relevant to users from multiple countries, particularly those in the Asia-Pacific Economic Cooperation region."
+    }
+  },
+  {
+    "segment": "If contacting us does not resolve your complaint, you may raise your complaint with TRUSTe by Internet here, or by fax at 415-520-3420 or by mail to: TRUSTe Safe Harbor Compliance Dept., click for mailing address. If you are faxing or mailing TRUSTe to lodge a complaint, you must include the following information: the name of company, the alleged privacy violation, your contact information, and whether you would like the particulars of your complaint shared with the company. For information about TRUSTe or the operation of TRUSTes dispute resolution process, click here or request this information from TRUSTe at any of the addresses listed above. The TRUSTe dispute resolution process shall be conducted in English.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information and instructions for lodging a privacy complaint with TRUSTe, indicating it is a resource for users to resolve privacy-related issues."
+    }
+  },
+  {
+    "segment": "By accessing or using our Services, you agree to this Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is a generic introductory statement indicating user agreement to the privacy policy by using the services, without providing specific details about data practices."
+    }
+  },
+  {
+    "segment": "IF YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT ACCESS OR USE OUR SERVICES.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Dont use service/feature"
+        }
+      },
+      "explanation": "The statement indicates that if users do not agree with the privacy policy, their choice is to not use the service, which falls under the 'Dont use service/feature' choice type."
+    }
+  },
+  {
+    "segment": "Please read the information below:   Information we collect about you     Where we store data     How we use your information     Disclosure of your information     Updating or correcting your personally identifiable information     Canceling your account or deleting your personally identifiable information     Choices regarding control of your personally identifiable information     Information related to data collected through the lynda.com platform service     Data Security     Cookies     Mobile Analytics     Links to third party web sites and advertisers     Notice to California residents     Changes to this Privacy Policy     Communities, forums, chat rooms, and message boards     Social Media features     Gift Certificates     How do you contact us with questions?  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general outline of the topics covered in the privacy policy without specific details on any particular category."
+    }
+  },
+  {
+    "segment": "1. INFORMATION WE COLLECT ABOUT YOU   We collect several types of information about visitors and/or users of our Services. We may collect this information either directly when you provide it to us or automatically as you navigate through the Websites or App.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Generic personal information",
+          "Purpose": "Unspecified",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of information from users directly when provided or automatically during navigation, indicating explicit collection on the website with identifiable personal information."
+    }
+  },
+  {
+    "segment": "(a) Personally Identifiable Information. Personally Identifiable Information refers to information by which you may be personally identified, such as your name, email address, or school. We will collect and process such data about you when you register for a Service/create an account, subscribe to a newsletter, submit feedback, enter a contest, fill out a survey, or send us a communication. When ordering products or services on the Websites or App, you may also be asked to provide a credit card number and other payment-related information. You may also provide information to be published or displayed (posted) on public areas of the Websites (such as blogs, forums, message boards, and the like), or transmitted to other users of the Websites using sharing features (collectively, User Contributions) . Your User Contributions are posted and transmitted to others at your own risk. We cannot control the actions of other users of the Websites with whom you may choose to share your User Contributions. Depending upon the activity, some of the information we ask you to provide is identified as mandatory and some as voluntary. If you do not provide the mandatory data with respect to a particular activity, you will not be able to engage in that activity.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "First-party privacy controls",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personally identifiable information when users register, subscribe, or engage in activities on the website. The information collected is identifiable and used for basic service features. Users have some control over the collection by choosing whether to provide mandatory information."
+    }
+  },
+  {
+    "segment": "We may also collect your Internet Protocol (IP) address. We use your IP address to diagnose problems with our servers, software, to administer our Services and to gather demographic information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that the company collects IP addresses to diagnose server issues, administer services, and gather demographic information, which falls under service operation and security purposes. The collection is implicit and identifiable."
+    }
+  },
+  {
+    "segment": "We do not collect more Personally Identifiable Information than is reasonably necessary to participate in an activity on the Websites. If you are a school and you use a lynda.com service within the United States for children under the age of 13, you are responsible for obtaining consent from the parents/legal guardians of each child you wish to allow to participate in using any of our Services. A child using our Services will be able to participate in certain activities such as taking online educational and informational courses.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses the collection of Personally Identifiable Information for children under the age of 13, indicating a specific audience type related to children."
+    }
+  },
+  {
+    "segment": "(b) Non-Personally Identifiable Information. We may collect, or our third party ad server and/or content server may collect, certain Non-Personally Identifiable Information, that does not by itself identify a specific individual. Such information tells us about your equipment, browsing actions, the resources that you access and use through the Services, your operating system and browser type. Our third party ad servers will provide us with summary, but not individual, reports that will tell us how many ads were presented and clicked upon at our Websites. The information that we collect automatically is statistical in nature. It helps us to deliver a better and more personalized service to users, by enabling us to estimate usage patterns, customize our Services according to your individual preferences, and speed up your searches.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of non-personally identifiable information by the company and third-party ad servers, which is used for personalization and customization of services. The information is aggregated and statistical, indicating it is not identifiable to a specific individual."
+    }
+  },
+  {
+    "segment": "(c) Device Information. When you download our App and use our Services, we automatically collect information on the type of device you use and the operating system version, so we know the best application version to provide you with. We do not ask you for, access or track any location based information from your mobile device at any time while downloading or using our App or Services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of device type and operating system version when using the app, which is identifiable computer information collected implicitly for service operation and security purposes."
+    }
+  },
+  {
+    "segment": "2. WHERE WE STORE DATA   The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (EEA) . It may also be processed by staff operating outside the EEA who work for us or for one of our service providers. Such staff maybe engaged in, among other things, the fulfilment of your order, the processing of your payment details and the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. lynda.com will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy.   3. HOW WE USE YOUR INFORMATION   We use information held about you in the following ways:  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment discusses the transfer and storage of data outside the European Economic Area (EEA), indicating a focus on European users."
+    }
+  },
+  {
+    "segment": "  To ensure that content from our Services is presented in the most effective manner for you and for your computer or mobile device  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes the use of content presentation tailored to the user's device, which falls under personalization/customization."
+    }
+  },
+  {
+    "segment": "  To provide you with information, products or services that you request from us or which we feel may interest you, where you have consented to be contacted for such purposes  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment indicates that the company collects information from users on their website to provide requested products or services and for marketing purposes, with user consent (opt-in)."
+    }
+  },
+  {
+    "segment": "  To carry out our obligations arising from any contracts entered into between you and us, including for billing and collection  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment indicates that data is used to fulfill contractual obligations, which includes billing and collection, aligning with service operation and security purposes."
+    }
+  },
+  {
+    "segment": "  If you pay for Services using a credit card, we will transmit your credit card data to the appropriate credit card company and/or credit card payment processing company  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Financial",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing financial information, specifically credit card data, with third-party entities such as credit card companies or payment processors."
+    }
+  },
+  {
+    "segment": "  To allow you to participate in interactive features of our Services, when you choose to do so  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment indicates that user participation in interactive features is optional, implying opt-in consent for data collection and use on the website. It involves identifiable user online activities for providing additional service features to users with accounts."
+    }
+  },
+  {
+    "segment": "  To notify you about changes to our Services  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change"
+        }
+      },
+      "explanation": "The segment indicates that users will be notified about changes to the services, which implies a change in policy that is relevant to privacy."
+    }
+  },
+  {
+    "segment": "  In any other way we may describe when you provide the information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Other"
+        }
+      },
+      "explanation": "The phrase suggests that there may be additional unspecified methods of information collection, which falls under 'Other' as it is not clearly defined."
+    }
+  },
+  {
+    "segment": "If you are an existing customer, we will only contact you by electronic means (e-mail or SMS) with information about goods and services similar to those which were the subject of a previous sale to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment specifies that existing customers will be contacted via electronic means for information about similar goods and services, indicating collection and use of contact information for marketing purposes."
+    }
+  },
+  {
+    "segment": "If you are a new customer, and where we permit selected third parties to use your data, we (or they) will contact you by electronic means only if you have consented to this.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that selected third parties may use the customer's data, and they will contact the customer only with consent, implying data sharing with third parties."
+    }
+  },
+  {
+    "segment": "If you use the Contact Us form on our site, we will respond to your inquiry and delete the information provided after your request has been fulfilled.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Limited"
+        }
+      },
+      "explanation": "The information provided through the Contact Us form is deleted after the request has been fulfilled, indicating a limited retention period."
+    }
+  },
+  {
+    "segment": "DISCLOSURE OF YOUR INFORMATION   We will share your Personally Identifiable Information with third parties only in the ways that are described in this Privacy Policy. Parents have the right to allow the collection and use of Personal Information from a Child without also consenting to its disclosure to Third Parties. We do not sell, trade, rent or disclose your information to others, except as provided herein:  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses sharing Personally Identifiable Information with third parties as described in the Privacy Policy, indicating that information may be received or shared with third parties."
+    }
+  },
+  {
+    "segment": "(a) We provide some of our Services through contractual arrangements with service providers and other third parties. We and our service partners use your Personally Identifiable Information to operate our Websites and to deliver Services. For example, we must release your credit card information to the card-issuing bank to confirm payment for products and services purchased on our Websites; release your address information to the delivery service to deliver products that you ordered; and provide order information to third parties that help us deliver the services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes sharing Personally Identifiable Information, including financial details, with third parties for service operation and security purposes, such as confirming payments and delivering products."
+    }
+  },
+  {
+    "segment": "(b) We will disclose Personally Identifiable Information in the following circumstances: (i) if it is required by law enforcement or judicial authorities, or to cooperate with a law enforcement investigation; (ii) if we have a good faith belief that we are required or permitted to do so by law or legal process; (iii) to protect the rights, reputation, property or safety of lynda.com or others; (iv) to defend or enforce our rights or your obligations; (v) if the disclosure is required by mandatory professional standards; (vi) to a 3rd party with your prior consent to do so; or (vii) if we are under a duty to disclose or share your Personally Identifiable Information in order to enforce or apply, or any contracts or agreement that may exist between you and lynda.com including this Privacy Policy and our Website Use Policy. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "This segment describes the conditions under which Personally Identifiable Information may be shared with third parties, including legal obligations, protection of rights, and with user consent."
+    }
+  },
+  {
+    "segment": "(c) In the event that lynda.com decides to sell all or part of its stock or assets or enter into a merger, we reserve the right to include Personally Identifiable Information and Non-Personally Identifiable Information among the assets transferred to the acquiring or surviving company.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the inclusion of personal and non-personal information in the assets transferred during a sale or merger, indicating a potential change in privacy policy due to a merger or acquisition."
+    }
+  },
+  {
+    "segment": "(d) We may provide Non-Personally Identifiable Information about our customers sales, traffic patterns, and related Website information to third party advertisers.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Other",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing non-personally identifiable information with third-party advertisers for advertising purposes, indicating the information is aggregated or anonymized."
+    }
+  },
+  {
+    "segment": "(e) Parents are able to consent to the use of their childs Personally Identifiable Information without having to consent to the Websites disclosure of the childs Personally Identifiable Information to third parties, as we do not share Personally Identifiable Information of children under the age of 13 with any third parties (other than those service partners who help us provide the lynda.com service to you).  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment specifies that the website does not share Personally Identifiable Information of children under the age of 13 with any third parties, except for service partners necessary to provide the service."
+    }
+  },
+  {
+    "segment": "For a list of 3rd party trackers and the information that may be shared with or collected by such 3rd parties, please click here: lynda.com 3rd parties  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment indicates that third-party trackers may collect information on the first-party website, which is Lynda.com."
+    }
+  },
+  {
+    "segment": "If you have any inquiries regarding our privacy practices, please contact us directly at businessaffairs@lynda.com.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to inquire about privacy practices, categorizing it as 'Privacy contact information'."
+    }
+  },
+  {
+    "segment": "5. UPDATING OR CORRECTING YOUR PERSONALLY IDENTIFYING INFORMATION   You may change any of your or your childs Personally Identifiable Information online by logging into My Account in accordance with instructions posted elsewhere on our Websites.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment describes the ability for users to change their personally identifiable information by logging into their account, which falls under the 'Edit information' access type."
+    }
+  },
+  {
+    "segment": "You may also access, request deletion, and correct yours or your childs personal information and privacy preferences by contacting support@lynda.com or by emailing us at businessaffairs@lynda.com, or writing to us at: lynda.com, Inc. 6410 Via Real Carpinteria, CA 93013 Attn: Business Affairs  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment provides information on how users can access, request deletion, and correct their personal information by contacting the company, which falls under the 'Edit information' access type."
+    }
+  },
+  {
+    "segment": "Please include your or your childs name, address, and e-mail address when you contact us. We encourage you to promptly update your or your childs Personally Identifiable Information if it changes. You may ask to have the information on yours or your childs account deleted or removed and request that we no longer have contact with your child; however, because we keep track of past transactions for as long as is reasonably necessary, you cannot delete information associated with past transactions on this Website. In addition, it may be impossible to completely delete your information without some residual information because of backups.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Delete account (partial)",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses the ability to update and request deletion of personal information, but notes that complete deletion may not be possible due to transaction records and backups, indicating partial deletion of account data."
+    }
+  },
+  {
+    "segment": "6. CANCELING YOUR ACCOUNT OR DELETING PERSONALLY IDENTIFIABLE INFORMATION   If you are a lyndaPro member and would like to cancel your membership, log in to your account and go to My Account, Account + Billing. You can also contact your sales representatives or contact support@lynda.com.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Deactivate account"
+        }
+      },
+      "explanation": "The segment provides instructions for lyndaPro members on how to cancel their membership, which involves deactivating their user account."
+    }
+  },
+  {
+    "segment": "If you are lyndaKiosk, lyndaClassroom, lyndaCampus or lyndaEnterprise and would like to cancel your membership, please contact your sales representatives or contact support@lynda.com. To have any personally identifiable information deleted, please contact: support@lynda.com.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Delete account (full)",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment provides instructions for users on how to delete their personally identifiable information, indicating full account deletion for users with accounts."
+    }
+  },
+  {
+    "segment": "We will retain your or your childs information for as long as your account is active or as needed to provide you Services. If you wish to cancel your or your childs account or request that we no longer use your information to provide you Services contact us at support@lynda.com. We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements. We will respond to your request to access within 30 days.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Unspecified"
+        }
+      },
+      "explanation": "The segment states that information will be retained as long as the account is active or as needed for services, but does not specify an exact retention period."
+    }
+  },
+  {
+    "segment": "7. CHOICES REGARDING CONTROL OF YOUR PERSONALLY IDENTIFIABLE INFORMATION   You can access some of the information that we collect about you or your child. For example, by logging in to your account, you can access information regarding recent orders from the Websites; Personally Identifiable Information; communication preferences; and payment settings.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data"
+        }
+      },
+      "explanation": "The segment describes how users can access their personally identifiable information and account-related data by logging into their account, indicating that the access scope is user account data."
+    }
+  },
+  {
+    "segment": "With respect to your communications preferences, you can unsubscribe from newsletters by following the instructions included in the newsletter you receive or you can log into your account and update your newsletter and email subscription options. If your e-mail address has changed and you would like to continue to receive newsletters, you will need to access your account and update your e-mail address information in your account and sign-up again for the newsletter. Occasionally we may send out e-mails concerning website disruptions.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes how users can opt-out of newsletters by following instructions in the newsletter, indicating an opt-out link choice type."
+    }
+  },
+  {
+    "segment": "If you indicated upon registration that you are interested in receiving offers or information from us and our partners, we may occasionally send you direct mail about products and services that we feel may be of interest to you. Only lynda.com (or agents working on behalf of us and under confidentiality agreements) will send you these direct mailings, and only if you did not later opt-out of such offers.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of user interest information upon registration on the website for the purpose of sending direct mail."
+    }
+  },
+  {
+    "segment": "We do not send unsolicited commercial e-mails. We offer commercial e-mail recipients the opportunity to opt-out of further communications in every e-mail. Please note that we may not include the opt-out information in non-commercial Service e-mails (i.e., e-mails concerning your order, the Website Terms of Service, etc.).  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses providing recipients of commercial emails the option to opt-out, indicating user choice and control over receiving further communications."
+    }
+  },
+  {
+    "segment": "You also have choices with respect to cookies, as described below. By modifying your browser preferences, you have the choice to accept all cookies, to be notified when a cookie is set, or to reject all cookies. If you choose to reject all cookies some parts of our Websites may not work properly in your case.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment describes user choices related to cookies, which are part of first-party data collection. It specifies that users can control cookie settings through browser preferences, indicating browser/device privacy controls."
+    }
+  },
+  {
+    "segment": "8. INFORMATION RELATED TO DATA COLLECTED THROUGH THE LYNDA.COM PLATFORM SERVICE   For certain services lynda.com collects information under the direction of its clients (e.g., an entity that subscribes to the Services for use by the entitys personnel). In this respect, lynda.com acts as a data processor and has no direct relationship with the individuals whose Personally Identifiable Information it processes. An individual who seeks access, or who seeks to correct, amend, or delete inaccurate data should direct his or her query to the relevant lynda.com client (the data controller). If the client makes a request to us to remove the data, we will respond to their request within 30 days.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Unspecified",
+          "Access Type": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that lynda.com acts as a data processor, and individuals should contact the data controller (lynda.com client) for access, correction, or deletion of data, implying a mechanism for user access, edit, and deletion."
+    }
+  },
+  {
+    "segment": "lynda.com will retain Personally Identifiable Information we process on behalf of our clients for as long as needed to provide our services to our client. We will retain and use this personal information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Personal Information Type": "Personal identifier",
+          "Retention Period": "Limited",
+          "Retention Purpose": "Service operation and security"
+        }
+      },
+      "explanation": "The segment specifies that personally identifiable information is retained as long as needed to provide services, which indicates a limited retention period. The purpose includes service operation and security, legal obligations, dispute resolution, and agreement enforcement."
+    }
+  },
+  {
+    "segment": "9. DATA SECURITY   All information you provide to us is stored on our secure servers. Any payment transactions will be encrypted using Secure Sockets Layer (SSL) technology.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes the use of secure servers and SSL encryption for payment transactions, indicating measures for secure data storage."
+    }
+  },
+  {
+    "segment": "To make online purchases you must use an SSL-enabled browser in order to protect the confidentiality of your personal and credit card information while it is transmitted over the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment specifies the use of SSL-enabled browsers to ensure secure data transfer and protect personal and credit card information during online transactions."
+    }
+  },
+  {
+    "segment": "Access by you to your account is available through a password and/or unique user name selected by you. This password is encrypted. We recommend that you do not divulge your password to anyone, that you change your password often using a combination of letters and numbers, and that you ensure you use a secure web browser. We cannot be held accountable for activity that results from your own neglect to safeguard the secrecy of your password and user name. If you share a computer with anyone, you should always log out of your account after you are finished, in order to prevent access to your information from subsequent users of that computer.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure user authentication"
+        }
+      },
+      "explanation": "The segment discusses secure user authentication measures such as using encrypted passwords and recommending secure practices for safeguarding user credentials."
+    }
+  },
+  {
+    "segment": "Please notify us as soon as possible if your user name or password is compromised. Call 1 (888) 335-9632 or +1 (805) 477-3900 for assistance, or email businessaffairs@lynda.com.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for users to report compromised account credentials, which is related to privacy concerns."
+    }
+  },
+  {
+    "segment": "Unfortunately, no data transmission over the Internet or any wireless network can be guaranteed to be 100% secure. As a result, while we strive to protect your Personally Identifiable Information, you acknowledge that: (a) there are security and privacy limitations of the Internet which are beyond our control; (b) the security, integrity and privacy of any and all information and data exchanged between you and us through this Website cannot be guaranteed and we shall have no liability to you or any third party for loss, misuse, disclosure or alteration of such information; and (c) any such information and data may be viewed or tampered with in transit by a third party.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment discusses the inherent limitations of Internet security and the inability to guarantee complete protection of data, which falls under a generic description of data security measures acknowledging these limitations."
+    }
+  },
+  {
+    "segment": "In the unlikely event that we believe that the security of your Personally Identifiable Information in our control may have been compromised, we will notify you as promptly as possible under the circumstances. To the extent we have your e-mail address, we may notify you by e-mail and you consent to our use of e-mail as a means of such notification. If you prefer for us to use another method to notify you in this situation, please e-mail us at businessaffairs@lynda.com with the alternative contact information you wish to be used.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Other"
+        }
+      },
+      "explanation": "The segment describes a procedure for notifying users in case of a security breach, which is a measure related to data security."
+    }
+  },
+  {
+    "segment": "10. COOKIES AND OTHER TECHNOLOGIES   When you use our Websites we may use cookies and other technologies in order to facilitate and customize your use of our Services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Unspecified",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates the use of cookies and other technologies on the website to facilitate and customize user experience, implying collection and use of tracking elements for personalization purposes."
+    }
+  },
+  {
+    "segment": "What is a cookie? A cookie is a small data text file, which a website stores on your computer or mobile device (if your Web browser permits) that can later be retrieved to identify you to us.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Cookies and tracking elements"
+        }
+      },
+      "explanation": "This segment explains what a cookie is and how it is used to identify users, categorizing it under 'Cookies and tracking elements' as a type of personal information collected."
+    }
+  },
+  {
+    "segment": "Our cookies store randomly assigned user identification numbers, the country where you are located, and your first name to welcome you back to our Websites. The cookies make your use of the Websites easier, make the Websites run more smoothly, and save your logged-in state so that you do not have to log in each time that you visit the Websites.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to collect identifiable information such as user ID, location, and first name to enhance user experience and maintain logged-in states. This involves implicit collection on the website for service operation purposes."
+    }
+  },
+  {
+    "segment": "The use of cookies by our partners, affiliates, tracking utility company and service providers, is not covered by our Privacy Policy. We do not have access or control over these cookies. Our partners, affiliates, tracking utility company, and service providers, use session ID cookies to make it easier for you to navigate our site, in order for you to use the shopping cart, etc.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app",
+          "Does/Does Not": "Does",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes the use of cookies by third parties on the first-party website, indicating that these cookies are used for navigation and shopping cart purposes, and the company does not control them."
+    }
+  },
+  {
+    "segment": "You can disable and/or delete all types of cookies by using your browser settings. Cookies are generally easy to disable and/or delete but how you do so varies from browser to browser. The help function within your browser should tell you how to do it. The best way may be to close your browser and then search for cookie folder or cookie manager or simply cookie. Please also visit www.allaboutcookies.org for more information about cookies and how to disable them. If you do disable cookies, our Websites will not recognize you and you may not have access to all portions of the Websites.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment provides information on how users can disable or delete cookies using their browser settings, which is a form of browser/device privacy control related to first-party data collection."
+    }
+  },
+  {
+    "segment": "What are clear gifs? Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movements of Web users. In contrast to cookies, which are stored on a users computer hard drive, clear gifs are embedded invisibly on Web pages and are about the size of the full-stop or period at the end of this sentence.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment explains the use of clear gifs, which are similar to cookies, for tracking online movements on web pages. This indicates collection of user data on the website through an embedded method."
+    }
+  },
+  {
+    "segment": "We partner with third party ad networks to manage our advertising on other sites. As part of their service, they use cookies and clear gifs. We will not provide any third-party ad server with any of your Personally Identifiable Information or information about your purchases. We and our third party ad server will collect and use your IP address and certain Non-Personally Identifiable Information about you, such as your browser type, the server your computer is logged onto, the area code and zip code associated with your server and whether you responded to a particular advertisement. If you wish to not have this information used for the purpose of serving you targeted ads, you may opt-out by clicking here. Please note this does not opt you out of being served advertising. You will continue to receive generic ads.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third-party ad networks collecting information on the company's website for advertising purposes."
+    }
+  },
+  {
+    "segment": "What is a Flash cookie? Local storage objects, also known as Flash cookies, are similar in function to browser cookies in that they store some information about you or your activities on our Websites. We use Flash cookies in certain situations where we use Flash to provide some content such as video clips or animation. The options within your browser may not prevent the setting of Flash cookies. To manage Flash cookies please click here: http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment explains the use of Flash cookies, which are collected on the website to store information about users or their activities, specifically when Flash content is used."
+    }
+  },
+  {
+    "segment": "11. MOBILE ANALYTICS   We use mobile analytics software to allow us to better understand the functionality of our mobile software on your phone. This software may record information such as how often you use the App, the events that occur within the App, aggregated usage, performance data, and where the App was downloaded from. We do not link the information we store within the analytics software to any Personally Identifiable Information you submit within the App.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of mobile analytics software to collect data on app usage and performance. The information is collected implicitly as users interact with the app. It is used for analytics and research purposes to understand app functionality. The data is aggregated and not linked to personally identifiable information, indicating anonymization."
+    }
+  },
+  {
+    "segment": "12. LINKS TO THIRD PARTY WEB SITES AND ADVERTISERS   Except as otherwise discussed in this Privacy Policy, this document only addresses the use and disclosure of information we collect from you. Our Websites may contain hyperlinks to other third-party web sites, which may collect and disclose information in a manner that is different from our Websites. We are not responsible for the collection, use, or disclosure of information collected through these third-party web sites, and we expressly disclaim any and all liability related to such collection, use, or disclosure. We recommend that you read the privacy policies of the other web sites you visit. Additionally, other companies that place advertising on our Websites may collect information about you when you view or click on their advertising through the use of cookies. We cannot control this collection of information. You should contact these advertisers directly if you have any questions about their use of the information that they collect.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses third-party websites and advertisers collecting information through hyperlinks and ads on the company's website, indicating third-party data collection activities."
+    }
+  },
+  {
+    "segment": "13. NOTICE TO CALIFORNIA RESIDENTS - CALIFORNIA PRIVACY RIGHTS   If you are a California resident and have provided us with Personally Identifiable Information, California law gives you the right to request and receive from us, once per calendar year, information as to how we have shared your Personally Identifiable Information with third parties for their direct marketing purposes If applicable, such information would include a list of names and addresses of all third parties with whom such information was shared during the prior calendar year as well as a list of the categories of Personally Identifiable Information shared. To make such a request, please send an email to businessaffairs@lynda.com and include the phrase California Privacy Request in the subject line. Your request must also include your name, physical mailing address and email address. We will respond to you within thirty days of receiving such a request.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "This segment addresses the privacy rights specific to California residents, allowing them to request information about how their Personally Identifiable Information is shared with third parties."
+    }
+  },
+  {
+    "segment": "Note, that we will not share your Personally Identifiable Information with third parties for their marketing purposes without obtaining your prior consent. Moreover, if you have granted us permission, such third parties use of your Personally Identifiable Information will be subject to their privacy policies. You should contact those entities directly regarding any communications you may receive from them, including, if you later decide that you no longer want that third party to use your personal information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "This segment discusses the sharing of Personally Identifiable Information with third parties for marketing purposes, emphasizing that it requires user consent."
+    }
+  },
+  {
+    "segment": "14. CHANGES TO THIS PRIVACY POLICY   It is our policy to post any changes we make to our Privacy Policy on this page (with a notice that the Privacy Policy has been updated on the home pages of the Websites). If we make material changes to how we treat our users information, we will notify you by e-mail to the primary e-mail address specified in your account and through a notice on the home pages of the Websites. The date the Privacy Policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable e-mail address for you, and for periodically visiting our Websites and this Privacy Policy to check for any changes.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "Personal notice",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment describes the process for notifying users about changes to the privacy policy, specifying that material changes will be communicated via email and website notice, indicating privacy relevant changes with personal notice. No user choice mechanism is mentioned."
+    }
+  },
+  {
+    "segment": "Your continued use of the Services after such modifications will constitute your: (a) acknowledgment of the modified Privacy Policy; and (b) agreement to abide and be bound by the modified Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment indicates that continued use of the services implies acknowledgment and agreement to the modified Privacy Policy, suggesting a privacy relevant change with a general notice, but no explicit user choice is provided."
+    }
+  },
+  {
+    "segment": "If we make material changes to how we use Personal Information collected from children under 13, we will notify parents by email in order to obtain verifiable parental consent for the new uses of their childs Personally Identifiable Information.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "User Choice": "Opt-in"
+        }
+      },
+      "explanation": "The segment discusses material changes to the use of personal information collected from children, indicating a privacy relevant change. It mentions notifying parents by email, which constitutes a personal notice. The requirement to obtain verifiable parental consent implies an opt-in choice for the new uses of the child's information."
+    }
+  },
+  {
+    "segment": "15. COMMUNITIES, FORUMS, CHAT ROOMS, AND MESSAGE BOARDS   If you or your child choose to disclose Personally Identifiable Information on communities, message boards, forums, and the like, which may be accessible via the Websites, you should be aware that such information, along with any information disclosed in your communication, can be collected and used by third parties and may result in unsolicited messages from third parties. To request removal of your personal information from our blog or community forum, contact us at support@lynda.com. You acknowledge and accept that any submissions to chat rooms or other public areas on the Websites are accessible to all third parties. If you do not want yours or your childs comments to be viewed by third parties, you are advised not to make any submissions. Ultimately, you are solely responsible for all activity conducted by you via communities, forums, message boards, chat rooms, etc. Please be careful and responsible whenever you are online.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes how personally identifiable information disclosed on public forums can be collected and used by third parties."
+    }
+  },
+  {
+    "segment": "16. SOCIAL MEDIA FEATURES   Our Websites include Social Media Features, such as the Add This button or interactive mini-programs that run on our Websites. These features may collect your IP address, which pages you are visiting on our Websites, and may set cookies to enable the features to function properly. Social Media Features are either hosted by a third party or hosted directly on our Websites. Your interactions with these features are governed by the privacy policy of the company providing it.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Does/Does Not": "Does",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses and the setting of cookies through Social Media Features on the website, which is a form of first-party data collection for the purpose of enabling the features to function properly."
+    }
+  },
+  {
+    "segment": "17. GIFT CERTIFICATES AND PLAYLISTS   If you choose to send a gift certificate or playlist to an individual, we will ask you for the individuals name and email address. We will automatically send a one-time email to the individual either with notice of their gift certificate along with an activation key or an invitation to visit the Websites. The recipient will be asked to create a user name and password to activate their subscription, and during this process, they will also be asked if they want to receive any newsletters or other emails from lynda.com. lynda.com stores name and email address of the recipient for the sole purpose of sending this one-time email and tracking the success of our referral program. The individual may contact us at support@lynda.com to request that we remove this information from our database.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the collection of recipient's name and email address for sending a gift certificate or playlist, with an option to opt-out by contacting the company. The information is collected explicitly and is identifiable, used for service operation and tracking referral success."
+    }
+  },
+  {
+    "segment": "18. HOW DO YOU CONTACT US WITH QUESTIONS?   If you have any questions about this Privacy Policy, the practices of or your dealings with our Websites, please contact us by sending a letter to:   lynda.com, Inc. 6410 Via Real Carpinteria, CA 93013 Attn: Business Affairs Phone Number: 1 (888) 335-9632 or +1 (805) 477-3900",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to reach out with questions about the privacy policy, which falls under privacy contact information."
+    }
+  }
+]

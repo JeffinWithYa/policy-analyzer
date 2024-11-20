@@ -1,0 +1,57 @@
+[
+  {
+    "segment": "The GW Medical Faculty Associates (MFA) is committed to respecting your privacy. In general, you can visit The MFA on the Web without identifying yourself or revealing any personal information. In some areas, however, you may choose services that require you to provide us with information by which you can be identified. Once any personally identifiable information is received, you can be assured that it will only be used to support your relationship with the MFA.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that users can visit the website without revealing personal information, but in some cases, they may choose to provide identifiable information to use certain services. This implies collection on the website."
+    }
+  },
+  {
+    "segment": "The MFA uses the information collected from you to better understand your needs and to provide you with better service. Specifically, we use your information to communicate back to you, to update you on services and benefits, and to personalize our website for you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes using collected information to understand user needs, communicate updates, and personalize the website, fitting the purpose of personalization/customization."
+    }
+  },
+  {
+    "segment": "MFA will not sell, rent, or lease your personally identifiable information to others without your express permission. Unless we have your permission or are required by law, we will only share the personal data you provide online with authorized personnel within the institution. The MFA will not use or share the personally identifiable information provided to us online in ways unrelated to the ones described above without letting you know and offering you a choice.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment clearly states that MFA will not sell, rent, or lease personally identifiable information to others without express permission, indicating a 'Does Not' action for third-party sharing/collection."
+    }
+  },
+  {
+    "segment": "The MFA is committed to ensuring the security of your information. To prevent unauthorized access, maintain data accuracy, and ensure the appropriate use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes general security measures (physical, electronic, and managerial procedures) to protect information, without specifying particular methods or technologies."
+    }
+  },
+  {
+    "segment": "Disclaimer   To assist users in finding related information, MFA provides links to other websites. Once users have left the MFA website and have entered another site, they are subject to the privacy policy of that site and MFA cannot be responsible for the privacy practices or the content of such websites.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment discusses the practice of linking to external websites and clarifies that the privacy policies of those sites apply, which is a practice not covered by the MFA's privacy policy."
+    }
+  }
+]

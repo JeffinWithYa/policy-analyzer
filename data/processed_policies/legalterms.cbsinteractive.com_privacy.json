@@ -1,0 +1,137 @@
+[
+  {
+    "segment": "CBS Interactive Privacy Policy Highlights   Trust is a cornerstone of our mission at CBS Interactive. We are committed to gaining and maintaining your trust by following a core set of Privacy Principles.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general introduction to the privacy policy and states the company's commitment to privacy principles, without detailing specific practices or policies."
+    }
+  },
+  {
+    "segment": "Note: The CBS Interactive Privacy Policy has been updated. Please review the updated privacy policy carefully before using the CBS Interactive Services. By using any of the CBS Interactive Services, you consent to the terms of the updated privacy policy. Click here for more information about the updates.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment indicates that the privacy policy has been updated and users are notified through a general notice in the privacy policy. By using the services, users consent to the changes, implying no explicit choice is offered."
+    }
+  },
+  {
+    "segment": "Scope of Privacy Policy   CBS Interactive owns, operates, or provides access to, several interactive web sites and other interactive features that provide an authorized link to the CBS Interactive Privacy Policy (collectively \"CBS Interactive Services\"). This Privacy Policy, last modified on May 28, 2015, is guided by a core set of Privacy Principles and applies only to the CBS Interactive Services.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides an introduction to the scope of the privacy policy, indicating which services it applies to and mentioning the guiding principles, without detailing specific practices."
+    }
+  },
+  {
+    "segment": "Information Collected   We collect a variety of information about you, including:     Information you provide directly to a CBS Interactive Services.     Information about your computer and browsing activities on the Services, including through cookies, web beacons, and other similar technologies.     Information about you from other sources where permitted by law.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information directly from users on CBS Interactive Services, including computer and browsing activities through cookies and similar technologies."
+    }
+  },
+  {
+    "segment": "Use of Information   We use the information we collect to:     Provide the services you request.     Tell you about offers we think you will value.     Customize the content and advertising you see.     Improve your experience on CBS Interactive Services.     As otherwise described to you at the point of collection or with your consent.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The information is used to provide requested services, improve user experience, and customize content and advertising, which aligns with service operation and security purposes."
+    }
+  },
+  {
+    "segment": "Disclosure of Information   We may share your information:     Where we have obtained your consent, including with video content and social networking services as described in our Video Services Policy.     With our third party service providers.     With business partners who sponsor a sweepstakes, contest, or promotion; or who jointly offer a service or feature with a CBS Interactive Service.     Within the family of CBS Interactive Services and other CBS businesses.     If a CBS Interactive Services is sold to another company.     To protect or defend the rights of CBS Interactive or our users.     When required by law or public authorities.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Other",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the sharing of user information with third parties under various conditions, including user consent and legal requirements. It involves sharing with service providers, business partners, and within CBS entities, indicating identifiable information is shared for unspecified purposes."
+    }
+  },
+  {
+    "segment": "Your Choices     If you choose to share contact information with us, you will have the opportunity to update that information.     You can stop the delivery of commercial email messages from a CBS Interactive Services or service by following the instructions in any such email you receive.     You have choices about the collection and use of your information by third parties to display relevant advertisements, as described in our overview of Third Party Online Advertising     You also may choose to opt out of our use of data that we collect about your visits to our business partners' sites to customize advertising that we serve. To opt out, visit the CBS Interactive Business Partner Advertising Opt-Out page.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "Contact",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses user choices regarding sharing contact information and opting out of advertising-related data usage, indicating control over first-party use and advertising purposes."
+    }
+  },
+  {
+    "segment": "Other Information     CBS Interactive is committed to working with you to obtain a fair resolution of any privacy concern.     We have adopted commercially reasonable procedures to help protect your information, but please note that no data transmission or storage can be guaranteed to be 100 secure.     For more information about our privacy practices, please review the full CBS Interactive Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general statement about the company's commitment to privacy and mentions security measures, without detailing specific practices or policies."
+    }
+  },
+  {
+    "segment": "How to Contact Us   If you have questions regarding the CBS Interactive Privacy Policy, please contact us and we will endeavor to respond to your request within a reasonable period of time. You may also submit questions or comments using the postal address listed below:   CBS Interactive Inc.   235 Second Street   San Francisco, CA 94105   Attn: Legal Department  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to inquire about the privacy policy, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "For international users, please select this link to find the address of your closest CBS Interactive office. We are committed to working with you to obtain a fair resolution of any privacy concern.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment addresses international users and provides them with information on how to find their closest CBS Interactive office, indicating a focus on citizens from other countries."
+    }
+  },
+  {
+    "segment": "Residents of the State of California may request a list of all third parties to which a CBS Interactive Services has disclosed certain information during the preceding year for the third parties' direct marketing purposes. If you are a California resident and want such a list, please contact us. For all requests, you must put the statement \"Your California Privacy Rights\" in the subject field of your request and include the name of the CBS Interactive Services with respect to which you are requesting the information, as well as your name, street address, city, state, and zip code. Please note that we will not accept these requests via the telephone, mail, or by facsimile, and we are not responsible for notices that are not labeled or sent properly, or that do not have complete information.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "This segment addresses the privacy rights of California residents, particularly their right to request information about third-party disclosures for marketing purposes, aligning with California-specific privacy laws."
+    }
+  }
+]

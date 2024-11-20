@@ -1,0 +1,392 @@
+[
+  {
+    "segment": "Privacy Policy   This is the web site of the Federal Reserve Bank of St. Louis. The Bank respects your privacy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is an introductory statement about the website's respect for user privacy, without specific details about practices."
+    }
+  },
+  {
+    "segment": "Personal Information   You may access and browse our site without disclosing your personal data. The personal information you choose to provide us is voluntary. We do not require you to provide any information about yourself that you do not wish to share.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that users can access and browse the site without disclosing personal data, and any personal information provided is voluntary, implying collection occurs on the website."
+    }
+  },
+  {
+    "segment": "You may choose to provide us with personal information if, for example, you subscribe to our publications or mail lists, send us questions through e-mail, answer our user surveys, register for an event or user account, apply for a job or participate in our online activities.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes various ways users may provide personal information directly to the company, such as subscribing, emailing, or participating in surveys and events, indicating collection on the website."
+    }
+  },
+  {
+    "segment": "If you participate in a user survey, your answers and personal information will only be analyzed in aggregate. The information will be used to help us tailor our web site, publications, and services to our users' needs and to help us understand our audience.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Survey data",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of survey data in an aggregated form to tailor services and understand the audience, indicating explicit collection on the website for personalization purposes."
+    }
+  },
+  {
+    "segment": "If you provide us with your postal or e-mail address or telephone number, this information will only be used for the purpose for which you provided it, such as to:   Provide you with the publications or information requested;     Clarify your order or request;     Register you for a user account, conference or other event;     Respond to you regarding your job application;     Provide you with related information; or     Send you a token of appreciation through postal mail if you participate in selected online activities.    ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of contact information provided by the user for specific purposes such as providing requested publications or registering for an event. The collection is explicit, identifiable, and used for basic service features related to user requests."
+    }
+  },
+  {
+    "segment": "We may also file your comments to improve the site, or review and discard the information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Purpose": "Service Operation and Security",
+          "Does/Does Not": "Does",
+          "Personal Information Type": "Other",
+          "Identifiability": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses the collection of user comments for the purpose of improving the site, which falls under service operation and security. It indicates that the company collects information on their website and may use or discard it, but does not specify the type of personal information or its identifiability."
+    }
+  },
+  {
+    "segment": "When you fill out our online forms, they are returned to us via electronic mail. Your responses are not encrypted. We cannot guarantee the security of information sent via electronic mail.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that the information is not encrypted and security cannot be guaranteed, but does not specify any particular security measures."
+    }
+  },
+  {
+    "segment": "Cookies   A cookie is a text file that a web site can send to your browser and which may then be placed on your computer. We may use cookies on this site in the following ways:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Cookies and tracking elements"
+        }
+      },
+      "explanation": "The segment discusses the use of cookies, which are text files used for tracking and storing information on a user's computer."
+    }
+  },
+  {
+    "segment": "To collect statistical information about our users in aggregate. We perform analyses on our web server's log files to identify, among other things:   Our site's most popular pages;     The browsers and operating systems most often used by our visitors;     The sites and search engines that have referred visitors to our site; and     The domains from which our users visit us.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of user data from web server log files for statistical analysis, focusing on aggregated data like popular pages and user systems, which falls under analytics/research purposes."
+    }
+  },
+  {
+    "segment": "This analysis does not involve personally identifiable information. It is used only for the purpose of helping us understand and better meet our audience's needs.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment specifies that the analysis is used to understand and better meet the audience's needs, which indicates a purpose of analytics or research without involving personally identifiable information."
+    }
+  },
+  {
+    "segment": "A transient, memory-resident \"cookie\" may be invoked in certain cases. For example, on the CASSIDI site a cookie is required to remember your selections as you move from page to page and enable CASSIDI's functionality. If you register for a Research user account, a cookie will be invoked when you login to your user account. These cookies will disappear when your browser is closed. If you check the 'Stay logged in' option, the cookie will persist for a maximum of 2 weeks before another login is required. You are not required to register for a user account to use this site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "This segment describes the use of cookies to maintain session state and functionality on the website. Cookies are collected implicitly when the user navigates the site or logs in, and they are used for service operation and security. The cookies are transient unless the 'Stay logged in' option is chosen, which requires user opt-in."
+    }
+  },
+  {
+    "segment": "Sometimes a third-party contractor will use cookies on one of the sites they create and manage for us -- for example, our Job Opportunities site.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment indicates that a third-party contractor uses cookies on websites managed for the company, which involves third-party collection on a first-party website."
+    }
+  },
+  {
+    "segment": "Some aggregate web site analysis is performed for us by Google Analytics (http://www.google.com/analytics/), and may involve the use of cookies set by Google. For Google's Privacy policy, see http://www.google.com/privacy.html.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment indicates that Google Analytics performs aggregate website analysis, which involves collecting data on the first-party website using cookies set by Google."
+    }
+  },
+  {
+    "segment": "Our RSS feeds are routed via FeedBurner, which is owned by Google. For Google's Privacy policy, see http://www.google.com/privacy.html.",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that RSS feeds are routed via FeedBurner, a service owned by Google, implying that data is shared with or received by a third party (Google)."
+    }
+  },
+  {
+    "segment": "You can set your browser to notify you before you receive a cookie, giving you the opportunity to decide whether to accept it or not. You can also set your browser to not accept cookies at all. If you do so, however, some areas of some sites (including ours) may not operate properly.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment explains how users can control the acceptance of cookies via browser settings, which is a means of controlling first-party data collection."
+    }
+  },
+  {
+    "segment": "Disclosure of Information   Any information collected on this web site, whether individual or aggregate, is for Federal Reserve use only. We do not rent, sell or share personal information about you with other people or nonaffiliated companies except under any of the following circumstances:  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment specifies that personal information collected is for Federal Reserve use only and is not rented, sold, or shared with other people or nonaffiliated companies, indicating that third-party sharing does not occur under normal circumstances."
+    }
+  },
+  {
+    "segment": "When we have your permission;  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The phrase 'when we have your permission' implies that the user must provide consent before data collection or use, indicating an opt-in choice type."
+    }
+  },
+  {
+    "segment": "The Federal Reserve Bank of St. Louis monitors this site for unauthorized attempts to upload or change information, to defeat or circumvent security measures, or to utilize this site for other than its intended purposes. By using this site you expressly consent to such monitoring and you are advised that if such monitoring reveals possible evidence of criminal activity, we will provide the evidence of such monitoring to law enforcement officials;  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Other"
+        }
+      },
+      "explanation": "This segment describes monitoring for unauthorized activities to ensure security, which is a security measure that doesn't fit typical categories like secure data storage or transfer."
+    }
+  },
+  {
+    "segment": "We retain the services of outside contractors to provide services, including mailing list administration and our Job Opportunities pages. We require that these contractors keep information obtained through our web site secure and confidential. We also require that these contractors use personal information obtained through our web site only on behalf of the Federal Reserve.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the sharing of personal information with outside contractors for specific services, indicating third-party involvement in data handling."
+    }
+  },
+  {
+    "segment": "We may be required to disclose your personal information to government officials or otherwise as required by subpoenas, court orders, legal process or other legal obligations and to establish or exercise our legal rights or defend against legal claims. We will share information in order to investigate, prevent or take action regarding illegal activities, suspected fraud or as otherwise required by law.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with government officials or legal entities as required by law, subpoenas, or to defend legal claims, which falls under the purpose of legal requirement."
+    }
+  },
+  {
+    "segment": "If you are a member of the FRED Network and select the option to allow your profile to be viewable by the public. By default this option is not selected, and your profile is not viewable by the public.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The text describes a user choice where members of the FRED Network can opt-in to make their profile viewable by the public. By default, this option is not selected, indicating an opt-in choice type."
+    }
+  },
+  {
+    "segment": "Submitting Content   \"Content\" is any material, including but not limited to writings, artwork, photographs, designs, plans, information, suggestions, ideas, data, questions or comments, submitted by you to the Federal Reserve Bank of St. Louis through this site.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a definition of 'Content' in the context of submissions to the Federal Reserve Bank of St. Louis, which is introductory information and does not fall under specific privacy practices."
+    }
+  },
+  {
+    "segment": "The Federal Reserve Bank of St. Louis is under no obligation to use any Content submitted.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The statement refers to the bank's discretion in using submitted content, which is not directly related to privacy practices or data handling."
+    }
+  },
+  {
+    "segment": "You may not submit Content that violates or infringes the rights of others including, without limitation, patent, trademark, trade secret, copyright, publicity or other proprietary rights.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment discusses restrictions on user-submitted content to prevent infringement on others' rights, which does not directly relate to privacy practices."
+    }
+  },
+  {
+    "segment": "You may not submit Content that is:   pornographic, obscene, X-rated or sexually explicit,     defamatory     racist, sexist or otherwise discriminatory or derogatory to any individual or groups     harassing or threatening     fraudulent, or     in violation of U.S. or state laws or regulations or Bank or System policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment outlines prohibited content types but does not relate to any data privacy practice covered by the provided schema."
+    }
+  },
+  {
+    "segment": "Any Content you submit will be considered to be non-proprietary and non-confidential.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The statement indicates a general policy about the nature of submitted content, classifying it as non-proprietary and non-confidential, which is an introductory or generic clause about user submissions."
+    }
+  },
+  {
+    "segment": "The Federal Reserve Bank of St. Louis will have no obligations of any kind with respect to any Content you submit and users of the site will be free to edit, reproduce, use, disclose, publish and/or distribute any Content for any purpose whatsoever, without limitation.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment describes a practice related to user-submitted content, indicating lack of obligations by the Federal Reserve Bank of St. Louis and freedom for users to use the content, but does not fit into specified categories like data retention or security."
+    }
+  },
+  {
+    "segment": "You also agree that The Federal Reserve Bank of St. Louis will be free to use any ideas, concepts, artwork, inventions, developments, suggestions or techniques embodied in the Content for any purpose whatsoever, with or without attribution, and without compensation to you.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment describes a practice related to the use of user-submitted content, which is not directly covered by the specific privacy categories provided."
+    }
+  },
+  {
+    "segment": "Children   Our site is not directed toward children under 13. Nonetheless, we are committed to comply with applicable laws and requirements, such as the Children's Online Privacy Protection Act. We do not knowingly collect personal data from children under 13. Minor children should always obtain parental consent before releasing personal information to any web site.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the site is not directed toward children under 13 and mentions compliance with the Children's Online Privacy Protection Act, indicating a focus on children as a specific audience."
+    }
+  },
+  {
+    "segment": "Information Security and Quality   We have implemented security measures consistent with our internal information security practices to help us keep your information secure. These measures include technical and procedural steps to protect your data from misuse, access or disclosure, loss, alteration or destruction.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes the implementation of security measures to protect user information, using general terms such as technical and procedural steps, without specifying particular methods."
+    }
+  },
+  {
+    "segment": "If you have voluntarily submitted personal information to us and wish to review, update, correct or delete it, please email your request to webmaster@research.stlouisfed.org  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment provides users with the ability to review, update, correct, or delete their voluntarily submitted personal information by contacting the provided email address."
+    }
+  },
+  {
+    "segment": "Contact Information   Questions or comments about the Federal Reserve Bank of St. Louis's privacy policy may be directed to our web site administrators at webmaster@research.stlouisfed.org or by writing to Public Affairs, the Federal Reserve Bank of St. Louis, P.O. Box 442, St. Louis, MO 63166-0442.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for inquiries about the privacy policy, categorizing it as privacy contact information."
+    }
+  }
+]

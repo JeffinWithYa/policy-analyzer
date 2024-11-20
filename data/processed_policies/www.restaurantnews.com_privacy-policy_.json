@@ -1,0 +1,122 @@
+[
+  {
+    "segment": "Privacy  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment 'Privacy' is too vague and generic, likely serving as an introductory or placeholder term without specific details."
+    }
+  },
+  {
+    "segment": "Your Privacy   Your privacy is important to us. To better protect your privacy we provide this notice explaining our online information practices and the choices you can make about the way your information is collected and used. To make this notice easy to find, we make it available on our homepage and at every point where personally identifiable information may be requested.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment introduces the privacy policy and highlights the importance of user privacy, making it an introductory statement rather than detailing specific practices."
+    }
+  },
+  {
+    "segment": "Google Adsense and the DoubleClick DART Cookie   Google, as a third party advertisement vendor, uses cookies to serve ads on this site. The use of DART cookies by Google enables them to serve adverts to visitors that are based on their visits to this website as well as other sites on the internet.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment explains that Google, as a third-party vendor, uses cookies (DART cookies) to collect information on the first-party website for serving ads."
+    }
+  },
+  {
+    "segment": "To opt out of the DART cookies you may visit the Google ad and content network privacy policy at the following url http://www.google.com/privacy_ads.html Tracking of users through the DART cookie mechanisms are subject to Google's own privacy policies.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment provides a method for users to opt-out of DART cookies by visiting a specific URL, indicating user control over cookie tracking."
+    }
+  },
+  {
+    "segment": "Other Third Party ad servers or ad networks may also use cookies to track users activities on this website to measure advertisement effectiveness and other reasons that will be provided in their own privacy policies, RestaurantNews.com has no access or control over these cookies that may be used by third party advertisers.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Track on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third-party ad servers or networks using cookies to track user activities on the website, indicating tracking by third parties on the first-party website."
+    }
+  },
+  {
+    "segment": "Collection of Personal Information   When visiting RestaurantNews.com, the IP address used to access the site will be logged along with the dates and times of access. This information is purely used to analyze trends, administer the site, track users movement and gather broad demographic information for internal use. Most importantly, any recorded IP addresses are not linked to personally identifiable information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses when users visit the website. The purpose is for analyzing trends and internal use, and the data is not linked to personally identifiable information, indicating it is used in an aggregated or anonymized form."
+    }
+  },
+  {
+    "segment": "Links to third party Websites   We have included links on this site for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these sites may differ from our own.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Other"
+        }
+      },
+      "explanation": "The segment discusses linking to third-party websites but does not specify any data sharing or collection actions directly involving third parties. It highlights the difference in privacy policies between the site and third-party websites."
+    }
+  },
+  {
+    "segment": "Changes to this Privacy Statement   The contents of this statement may be altered at any time, at our discretion.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "Unspecified",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that changes can be made to the privacy statement at any time, but does not specify the type of change, notification method, or user choice related to those changes."
+    }
+  },
+  {
+    "segment": "If you have any questions regarding the privacy policy of RestaurantNews.com then you may contact us at troy@restaurantnews.com  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for users to inquire about the privacy policy, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "Last updated Sat, 31 Jul 2010 06:31",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Non-privacy relevant change"
+        }
+      },
+      "explanation": "The segment indicates a date of the last update of the policy, which implies a change but does not specify any privacy-relevant details."
+    }
+  }
+]

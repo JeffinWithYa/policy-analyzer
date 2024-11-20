@@ -1,0 +1,869 @@
+[
+  {
+    "segment": " Privacy Policy    Last Updated on June 10, 2015  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a date for when the privacy policy was last updated, which is typically introductory or generic information about the document itself."
+    }
+  },
+  {
+    "segment": "This Privacy Policy discloses the privacy practices for The New York Times newspaper and NYTimes.com (including international.nytimes.com, the online edition of The International New York Times), The New York Times Home Delivery website, The New York Times Neediest Cases Fund, The New York Times Store, Times Journeys and The New York Times Learning Network, our email newsletters and other applications owned and operated by The New York Times Company (collectively referred to as the \"NYT Services\"), and to any services that display this notice. For the purposes of this Privacy Policy, unless otherwise noted, all references to \"The New York Times\" include NYTimes.com and The New York Times newspaper.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides an introductory overview of the privacy policy's scope and the services it covers, which is a common introductory practice in privacy policies."
+    }
+  },
+  {
+    "segment": "The New York Times Replica Edition, maintained by NewspaperDirect, is governed by its own Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a generic introduction to the privacy policy of The New York Times Replica Edition, indicating that it is governed by a separate policy maintained by NewspaperDirect."
+    }
+  },
+  {
+    "segment": "The New York Times advertising portal, for advertisers of The Times, also maintains a separate Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general statement about the existence of a separate privacy policy for advertisers without detailing specific practices or categories."
+    }
+  },
+  {
+    "segment": "The NYT Services may contain links to other websites for your convenience and information. We are not responsible for the privacy practices or the content of those sites.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Other"
+        }
+      },
+      "explanation": "The segment discusses the presence of links to other websites and disclaims responsibility for their privacy practices, indicating a form of interaction with third-party sites."
+    }
+  },
+  {
+    "segment": "This Privacy Policy covers:   What information do we gather about you-  What do we do with the information we collect about you-  With whom do we share the information that we gather-  What is our email policy-  How do I change or update my personal information-  How do I opt-out from receiving emails-  Is my information protected-  Compliance With Legal Process  Children's Guidelines  Your California Privacy Rights  Changes to This Privacy Policy ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides an overview of the topics covered in the privacy policy, serving as an introduction to the document's contents without providing specific details on any particular practice."
+    }
+  },
+  {
+    "segment": "TRUSTe : The New York Times has received TRUSTe's Privacy Seal signifying that this privacy statement and our practices have been reviewed for compliance with the TRUSTe program viewable on the validation page available by clicking the TRUSTe seal.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Privacy review/audit"
+        }
+      },
+      "explanation": "The segment indicates that The New York Times' privacy practices have been reviewed for compliance with the TRUSTe program, which suggests a privacy review or audit."
+    }
+  },
+  {
+    "segment": "If you have an unresolved privacy or data use concern that we have not addressed satisfactorily, please contact TRUSTe at https://feedback-form.truste.com/watchdog/request.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to address unresolved privacy or data use concerns, which falls under privacy contact information."
+    }
+  },
+  {
+    "segment": "The TRUSTe program covers only information that is collected through the NYTimes.com website. The TRUSTe program does not cover information that may be collected through software downloaded from this site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment specifies that the TRUSTe program covers information collected through the NYTimes.com website, indicating collection on the website."
+    }
+  },
+  {
+    "segment": " WHAT INFORMATION DO WE GATHER ABOUT YOU-    The information gathered when you interact with the NYT Services falls into two categories: 1) Personal information, which includes personal information you supply when you subscribe, order, complete a survey, register for one of our sites, enter a contest or provide your email address and 2) Non-personal information collected through technology, which includes tracking information collected by us as well as third parties.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of personal and non-personal information when users interact with the NYT services, indicating collection on the website."
+    }
+  },
+  {
+    "segment": " Personal Information That You Give Us Or Ask a Third Party to Share with Us    Registration Information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment refers to personal information provided by the user or shared by a third party, specifically related to registration, which typically includes contact information."
+    }
+  },
+  {
+    "segment": "Registration for the NYT Services may require that you supply certain personal information, including a unique email address and demographic information (ZIP code, age, sex, household income, job industry and job title) to register.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Demographic",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable personal information, specifically demographic details, during the registration process on the website, which is necessary for providing basic services to users with accounts."
+    }
+  },
+  {
+    "segment": "You may register or enhance your profile by linking your Facebook or Google accounts on NYTimes.com. By doing this, you are asking them to send us certain information from those social media accounts, and you are authorizing us to collect, store, and use what they send us in accordance with this Privacy Policy. You can unlink your social media accounts or control what they share from their privacy controls.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Receive from other service/third-party (named)"
+        }
+      },
+      "explanation": "The segment describes how NYTimes.com can receive information from Facebook or Google accounts when users link these accounts, indicating a collection from named third-party services."
+    }
+  },
+  {
+    "segment": "Social media registration features may collect your IP address, the page you are visiting on our site, and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our web site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Basic service/feature",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses and setting cookies through social media registration features on the website, indicating implicit collection for enabling the feature, which falls under identifiable personal information for basic service functionality."
+    }
+  },
+  {
+    "segment": "You can disassociate your NYTimes.com registration from third-party accounts any time. For more detail, please see our Social Media FAQ.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Social media data",
+          "Purpose": "Other",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment provides users with the option to disassociate their NYTimes.com registration from third-party accounts, indicating control over the use of social media data linked to their account. It involves opting out by contacting the company, specifically for users with accounts."
+    }
+  },
+  {
+    "segment": "Billing and Credit Card Information   To enable payment and donations via the NYT Services, we collect and store name, address, telephone number, email address, credit card information and other billing information. This information will only be shared with third parties who help to complete the purchase transaction. Examples of this include fulfilling orders and processing credit card payments.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable financial information (billing and credit card information) for the purpose of completing transactions, which is a basic service feature."
+    }
+  },
+  {
+    "segment": "User Generated Content and Public Activities (Including Comments, Reader Reviews and TimesPeople)   We offer you opportunities to engage in public activities on NYTimes.com and other NYT Services. \"Public activities\" are any actions you take on NYTimes.com that are designed to be visible to other users, including comments, recommendations, reader reviews, ratings or any other items that you submit. Any information you disclose in your public activities, along with your screen name or ID, or any image or photo, becomes public and may be used by The New York Times for online and offline promotional or commercial uses in any and all media. If you choose to engage in public activities, you should be aware that any personal information you submit can be read, collected and used by other users of these areas. We are not responsible for the personal information you choose to submit in the course of your public activities and we have no responsibility to publish, take down, remove or edit any of your public activities or submissions. For more information, see the Comments FAQ and read the Forums, Discussions and User Generated Content section of the Terms of Service.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "See"
+        }
+      },
+      "explanation": "This segment discusses user-generated content that is publicly visible and can be seen, read, and collected by other users, fitting the 'See' action by third parties."
+    }
+  },
+  {
+    "segment": "Public activities may be included in our RSS feeds, APIs and other distribution formats. As a result, your public activities may appear on other websites, blogs, or feeds. Keep in mind that we are not responsible for any personal information you choose to make public via your public activities, and you agree that such sharing will be deemed to have been done by you, not The New York Times. Please see our Comments FAQ for additional information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how public activities may be shared through various distribution formats like RSS feeds and APIs, which can be accessed by third parties, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": "When you share or recommend links to content on a third-party platform (such as Facebook, Google+ and Twitter), that action and any information you share will be covered by their privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment explains that sharing or recommending links on third-party platforms results in the information being covered by those platforms' privacy policies, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": "Contests, Sweepstakes and Special Offers   The New York Times collects personal information from you when you participate in sweepstakes, contests or special offers. If this information is also being collected by a third party other than The New York Times, we will notify you at the same time. If you do not want any personal information shared, you should not participate in the sweepstakes, contest or special offer.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The policy segment indicates that personal information collected during participation in sweepstakes, contests, or special offers may be shared with a third party, and users are advised not to participate if they do not want their information shared."
+    }
+  },
+  {
+    "segment": " Reader Surveys, Reader Panels and Market Research    The New York Times may collect personal information from you in connection with voluntary surveys conducted via the NYT Services. Data may be collected through the NYT Services, on the phone or through the mail. The information you provide may be shared, but only in the aggregate, with advertisers and partners unless we notify you otherwise at the time of collection.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Survey data",
+          "Purpose": "Analytics/Research",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information through voluntary surveys conducted via NYT Services. It specifies that the data is collected explicitly and shared in aggregate form with advertisers and partners for research purposes."
+    }
+  },
+  {
+    "segment": "Members of our Reader Panels agree to participate in surveys, polls or discussions about their readership of The New York Times, their household/personal characteristics and their purchase behavior. Our panels are currently administered by Vision Critical and Beta Research.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Survey data",
+          "Purpose": "Analytics/Research",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "This segment describes the collection of survey data from users who opt into participating in panels, indicating explicit collection for research purposes."
+    }
+  },
+  {
+    "segment": "Conferences and Live Events   We often receive information about attendees to our live events from sign-in and registration lists. We may share this information with event or promotion sponsors, in which case we will notify you when we collect the information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Collection",
+          "Choice Type": "Other",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Other",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes collecting attendee information from registration lists and sharing it with event sponsors, with notification at the time of collection. This involves sharing identifiable contact information with unnamed third parties for event-related purposes."
+    }
+  },
+  {
+    "segment": " Non-Personal Information Collected Using Technology    Information Collected by Us Using Technology   We use various Internet technologies to manage the NYT Services and track use of the Services. Non-personal information that we collect using these technologies may be combined with other information about you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes the use of internet technologies to collect non-personal information and manage services, indicating collection on the website using cookies and tracking elements for service operation and security purposes."
+    }
+  },
+  {
+    "segment": "Device Information. We may collect non-personal information about the computer, mobile device or other device you use to access the NYT Services, such as IP address, geolocation information, unique device identifiers, browser type, browser language and other transactional information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of non-personal information related to the user's device, such as IP address and geolocation, which is typically used for service operation and security. The collection is implied as part of accessing the NYT Services."
+    }
+  },
+  {
+    "segment": "Cookies, Beacons, Local Storage and Other Similar Technologies. We use \"cookies,\" Web beacons, HTML5 local storage and other similar technologies. These technologies allow us to manage access to and use of the Services, recognize you and provide personalization, and help us understand how people use the NYT Services. You will not be able to access certain areas of our websites, including NYTimes.com, if your computer does not accept cookies from us. We do not respond to browser-based \"do not track\" signals. For more detailed information about our use of cookies and local storage, and how to manage them, see Frequently Asked Questions About Cookies and Similar Technologies in our Help section.  ",
+    "model_analysis": {
+      "category": {
+        "Do Not Track": {
+          "Do Not Track policy": "Not honored"
+        }
+      },
+      "explanation": "The segment explicitly states that the company does not respond to browser-based 'do not track' signals, indicating that they do not honor such requests."
+    }
+  },
+  {
+    "segment": "We may transmit non-personally identifiable website usage information to third parties in order to show you advertising for The New York Times when you visit other sites. For more information about our third-party ad server, or to learn your choices about not having this non-personal information used to target ads to you, please click here.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing non-personally identifiable website usage information with third parties for advertising purposes."
+    }
+  },
+  {
+    "segment": "Analytics, Log Files and Reading History   As is true of most web sites, we gather certain information automatically and store it in log files. This information may include Internet protocol (IP) addresses (the region or general location where your computer or device is accessing the Internet), browser type, operating system and other usage information about the use of the NYT Services, including a history of the pages you view.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of information such as IP addresses and usage data for analytics purposes, which is typical for website operations."
+    }
+  },
+  {
+    "segment": "We may combine this automatically collected log information with other information we collect about you. We do this to improve services we offer you, including customized Recommendations, advertising and currency display, to improve marketing, and to track access and use of the NYT Services across the devices that you use to access the NYT Services.   For more information on the Recommendations feature, please read the Recommendations FAQ.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of log information to improve services like recommendations and advertising, indicating implicit collection on the website with identifiable data for personalization purposes."
+    }
+  },
+  {
+    "segment": "We have hired third parties to provide us information, reports and analysis about the usage, browsing patterns of our users. They may independently record the type of device and operating system you are using, general location information, as well as events that occur within our apps, such as how often you use our apps.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third parties collecting data on the first party's app regarding user usage and browsing patterns."
+    }
+  },
+  {
+    "segment": "The ads in our apps are not targeted to you based on your current GPS location, but they may be targeted to you based on your ZIP code or device's IP address.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on mobile app",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment indicates that the app collects location data in the form of ZIP code and IP address for advertising purposes, making it identifiable and relevant to first-party collection and use."
+    }
+  },
+  {
+    "segment": " Third Parties    Some of the services and advertisements included in the NYT Services, including on NYTimes.com and within our mobile apps, are delivered or served by third-party companies, which may collect information about your use of the NYT Services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third-party companies collecting information about user interactions with NYT Services, indicating collection on the first-party website/app."
+    }
+  },
+  {
+    "segment": "These companies may place or recognize cookies, Web beacons or other technology to track certain non-personal information about our website users. For example, in the course of serving certain advertisements, an advertiser may place or recognize a unique cookie on your browser in order to collect certain information about your use of the NYT Services. For another example, an advertiser or ad server may also be able to collect your device's unique identifier in the course of serving an ad. In many cases, this information could be used to show you ads on other websites based on your interests.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third parties (advertisers and ad servers) collecting information through cookies and device identifiers on the first party's website to serve ads based on user interests."
+    }
+  },
+  {
+    "segment": "We do not have access to, nor control over, these third parties' use of cookies or other tracking technologies or how they may be used.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that the company does not control third parties' use of cookies or tracking technologies, implying third-party action but without specific details on the nature of the action."
+    }
+  },
+  {
+    "segment": "Please click here to see a list of third parties that may be using cookies to serve advertising on our websites or in our apps. For example, we use Google to serve advertisements onto the NYT Services, which use the Google Doubleclick cookie, and in some cases, a unique device identifier, to show you ads based on your visit to NYTimes.com and other sites on the Internet. You may opt out of the use of the Google Double click cookie by visiting the Google ad and content network privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes third parties, such as Google, collecting data on the website for advertising purposes using cookies and device identifiers."
+    }
+  },
+  {
+    "segment": "You have choices about the collection of information by third parties on our website:   1) If you would like more about your option not to accept advertiser cookies, please click here.   2) If you would like to opt-out of having interest-based ad targeting, click here.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment provides users with options to opt-out of third-party advertiser cookies and interest-based ad targeting, indicating control over third-party data collection and use."
+    }
+  },
+  {
+    "segment": "Your access to our websites should not be affected if you do not accept cookies served by third parties.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The statement indicates that users can choose not to accept third-party cookies without affecting their access, implying an opt-out option for third-party cookie acceptance."
+    }
+  },
+  {
+    "segment": " WHAT DO WE DO WITH THE INFORMATION WE GATHER ABOUT YOU-    Provide the Services You Request   We use the information we gather about you to enable your use of the NYT Services and fulfill your requests for certain products and services, such as sending out electronic newsletters and enabling you to participate in and renew paid services, polls, contests and message boards.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Basic service/feature"
+        }
+      },
+      "explanation": "The segment describes using gathered information to provide requested services and features like newsletters and participation in services, which falls under basic service/feature."
+    }
+  },
+  {
+    "segment": "Statistical Analysis   We perform statistical, demographic and marketing analyses of users of the NYT Services, and their subscribing and purchasing patterns, for product development purposes and to generally inform advertisers about the nature of our subscriber base. We use this information for analysis purposes, including analysis to improve customer relationships.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the use of statistical, demographic, and marketing analyses for product development and improving customer relationships, indicating a purpose of analytics and research."
+    }
+  },
+  {
+    "segment": "Customizing Your Experience   We use the information that we collect to allow advertising to be targeted to the users for whom such advertising is most pertinent. We also use this information to customize certain features of the NYT Services to provide you with an enhanced experienced based on the type of device you are using to access the NYT Services, and in certain cases, provide you with requested services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes the use of collected information to target advertising and customize features, which aligns with personalization/customization purposes."
+    }
+  },
+  {
+    "segment": "Relevant Advertising   We may use demographic and preference information to allow advertising on the NYT Service to be targeted to the users for whom they are most pertinent. This means users see advertising that is most likely to interest them, and advertisers send their messages to people who are most likely to be receptive, improving both the viewer's experience and the effectiveness of the ads. We disclose information to third parties only in aggregate or de-identified form.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment explains that demographic and preference information is used to target advertising to users, indicating the purpose of data use is advertising."
+    }
+  },
+  {
+    "segment": "Email Newsletters   The New York Times will periodically send you email newsletters or promotional email about services offered by The New York Times and its advertisers. For details about New York Times email, please see the section labeled \" What Is Our Email Policy-\"  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection and use of email addresses for sending newsletters and promotional emails, indicating action on the website."
+    }
+  },
+  {
+    "segment": " WITH WHOM DO WE SHARE THE INFORMATION THAT WE GATHER-    Within The New York Times   If you have registered to use the NYT Services, we will not sell, rent, swap or authorize any third party to use your email address without your permission.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that The New York Times does not sell, rent, swap, or authorize any third party to use the user's email address without permission, implying that sharing is restricted and controlled."
+    }
+  },
+  {
+    "segment": "Third Parties   We also share information about our audience in aggregate or de-identified form. Nothing in this Privacy Policy is intended to restrict our use or sharing of aggregated or de-identified information in any way.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Unspecified",
+          "Third Party Entity": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing information in aggregate or de-identified form with third parties, emphasizing that this type of information is not restricted by the privacy policy, thus falling under sharing with third parties in an anonymized form."
+    }
+  },
+  {
+    "segment": "If you are a print subscriber, we may exchange or rent your name and mailing address (but not your email address) and certain other information, such as when you first subscribed to The New York Times with other reputable companies that offer marketing information or products through direct mail. If you prefer that we do not share this information, you may opt-out by emailing us at opt-out@nytimes.com, or write to us at Customer Care, P.O. Box 8041 Davenport IA 52808-8041. Please include your account number and phone number in the body of your email or letter, and include \"Opt-out\" in the subject line.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Both",
+          "Choice Type": "Opt-out via contacting company",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses sharing identifiable contact information of print subscribers with other companies for marketing purposes. Users can opt-out by contacting the company, indicating the choice scope as both collection and use."
+    }
+  },
+  {
+    "segment": "We may share information about attendees to our live events with sponsors or other third parties. If so, we will notify you when you provide us the information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that information about attendees may be shared with sponsors or other third parties, which falls under the category of sharing information with third parties."
+    }
+  },
+  {
+    "segment": "Service Providers   We contract with other companies to provide services on our behalf, including credit-card and billing processing, ad serving, shipping, email distribution, list processing and analytics or promotions management. We provide these companies only with the information they need to perform their services. These service providers are restricted from using personal information in any way other than to provide services for The New York Times, and they may not share, resell or use the data for their own direct marketing purposes.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how The New York Times shares information with third-party service providers to perform services on its behalf, indicating the action of sharing information."
+    }
+  },
+  {
+    "segment": "We reserve the right to disclose your opt-out information to third parties so they can suppress your name from future solicitations, in accordance with applicable laws. We may occasionally release personal information as required by law, for example, to comply with a court order or subpoena. (For more information, see the \"Compliance with Legal Process\" section of this policy.)  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing opt-out information with third parties to suppress solicitations, indicating third-party receipt of information."
+    }
+  },
+  {
+    "segment": " WHAT IS OUR EMAIL POLICY-    The New York Times complies with the federal CAN-SPAM Act of 2003. We will not send you marketing messages if you have opted out. You can choose not to receive messages in the future by either (1) following the \"unsubscribe\" instructions located near the bottom of each email, or (2) you can opt-out here. We will not share, sell, rent, swap or authorize any third party to use your email address for commercial purposes without your permission. If you feel you have received an email from us in error, please contact feedback@nytimes.com.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The policy provides users with the option to opt-out of marketing messages through an unsubscribe link or another opt-out method."
+    }
+  },
+  {
+    "segment": "Email Newsletters. The New York Times offers several email newsletters. If you no longer wish to receive a specific newsletter, follow the \"unsubscribe\" instructions located near the bottom of each newsletter. To manage your newsletter preferences, please click here.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses how users can opt-out of receiving email newsletters, indicating control over first-party use of contact information for marketing purposes."
+    }
+  },
+  {
+    "segment": "Survey Email. We may invite you to participate in user surveys asking for feedback on NYTimes.com and existing or prospective products and services, as well as information to better understand our users. User surveys greatly help us to improve the NYT Services, and any information we obtain in such surveys will not be shared with third parties, except in aggregate form.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Survey data",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of survey data from users to improve services. The data is collected explicitly through user participation in surveys and is shared only in an aggregated form, indicating anonymization for research purposes."
+    }
+  },
+  {
+    "segment": "Emails From You. If you send us an email, we will use your email address to respond directly to your questions or comments.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of an email address, a type of contact information, for the purpose of responding to user inquiries, which is a basic service feature. The collection is implicit in the act of sending an email, and the information is identifiable."
+    }
+  },
+  {
+    "segment": "Email This Article Feature. Addresses you provide in the \"Email\" share feature may be saved for your convenience for future articles you may wish to email; but they are not used for any other purpose, and will not be shared with any third parties.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of email addresses via a feature on the website, specifying that the information is used only for the intended purpose and not shared with third parties."
+    }
+  },
+  {
+    "segment": " HOW DO I CHANGE OR UPDATE MY PERSONAL INFORMATION-    The New York Times Home Delivery Web Account. You may update and/or edit your Home Delivery account information online at the Home Delivery website by clicking on the link for Update Account. Should you require assistance, please call our toll free number, 1-800-NYTIMES.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Edit information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "This segment explains how users with a New York Times Home Delivery web account can update or edit their personal account information online or by calling a toll-free number, indicating access to edit user account data."
+    }
+  },
+  {
+    "segment": "Manage Your NYTimes.com Account in the My Account Area. You may review and update your NYTimes.com membership or account information and access your transaction history in the My Account area.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Edit information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the ability for users to review and update their account information and access transaction history, indicating user access and editing capabilities for account data."
+    }
+  },
+  {
+    "segment": "Manage Your New York Times Events Account. Events include TimesTalks, Great Read in the Park, Arts and Leisure Weekend, Sunday with The Magazine and The New York Times Travel Show. To subscribe or unsubscribe from The New York Times Events email newsletter, please visit www.nytimes.com/events. Enter your email address in the field provided, select \"unsubscribe\" and click \"submit.\"  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes how users can manage their subscription to The New York Times Events email newsletter by opting out through a link, thus providing control over the first party use of their email information."
+    }
+  },
+  {
+    "segment": " HOW DO I OPT-OUT-    If, at any time, you prefer not to receive email marketing information from us, simply follow the unsubscribe options at the bottom of each email.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment provides an option for users to opt-out of receiving email marketing information by following an unsubscribe link at the bottom of each email."
+    }
+  },
+  {
+    "segment": "If you experience difficulty with the unsubscribe process, feel free to contact us at feedback@nytimes.com and provide your email address along with the name of the newsletter from which you would like to unsubscribe.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment describes a process for users to opt-out of newsletters by contacting the company, indicating user control over first-party use of their email for newsletters."
+    }
+  },
+  {
+    "segment": "Mail or Telephone Promotions   If, at any time, you prefer not to receive mail or telephone solicitations originated by The New York Times Home Delivery Department, or if you prefer that we do not share this information with third parties for marketing purposes, please email us at opt-out@nytimes.com or write to us at Customer Care, P.O. Box 8041, Davenport, IA 52808-8041. Please include your account number and phone number in the body of your email or letter, and put \"Opt-out\" in the subject line.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment provides users with an option to opt-out of mail or telephone solicitations and prevents sharing of their contact information with third parties for marketing purposes by contacting the company."
+    }
+  },
+  {
+    "segment": " IS MY INFORMATION PROTECTED-    To prevent unauthorized access, maintain data accuracy and ensure the appropriate use of information, we have put in place commercially reasonable physical, technical and administrative controls to protect the information. Please note that no method of transmission over the Internet, or method of electronic storage, is 100% secure.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes the implementation of commercially reasonable physical, technical, and administrative controls to protect information, which falls under generic data security measures. It acknowledges that no method is 100% secure, but does not specify particular security techniques."
+    }
+  },
+  {
+    "segment": "Compliance With Legal Process   We may access, preserve and disclose personal information if we are required to do so by law or we have a good faith belief that such action is necessary to (1) comply with the law or with legal process; (2) protect and defend our rights and property; (3) protect against misuse or unauthorized use of the NYT Services; or (4) protect the personal safety or property of our users or the public (among other things, this means that if you provide false information or attempt to pose as someone else, information about you may be disclosed as part of any investigation into your actions).  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes scenarios where personal information may be disclosed to comply with legal requirements, protect rights and property, and ensure safety, indicating a legal requirement purpose for third-party sharing."
+    }
+  },
+  {
+    "segment": "Children's Guidelines   COPPA Compliance. Except for The Learning Network (see below), The New York Times does not knowingly collect or store any personal information about children under the age of 13.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "This segment addresses compliance with COPPA, indicating that The New York Times does not knowingly collect personal information from children under 13, which is specific to children as an audience."
+    }
+  },
+  {
+    "segment": "The Learning Network. The Learning Network is a blog for parents, teachers and students that is freely available outside of the New York Times digital subscription service, and does not require registration. Students 13 and older are invited to post comments with their first names only on any open posts in the blog in accordance with New York Times Commenting practice. Though an email address must be provided in order to post a comment, it is not shared or sold to third parties, and does not appear publicly on the blog. To review or remove the optional email address (personal information collected), please use this form to contact the Learning Network.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Other data about user"
+        }
+      },
+      "explanation": "The segment explains how users can review or remove their optional email address, which is considered personal information collected by the Learning Network."
+    }
+  },
+  {
+    "segment": "For any questions concerning The Learning Network, please contact Katherine Schulten, NYTimes.com, 620 Eighth Avenue, 2nd floor, New York, NY 10018. Telephone: (212) 556-8391.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for inquiries related to The Learning Network, which falls under the category of privacy contact information."
+    }
+  },
+  {
+    "segment": "Your California Privacy Rights   Under the California \"Shine The Light\" law, California residents may opt-out of the NYT's disclosure of personal information to third parties for their direct marketing purposes. As detailed above, you may choose to opt-out of the sharing of your personal information with third parties for marketing purposes at any time by submitting a request in writing to Customer Care, P.O. Box 8041, Davenport, IA 52808-8041 or by emailing us at opt-out@nytimes.com. It is important to note that this opt-out does not prohibit disclosures made for non-marketing purposes.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "This segment describes the rights of California residents to opt-out of the sharing of their personal information with third parties for marketing purposes under the California 'Shine The Light' law. The opt-out is executed by contacting the company, and it specifically pertains to third-party sharing for marketing."
+    }
+  },
+  {
+    "segment": "Changes to This Policy   This Privacy Policy may be amended from time to time. Any such changes will be posted on this page. If we make a significant or material change in the way we use your personal information, the change will be posted on this page thirty (30) days prior to taking effect and registered users will be notified via email.",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes changes to the privacy policy, specifically stating that significant changes will be posted and registered users will receive email notifications, categorizing it as a privacy relevant change with general notice."
+    }
+  }
+]

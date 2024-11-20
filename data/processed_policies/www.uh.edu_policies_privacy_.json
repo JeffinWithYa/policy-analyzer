@@ -1,0 +1,111 @@
+[
+  {
+    "segment": "University of Houston Privacy Policy   The Division of Information Technology maintains the University of Houston Web site as a public service. The following is the privacy policy for this site (all pages - but not all links - starting with www.uh.edu):  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is an introductory statement to the privacy policy, indicating the scope of the policy for the University of Houston website."
+    }
+  },
+  {
+    "segment": "Typically, we do not use cookies to collect information on the UH Central Web server (www.uh.edu). However, the following applications do use cookies to store user login information which is intended to make the application more user-friendly:   IT Forum WebCT  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to store user login information on specific applications, indicating collection on the website for service operation and security purposes for users with accounts."
+    }
+  },
+  {
+    "segment": "Note: A cookie file contains unique information a web site can use to track such things as passwords, lists of pages you've visited, and the date when you last looked at a specific page or to identify your session at a particular web site. A cookie is often used in commercial sites to identify the items selected for a specific shopping cart application.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Cookies and tracking elements"
+        }
+      },
+      "explanation": "The segment describes the use of cookies, which are tracking elements used to store information such as passwords, visited pages, and session identifiers, particularly for commercial purposes."
+    }
+  },
+  {
+    "segment": "If you send us an electronic mail message with a question or comment that contains personally identifying information, or fill out a form that sends us this information, we will only use the personally-identifiable information to respond to your request and analyze trends. We may redirect your message to another government agency or person who is in a better position to answer your question.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that personally identifiable information is collected through emails or forms and is used to respond to requests and analyze trends. It may be shared with another agency for better response, indicating collection and use by the first party."
+    }
+  },
+  {
+    "segment": "For site management functions, information is collected for analysis and statistical purposes. This information is not reported or used in any manner that would reveal personally identifiable information, and will not be released to any outside parties unless legally required to do so in connection with law enforcement investigations or other legal proceedings.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of information for analysis and statistical purposes, indicating it is not personally identifiable and is used internally unless legally required to share."
+    }
+  },
+  {
+    "segment": "We use log analysis tools to create summary statistics, which are used for purposes such as assessing what information is of most interest, determining technical design specifications, and identifying system performance or problem areas.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of log analysis tools to gather data for research purposes such as assessing user interest and system performance, which implies collection on the website and use for analytics. The data is likely aggregated or anonymized as it is used for summary statistics."
+    }
+  },
+  {
+    "segment": "Any visitor who has questions about our privacy policy should contact the UH Web Administrator.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides information on whom to contact for questions about the privacy policy, categorizing it as privacy contact information."
+    }
+  }
+]

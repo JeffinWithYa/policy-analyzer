@@ -1,0 +1,579 @@
+[
+  {
+    "segment": " Privacy Policy    The Walt Disney Company has a rich tradition of bringing great stories, characters and experiences to our guests around the world, and our sites and applications are createdto entertain and connect guests with the best that we have to offer on the platforms and devices our guests prefer.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to the company's mission and purpose without specific details on privacy practices."
+    }
+  },
+  {
+    "segment": "Our privacy policy is designed to provide transparency into our privacy practices and principles, in a format that our guests can navigate, read and understand. We are dedicated to treating your personal information with care and respect.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general introduction to the company's privacy policy, emphasizing transparency and respect for personal information, without detailing specific practices."
+    }
+  },
+  {
+    "segment": " Privacy Policy    Last Modified: June 19, 2015  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides the last modified date of the privacy policy, which is introductory information about the document."
+    }
+  },
+  {
+    "segment": "This privacy policy describes the treatment of information provided or collected on the sites where this privacy policy is posted. It also explains the treatment of information provided or collected on applications we make available on third-party sites or platforms if disclosed to you in connection with use of the application. We follow this privacy policy in accordance with local law in the places where we operate.     Types of Information We Collect     How We Collect Your Information     Use of Your Information by The Walt Disney Family of Companies     Sharing Your Information with Other Companies\nYour Controls and Choices     Childrens Privacy     Data Security, Integrity and Retention     Data Transfers, Storage and Processing Globally     Changes to this Privacy Policy     Comments and Questions  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general overview of the privacy policy's structure and topics covered, without detailing specific practices or categories."
+    }
+  },
+  {
+    "segment": " 1. Types of Information We Collect    We collect two basic types of information personal informationand anonymous information and we may use personal and anonymous information to create a third type of information, aggregate information. We collect the following categories of information:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Generic personal information"
+        }
+      },
+      "explanation": "The segment describes the types of information collected, specifically mentioning personal, anonymous, and aggregate information, which falls under generic personal information."
+    }
+  },
+  {
+    "segment": "  Registration information you provide when you create an account, including your first name and surname, country of residence, gender, date of birth, email address, username and password  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "First-party privacy controls",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable personal information (e.g., contact details) explicitly provided by users when creating an account on a website, for the purpose of enabling basic service features."
+    }
+  },
+  {
+    "segment": "  Transaction information you provide when you request information or purchase a product or service from us, whether on our sites or through our applications, including your postal address, telephone number and payment information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of transaction information, including postal address, telephone number, and payment information, when a user requests information or purchases a product or service on the company's sites or applications."
+    }
+  },
+  {
+    "segment": "  Information you provide in public forums on our sites and applications  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that information provided by users in public forums on the company's sites and applications is collected by the company."
+    }
+  },
+  {
+    "segment": "    Information sent either one-to-one or within a limited group using our message, chat, post or similar functionality, where we are permitted by law to collect this information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information through message, chat, post, or similar functionalities on their platform, implying collection on their website."
+    }
+  },
+  {
+    "segment": "  Information you provide to us when you use our sites and applications, our applications on third-party sites or platforms such as social networking sites, or link your profile on a third-party site or platform with your registration account  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information from users when they use the company's sites and applications, including on third-party platforms."
+    }
+  },
+  {
+    "segment": "  Location information when you visit our sites or use our applications, including location information either provided by a mobile device interacting with one of our sites or applications (including through beacon technologies), or associated with your IP address, where we are permitted by law to process this information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Personal Information Type": "Location",
+          "Purpose": "Service Operation and Security",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Collection Mode": "Implicit",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of location information by the first party when users visit their sites or use their applications. The information is identifiable and collected implicitly through devices or IP addresses, with the purpose likely related to service operation and security."
+    }
+  },
+  {
+    "segment": "  Usage, viewing and technical data, including your device identifier or IP address, when you visit our sites, use our applications on third-party sites or platforms or open emails we send  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of usage, viewing, and technical data, including device identifiers or IP addresses, when users interact with the company's sites or emails, indicating implicit data collection on the website."
+    }
+  },
+  {
+    "segment": " 2. How We Collect Your Information      We collect information you provide to us when you request products, services or information from us, register with us, participate in public forumsor other activities on our sites and applications, respond to customer surveys, or otherwise interact with us. Please keep in mind that when you provide information to us on a third-party site or platform (for example, via our applications), the information you provide may be separately collected by the third-party site or platform. The information we collect is covered by this privacy policy and the information the third-party site or platform collects is subject to the third-party site or platforms privacy practices. Privacy choices you have made on the third-party site or platform will not apply to our use of the information we have collected directly through our applications.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes how the company collects information directly from users when they interact with their services, such as requesting products or participating in activities on their sites and applications."
+    }
+  },
+  {
+    "segment": "  We collect information through technology, such as cookies, Flash cookies and Web beacons, including when you visit our sites and applications or use our applications on third-party sites or platforms. Please visit Online Tracking and Advertisingfor further information, including Do Not Track and how to disable cookies.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information through technology such as cookies and web beacons when users visit their sites and applications, indicating first-party data collection on their website."
+    }
+  },
+  {
+    "segment": "  We acquire information from other trusted sources to update or supplement the information you provided or we collected automatically. Local law may require that you authorize the third party to share your information with us before we can acquire it.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Receive from other service/third-party (unnamed)"
+        }
+      },
+      "explanation": "The segment describes the acquisition of information from other trusted sources, which implies receiving data from unnamed third-party services."
+    }
+  },
+  {
+    "segment": " 3. Use of Your Information by The Walt Disney Family of Companies    A memberof The Walt Disney Family of Companies, which includes many different brands, will be the data controller for your information. The relevant data controller(s) can be determined here. Other members of The Walt Disney Family of Companies may have access to your information where they perform services on behalf of the data controller(s) (as a data processor) and, unless prohibited under applicable law, for use on their own behalf (as a data controller) for the following purposes:     Provide you with the products and services you request     Communicate with you about your account or transactions with us and send you information about features on our sites and applications or changes to our policies     Consistent with local law and choices and controls that may be available to you:     Send you offers and promotions for our products and services or third-party products and services     Personalize content and experiences     Provide you with advertising based on your activity on our sites and applications and on third-party sites and applications. To learn more about how we use your information for personalization and tracking, please visit Online Tracking and Advertising.     Optimize or improve our products, services and operations     Detect, investigate and prevent activities that may violate our policies or be illegal  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "First-party privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Generic personal information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how The Walt Disney Family of Companies collects and uses personal information to provide services, communicate with users, and personalize experiences. It indicates the use of first-party privacy controls and implies implicit collection on the website, with identifiable personal information used for service operation and security purposes for users with accounts."
+    }
+  },
+  {
+    "segment": " 4. Sharing Your Information with Other Companies    We will not share your personal informationoutside The Walt Disney Family of Companiesexcept in limited circumstances, including:     When you allow us to share your personal information with another company, such as:     Electing to share your personal information with carefully selected companies so that they can send you offers and promotions about their products and services     Directing us to share your personal information with third-party sites or platforms, such as social networking sites  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-in",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Marketing",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy describes conditions under which personal information may be shared with third parties, specifically when the user allows it, indicating an opt-in choice for marketing purposes with identifiable information."
+    }
+  },
+  {
+    "segment": "Please note that once we share your personal information with another company, the information received by the other company becomes subject to the other companys privacy practices.     When we cooperate with financial institutions to offer co-branded products or services to you, such as our co-branded Disney Rewards Visa Card; however, we will do so only if permitted by applicable law and, in these cases, the financial institutions are prohibited from using your personal information for purposes other than those related to the co-branded products or services     When companies perform services on our behalf, like package delivery and customer service; however, these companies are prohibited from using your personal information for purposes other than those requested by us or required by law     When we share personal information with third parties in connection with the sale of a business, to enforce our Terms of Use or rules, to ensure the safety and security of our guests and third parties, to protect our rights and property and the rights and property of our guests and third parties, to comply with legal process or in other cases if we believe in good faith that disclosure is required by law  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Legal requirement",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with other companies and third parties under various conditions such as legal compliance, co-branded services, and operational services. It specifies that third parties are limited in their use of the information to the purposes agreed upon or required by law."
+    }
+  },
+  {
+    "segment": " 5. Your Controls and Choices    We provide you the ability to exercise certain controls and choices regarding our collection, use and sharing of your information. In accordance with local law, your controls and choices may include:     You may correct, update and delete your registration account     You may change your choices for subscriptions, newsletters and alerts     You may choose whether to receive from us offers and promotions for our products and services, or products and services that we think may be of interest to you     You may choose whether to receive targeted advertising from many ad networks, data exchanges, marketing analytics and other service providers here     You may choose whether to receive targeted advertising from many ad networks, data exchanges, marketing analytics and other service providers here     You may request access to the personal information we hold about you and that we amend or delete it  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Unspecified",
+          "Choice Type": "First-party privacy controls"
+        }
+      },
+      "explanation": "The segment provides users with various controls and choices regarding their personal information, including correcting, updating, and deleting their account, changing subscription choices, and managing targeted advertising preferences. These controls align with the 'First-party privacy controls' type."
+    }
+  },
+  {
+    "segment": "You may exercise your controls and choices, or request access to your personal information, by visiting Communication Choices, contacting Guest Services, or following instructions provided in communications sent to you. Please be aware that, if you do not allow us to collect personal information from you, we may not be able to deliver certain products and services to you, and some of our services may not be able to take account of your interests and preferences. If you have questions regarding the specific personal information about you that we process or retain, please contact Guest Services.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection"
+        }
+      },
+      "explanation": "The segment discusses exercising controls and choices related to personal information collection, indicating a scope of first-party collection."
+    }
+  },
+  {
+    "segment": " 6. Childrens Privacy    We recognize the need to provide further privacy protections with respect to personal informationwe may collect from childrenon our sites and applications. Some of the features on our sites and applications are age-gated so that they are not available for use by children, and we do not knowingly collect personal information from children in connection with those features. When we intend to collect personal information from children, we take additional steps to protect childrens privacy, including:  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses privacy protections and measures specifically related to the collection of personal information from children, indicating a focus on the audience type 'Children'."
+    }
+  },
+  {
+    "segment": "  Notifying parentsabout our information practices with regard to children, including the types of personal information we may collect from children, the uses to which we may put that information, and whether and with whom we may share that information  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses notifying parents about information practices related to children, indicating it is specifically addressing an audience of children and their guardians."
+    }
+  },
+  {
+    "segment": "  In accordance with applicable law, obtaining consent from parents for the collection of personal information from their children, or for sending information about our products and services directly to their children  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "This segment pertains to obtaining parental consent for the collection of personal information from children, indicating compliance with legal requirements related to children's privacy."
+    }
+  },
+  {
+    "segment": "  Limiting our collection of personal information from children to no more than is reasonably necessary to participate in an online activity  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses limiting the collection of personal information specifically from children, which falls under the category of specific audiences, particularly focusing on children."
+    }
+  },
+  {
+    "segment": "  Giving parents access or the ability to request access to personal information we have collected from their children and the ability to request that the personal information be changed or deleted  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "View"
+        }
+      },
+      "explanation": "The segment describes giving parents the ability to access personal information collected from their children, which falls under viewing profile data."
+    }
+  },
+  {
+    "segment": "For additional information about our practices in the United States and Latin America regarding childrens personal information, please read our Childrens Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment refers to specific practices related to children's personal information, indicating a focus on the audience type of children."
+    }
+  },
+  {
+    "segment": " 7. Data Security, Integrity and Retention    The security, integrity and confidentiality of your information are extremely important to us. We have implemented technical, administrative and physical security measures that are designed to protect guest information from unauthorized access, disclosure, use and modification. From time to time, we review our security procedures to consider appropriate new technology and methods. Please be aware though that, despite our best efforts, no security measures are perfect or impenetrable.We will retain your personal information for the length of time needed to fulfill the purposes outlined in this privacy policy unless a longer retention period is required or permitted by law.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes the implementation of various security measures to protect information, without specifying particular techniques or methods, hence categorized as 'Generic'."
+    }
+  },
+  {
+    "segment": " 8. Data Transfers, Storage and Processing Globally    We operate globally and may transfer your personal informationto individual companies of The Walt Disney Family of Companiesor third parties in locations around the world for the purposes described in this privacy policy. Wherever your personal information is transferred, stored or processed by us, we will take reasonable steps to safeguard the privacy of your personal information. Additionally, when using or disclosing personal information transferred from the European Union, we abide by the Safe Harbor Principles as set forth by the U.S. Department of Commerce, use standard contract clauses approved by the European Commission, adopt other means under European Union law for ensuring adequate safeguards, or obtain your consent. We also apply the substantive requirements of the Safe Harbor Principles when transferring personal information from Australia.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the transfer of personal information globally with measures to safeguard privacy, including adherence to Safe Harbor Principles and other legal safeguards, indicating secure data transfer."
+    }
+  },
+  {
+    "segment": " 9. Changes to this Privacy Policy    From time to time, we may change this privacy policy to accommodate new technologies, industry practices, regulatory requirements or for other purposes. We will provide noticeto you if these changes are material and, where required by applicable law, we will obtain your consent.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "Personal notice",
+          "User Choice": "Opt-in"
+        }
+      },
+      "explanation": "The segment indicates that changes to the privacy policy may occur and users will be notified if the changes are material. It also mentions obtaining consent where required, suggesting an opt-in choice for users."
+    }
+  },
+  {
+    "segment": " 10. Comments and Questions    If you have a comment or question about this privacy policy, please contact Guest Services. Our sites and applicationsmay contain links to other sites not owned or controlled by us and we are not responsible for the privacy practices of those sites. We encourage you to be aware when you leave our sites or applications and to read the privacy policies of other sites that may collect your personal information.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for comments or questions about the privacy policy, which falls under privacy contact information."
+    }
+  },
+  {
+    "segment": "Notice to California Residents:If you are a California resident, you may have certain additional rights. California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by certain membersof The Walt Disney Family of Companies to third parties for the third parties direct marketing purposes. California Business and Professions Code Section 22581 permits registered users who are minors to request and obtain deletion of certain posted content. Visit our Your California Privacy Rights page for more information.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "This segment specifically addresses the rights of California residents under California Civil Code Section 1798.83 and California Business and Professions Code Section 22581, indicating it is intended for a Californian audience."
+    }
+  },
+  {
+    "segment": " Definitions     Aggregate Information.    Aggregate information means information about groups or categories of guests, which does not identify and cannot reasonably be used to identify an individual guest.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a definition of 'Aggregate Information,' which is introductory or generic in nature, explaining that it refers to non-identifiable group data."
+    }
+  },
+  {
+    "segment": " Anonymous Information    Anonymous information means information that does not directly or indirectly identify, and cannot reasonably be used to identify, an individual guest.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a definition of anonymous information, which is a general explanation and does not fit into specific data practices or policies."
+    }
+  },
+  {
+    "segment": " Application.    Application means a program or service operated by us (or on our behalf) that may be displayed on various online, mobile or other platforms and environments, including those operated by third parties, which permits us to interact directly with our guests.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a generic definition of what 'Application' means in the context of the privacy policy, without detailing specific practices or policies."
+    }
+  },
+  {
+    "segment": " Children.    Children means individuals who we have identified are not of legal age to consent to the collection and processing of their personal information. In the United States and Latin America, the term children refers to individuals under 13 years of age.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "This segment defines 'Children' as individuals under a certain age who cannot legally consent to data collection and processing, specifically under 13 years in the United States and Latin America."
+    }
+  },
+  {
+    "segment": " Data Controller.    The data controller is the subsidiary or affiliated entity of The Walt Disney Company that is responsible for the personal information collected from sites and applications, as follows:  Disney Club Penguin (Club Penguin)    Disney Canada Inc. (formerly known as Disney Online Studios Canada Inc.)   Club Penguin   1628 Dickson Avenue, Suite 500   Kelowna, British Columbia V1Y 9X1   CANADA   support@clubpenguin.com    All other sites and applications    If you live in Europe, Middle East or Africa:   The Walt Disney Company Limited   (Company Number 530051)   3 Queen Caroline Street   Hammersmith   London   W6 9PE   help@disney.co.uk   US, Canada and Rest of World:   Disney Interactive   500 South Buena Vista Street   Mail Code 7667   Burbank, CA 91521-7667   United States of America  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment specifies different data controllers based on the user's location, including Europe, indicating a focus on international audiences."
+    }
+  },
+  {
+    "segment": " Data Processor.    A data processor is a person or entity that processes personal information on behalf of a data controller (or data controllers) and is permitted to perform data processing only as directed by the data controller(s).  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Other"
+        }
+      },
+      "explanation": "The segment describes the role of a data processor in handling personal information on behalf of a data controller, which does not fit into the specific categories outlined but is relevant to understanding data handling practices."
+    }
+  },
+  {
+    "segment": " IP Address    An IP address is associated with the access point through which you enter the Internet, and is typically controlled by your Internet Service Provider (ISP), your company, or your university. We may use IP addresses to collect information regarding the frequency with which our guests visit various parts of our sites and applications, and we may combine IP addresses with personal information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection and use of IP addresses by the company for analytics purposes, indicating collection on their website and combining IP addresses with personal information, making it identifiable."
+    }
+  },
+  {
+    "segment": " Member    Member means a subsidiary or affiliated entity that is part of The Walt Disney Family of Companies.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a definition of 'Member' within the context of The Walt Disney Family of Companies, which is introductory or generic information."
+    }
+  },
+  {
+    "segment": " Notice    Notice may be by email to you at the last email address you provided us, by posting notice of such changes on our sites and applications, or by other means, consistent with applicable law.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Notification Type": "General notice on website"
+        }
+      },
+      "explanation": "The segment describes how users will be notified of changes, including email and posting on sites, which aligns with a general notice on the website."
+    }
+  },
+  {
+    "segment": " Parents    Parents means a parent or legal guardian.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a definition of 'Parents' within the context of the policy, which is introductory or generic information."
+    }
+  },
+  {
+    "segment": " Personal information    Personal information means information that identifies (whether directly or indirectly) a particular individual, such as the individuals name, postal address, email address and telephone number. When anonymous information is directly or indirectly associated with personal information, this anonymous information also is treated as personal information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Personal identifier"
+        }
+      },
+      "explanation": "The segment defines personal information as data that identifies an individual, including name, postal address, email, and telephone number, which are considered personal identifiers."
+    }
+  },
+  {
+    "segment": " Public Forums    Our sites and applications may offer message boards, conversation pages, blogs, chat rooms, social community environments, profile pages, and other forums that do not have a restricted audience. If you provide personal information when you use any of these features, that personal information may be publicly posted and otherwise disclosed without limitation as to its use by us or by a third party. To request removal of your personal information from a public forum on one of our sites or applications, please contact Guest Services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the sharing of personal information provided in public forums, which may be used by third parties without limitation, indicating third-party sharing/collection."
+    }
+  },
+  {
+    "segment": " The Walt Disney Family of Companies    The Walt Disney Family of Companies refers to The Walt Disney Company and its subsidiary and affiliated entities, which offer their products and services under various brand names. These companies engage in a number of businesses, including theme parks and travel, motion pictures and television, publishing, consumer products and interactive services. The Walt Disney Company brands include, among others, the following:     ABC     Babble     Club Penguin     Disney     Disney Pixar     ESPN     Hollywood Records     Lucasfilm     Marvel     Muppets     Playdom     Spoonful     Star Wars  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to The Walt Disney Family of Companies and lists some of its brands, without detailing specific privacy practices."
+    }
+  },
+  {
+    "segment": " Guest Services Contact Information    United States of America:   Disney Interactive   500 South Buena Vista Street   Mail Code 7667   Burbank, CA 91521-7667   United States of America  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for Disney Interactive's guest services, which is typically included in privacy policies for users to reach out with privacy concerns or inquiries."
+    }
+  },
+  {
+    "segment": "For questions related to childrens privacy, you may also telephone Guest Services at (877) 466-6669.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment provides contact information specifically for questions related to children's privacy, indicating a focus on this specific audience."
+    }
+  },
+  {
+    "segment": "Disney Interactive has received the TRUSTe Privacy Seal in the United States, signifying that this privacy policy and our privacy practices have been reviewed for compliance with the TRUSTe program listed on the validation page available when you click on the TRUSTe Privacy Seal. The TRUSTe program covers only those properties identified on the validation page. If you believe that Disney Interactive has not responded to your inquiry or your inquiry has not been satisfactorily addressed, you may contact TRUSTe or the United States Federal Trade Commission through its online consumer complaint form.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Privacy review/audit"
+        }
+      },
+      "explanation": "The segment indicates that Disney Interactive's privacy practices have been reviewed for compliance with the TRUSTe program, which suggests a privacy review or audit as a security measure."
+    }
+  }
+]

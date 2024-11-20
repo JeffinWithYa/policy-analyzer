@@ -1,0 +1,1065 @@
+[
+  {
+    "segment": "Bank of America U.S. Online Privacy Notice  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment 'Bank of America U.S. Online Privacy Notice' is an introductory or generic title of a privacy policy document and does not provide specific details about data practices."
+    }
+  },
+  {
+    "segment": "Last updated July 24, 2014  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified"
+        }
+      },
+      "explanation": "The statement provides a date indicating when the privacy policy was last updated, but does not specify the type of changes made."
+    }
+  },
+  {
+    "segment": "This U.S. Online Privacy Notice (Notice) applies to this Bank of America online interface (i.e., website or mobile application) and any Bank of America U.S. affiliate or subsidiary online interface that links to this Notice, (each, a Site, and, collectively, Sites). The term \"Bank of America\" or \"we\" or \"us\" or \"our\" in this Notice refers to banking and non-banking U.S. affiliates or subsidiaries of Bank of America Corporation that link to this Notice. This Notice describes how Sites may collect, use and share information from or about you, and explains how information may be collected and used for advertising purposes.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is an introductory section of the privacy notice, outlining the scope and applicability of the policy to various Bank of America interfaces and affiliates."
+    }
+  },
+  {
+    "segment": "Bank of America provides other online interfaces not covered by this Notice. If you visit or access your accounts from one of these sites, please review the online privacy practices of that site to understand how your online information may be collected, used and shared.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment mentions that there are other online interfaces not covered by the current notice, indicating practices that are not covered in this policy."
+    }
+  },
+  {
+    "segment": "For U.S. account holders and visitors to this Site, we will use and share any information that we collect from or about you in accordance with the Bank of America U.S. Consumer Privacy Notice, which provides choices in the use and sharing of information. For Non-U.S. account holders utilizing this Site, we will use and share your account information in accordance with the privacy disclosure that covers your account and with the privacy and security rules applicable to the Bank of America affiliate or subsidiary that provides that account to you.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment differentiates between U.S. and Non-U.S. account holders, indicating specific privacy practices and disclosures for citizens from other countries."
+    }
+  },
+  {
+    "segment": "Additional information on our Privacy Security practices may be found on our Sites and within Frequently Asked Questions (FAQs). Although the additional information is provided as a resource, the terms and conditions of this Notice control, and by using the Site, you agree to the terms and conditions of this Notice.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides general information about where additional privacy security practices can be found and emphasizes the control of the terms and conditions, without detailing specific practices."
+    }
+  },
+  {
+    "segment": " Collecting and Using Information     Personal Information We Collect Online    Personal Information means personally identifiable information such as information you provide via forms, surveys, applications or other online fields including name, postal or email addresses, telephone, fax or mobile numbers, or account numbers.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of personally identifiable information through online forms, surveys, and applications, which falls under first-party collection on the website. The information is identifiable and includes contact details."
+    }
+  },
+  {
+    "segment": " How We Use Personal Information    We may use Personal Information:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be used, but it does not specify the purpose of use."
+    }
+  },
+  {
+    "segment": "to respond to your inquiries and fulfill your requests; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Basic service/feature"
+        }
+      },
+      "explanation": "The segment indicates the use of personal information to respond to user inquiries and fulfill requests, which is a basic service provided by the company."
+    }
+  },
+  {
+    "segment": "to inform you about important information regarding the Site, products or services for which you apply or may be interested in applying for, or in which you are already enrolled, changes to terms, conditions, and policies and/or other administrative information; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes using collected information to inform users about important updates related to the site, products, or services, which aligns with the purpose of service operation and security."
+    }
+  },
+  {
+    "segment": "to deliver marketing communications that we believe may be of interest to you, including, ads or offers tailored to you; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Marketing"
+        }
+      },
+      "explanation": "The segment describes the use of personal information for delivering marketing communications and tailored ads or offers, which falls under the purpose of marketing."
+    }
+  },
+  {
+    "segment": "to personalize your experience on the Site; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment indicates that the purpose of data collection is to personalize the user's experience on the site, which falls under Personalization/Customization."
+    }
+  },
+  {
+    "segment": "to allow you to apply for products or services (e.g., to prequalify for a mortgage, apply for a credit card, or to open a retirement account, investment account or other financial product) and evaluate your eligibility for such products or services; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Basic service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of personal information to apply and evaluate eligibility for financial products or services, which is a basic service feature provided by the company."
+    }
+  },
+  {
+    "segment": "to verify your identity and/or location (or the identity or location of your representative or agent) in order to allow access to your accounts, conduct online transactions and to maintain measures aimed at preventing fraud and protecting the security of account and Personal Information; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes the use of personal information for verifying identity and location to ensure account access, conduct transactions, and prevent fraud, which aligns with the purpose of service operation and security."
+    }
+  },
+  {
+    "segment": "to allow you to participate in surveys and other forms of market research, sweepstakes, contests and similar promotions and to administer these activities. Some of these activities have additional rules, which may contain additional information about how Personal Information is used and shared; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment mentions participation in surveys and market research, which aligns with the purpose of Analytics/Research."
+    }
+  },
+  {
+    "segment": "to allow you to use some Site financial planning tools. Information that you enter into one of these planning tools may be stored for future access and use. You have the option not to save the information; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and storage of financial information entered by users into planning tools on the website. Users have a choice not to save this information, indicating an opt-out option for usage."
+    }
+  },
+  {
+    "segment": "collected through aggregation services such as My Portfolio and My Financial Picture in order to consolidate your financial account information at one online location; understand what product or service may be of interest to you; and present you with offers; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of financial account information through aggregation services to personalize services and present offers to the user, indicating identifiable data collected on the website for customization purposes."
+    }
+  },
+  {
+    "segment": "collected through our social media pages and other online interactions with you to assist in verifying your identity and account status. We may combine this online information with information collected from offline sources or information we already have; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Social media data",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of information through social media and online interactions, which is identifiable and used to verify identity and account status, indicating service operation and security purposes."
+    }
+  },
+  {
+    "segment": "for business purposes, including data analysis, audits, developing and improving products and services, enhancing the Site, identifying usage trends and determining the effectiveness of promotional campaigns; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the use of data for business purposes such as data analysis, audits, and improving services, which aligns with the purpose of Analytics/Research."
+    }
+  },
+  {
+    "segment": "for risk control, for fraud detection and prevention, to comply with laws and regulations, and to comply with other legal process and law enforcement requirements; ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes purposes related to compliance with laws, regulations, and legal processes, which aligns with the 'Legal requirement' category."
+    }
+  },
+  {
+    "segment": "to allow you to utilize features within our Sites by granting us access to information from your device such as contact lists, or geo-location when you request certain services. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of contact lists and geo-location data from the user's device to provide additional services, requiring explicit user consent (opt-in)."
+    }
+  },
+  {
+    "segment": " How Personal Information is Shared    Please see the Bank of America U.S. Consumer Privacy Notice for information on how Personal Information may be shared and how you may be able to limit certain types of sharing.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment refers to the sharing of personal information and directs users to a privacy notice for details on limiting certain types of sharing, indicating that personal information may be shared with third parties."
+    }
+  },
+  {
+    "segment": " Other Information We Collect Online    Other Information is any information other than Personal Information that does not reveal your specific identity or does not directly relate to an individual, such as browser information, information collected through cookies, pixel tags and other technologies, demographic information, other information provided by you such as your date of birth or household income, and aggregated and de-identified data.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Other"
+        }
+      },
+      "explanation": "The segment describes the collection of 'Other Information' which includes non-identifiable data such as browser information, cookies, and demographic data, indicating it falls under the 'Other' category of Personal Information Type."
+    }
+  },
+  {
+    "segment": " How We Collect and Use Other Information    We and our third-party service providers may collect and use Other Information in a variety of ways, including:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that both the company and third-party service providers collect and use 'Other Information,' suggesting collection on the website."
+    }
+  },
+  {
+    "segment": "Through your browser or device: Certain information is collected by most browsers and/or through your device, such as your Media Access Control (MAC) address, device type, screen resolution, operating system version and internet browser type and version. We use this information to ensure Sites function properly, for fraud detection and prevention, and security purposes.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of device and browser information implicitly through user interaction with the website, for the purpose of ensuring proper site functionality and security, making it identifiable data collected for service operation and security."
+    }
+  },
+  {
+    "segment": "Using cookies: Cookies are pieces of information stored directly on the device you are using. Cookies we use do not contain or capture unencrypted Personal Information. Cookies allow us to collect information such as browser type, time spent on the Site, pages visited, language preferences, and your relationship with us. We use the information for security purposes, to facilitate navigation, to display information more effectively, to personalize/tailor your experience while engaging with us, and to recognize your device to allow your use of our online products and services. We collect statistical information about the usage of the Site in order to continually improve the design and functionality, to monitor responses to our advertisements and content, to understand how account holders and visitors use the Site and to assist us with resolving questions regarding the Site. We also utilize cookies for advertising purposes. Please see the    Advertising section below for more information.   ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to collect information on the website for purposes such as security, navigation facilitation, personalization, and advertising. The information collected is aggregated, and the collection is implicit as it is done through cookies."
+    }
+  },
+  {
+    "segment": "You can refuse to accept these cookies and most devices and browsers offer their own privacy settings for cookies. You will need to manage your cookie settings for each device and browser you use. However, if you do not accept these cookies, you may experience some inconvenience in your use of the Site and some online products and services. For example, we will not be able to recognize your device and you will need to answer a challenge question each time you log on. You also may not receive tailored advertising or other offers from us that may be relevant to your interests and needs.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses user control over cookie settings via browser/device privacy controls, impacting personalization and tailored advertising, indicating first party collection choice."
+    }
+  },
+  {
+    "segment": "Other technologies including pixel tags, web beacons, and clear GIFs: These may be used in connection with some Site pages, downloadable mobile applications and HTML-formatted email messages to measure the effectiveness of our communications, the success of our marketing campaigns, to compile statistics about usage and response rates, to personalize/tailor your experience while engaging with us online and offline, for fraud detection and prevention, for security purposes, for advertising, and to assist us in resolving account holders questions regarding use of our Site. Please see our    Advertising section below for more information regarding our use of other technologies.   ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of tracking technologies like pixel tags and web beacons on their site and emails to collect data for various purposes, including advertising and personalization, indicating first-party collection and use."
+    }
+  },
+  {
+    "segment": "Flash objects: As part of our solutions for online authentication, we use Flash objects (sometimes referred to as Local Shared Objects) to help us recognize you and your device when you come back to the Site. For our pages running Adobe Flash content (demos and tutorials with moving content), we use Flash objects to determine your browser type and version of Adobe Flash in order for you to view the content. We do not use Flash objects for any online behavioral advertising purpose. Deleting cookies does not delete Flash objects. You can learn more about Flash objects - including how to control and disable them - through the Adobe interface. If you choose to disable Flash objects from our Site, then you may not be able to access and use all or part of the Site or benefit from the information and services offered.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the use of Flash objects for recognizing users and their devices on the website, which involves collecting computer information implicitly. Users have control over these objects through browser/device privacy controls, and the purpose is for service operation and security, not for advertising."
+    }
+  },
+  {
+    "segment": "IP Address: Your IP Address is a number that is automatically assigned to the device that you are using by your Internet Service Provider (ISP). An IP Address is identified and logged automatically in our server log files whenever a user visits the Site, along with the time of the visit and the page(s) that were visited. Collecting IP Addresses is standard practice on the internet and is done automatically by many web sites. We use IP Addresses for purposes such as calculating Site usage levels, helping diagnose server problems, to personalize/tailor your experience while engaging with us online and offline, for compliance and security purposes, for advertising, and administering the Site. Please see the    Advertising section below for more information.   ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of IP addresses when users visit the site, which is a standard practice. The IP addresses are used for various purposes including site usage analysis, diagnosing server issues, personalization, compliance and security, advertising, and site administration. The collection mode is implicit as it happens automatically when visiting the site. The information is identifiable as IP addresses can be linked to specific users or devices."
+    }
+  },
+  {
+    "segment": "Aggregated and De-identified Data: Aggregated and De-identified Data is data that we may create or compile from various sources, including but not limited to accounts and transactions. This information, which does not identify individual account holders, may be used for our business purposes, which may include offering products or services, research, marketing or analyzing market trends, and other purposes consistent with applicable laws.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Other",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of aggregated and de-identified data for various business purposes, indicating that the data is not identifiable and is used for purposes like research, marketing, and analyzing market trends."
+    }
+  },
+  {
+    "segment": " Additional Information    Third party widgets \" we may allow certain widgets (e.g., social share buttons) on our Sites that enable users to easily share information on another platform, such as a social media platform. The third parties that own these widgets may have access to information about your browsing on pages of our Sites where these widgets are placed. You may wish to review information at the third party site, such as social media platforms where you have an account, to determine how these third parties collect and treat such information. Also, see  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses third party widgets on the site that may collect information about users' browsing activities, indicating third parties collect data on the first party's website."
+    }
+  },
+  {
+    "segment": " Linking to other sites and Social media sites below.     Advertising    Bank of America advertises online (e.g., pages within our Sites and mobile apps through bank managed social media presences, and on other sites and mobile apps not affiliated with Bank of America) and offline (e.g. in banking centers, through call centers, and direct marketing). In order to understand how advertising performs, we may collect certain information on our Sites and other sites and mobile apps through our advertising service providers using cookies, IP addresses, and other technologies. The collected information may include the number of page visits, pages viewed on our Sites, search engine referrals, browsing activities over time and across other sites following your visit to one of our Sites or apps, and responses to advertisements and promotions on the Sites and on sites and apps where we advertise.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes how Bank of America collects information on its own sites and apps for advertising purposes."
+    }
+  },
+  {
+    "segment": "Bank of America uses information described in this Notice to help advertise our products and services, including prescreened offers of credit, in a variety of ways. We use such information to:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment indicates that Bank of America uses information to advertise its products and services, including prescreened offers of credit, which falls under the purpose of advertising."
+    }
+  },
+  {
+    "segment": "Present tailored ads, to you including:   Banner ads and splash ads that appear as you sign on or off of your online accounts on our Sites, within mobile banking and other mobility applications  E-mail, postal mail, and telemarketing, and,  On other sites and mobile apps not affiliated with Bank of America;   Analyze the effectiveness of our ads; and  Determine whether you might be interested in new products or services",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment describes various methods of delivering tailored ads to users, which is categorized under advertising."
+    }
+  },
+  {
+    "segment": " How we tailor ads:     Relationship based advertising    In order to help make our advertising informative and useful, we may use information about your relationship with us (such as types of accounts, transactional information or the state in which you bank) to help determine which advertisements or offers to present to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment describes using user relationship information to tailor advertisements, indicating the purpose is advertising."
+    }
+  },
+  {
+    "segment": " Online Behavioral Advertising    We or our advertising service providers may use certain information about your activities on our Sites, such as pages visited and search key words entered to help determine which of our advertisements or offers may be of interest to you. We limit access and collection of information for specific purposes by advertising service providers. We may use this online information for online and offline advertising.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing user activity information with advertising service providers for the purpose of online behavioral advertising."
+    }
+  },
+  {
+    "segment": " Advertising on third party sites and mobile apps    Bank of America contracts with advertising companies to advertise our products and services on sites and mobile apps not affiliated with us. We may use Aggregated and De-identified Data and information provided by you to these third party sites and mobile apps to select which of our advertisements or offers may appeal to you, display them to you and monitor your responses. Third Party sites and mobile apps are not subject to Bank of America Privacy Notices. Please visit the individual sites and mobile apps for additional information on their data and privacy practices and opt out policies.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Aggregated or anonymized",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes how Bank of America shares aggregated and de-identified data with unnamed third-party advertising companies for the purpose of advertising on third-party sites and mobile apps."
+    }
+  },
+  {
+    "segment": " Online Behavioral Advertising on third party sites and mobile apps    Some of our tailored ads are online behavioral advertising, and may be served using data collected by third party providers. Ads served on our behalf by these companies do not contain unencrypted Personal Information and we limit the use of information by companies that serve our ads. To learn more about this practice and your choices in connection with it, see the section  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of third-party providers to serve online behavioral advertising using collected data. It specifies that personal information is not unencrypted, suggesting aggregated or anonymized data. The mention of user choices implies an opt-out mechanism for users regarding the use of their data for advertising purposes."
+    }
+  },
+  {
+    "segment": " Advertising Choices below     Advertising Choices    You may set your choices for advertising in the following ways:  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses setting choices for advertising, indicating a scope related to third-party sharing/collection and a choice type that suggests an opt-out mechanism."
+    }
+  },
+  {
+    "segment": "Online Behavioral Advertising: If you prefer we not use information based on online Site behavior to provide online and offline tailored content and advertising, you may opt out of online behavioral advertising.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses the user's ability to opt out of online behavioral advertising, indicating control over the use of their online activities for advertising purposes."
+    }
+  },
+  {
+    "segment": "Opting out also means that the online content and advertising you receive on our non-servicing sites (i.e. before sign-in) will be untailored and will not be based on your online behavior or your relationship.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes an opt-out option for users regarding the personalization of content and advertising based on their online behavior, indicating control over first-party use of personal information related to user online activities for advertising purposes."
+    }
+  },
+  {
+    "segment": "Please note that if you opt out of this advertising, you may still receive untailored advertising from Bank of America. When accessing online account servicing areas (i.e. after sign-in), such as Online Banking or MyMerrill, you may receive tailored content and advertising based on your account relationships. In addition, financial advisors/Client Managers may continue to use information collected online as described in this Notice to provide details on products and services in accordance with account agreements. See  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy segment describes how Bank of America uses collected information to provide tailored advertising and content based on account relationships, with an opt-out option available for advertising. It also mentions the continued use of collected information by financial advisors for service provision."
+    }
+  },
+  {
+    "segment": " Important Reminder section below.    Bank managed Direct Marketing: If you prefer we not deliver you marketing offers in email, postal mail or through telemarketing you may manage your direct marketing choices online or:   by telephone at 1.888.341.5000 -our menu will prompt you through the choices,  through your assigned account representative (e.g., Financial Advisor, Mortgage Loan Officer) or a representative at a banking center ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how users can opt-out of receiving direct marketing communications from the bank, indicating control over the use of their contact information for marketing purposes."
+    }
+  },
+  {
+    "segment": "Advertising on third party sites: Bank of America participates in the Digital Advertising Alliance (DAA) self-regulatory program, uses the Advertising Options Icon on our behavioral ads on third party sites (excluding ads appearing on platforms that do not accept the icon) and adheres to the DAA self-regulatory Principles for Online Behavioral Advertising. Anyone receiving a behavioral ad may click on the displayed icon to receive more information and can opt out at that time or by visiting the third party site's privacy policy for an opt out mechanism.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how Bank of America uses behavioral advertising on third-party sites and provides an opt-out mechanism, indicating sharing with third parties for advertising purposes."
+    }
+  },
+  {
+    "segment": "You may also opt out of receiving behavioral ads from many sites through the Network Advertising Initiative's Opt-Out Tool or other tools provided by the publishing platform.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses the option for users to opt out of receiving behavioral ads through specific tools, indicating control over third-party sharing/collection of data for advertising purposes."
+    }
+  },
+  {
+    "segment": "Please note that if you opt out, you may still receive untailored online advertising from Bank of America. Opting out from a specific third party site means that the ads you receive will not be tailored based on your choices or behavior.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses the option for users to opt out of tailored advertising, indicating a choice control related to third-party sharing or collection of data, specifically through an opt-out mechanism."
+    }
+  },
+  {
+    "segment": " Important Reminder    In order for online behavioral advertising opt outs from our Sites and on other sites to work on your device, your browser must be set to accept cookies. If you delete cookies, buy a new device, access our Site or other sites from a different device, login under a different screen name, or change web browsers, you will need to opt-out again. If your browser has scripting disabled, you do not need to opt out, as online behavioral advertising technology does not work when scripting is disabled. Please check your browser's security settings to validate whether scripting is active or disabled.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses the conditions required for the opt-out mechanism for online behavioral advertising to work, indicating an opt-out choice type."
+    }
+  },
+  {
+    "segment": " Mobile Applications    Bank of America's Mobile Applications for U.S. accounts (\"Applications\") allows you to access your account balances and holdings, make deposits, transfers and pay bills on your mobile device. This Notice applies to any Personal Information or Other Information that we may collect through the Applications.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app"
+        }
+      },
+      "explanation": "The segment describes the collection of personal and other information through Bank of America's mobile applications, indicating first-party collection in a mobile app."
+    }
+  },
+  {
+    "segment": " Linking to other sites    We may provide links to third party sites, such as credit bureaus, service providers or merchants. If you follow links to sites not affiliated or controlled by Bank of America, you should review their privacy and security policies and other terms and conditions, as they may be different from those of our Sites. Bank of America does not guarantee and is not responsible for the privacy or security of these sites, including the accuracy, completeness, or reliability of their information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses linking to third-party sites, indicating that these third parties may collect information when users visit their sites through links provided by Bank of America. It emphasizes the need for users to review third-party privacy policies, which implies collection activities by third parties on their own sites."
+    }
+  },
+  {
+    "segment": " Social media sites    Bank of America provides experiences on social media platforms including, but not limited to, Facebook, Twitter, YouTube and LinkedIn that enable online sharing and collaboration among users who have registered to use them. Any content you post on official Bank of America managed social media pages, such as pictures, information, opinions, or any Personal Information that you make available to other participants on these social platforms, is subject to the Terms of Use and Privacy Policies of those respective platforms. Please refer to them to better understand your rights and obligations with regard to such content. In addition, please note that when visiting any official Bank of America social media pages, you are also subject to Bank of America's Privacy Notices, Social Media User Terms and Community Guidelines  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses the collection of user content on social media platforms managed by Bank of America, indicating third-party collection on these platforms."
+    }
+  },
+  {
+    "segment": " Security    To protect Personal Information from unauthorized access and use, we use security measures that comply with applicable federal and state laws. These measures may include device safeguards and secured files and buildings as well as oversight of our third party service providers to ensure information remains confidential and secure. Please visit bankofamerica.com/security for additional information.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes measures like device safeguards, secured files and buildings, and oversight of third-party providers to protect Personal Information, indicating secure data storage practices."
+    }
+  },
+  {
+    "segment": " Using other aggregation websites    Other companies offer aggregation websites and services that allow you to consolidate your financial account information from different sources (such as your accounts with us or with other financial institutions) so that you can view all your account information at one online location. To do this, an aggregation provider may request access to Personal Information, such as financial information, usernames and passwords. You should use caution and ensure that the aggregator company has appropriate policies and practices to protect the privacy and security of any information you provide or to which they are gaining access. We are not responsible for the use or disclosure of any Personal Information accessed by any company or person to whom you provide your Site username and password.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses third-party aggregation services that may receive or be shared with personal information, including financial information, usernames, and passwords."
+    }
+  },
+  {
+    "segment": "If you provide your Site username, password or other information about your accounts with us to an aggregation website, we will consider that you have authorized all transactions or actions initiated by an aggregation website using access information you provide, whether or not you were aware of a specific transaction or action. If you decide to revoke the authority you have given to an aggregation website, we strongly recommend that you change your password for the Site to ensure that the aggregation website cannot continue to access your account.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses the sharing of user account information with aggregation websites, implying that these third parties can access and initiate transactions on behalf of the user."
+    }
+  },
+  {
+    "segment": " Making sure information is accurate    Keeping your account information accurate and up to date is very important. If your account information is incomplete, inaccurate or not current, please use the Contact Us option on our Site, or call or write to us at the telephone numbers or appropriate address for changes listed on your account statements, records, online or other account materials. You can also speak to a customer representative at a banking center, your Financial Advisor or account representative.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment discusses the importance of keeping account information accurate and provides methods for users to update or edit their information, indicating user access to edit their information."
+    }
+  },
+  {
+    "segment": " Protecting childrens privacy online    The Site is not directed to individuals under the age of thirteen (13) and we request that these individuals do not provide Personal Information through the Site. We do not knowingly collect information from children under 13 without parental consent. Visit the Federal Trade Commission website for more information about the Children's Online Privacy Protection Act (COPPA).   ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the site is not directed to individuals under the age of thirteen and outlines measures to protect children's privacy in compliance with COPPA."
+    }
+  },
+  {
+    "segment": "Protecting individual health information    To the extent that we receive, maintain, or process an individual's protected health information, Bank of America may disclose that information as authorized by and in accordance with applicable federal and/or state law.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that Bank of America may disclose protected health information to third parties as authorized by law, which falls under the sharing of data with third parties."
+    }
+  },
+  {
+    "segment": " Updates to this Privacy Notice    This U.S. Online Privacy Notice is subject to change. Please review it periodically. If we make changes to the U.S. Online Privacy Notice, we will revise the Last Updated date at the top of this Notice. Any changes to this Notice will become effective when we post the revised Notice on the Site. Your use of the Site following these changes means that you accept the revised Notice.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment describes that the privacy notice is subject to change and will be updated on the website, indicating a privacy relevant change with a general notice. No specific user choice or consent mechanism for changes is mentioned."
+    }
+  },
+  {
+    "segment": "Cookie Guide   The use of cookies and similar technologies is a common internet practice. We have developed a Cookie Guide to provide very general information on cookies and similar technologies. ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides general information about cookies and similar technologies, which is introductory and generic in nature."
+    }
+  },
+  {
+    "segment": "View cookie guide (PDF)  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The mention of a 'cookie guide' typically refers to information provided to users regarding cookies, which often includes privacy contact information or instructions on managing cookie preferences."
+    }
+  },
+  {
+    "segment": "(PDFs require Adobe Reader)  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is a generic statement about the requirement of a specific software (Adobe Reader) to view PDFs, which does not relate to privacy practices."
+    }
+  },
+  {
+    "segment": "HomeAccessible BankingPrivacy Security CareersSite Map Advertising Practices   Advertising Practices  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment lists sections or links from a website, such as 'Home', 'Privacy', 'Security', etc., which are introductory or generic terms and do not provide specific privacy policy details."
+    }
+  },
+  {
+    "segment": "We strive to provide you with information about products and services you might find interesting and useful. Relationship-based ads and online behavioral advertising help us do that.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment indicates the use of relationship-based ads and online behavioral advertising to provide information about products and services, which aligns with the purpose of advertising."
+    }
+  },
+  {
+    "segment": "Here's how it works: We gather information about your online activities, such as the searches you conduct on our Sites and the pages you visit. This information may be used to deliver advertising on our Sites and offline (for example, by phone, email and direct mail) that's customized to meet specific interests you may have.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of user online activities on the website and their use for delivering customized advertising, indicating implicit collection and identifiable information."
+    }
+  },
+  {
+    "segment": "If you prefer that we do not use this information, you may opt out of online behavioral advertising. If you opt out, though, you may still receive generic advertising. In addition, financial advisors/Client Managers may continue to use information collected online to provide product and service information in accordance with account agreements.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses the user's ability to opt-out of online behavioral advertising, indicating a choice control over third-party sharing/collection related to advertising based on user online activities. It also mentions that financial advisors may continue to use the information, implying it's for users with accounts."
+    }
+  },
+  {
+    "segment": "Also, if you opt out of online behavioral advertising, you may still see ads when you sign in to your account, for example through Online Banking or MyMerrill. These ads are based on your specific account relationships with us.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment discusses opting out of online behavioral advertising, indicating a choice control for users regarding third-party data collection for advertising purposes. It specifies that ads may still be shown based on account relationships, which implies user online activities and account-based targeting."
+    }
+  },
+  {
+    "segment": "To learn more about relationship-based ads, online behavioral advertising and our privacy practices, please review the Bank of America Online Privacy Notice and our Online Privacy FAQs.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment directs users to review specific documents for more information about privacy practices, indicating where users can find detailed privacy contact information."
+    }
+  },
+  {
+    "segment": "Bank of America, N.A. Member FDIC. Equal Housing Lender  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides general information about the bank, including its membership in FDIC and status as an Equal Housing Lender, which is introductory and not specific to privacy practices."
+    }
+  },
+  {
+    "segment": "2015 Bank of America Corporation. All rights reserved.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment appears to be a copyright notice, which is introductory or generic information not specifically related to privacy policy details."
+    }
+  },
+  {
+    "segment": "Important Notice  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The phrase 'Important Notice' suggests a general introduction or announcement, which fits under the introductory or generic category."
+    }
+  },
+  {
+    "segment": "You're going to another website  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect from user on other websites"
+        }
+      },
+      "explanation": "The phrase 'You're going to another website' suggests that the first party may collect data from users on other websites."
+    }
+  },
+  {
+    "segment": "Before you go, we want you to know the site owner is responsible for what's on their site. Also, their privacy practices and level of security may be different from ours, so please review their policies.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment advises users to review the privacy practices of another site, indicating that the practices and security levels may differ, which is not covered by the current policy."
+    }
+  },
+  {
+    "segment": "Continue Go back to Bank of America  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Other"
+        }
+      },
+      "explanation": "The segment 'Continue Go back to Bank of America' does not provide any specific information about privacy practices, data handling, or user rights. It appears to be a navigational instruction rather than a privacy policy statement."
+    }
+  },
+  {
+    "segment": "Opt out of online behavioral advertising  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment refers to the ability for users to opt out of online behavioral advertising, which is a form of user choice/control, specifically using an opt-out mechanism."
+    }
+  },
+  {
+    "segment": "When you opt out, we will not use information based on online Site behavior to provide online and offline tailored content and advertising to you, but you may still receive untailored advertising from Bank of America. In addition, financial advisors/Client Managers may continue to use information collected online to provide product and service information in accordance with account agreements.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes an opt-out mechanism for the use of user online activity information for tailored advertising, indicating user control over first-party use of their data for advertising purposes."
+    }
+  },
+  {
+    "segment": "Opting out also means the online content and advertising you receive on our non-servicing sites (before you sign in) will be untailored and will not be based on your online behavior or your relationship with us.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes an opt-out mechanism that affects the tailoring of online content and advertising based on the user's online behavior, indicating control over first-party use of personal information for advertising purposes for users without an account."
+    }
+  },
+  {
+    "segment": "When accessing online account servicing areas (after you sign in), such as Online Banking or MyMerrill, you may receive tailored content and advertising based on your account relationships.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "User profile",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how the company uses data collected from users who sign into their online accounts to provide tailored content and advertising, indicating first-party use for advertising purposes."
+    }
+  },
+  {
+    "segment": "Important reminder: In order for this online behavioral advertising opt-out to work on your device, your browser must be set to accept cookies. If you delete cookies, buy a new device, access our Site from a different device, sign in under a different screen name or change web browsers, you will need to opt out again.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses the conditions under which a user must maintain their opt-out status for online behavioral advertising, indicating the use of an opt-out mechanism that relies on cookies."
+    }
+  },
+  {
+    "segment": "If your browser has scripting disabled, you do not need to opt out, as online behavioral advertising technology does not work when scripting is disabled. Please check your browser's security settings to validate whether scripting is active or disabled.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment informs users that disabling scripting in their browser acts as a control mechanism to prevent online behavioral advertising, which relates to third-party data collection/sharing. It highlights the use of browser/device privacy controls."
+    }
+  },
+  {
+    "segment": "The opt-out will take effect upon your next visit using the same device to Bank of America Sites. Click on  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment refers to an opt-out mechanism that users can activate, which will take effect on their next visit, indicating the use of an opt-out link for user choice and control."
+    }
+  },
+  {
+    "segment": " Submit to opt out of online Site behavior used to provide to provide online and offline tailored content and advertising.    Submit Cancel  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes an option to opt out of the use of online site behavior for tailored content and advertising, indicating a choice for first-party use concerning user online activities for advertising purposes."
+    }
+  },
+  {
+    "segment": "You have successfully opted out of online behavioral advertising",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The statement indicates that the user has successfully opted out of online behavioral advertising, which is a form of opting out of targeted advertising features."
+    }
+  }
+]

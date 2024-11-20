@@ -1,0 +1,43 @@
+[
+  {
+    "segment": "For each visitor to our Web site, or Web server automatically recognizes only the consumer's domain name, operating system, and web browser version but not the e-mail address. Cookies are generated and placed on your computer when you visit a Web site. They make your return visits to a Web site more convenient. We do not use cookies to collect personal information, and we do not use cookies to retrieve information from your computer for purposes that are unrelated to the Web site or your interaction with the Web site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of domain name, operating system, and browser version when a user visits the website, which is implicit and not identifiable to an individual. Cookies are used for convenience in return visits, but not for collecting personal information beyond the interaction with the website."
+    }
+  },
+  {
+    "segment": " Disclaimer    The information provided is \"as is\" with all faults and without warranty of any kind, expressed or implied. National Chicken Council (NCC) makes no warranties or representations regarding the accuracy or completeness of the information contained herein.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is a disclaimer about the accuracy and completeness of information, which is a common introductory or generic statement in policies."
+    }
+  },
+  {
+    "segment": "NCC has provided links to other Internet sites only for the convenience of World-Wide Web users, and is not responsible for the materials, activities or content of other sites. NCC does not endorse, warrant or guarantee any products or services described or offered at these companies, addresses, or Web sites.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment describes a disclaimer about links to other websites, indicating that NCC is not responsible for third-party content, which is a practice not directly covered by privacy policy categories."
+    }
+  }
+]

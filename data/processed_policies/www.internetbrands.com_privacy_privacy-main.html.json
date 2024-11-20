@@ -1,0 +1,1196 @@
+[
+  {
+    "segment": "Internet Brands Privacy Highlights  Privacy Policy  Cookie Policy  Privacy Contact ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment lists general headings related to privacy policy documents and contact information, which is introductory and generic in nature."
+    }
+  },
+  {
+    "segment": "Privacy Policy   Internet Brands, Inc. and its subsidiaries and corporate affiliates (collectively, \"Internet Brands,\" \"our,\" \"us,\" or \"we\") operate websites, provide products and services through mobile and other applications, and develop software. We refer to these as \"site(s),\" \"service(s),\" or \"our sites and services.\"  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to the company and its operations, mentioning the entities involved and the scope of services offered, without detailing specific privacy practices."
+    }
+  },
+  {
+    "segment": "This privacy policy applies to our sites and services on which we display or post a direct link to this privacy policy. This privacy policy does not apply to those sites and services that do not display or link to this privacy policy, or that have their own privacy policies. However, we often acquire new companies to expand our business. Some acquired companies may operate under their own privacy policies until we integrate their privacy practices with ours.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment mentions that acquired companies may operate under their own privacy policies until integrated, indicating a change in privacy practices in the case of mergers or acquisitions."
+    }
+  },
+  {
+    "segment": "This privacy policy covers what information we collect and why we collect it, how we use the information we collect, and the choices you have to access and update that information. Please familiarize yourself with our practices and let us know if you have any questions. By using our sites and services, you expressly consent to our collection, use, disclosure, and retention of your personal information as described in this privacy policy. If you do not agree to this privacy policy, please do not use our sites or services.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to the privacy policy, outlining the topics covered such as information collection, use, and user choices, without going into specific details."
+    }
+  },
+  {
+    "segment": " Personal Information We Collect    Personal information is information that can be used to identify, locate, or contact an individual, and includes other information that may be associated with personal information. When you interact with our sites and services, depending on the site or service, we may ask for the following personal information directly from you:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information directly from users when they interact with the company's sites and services, which fits the 'Collect on website' category under First Party Collection/Use."
+    }
+  },
+  {
+    "segment": "Contact Information allows us to communicate with you and generally includes your name, addresses, email addresses, social media website user account names, and/or telephone numbers. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment specifies that contact information, including names, addresses, email addresses, social media account names, and telephone numbers, is collected to communicate with the user."
+    }
+  },
+  {
+    "segment": "Payment Information needed to process payments such as your credit or debit card number, expiration date, and card verification number. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Financial"
+        }
+      },
+      "explanation": "The segment specifies the collection of financial information, including credit or debit card details, which falls under the 'Financial' category."
+    }
+  },
+  {
+    "segment": "Personal Profile or Service Information helps us with the administration and personalization of your personal profiles or services, such as areas of interest, information from social media interactions (such as Facebook, Twitter, or Google+), preferences, physical characteristics (such as height, weight), photographs and, biographical, health information and/or demographic information (such as gender). ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "User profile"
+        }
+      },
+      "explanation": "The segment describes the collection and use of personal profile information, including areas of interest, social media interactions, preferences, physical characteristics, and demographic information, which are used for personalization and administration of services."
+    }
+  },
+  {
+    "segment": "Transaction Information about how you interact with and use our sites and services, email, other communications, and applications; and how you interact with merchants, business partners, and service providers. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of transaction information based on user interactions with the company's sites, services, and communications, indicating data collection on the website."
+    }
+  },
+  {
+    "segment": "Geographic Location Information but only if your mobile or other device transmits location data and/or your IP address, and you have activated a location-enabled site or service. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on mobile website",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of geographic location information when a user activates a location-enabled service, indicating implicit collection on a mobile website for basic service functionality."
+    }
+  },
+  {
+    "segment": "Job-Search-Related Information for recruitment purposes and may include educational and employment background, driver's license number and social security number. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Personal identifier"
+        }
+      },
+      "explanation": "The segment mentions the collection of personal identifiers such as educational and employment background, driver's license number, and social security number for recruitment purposes."
+    }
+  },
+  {
+    "segment": "Survey Data for functionality of certain services, which generally includes survey data (questions and responses) and may allow you to import email addresses and names for ease of allowing you to send surveys or to allow us to send surveys on your behalf. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of survey data and personal information like email addresses and names on the company's website for the functionality of certain services."
+    }
+  },
+  {
+    "segment": "Medical Information for functionality of certain services to connect you with your healthcare provider, and may include your medical history, present symptoms, future conditions or treatments, insurance carrier and plan, and any other medical and health information you or your healthcare provider choose to share with us. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Health"
+        }
+      },
+      "explanation": "The segment describes the collection and use of medical and health-related information, which falls under the 'Health' sub-category of Personal Information Type."
+    }
+  },
+  {
+    "segment": "Appointment Information to schedule an appointment or consultation using one of our online appointment or consultation services and includes the requested appointment information, which may be linked with health or legal related information that you choose to share with us. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Health"
+        }
+      },
+      "explanation": "The segment describes the collection of appointment information, which may include health-related data that users choose to share, thus categorizing it under health-related personal information collected by the first party."
+    }
+  },
+  {
+    "segment": "Access to Your Data if you are our customer and use certain services. interactive tools or authorize us to retrieve information from another database, user, or other third party on your behalf, such as integrating a practice management system with your services, then you may elect to download certain installed tools, which may collect and transmit information from your computer system solely relating to the use of the installed tools and for the purpose of providing you with relevant services. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information from a user's computer system when they use certain services or tools, indicating first-party collection on the website."
+    }
+  },
+  {
+    "segment": "Your Submissions help us with administration of our sites and services and includes any information you voluntarily provide, generally through free form text boxes, forums, uploading a document or authorizing us to retrieve and import information from another user or third party on your behalf. ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes how user submissions are collected through various means on the website or service, such as text boxes, forums, document uploads, or importing information from third parties."
+    }
+  },
+  {
+    "segment": "In each of the above instances, you will know what personal information we collect through our sites and services because you voluntarily and directly provide it.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Collection Mode": "Explicit"
+        }
+      },
+      "explanation": "The segment indicates that personal information is collected voluntarily and directly from users, suggesting an explicit collection mode."
+    }
+  },
+  {
+    "segment": " How We Use Personal Information    We may use information collected from you in one or more of the following ways:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be used in various unspecified ways, without detailing specific purposes."
+    }
+  },
+  {
+    "segment": "to enable site features such as geographically specific pricing or logging, and retrieving and providing analysis of data you choose to enter into the site, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes using data for geographically specific pricing and data analysis, which aligns with personalization/customization purposes."
+    }
+  },
+  {
+    "segment": "to send you important notices, such as communications about changes to your account, and our sites. and services' terms, conditions, or policies, ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change"
+        }
+      },
+      "explanation": "The segment refers to sending important notices about changes to terms, conditions, or policies, which is a privacy-relevant change."
+    }
+  },
+  {
+    "segment": "to solicit input and feedback to improve our sites and services and customize your user experience, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes using input and feedback to improve sites and services and customize the user experience, which falls under the Personalization/Customization purpose."
+    }
+  },
+  {
+    "segment": "to enable you to communicate with other site or service users via private messaging or other service specific communication channels, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes enabling communication between users through private messaging or other channels, which constitutes an additional service feature."
+    }
+  },
+  {
+    "segment": "to contact you via email, telephone, text or chat in a manner required by law, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment specifies contacting the user in a manner required by law, indicating the purpose is to fulfill legal obligations."
+    }
+  },
+  {
+    "segment": "to meet contractual obligations, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The phrase 'to meet contractual obligations' suggests that the data is used for the operation and security of a service, ensuring the company fulfills its contractual duties."
+    }
+  },
+  {
+    "segment": "to send you reminders, technical notices, updates, security alerts, support and administrative messages, and service bulletins, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes the use of data for operational and security purposes, such as sending reminders, technical notices, and security alerts."
+    }
+  },
+  {
+    "segment": "to inform you about new products or promotional offers, or other opportunities which we feel will be of interest to you, and to provide advertisements to you through our sites, email messages, text messages, applications, or other methods of communication, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Marketing"
+        }
+      },
+      "explanation": "The segment describes the use of information to inform users about new products, promotional offers, or other opportunities, which falls under marketing purposes."
+    }
+  },
+  {
+    "segment": "to manage our sites. and services' administration, forum management, or fulfillment, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The text mentions managing sites, services' administration, and forum management, which are related to the operation and security of the services provided."
+    }
+  },
+  {
+    "segment": "to provide customer service and technical support, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Basic service/feature"
+        }
+      },
+      "explanation": "The purpose of providing customer service and technical support is categorized under 'Basic service/feature' as it is a fundamental aspect of service provision."
+    }
+  },
+  {
+    "segment": "to administer surveys, sweepstakes, giveaways, contests, or similar promotions or events sponsored by us or our partners, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of personal information for administering surveys, sweepstakes, giveaways, contests, or similar promotions, which falls under providing additional services or features."
+    }
+  },
+  {
+    "segment": "to prevent fraud or potentially illegal activities, enforce our sites' terms of use or to comply with applicable law, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data is used to prevent fraud, enforce terms of use, or comply with applicable law, which falls under legal requirements."
+    }
+  },
+  {
+    "segment": "for internal purposes such as auditing, data analysis, and research to improve our products, services, and communications, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the use of data for internal purposes like auditing, data analysis, and research to enhance products and services, which aligns with the purpose of Analytics/Research."
+    }
+  },
+  {
+    "segment": "to allow you to apply for a job or sign up for special offers from third parties through our sites, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of personal information to enable users to apply for jobs or sign up for special offers, which constitutes an additional service or feature provided through the site."
+    }
+  },
+  {
+    "segment": "to help you contact or schedule an appointment with a healthcare provider or legal professional listed in one of our directories and remind you of upcoming or follow-up appointments, ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of data to assist users in contacting or scheduling appointments with healthcare or legal professionals, which is considered an additional service or feature."
+    }
+  },
+  {
+    "segment": "to perform services in conjunction with interactive tools, such as integrating practice management systems, making a referral, sending a prescription to a pharmacy, or sending a test to a clinical laboratory, and ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of data to perform services related to integrating practice management systems, making referrals, and other healthcare-related tasks, which qualify as additional services or features."
+    }
+  },
+  {
+    "segment": "to use anonymized personal information to run (or authorize third parties to run) statistical research on individual or aggregate trends. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Purpose": "Analytics/Research",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment indicates that anonymized personal information is used for statistical research, potentially by third parties, which aligns with third-party sharing for research purposes with anonymized data."
+    }
+  },
+  {
+    "segment": "In addition to the uses described above, we may use personal information that we collect for other purposes that are disclosed to you at the time we collect the information, or with your consent.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Other"
+        }
+      },
+      "explanation": "The segment mentions using personal information for other purposes that are disclosed at the time of collection or with user consent, indicating a flexible use policy beyond specified purposes."
+    }
+  },
+  {
+    "segment": " Sharing Personal Information    We may share personal information about you with third parties in the following circumstances:  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be shared with third parties, categorizing it under 'Receive/Shared with' in Third Party Sharing/Collection."
+    }
+  },
+  {
+    "segment": "We may engage third parties to perform services on our behalf, including maintenance services, hosting, data storage, security, analytics and data analysis, payment processing, assisting in marketing efforts, email and text message distribution, customer service, providing certain interactive tools, and conducting surveys and sweepstakes. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that third parties are engaged to perform various services on behalf of the company, implying sharing of information with these third parties."
+    }
+  },
+  {
+    "segment": "We may share your contact data, insurance data, and medical data with healthcare providers you choose to schedule through the services. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact, Health",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The statement indicates that contact, insurance, and medical data are shared with healthcare providers chosen by the user, which implies sharing with third parties without naming them specifically."
+    }
+  },
+  {
+    "segment": "Your personal information, and the contents of all of your online communications on or through our sites and services may be accessed and monitored as necessary to operate our sites and perform our services, and may be disclosed: ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that personal information and online communications are collected and monitored on the company's sites and services for operational purposes."
+    }
+  },
+  {
+    "segment": "to satisfy any applicable laws or regulations, ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data is retained to satisfy applicable laws or regulations, which aligns with the purpose of legal requirement."
+    }
+  },
+  {
+    "segment": "to defend ourselves in litigation or a regulatory action, ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data is retained to defend against litigation or regulatory actions, which is a legal requirement."
+    }
+  },
+  {
+    "segment": "in order to protect the rights or property of Internet Brands and our subsidiaries and corporate affiliates, including to enforce our sites. or services' terms of use, ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data may be retained to protect rights or property, which typically aligns with legal requirements or enforcement of terms."
+    }
+  },
+  {
+    "segment": "when we have a good faith belief that we are required to disclose the information in response to legal process (for example, a subpoena, court order, or search warrant), ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes the disclosure of information in response to legal processes such as subpoenas, court orders, or search warrants, indicating a legal requirement purpose."
+    }
+  },
+  {
+    "segment": "where we believe our sites and services are being used in the commission of a crime, including to report such criminal activity or to exchange information with other companies and organizations for the purposes of fraud protection and risk management, and ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes the use of information for crime prevention and fraud protection, which falls under service operation and security purposes."
+    }
+  },
+  {
+    "segment": "when we have a good faith belief that there is an emergency that poses a threat to the health and/or safety of you, another person, or the public generally. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data may be shared or collected in situations where there is an emergency that poses a threat to health or safety, which aligns with legal requirements for emergency situations."
+    }
+  },
+  {
+    "segment": "In the event of a merger, acquisition, debt financing, restructure, sale of Internet Brands' assets by or with another company, or a similar corporate transaction takes place, we may need to disclose and transfer all information about you, including personal information, to the successor company. ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the disclosure and transfer of personal information in the event of corporate transactions such as mergers or acquisitions."
+    }
+  },
+  {
+    "segment": "We may share information about you with Internet Brands' subsidiaries and affiliates. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Third Party Entity": "Other part of company/affiliate"
+        }
+      },
+      "explanation": "The segment indicates that information may be shared with subsidiaries and affiliates, which are considered other parts of the company."
+    }
+  },
+  {
+    "segment": "Some of our services are co-branded by Internet Brands and other companies with which we partner. If you register to or use such a service, both our privacy policy and the partner's privacy policy may be displayed and apply. If that is the case, both Internet Brands and the partner will receive personal information you provide. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes a scenario where personal information is shared with both Internet Brands and its partners when users register for co-branded services, indicating third-party sharing."
+    }
+  },
+  {
+    "segment": "We may share personal information about you for any other purpose(s) disclosed to you at the time we collect your information or with your consent. ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Other"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be shared for purposes disclosed at the time of collection or with user consent, which falls under 'Other' as it is not specified in the standard purposes."
+    }
+  },
+  {
+    "segment": " Other Information We Automatically Collect and Cookies    We may also collect certain technical information when you use our sites and services. For example, our servers receive and automatically collect information about your computer and browser, including, for instance, your IP address, browser type, domain name from which you accessed the site or service, and other software or hardware information. If you access our sites and services from a mobile or other device, we may collect a unique device identifier assigned to that device (UDID), type of device, general GPS location, or other transactional information for that device in order to serve content to it.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of technical information like IP address and device identifiers when users access the site, indicating implicit collection for service operation and security purposes, involving identifiable data."
+    }
+  },
+  {
+    "segment": "In addition, we may collect information about how you use our sites such as the date and time you visit the sites, the areas or pages of the sites that you visit, the amount of time you spend viewing the sites, the number of times you return to the sites, visits to sites outside our network, and other click-stream data. Some of this data may be shared with partners who referred you to our site(s) and who will use the data to optimize who else they refer to our site(s). Sometimes this data can be shared with partners who help us deliver ads to you on websites not controlled by us, for instance, when we put a pixel on a conversion page on our site and a marketing partner uses that to optimize what traffic they send to us, or using another example, when we create a re-targeting list through DFP Small Business by Google or placing a partners. pixel on our sites, and then delivering targeted ads across the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of user activity data on the website, including pages visited and time spent."
+    }
+  },
+  {
+    "segment": " Cookies    We use use cookies and other tracking technologies (including browser cookies, pixels, beacons, mobile application identifiers, and Adobe Flash technology) to help us recognize you across different sites and services, improve your experience, increase security, measure use and effectiveness of our services, and serve advertising. You can control cookies through your browser settings and other tools. For more, information, please read our Cookie Policy. By visiting our sites and services, you consent to the placement of cookies and beacons in your browser and HTML-based emails in accordance with this privacy policy and our Cookie Policy.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies and tracking technologies to collect information on the website for various purposes including advertising. Users can control cookies through browser settings, indicating a choice scope of both collection and use with a choice type of browser/device privacy controls."
+    }
+  },
+  {
+    "segment": " Do Not Track    We do not currently actively respond to \"Do Not Track\" browser signals or mechanisms that indicate a request to disable online tracking of individual users who use our sites and services.  ",
+    "model_analysis": {
+      "category": {
+        "Do Not Track": {
+          "Do Not Track policy": "Not honored"
+        }
+      },
+      "explanation": "The policy explicitly states that they do not respond to 'Do Not Track' signals, indicating that such requests are not honored."
+    }
+  },
+  {
+    "segment": " User Generated Content, Online Communities and Forums, Profiles and Reviews    You may choose to publicly disclose personal information about yourself and others in the course of (i) contributing user generated content (for instance articles, blogs, surveys, reviews, ratings, or podcasts), (ii) communicating with others in our online forums, communities, or chat rooms, (iii) creating user profiles for public view, or (iv) posting images, photos, or videos. Be aware, information that you voluntarily disclose in any of these areas of our sites or services is unencrypted, public information and, therefore, there can be no expectation of privacy or confidentiality, except if the terms and conditions of the site or service specifically limit use of the content (for example, we may let you know how such survey and rating responses will be used and if anonymity is an option).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes how users can voluntarily disclose personal information by contributing content on the site, indicating collection on the website."
+    }
+  },
+  {
+    "segment": "Any personal information you submit in the course of interacting in these public activities can be read, collected, or used by other users. Prior to posting in these areas, we encourage you to read the specific site's or service's terms of use, as we are not responsible for the personal information you choose to make public in any of these areas and strongly recommend against sharing any personal health or other sensitive information that could directly or indirectly be traced to any individual, including yourself.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that personal information shared in public activities can be read, collected, or used by other users, implying third-party sharing with other users."
+    }
+  },
+  {
+    "segment": " Accessing and Updating Personal Information    We encourage you to keep your personal information updated and accurate. We provide you reasonable access to your personal information and the ability to review, correct, or delete it. For instance, some of our sites and services give you the ability to view and/or edit your personal information online. The methods for accessing your personal information will depend on which sites or services you use and their features. You have several choices; for instance:  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment discusses providing users with the ability to access, review, correct, or delete their personal information, indicating a focus on profile data and edit capabilities."
+    }
+  },
+  {
+    "segment": "To view and change the personal information that you directly provided to us, you can return to the web page on our site where you originally submitted the data and follow the instructions on that web page. ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes a process for users to view and change personal information they provided, indicating access and edit capabilities for profile data by users with accounts."
+    }
+  },
+  {
+    "segment": "You may correct or update your account information at any time by logging on the site onto which you are registered and navigating to your account. ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the ability for users with an account to log in and update their profile information, indicating access to and editing of profile data."
+    }
+  },
+  {
+    "segment": "You may deactivate your profile at any time by visiting the preferences page for your profile. ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Deactivate account"
+        }
+      },
+      "explanation": "The segment describes the ability for users to deactivate their profile, which falls under the category of User Access, Edit and Deletion with the specific Access Type being 'Deactivate account'."
+    }
+  },
+  {
+    "segment": "You may close your account at any time by logging onto the site on which you are registered and navigating to your account. ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Deactivate account"
+        }
+      },
+      "explanation": "The segment explains that users can close their account, which falls under deactivating or deleting an account."
+    }
+  },
+  {
+    "segment": "You can manage certain aspects of information collection and use by going to the settings of your mobile device and reviewing the permissions of each application. You may stop further use of your geo-location by visiting your device's settings for the relevant application. ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Personal Information Type": "Location",
+          "Purpose": "Unspecified",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how users can manage information collection and use, specifically geo-location, through mobile device settings. This indicates user control over first-party collection using device privacy controls."
+    }
+  },
+  {
+    "segment": "You may change your email preferences at any time by visiting your email preferences page for the relevant site. ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "First-party privacy controls"
+        }
+      },
+      "explanation": "The segment describes a user's ability to change their email preferences, indicating control over how their email is used by the first party."
+    }
+  },
+  {
+    "segment": "To access, change, or remove your protected health information, please see the HIPAA section below. ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Other",
+          "Access Type": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment refers to accessing, changing, or removing protected health information, which falls under user access, edit, and deletion rights. The specific type of data and user type are unspecified here."
+    }
+  },
+  {
+    "segment": "If you have additional questions about your options, contact us. ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides information on how to contact the company for more details, which falls under privacy contact information."
+    }
+  },
+  {
+    "segment": "Protecting your privacy and security is important and we also take reasonable steps to verify your identity before granting access to your data.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure user authentication"
+        }
+      },
+      "explanation": "The segment mentions verifying identity before granting access to data, which aligns with secure user authentication as a security measure."
+    }
+  },
+  {
+    "segment": "Please be aware that certain records and information will be retained for specific purposes such as legal, payment, accounting, technical, dispute resolution, enforcement of our sites. and services' terms of use, or customer service. If you have posted comments or user generated content on our site, we may not be able to delete it. Further, we take no responsibility for removing or editing any of your public activities or any submissions or content that is a result of your public activities, except as provided in this privacy policy or the sites. or services' terms of use.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment specifies that certain records and information will be retained for legal and other specified purposes, which aligns with the 'Legal requirement' retention purpose."
+    }
+  },
+  {
+    "segment": "We may reject requests that are unreasonably repetitive, require disproportionate technical effort (for example, developing a new system or fundamentally changing an existing practice), risk the privacy of others, or would be extremely impractical (for instance, requests concerning information residing on backup tapes).  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "None"
+        }
+      },
+      "explanation": "The segment discusses conditions under which user requests for data access, edit, or deletion may be rejected, indicating that in some cases, no access may be granted."
+    }
+  },
+  {
+    "segment": "We will retain your personal information for the period necessary to fulfill the purposes outlined in this privacy policy, unless a longer retention period is required or permitted by applicable law.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Limited"
+        }
+      },
+      "explanation": "The segment specifies that personal information will be retained for the period necessary to fulfill the purposes outlined in the policy, indicating a limited retention period based on necessity."
+    }
+  },
+  {
+    "segment": " Email and Other Communications    Our sites and services may allow us or other users to communicate with you or other users through our in-product instant messaging services, service-branded emails, SMS and other electronic communication channels.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection and use of communication data through in-product messaging services, emails, SMS, and other channels, which occurs on the website or services."
+    }
+  },
+  {
+    "segment": " Opting Out of Requested Communications    Requested communications include, for instance, email newsletters or software updates that may be expressly requested by you or which you consented to receive. After you request such communications, you may \"opt out\" of receiving them by using one of the following methods:   Select the email \"opt out\" or \"unsubscribe\" link, or follow the opt-out instructions included in each email communication.  To unsubscribe from text messages delivered to mobile devices, reply to the message with the words \"STOP\" or \"END.\"  Return to the web page(s) where you originally registered your preferences and follow the opt-out instructions.  Contact us. Please provide your name, contact information, and specific relevant information that you no longer wish to receive. ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes methods for users to opt out of receiving requested communications, such as email newsletters or text messages, indicating control over first-party use of personal information."
+    }
+  },
+  {
+    "segment": "Opting Out of Transactional or Relationship Communications   Communications that are sent by or on behalf of a user are indicated as being \"From\" that user. Communications that are sent by us are indicated as being from us or one of our account or support specialists assigned to assist you. Either type of communication may be \"real time\" communications or communications triggered automatically upon the occurrence of certain events or dates, such as appointment reminders. Email communications received from users and our administrative announcements are often transactional or relationship messages, such as appointment requests, reminders and cancellations. You may not be able to opt out of receiving certain messages although our services may provide a means to modify the frequency of receiving them.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Dont use service/feature"
+        }
+      },
+      "explanation": "The segment discusses the inability to opt out of certain transactional or relationship communications, indicating a lack of user choice in receiving these messages. However, it mentions the possibility of modifying the frequency, which implies some control over the use of communications."
+    }
+  },
+  {
+    "segment": "Opting Out of General or Promotional Communications   General communications provide information about products, services, and/or support and may include special offers, new product information, or invitations to participate in market research. You may opt out of receiving these general communications by using one of the following methods:   Select the email \"opt out\" or \"unsubscribe\" link, or follow the opt-out instructions included in each email communication.  To unsubscribe from text messages delivered to mobile devices, reply to the message with the words \"STOP\" or \"END.\"  Contact us. Please provide your name, relevant contact information, and specific relevant information about your privacy preferences. ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes methods for users to opt out of receiving general or promotional communications, indicating a control over the use of their personal information by the first party."
+    }
+  },
+  {
+    "segment": " Protecting Personal and Protected Health Information    The security of our sites and services and the information they store, process and transmit is a top priority. To prevent unauthorized access, maintain data accuracy, and ensure the appropriate use of the information we collect, we deploy a wide range of technical, physical and administrative safeguards, including: Secure Socket Layer (SSL) encryption, firewalls, system alerts and other information system security technologies; housing health data in secure facilities that restrict physical and network access; and regular evaluation and enhancement of our information technology systems, facilities, and information collection, storage and processing practices. Under applicable law, we are required to apply reasonable and appropriate measures to safeguard the confidentiality, integrity and availability of individually identifiable health information (as such term is defined by HIPAA) residing on and processed by our sites and services.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes various security measures such as SSL encryption, firewalls, and secure facilities to protect personal and health information, indicating a focus on secure data storage."
+    }
+  },
+  {
+    "segment": "We use third-party service providers to manage credit card and payment processing. These service providers are not permitted to store, retain, or use billing Information except for the sole purpose of credit card and payment processing on our behalf. When you enter payment information we encrypt the transmission of that information using SSL technology and do not store it on our systems.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing billing information with third-party service providers for credit card and payment processing."
+    }
+  },
+  {
+    "segment": "It is important to remember, however, that no system can guarantee 100 security at all times. Accordingly, we cannot guarantee the security of information stored on or transmitted to or from our services. We cannot assume responsibility or liability for unauthorized access to our servers and systems. When disclosing any personal or protected health information, you should remain mindful of the fact that it is potentially accessible to the public and,consequently, can be collected and used by others without your consent. Accordingly, you should consider carefully if you want to submit sensitive information that you would not want disclosed to the public and should recognize that your use of the Internet and our sites and services is solely at your risk. You are ultimately responsible for maintaining the secrecy for all your personal information, including your protected health information. Except as provided in aBusiness Associate Agreement between us and a healthcare provider, we have no responsibility or liability to anyone for the security of your personal or protected health information transmitted via the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment discusses the limitations of security guarantees and advises users to be cautious with their information, indicating a general approach to data security without specific measures."
+    }
+  },
+  {
+    "segment": " Steps You Can Take    Install malware detection programs that regularly scan your system and incoming traffic for malicious code such as computer viruses, worms, Trojan Horses and spyware. Because viruses and malware are continuously created and modified, regular malware protection software typically requires frequent updates. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Privacy/Security program"
+        }
+      },
+      "explanation": "The segment advises users to install malware detection programs, which is part of a privacy/security program aimed at protecting data by detecting and mitigating malicious code."
+    }
+  },
+  {
+    "segment": "Use a firewall to prevent unauthorized access to your device. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Data access limitation"
+        }
+      },
+      "explanation": "The use of a firewall is a measure to limit unauthorized access to a device, categorizing it under data access limitation for security purposes."
+    }
+  },
+  {
+    "segment": "Because malware often targets vulnerabilities in existing operating systems, browsers, plug-ins and other programs, software vendors frequently update their products with security patches to guard against known or commonly exploited vulnerabilities. Vendors often try to alert their users and recommend immediate installation of these security patches. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Other"
+        }
+      },
+      "explanation": "The segment discusses the practice of updating software with security patches to protect against vulnerabilities, which is a measure related to data security."
+    }
+  },
+  {
+    "segment": "Use a strong password using a combination of letters and numbers that are not easily guessed. Do not share your password with others. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure user authentication"
+        }
+      },
+      "explanation": "The segment advises users to use strong passwords and not share them, which relates to secure user authentication practices."
+    }
+  },
+  {
+    "segment": "If you use a shared device, always close all active programs and log out before leaving it unattended. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Data access limitation"
+        }
+      },
+      "explanation": "The statement advises users to log out and close programs on shared devices to limit unauthorized data access, which is a data access limitation measure."
+    }
+  },
+  {
+    "segment": "Avoid using a public wireless network, if possible. If you do use a public network, use the most restrictive wireless network settings on your device. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Other"
+        }
+      },
+      "explanation": "The segment advises users to avoid public wireless networks or use restrictive settings, which is a security measure to protect user data."
+    }
+  },
+  {
+    "segment": "If you use file-sharing programs, be sure to restrict all other folders or directories to \"no share\". ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Data access limitation"
+        }
+      },
+      "explanation": "The statement advises users to restrict access to folders or directories, which is a measure to limit data access and enhance security."
+    }
+  },
+  {
+    "segment": "Be very cautious with any email requesting you to share personal information. On websites, look for the lock symbol on or near your browser's address bar which signifies a secure website before supplying personal information. ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment advises users to ensure they are on a secure website, indicated by a lock symbol, before sharing personal information, which relates to secure data transfer."
+    }
+  },
+  {
+    "segment": "When participating in one of our communities, blogs, forums, surveys or other open communication platforms, exercise care in selecting what information you share, particularly personal or health information. ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The statement advises users to be cautious about the information they share on open communication platforms but does not specify any particular privacy practice or policy."
+    }
+  },
+  {
+    "segment": " Linked Websites and Services    Our sites and services may link to other sites or services operated by our affiliates or third parties, and may carry advertisements or offer content, functionality, newsletters, contests or sweepstakes, or applications developed and maintained by third parties. We do not exercise control over third party sites or services. We are not responsible for the privacy practices of any such third parties. Once you leave our sites or services via a link, enable a third-party service, or click an advertisement, you should check the applicable privacy policy of the third-party's site or service. The fact that we link to a website or present a banner ad or other type of advertisement is not an endorsement, authorization or representation of our affiliation with that third party, nor is it an endorsement of their privacy or information security policies or practices.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Other"
+        }
+      },
+      "explanation": "The segment discusses linking to third-party sites and services, indicating that the company does not control third-party privacy practices, which falls under third-party sharing/collection as it involves interactions with third-party entities."
+    }
+  },
+  {
+    "segment": "We may also provide social media features on our sites and services that enable you to share personal information with your social network(s) and to interact with our sites and services. Depending on the features, your use of these features may result in the collection or sharing of personal information about you. We encourage you to review the privacy policies and settings on the social media site(s) with which you interact.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of social media features on the company's sites and services, which may result in the collection or sharing of personal information."
+    }
+  },
+  {
+    "segment": " HIPAA    Our sites and services may include collection, transmission and storage of protected health information you submit for healthcare providers or that healthcare providers submit to us and is subject to special rules under the Health Insurance Portability and Accountability Act of 1996 or \"HIPAA\". Our use and disclosure of your protected health information or a healthcare providers data that you or the healthcare provider submits with certain sites and services, is governed by HIPAA.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Health"
+        }
+      },
+      "explanation": "The segment discusses the collection, transmission, and storage of protected health information, which falls under the 'Health' category of personal information type."
+    }
+  },
+  {
+    "segment": " Use and Disclosure of Your Protected Health Information    When you use certain services (for example, appointment request) all protected health information that you submit is used and disclosed by us as a Business Associate (as defined by HIPAA) according to the terms of a Business Associate Agreement between us and that healthcare provider. This means that we may only use and disclose your protected health information on behalf of, or to provide services to, the healthcare provider according to the Business Associate Agreement. There are three exceptions to this use and disclosure rule. We may use and disclose your protected health information (i) for our internal management and administration; (ii) to carry out our legal responsibilities; and (iii) to perform certain data aggregation services for the healthcare provider and other healthcare providers; provided that, any disclosures for our internal management and administration or to carry out our legal responsibilities are either required by law or made after we obtain reasonable assurances from the person to whom the protected health information is disclosed that it will be held confidentially and used or further disclosed only as required by law or for the purpose for which it was disclosed to that person.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The policy segment describes how protected health information is used and disclosed by the company as a Business Associate under HIPAA, which involves sharing information with healthcare providers and potentially other parties for specific purposes outlined in a Business Associate Agreement."
+    }
+  },
+  {
+    "segment": "Some of the services for a particular healthcare provider may be provided by our subcontractors. The subcontractor must comply with the same terms and conditions for the protected health information that apply to us as a Business Associate of the healthcare provider.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that subcontractors (third parties) may provide services and must comply with the same terms for handling protected health information, implying sharing of data with these third parties."
+    }
+  },
+  {
+    "segment": "As a Business Associate of a particular healthcare provider, we may be permitted to de-identify your protected health information created or received by us for that healthcare provider. This de-identified information must be created according to criteria prescribed by HIPAA so that there is no reasonable basis to believe that this information can be traced back to you. We may use and disclose any such de-identified information in the same manner as personal information under this privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Other"
+        }
+      },
+      "explanation": "The segment describes the de-identification of protected health information, which is then used and disclosed similarly to personal information. This involves a specific action related to handling data under HIPAA guidelines."
+    }
+  },
+  {
+    "segment": "The descriptions in this privacy policy of the HIPAA responsibilities and obligations of Internet Brands and any subcontractor do not provide any right to you under this privacy policy, HIPAA, or any other law.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Other"
+        }
+      },
+      "explanation": "The segment discusses HIPAA responsibilities and obligations, indicating it pertains to audiences concerned with health data privacy, but does not specify a particular audience like Californians or Europeans."
+    }
+  },
+  {
+    "segment": " How to Access, Change, or Remove Your Protected Health Information    To comply with HIPAA, your healthcare provider must provide you with rights in certain circumstances with respect to your protected health information. Very generally described, these rights are a right to restrict the uses and disclosures of, a right of access to, a right to amend, and a right to receive an accounting of, the disclosures of your protected health information. These limited rights will be described in detail in the healthcare provider's notice of privacy practices. If you wish to restrict the uses and disclosures of your protected health information, amend, or receive an accounting of the disclosures of your protected health information, then you must do so through your healthcare provider.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Other data about user"
+        }
+      },
+      "explanation": "The segment explains user rights to access, amend, and restrict the use of their protected health information under HIPAA, which fits under the category of user access, edit, and deletion."
+    }
+  },
+  {
+    "segment": "Please note that you are not entitled to review the content of another user's account. Accordingly, if you have used our sites and services to share personal information with another user or other party, you will not be able to access,update or delete that shared information pursuant to this privacy policy. Please also note that other users may submit personal information that identifies you. You will also not be able to access, update or delete that information pursuant to this privacy policy. In either case, certain users . such as healthcare providers . may be required underHIPAA and other applicable laws or regulations to retain such information for extended periods of time.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Other data about user"
+        }
+      },
+      "explanation": "The segment indicates that users cannot access, update, or delete information shared by or with other users, or information submitted by other users that identifies them. This falls under access limitations concerning other data about the user."
+    }
+  },
+  {
+    "segment": "Upon termination of our Business Associate Agreement with a particular healthcare provider, we generally must return or destroy all protected health information received on behalf of or created for that particular healthcare provider and then maintained in any form by us or a subcontractor. If you engaged in our sites and services with that healthcare provider, any protected health information that you submitted with our sites and services or otherwise maintained by us or a subcontractor in connection with our sites and services will be returned to the healthcare provider or destroyed by us or such subcontractor. This means that until the Business Associate Agreement is terminated with that healthcare provider, we or a subcontractor can use and disclose your protected health information as described in the \"Use and Disclosure of Your Protected Health Information\" section above.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Other"
+        }
+      },
+      "explanation": "The segment specifies that protected health information will be returned or destroyed upon termination of the Business Associate Agreement, indicating a retention period linked to the termination of a contractual agreement."
+    }
+  },
+  {
+    "segment": " Children's and Minor's Privacy    Our sites and services are intended for general audiences and are not targeted to children under 13. We do not knowingly collect personal information from children under the age of 13 or utilize plug-ins or ad networks that collect personal information through child-directed third party websites or online services. If you are under 13, please do not disclose or provide any information. If we learn that we have collected personal information from a child under 13,we will take steps to promptly delete the information. Should this policy change, we would comply with the Children's Online Privacy Protection Act, which requires us to notify and obtain consent from a parent or guardian before we collect, use and disclose the personal information of children who are under 13 years of age.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment addresses privacy practices specifically related to children under the age of 13, including the collection and handling of their personal information, and compliance with the Children's Online Privacy Protection Act."
+    }
+  },
+  {
+    "segment": "Unless our sites and services contain the \"Privacy Rights for California Minors in the Digital World\" supplemental terms, our sites and services do not collect age from users under 18. If you reside in California and are a minor (you are under 18 years of age) and you are using a site or service that collects your age as a registration requirement and you submit content, please follow the instructions on the supplemental terms to request removal of public content.Please note that this removal does not ensure complete or comprehensive removal of the content or information posted on our sites and services if the content you posted has been shared or reposted. We are only obligated to remove content that you post, where you posted it. There are certain circumstances in which we do not have to remove your content, including if any other state or federal law requires us to maintain the information, we anonymize the content by removing identifying characteristics, or we paid you for the content you posted. Without limiting the generality of the foregoing, our services may allow users above the age of 18 (such as healthcare providers, parents and guardians) to submit personal information about others, including minors. Such users assume full responsibility over their submission, use and transmission of such information.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment specifically addresses privacy rights for California minors, indicating it pertains to an audience type that includes Californians."
+    }
+  },
+  {
+    "segment": " International Users    We are headquartered in the United States. Our sites and services are hosted and administrated in the United States or hosted with cloud service providers who are headquartered in the United States and are intended for users in the United States. If you are located outside the United States, be aware that information you provide to us or that we obtain as a result of your use of our sites and services may be processed in, transferred to and stored in the UnitedStates and will be subject to U.S. law. U.S. privacy and data protection laws may not be equivalent to the laws of your country of residence. By using our sites and services or providing us with your information, you consent to the collection, transfer, storage, and processing of information to and in the United States.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment addresses users located outside the United States, informing them about data processing in the U.S. and the potential differences in data protection laws, which is relevant to international users."
+    }
+  },
+  {
+    "segment": " California Privacy Rights    We do not share personal information with third parties for their direct marketing purposes unless you affirmatively agree to such disclosure, typically by \"opting in\" to receive information from a third party that is participating in a sweepstakes or other promotion on one of our sites, for example. If you ask us to share your personal information with a third party for its marketing purposes, we will only share information in connection with that specific promotion since we do not share information with any third party (other than our service providers) on an ongoing basis. To prevent disclosure of your personal information for use in direct marketing by a third party, do not \"opt in\" to such use when you provide personal information on one of our sites.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Type": "Opt-in",
+          "Does/Does Not": "Does Not",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "This segment outlines that personal information is not shared with third parties for direct marketing unless the user opts in, indicating a choice type of 'Opt-in' and action of 'Receive/Shared with'. It specifies the purpose as 'Marketing' and the third party entity as 'Unnamed third party'."
+    }
+  },
+  {
+    "segment": "Users residing in certain jurisdictions, like California, have a right to access personal information held by us about them and their right of access can be exercised in accordance with applicable law. California law requires certain businesses to respond to requests from California residents asking about the business's practices related to disclosing personal information to third parties for the third parties' direct marketing purposes. Alternately, such businesses may have in place a policy not to disclose personal information of customers to third parties for the third parties' direct marketing purposes if the resident has exercised an option to opt-out of such information-sharing. We have such a policy in place.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment describes rights specific to users residing in California, particularly their right to access personal information and the company's policy regarding disclosure of personal information for marketing purposes."
+    }
+  },
+  {
+    "segment": "California residents may request further information about our approach to this law by writing to us. When writing to us, you must put the statement \"Your California Privacy Rights\" in the body or subject line of your request, and include (i) the name of the site about which you are contacting us, (ii) any unique site identifier associated with you (like member number or forum handle), (iii) your name, and (iv) your contact information. Please submit requests using our Privacy Contact form and allow 30 days for a response. We will not accept requests via the telephone, mail, or by facsimile, and we are not responsible for notices that are not labeled or sent properly, or that do not have complete information.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment specifically addresses the rights of California residents under privacy laws, indicating the company's approach to handling requests from this audience."
+    }
+  },
+  {
+    "segment": " Contacting Us    If you have any questions or concerns about this privacy policy or our practices you can contact us or write to us at Internet Brands, Inc., Privacy Office, 909 N. Sepulveda Blvd., 11th Floor, El Segundo, California 90245 U.S.A. Please be sure to identify the specific website, software, or service about which you have a question or concern and how we can contact you.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to address questions or concerns about the privacy policy, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": " Changes to This Privacy Policy    We may revise this privacy policy from time to time and, if we do, we will update it on this page and modify the \"LastUpdated\" date. If our information practices change in a significant way, we will provide a more prominent notice.Because our privacy policy can change at any time, we encourage you to reread it periodically to see if there have been any changes that affect you. If you disagree with any changes to this privacy policy and do not wish your information to be subject to the revised privacy policy, you will need to deactivate your account or terminate your services. Your use of our sites and services following any such change constitutes your agreement that all information collected from or about you through our sites and services after the revised privacy policy is posted will be subject to the terms of the revised privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "Deactivate account"
+        }
+      },
+      "explanation": "The segment describes potential privacy-relevant changes to the policy and mentions that users will be notified via updates on the policy page. Users can choose to deactivate their account if they disagree with the changes."
+    }
+  },
+  {
+    "segment": "Last Updated: October 3, 2014 s  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "Unspecified",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment only provides a date for the last update of the privacy policy, which suggests a change may have occurred, but it does not specify the type of change, notification method, or user choice associated with it."
+    }
+  }
+]

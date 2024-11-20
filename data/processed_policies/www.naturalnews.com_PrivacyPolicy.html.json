@@ -1,0 +1,58 @@
+[
+  {
+    "segment": "Privacy Policy   NaturalNews.com never rents or sells emails to third parties. We honor the privacy of our members and users, and unlike some other social networking sites, we DO NOT share user details with advertisers.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment explicitly states that NaturalNews.com does not rent or sell emails to third parties and does not share user details with advertisers, indicating a policy of not sharing personal information with third parties."
+    }
+  },
+  {
+    "segment": "NaturalNews.com honors all email unsubscribe requests and makes every attempt to honor the privacy of its members, viewers and sponsors.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment mentions honoring email unsubscribe requests, which indicates an opt-out mechanism via contacting the company for privacy control."
+    }
+  },
+  {
+    "segment": "Postmaster Webseed 6336 N. Oracle Rd. 325-315 Tucson, AZ 85704 reply@naturalnews.com  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information, which is typically used for privacy inquiries or communication related to privacy concerns."
+    }
+  },
+  {
+    "segment": "To opt-out of NaturalNews emails, simply click the \"unsubscribe\" link found at the bottom of any email from NaturalNews.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment provides a method for users to opt-out of receiving emails, which is a form of first-party use control, through an opt-out link."
+    }
+  },
+  {
+    "segment": "If you experience any difficulty unsubscribing, simply forward this entire email to reply@naturalnews.com and you will be automatically unsubscribed.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment provides a method for users to opt-out of a subscription by contacting the company via email."
+    }
+  }
+]

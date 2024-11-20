@@ -1,0 +1,281 @@
+[
+  {
+    "segment": " PRIVACY STATEMENT    Effective June 4, 2014   Please read this privacy statement carefully, because by using our website, you accept and agree to the terms stated below. We may change the terms of this privacy statement at any time, and your continued use of this site is your agreement to any change in terms.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "Unspecified",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment mentions that the privacy statement terms can change at any time, but does not specify the type of changes, how users will be notified, or what choices users have regarding these changes."
+    }
+  },
+  {
+    "segment": " COLLECTION & USE OF INFORMATION.    We collect information through our website in a couple different ways.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that information is collected through the company's website, which falls under the category of collecting on a website."
+    }
+  },
+  {
+    "segment": "Information You Submit. You give us personal information when you join one of our loyalty clubs, enter one of our surveys, contests or sweepstakes, if you submit a question, comment or complaint, if you request or submit information about becoming a franchisee, if you submit an employment application, or for an online cake order. \"Personal information\" means any information about an identifiable individual, such as name, address, phone number, email, birth date, gender or zip code/postal code. Except with your consent or as required or permitted by law, we will use the information you submit for the purposes for which it is submitted or as otherwise described in this privacy statement. If you join one of our loyalty clubs, you may receive newsletters, email or special offers, which you may unsubscribe from at any time using the unsubscribe link at the bottom of the email.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information when users join loyalty clubs, enter surveys, or submit information through various means. It specifies the use of information for the purpose it was submitted, with an opt-out option for newsletters and offers, indicating identifiable information is collected explicitly."
+    }
+  },
+  {
+    "segment": "Most of our locations are independently owned and operated franchises, and we do not own or operate these locations. Comments, questions or complaints submitted to us about a specific location will be forwarded to the franchised location, along with any contact information you provide with your comment. If you have comments regarding a specific location, we recommend you contact that location directly so that they may personally and immediately assist you. We do not guarantee the privacy practices of any specific franchised location.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment explains that comments, questions, or complaints, along with contact information, are forwarded to independently owned franchised locations, indicating sharing of information with third parties."
+    }
+  },
+  {
+    "segment": "Information Collected By Automated Means. We collect and use IP addresses to analyze trends, administer the site, track user movement, and gather broad demographic information for aggregate use. In some circumstances, an IP address may be considered personal information. We also collect information through the use of cookies. Cookies are pieces of data your web browser stores on your hard drive that we use to improve your user experience on our website. We and our third party vendors may also use cookies to provide you with our advertising messages on other websites you visit; these third party vendors may collect information about your online activities over time and across different websites based on these cookies. These activities provide us with important marketing information and lets us know how we are doing at attracting new visitors and maintaining relationships with our existing visitors. If you wish, you can set your browser to refuse cookies or delete any existing cookies from your computer, but this may negatively impact your experience on our website. Our third party vendors may collect additional information by automated means when you visit our website, such as browser type or operating system.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses and cookies on the website for analytics and research purposes, indicating implicit collection and identifiable information. Users have control through browser settings."
+    }
+  },
+  {
+    "segment": " SHARING INFORMATION    We may share personal information within the DQ/Orange Julius family of companies, which includes American Dairy Queen Corporation, Orange Julius of America, Dairy Queen Canada Inc., Orange Julius Canada Limited and their affiliates. Information shared within the DQ/Orange Julius family will comply with this privacy statement.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Third Party Entity": "Other part of company/affiliate",
+          "Personal Information Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing personal information within a family of companies, which are considered affiliates. The specific type of personal information shared is not mentioned."
+    }
+  },
+  {
+    "segment": "Cakes ordered through our dqcakes.com website are prepared at a DQ location, which are independently owned and operated franchises. We will share your cake order information, which may include the contact information you provide, to a franchised location for purposes of tracking, responding to, and fulfilling your order.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Other part of company/affiliate"
+        }
+      },
+      "explanation": "The policy segment describes sharing contact information with independently owned franchise locations for the purpose of fulfilling cake orders, categorizing it under third-party sharing with affiliates for service operation."
+    }
+  },
+  {
+    "segment": "We may share your personal information with third parties:     To provide services to you, such as purchasing and shipping goods, or credit card processing;  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Purpose": "Basic service/feature",
+          "Third Party Entity": "Unnamed third party",
+          "Personal Information Type": "Financial"
+        }
+      },
+      "explanation": "The segment indicates that personal information is shared with third parties to provide basic services like purchasing, shipping, and credit card processing. The third parties are not specifically named, and the sharing involves financial information."
+    }
+  },
+  {
+    "segment": "  In connection with services provided to us, such as hosting, data management and storage, marketing or remarketing, website or marketing analytics, email services for our loyalty clubs, services to assist us with responding to you if you send us a comment, question, or complaint, for contest or sweepstakes administration and fulfillment, for employment application processing, and other similar services. We and our third party service providers may use servers in the U.S. or another country. Your personal information may be processed and stored in the U.S. or another country, and the government, courts, law enforcement or regulatory agencies of that country may by law be able to obtain your personal information;  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with third-party service providers for various services, indicating third-party collection and sharing."
+    }
+  },
+  {
+    "segment": "  For purposes of improving your user experience across our different websites and platforms (such as our mobile app);  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment indicates that the data is used to improve user experience across different platforms, which aligns with personalization/customization purposes."
+    }
+  },
+  {
+    "segment": "  We use Zipscene LLC to help us operate our mobile app and administer various activities. To learn more about how Zipscene LLC uses information you provide to us, please visit zipscene.com/privacy;  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that the company uses Zipscene LLC to help operate the app, implying that user information is shared with this third party."
+    }
+  },
+  {
+    "segment": "  For purposes of a merger, sale or other corporate reorganization (including professional advisors involved in completing such a transaction). You agree that any of our successors may use and disclose the information for the same purposes as described in this statement; or  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the use and disclosure of information in the context of a merger, sale, or corporate reorganization, indicating a change in policy related to mergers or acquisitions."
+    }
+  },
+  {
+    "segment": "As required by law, or as needed to cooperate in or defend against any law enforcement investigation or legal proceeding.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that data is retained to comply with legal requirements or to cooperate with law enforcement investigations or legal proceedings."
+    }
+  },
+  {
+    "segment": "We may share aggregated demographic information (data that cannot identify an individual person) with our third party vendors and advertisers.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Demographic",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing aggregated demographic information, which cannot identify individuals, with third party vendors and advertisers. This indicates sharing with unnamed third parties and specifies the type of information as demographic and anonymized."
+    }
+  },
+  {
+    "segment": "If you participate in a contest or sweepstakes, we may publish information about you such as your name, city of residence or prize winnings.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Other",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy segment indicates that the company collects and uses identifiable personal information (name, city of residence, prize winnings) implicitly from users participating in contests or sweepstakes, and this information is used for publication purposes."
+    }
+  },
+  {
+    "segment": " California Do Not Track Disclosures    California's Business and Professions Code section 22575 requires us to disclose how we respond to \"do not track\" signals. We currently take no action to respond to \"do not track\" signals.  ",
+    "model_analysis": {
+      "category": {
+        "Do Not Track": {
+          "Do Not Track policy": "Not honored"
+        }
+      },
+      "explanation": "The policy explicitly states that no action is taken in response to 'do not track' signals, indicating that such signals are not honored."
+    }
+  },
+  {
+    "segment": " LINKS    This website may contain links to third party websites that we do not own, including links on our website to purchase DQ or Orange Julius gift cards or merchandise. We are not responsible for the privacy practices of these other sites, and we encourage you to read the privacy statements of every website that collects personal information from you. This privacy statement applies solely to information collected by this website.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment discusses links to third-party websites and clarifies that the privacy practices of those sites are not covered by this privacy policy. It advises users to read the privacy policies of those third-party sites."
+    }
+  },
+  {
+    "segment": " FRANCHISEE WEBSITES    Many DQ and Orange Julius locations are independently owned and operated businesses and may have their own websites. This privacy statement does not apply to sites run by independently owned and operated locations.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment indicates that the privacy statement does not apply to independently owned and operated franchisee websites, which means these practices are not covered by the current policy."
+    }
+  },
+  {
+    "segment": " CHILDREN'S PRIVACY    We may have separate websites directed toward children. Our privacy practices regarding children will be posted on those websites.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses privacy practices for websites directed toward children, indicating a focus on a specific audience type, namely children."
+    }
+  },
+  {
+    "segment": " MOBILE APP    If you download the official DQ mobile app, our privacy policy regarding use of the app is available within the app. There may be other DQ or Orange Julius branded apps run by our franchisees, and our privacy policies do not apply to those apps.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app"
+        }
+      },
+      "explanation": "The segment specifies the presence of a privacy policy for the official DQ mobile app, indicating data collection within the app."
+    }
+  },
+  {
+    "segment": " SECURITY    We take security measures to protect personal information that we maintain against theft, unauthorized access, or alteration.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes generic security measures taken to protect personal information against theft, unauthorized access, or alteration, but does not specify the exact measures."
+    }
+  },
+  {
+    "segment": " FEEDBACK    If you have any questions or concerns about this privacy statement, our privacy practices, or your personal information that is under our control, please contact us at: Attn: Privacy Compliance Officer International Dairy Queen, Inc. 7505 Metro Blvd Minneapolis, MN 55439 Email: privacy@idq.com",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to reach out with questions or concerns about the privacy policy, which falls under privacy contact information."
+    }
+  }
+]

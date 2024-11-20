@@ -1,0 +1,512 @@
+[
+  {
+    "segment": "Privacy Statement  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The term 'Privacy Statement' is a general or introductory reference to a document outlining privacy practices, without specific details provided."
+    }
+  },
+  {
+    "segment": "Last Updated on May 22, 2015  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a date indicating when the privacy policy was last updated, which is general information."
+    }
+  },
+  {
+    "segment": "New Orleans Tourism Marketing Corporation (\"NOTMC\" or \"We\") has created this privacy policy (\"Privacy Policy\") to explain our personal information collection practices and your options regarding such data. The Privacy Policy applies to your access and use of the NOTMC Websites (as defined in our Terms of Use), mobile applications and other online programs (\"Online Services\"). By using or downloading any of our Online Services, you are agreeing that you have read and agree to be bound by this Privacy Policy. If you disagree with any part of this Privacy Policy, please do not use any of our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment introduces the privacy policy and outlines its applicability to users, serving as an introductory statement rather than detailing specific practices."
+    }
+  },
+  {
+    "segment": "NOTMC controls and operates its business and Online Services from within the United States of America. Our online privacy practices are governed by the laws of the United States and the State of Louisiana, which may differ from privacy laws in your state or home country. By submitting your personal information to us through the use of our Online Services, you consent to the transfer of your personal information to any country and its use and disclosure in accordance with this Privacy Policy and applicable U.S. federal and state laws.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment discusses the governance of privacy practices by U.S. laws and the transfer of personal information to any country, indicating relevance to international users."
+    }
+  },
+  {
+    "segment": "We may change our Privacy Policy, so please check this page from time to time, as your continued use of the Online Services after we publish our changes, indicates your acceptance of any changed terms. You can tell when the Privacy Policy was last updated by reviewing the \"Last Updated\" date at the top of the page.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment indicates that the privacy policy may change and users are expected to review the page for updates, which suggests privacy relevant changes. The notification is provided through a general notice in the privacy policy itself, and there is no specific user choice mechanism beyond continued use indicating acceptance."
+    }
+  },
+  {
+    "segment": "You can jump to specific areas of our Privacy Policy by clicking on the links below, or you can read on for the full Privacy Policy:   Information We Collect   How We Use Personal Information We Collect   How We May Disclose Personal Information We Collect   How We May Use or Disclose Other Information We Collect   Your Options   How We Protect Your Personal Information   Cookies   Social Networking and Third Party Sites   California Users' Privacy Rights   Children's Online Privacy   International   Contact Us  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides an overview of the privacy policy sections, serving as an introduction or navigation aid without detailing specific practices."
+    }
+  },
+  {
+    "segment": " Information We Collect    Whether you access our Online Services from your computer, smart phone, tablet or other mobile device, NOTMC and its agents may collect some information that identifies you or relates to you as an individual (\"Personal Information\"), such as your name, mailing address, telephone number, e-mail address, user name and password (for account administration), device ID, including IP address, geolocation (if using a mobile application and you consent to providing it), and additional personal information necessary for the administration of certain promotional events.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information such as name, address, and device ID when accessing online services, indicating data collection on the website or app."
+    }
+  },
+  {
+    "segment": "In addition, we may collect other types of data (\"Other Information\") that do not reveal your identity or that do not relate directly to you or any other individual, such as Web browser and device information, including operating system, demographic information and other information provided by you that we may combine with other users of our Online Services or use on its own, mobile application usage data, aggregated information such as \"click stream\" information such as entry and exit points for our Online Services (including referring URLs or domains), certain Online Services traffic statistics, page views, and impressions, and information collected through cookies, pixel tags and other technologies described in more detail later in this Privacy Policy. In addition, when users request pages on our Online Services, our servers automatically log the IP address of the particular user. The IP address is a unique number assigned to your computer in order to identify it whenever you are surfing the web.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of non-identifiable data such as browser and device information, demographic data, and IP addresses through the use of cookies and other technologies for analytics and research purposes. The data is collected implicitly as users interact with the website, and it is aggregated or anonymized."
+    }
+  },
+  {
+    "segment": " How We Use Personal Information We Collect    We may use Personal Information about you for purposes described in this Privacy Policy or as otherwise disclosed to you through our Online Services. For example, we may use Personal Information:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be used for purposes described in the privacy policy or disclosed through online services, but it does not specify what those purposes are."
+    }
+  },
+  {
+    "segment": "  to process and manage your requests for products and services, including newsletters, guidebooks, and other items  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Basic service/feature"
+        }
+      },
+      "explanation": "The segment describes the processing and management of requests for products and services, which falls under the basic service/feature purpose as it relates to fulfilling user requests."
+    }
+  },
+  {
+    "segment": "  respond to and/or fulfill your inquiries or requests, and to post your comments, ratings or statements on message boards or in our online discussion areas or forums  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes the use of personal data to respond to user inquiries and facilitate user interaction in forums, which is an additional service or feature provided by the company."
+    }
+  },
+  {
+    "segment": "  create and deliver personalized promotions, including by combining your Personal Information with Other Information, such as the amounts and types of bookings or itineraries you make and discounts or benefits you use  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes the use of personal information combined with other information to create and deliver personalized promotions, which falls under the purpose of personalization/customization."
+    }
+  },
+  {
+    "segment": "  communicate with you by mail, telephone, facsimile, e-mail, mobile alerts and SMS text messaging about NOTMC or our affiliates, including communications about your itineraries or purchases, your services, accounts, sweepstakes or contests you enter, your requests for information or other items, and to update you about changes to our Online Services  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how the organization communicates with users using various methods for service operations, indicating collection and use of contact information from users with accounts."
+    }
+  },
+  {
+    "segment": "  communicate with you, including by mail, telephone, facsimile, e-mail, mobile alerts and SMS text messaging, in connection with our marketing efforts, including sending you offers and promotions that you can take advantage of through our Online Services or at relevant physical venues around or near New Orleans and offer personalized collection, filtering, and delivery of information, including serving advertisements while you are visiting New Orleans.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of contact information for marketing purposes, including personalized communications and advertisements, with an implicit consent mechanism and an opt-out choice."
+    }
+  },
+  {
+    "segment": "  allow you to send communications or gifts (including through our mobile application) to friends or family through our Online Services (conditioned on your representation to us that you are permitted to use and provide us with the recipient's name and e-mail address;  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of contact information (name and e-mail address) for the purpose of sending communications or gifts through the service, which is an additional feature. The collection is explicit as it requires user representation and consent."
+    }
+  },
+  {
+    "segment": "  further our business or operational purposes, for example, data analysis, audits, fraud monitoring and prevention; and  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment indicates the use of data for business or operational purposes such as data analysis, audits, and fraud monitoring and prevention, which aligns with service operation and security."
+    }
+  },
+  {
+    "segment": "  enhance, improve or modify our Online Services, to identify usage trends, determine the effectiveness of our promotional campaigns and advertisements and to operate and expand our business activities.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the use of data to enhance services, identify trends, determine effectiveness of promotions, and expand business activities, which aligns with analytics and research purposes."
+    }
+  },
+  {
+    "segment": "NOTMC may send you \"transactional or relationship\" communications using various electronic communication, including email and mobile communications. \"Transactional or relationship\" communications may include, for example, notices to facilitate a recent transaction you have conducted or messages with information about your existing account. If, at any time, you decide you would rather not receive these types of communications from NOTMC, you can opt out by following the \"opt-out\" or \"unsubscribe\" or \"STOP\" instructions in the relevant communication or update the contact preferences for your NOTMC account.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes how users can opt out of receiving 'transactional or relationship' communications from NOTMC by following opt-out instructions provided in the communications or updating contact preferences, indicating user control over first-party use of their contact information."
+    }
+  },
+  {
+    "segment": "Please note: You must opt in (i.e., expressly consent) to receive text messages (SMS) from NOTMC. Any such opt-in will be subject to this Privacy Policy and NOTMC will only send you SMS text messages if you opt in to receive them from us.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The segment specifies that users must opt-in to receive SMS messages, indicating a choice type of opt-in for first-party use."
+    }
+  },
+  {
+    "segment": " How We May Disclose Personal Information We Collect    Your privacy is very important to us. We generally won't disclose your Personal Information to anyone outside of NOTMC, except in the following circumstances:  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses the conditions under which personal information may be disclosed to entities outside of NOTMC, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": " Service Providers    We may disclose your Personal Information to third-party service providers to provide us with services such as website hosting, professional services, including information technology services and related infrastructure, customer service, e-mail delivery, auditing and other similar services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment discusses disclosing personal information to third-party service providers for various operational services, but does not specify the type of personal information shared or name the third parties."
+    }
+  },
+  {
+    "segment": " To Perform Services You Request    We may disclose your Personal Information to third parties in order to perform services you request, such as fulfillment of newsletter or guidebook requests, or functions you initiate, such as when you post information and materials on message boards and social media forums, including via Facebook, Twitter, Pinterest, etc. Please note that when you post information in a public forum, it becomes public information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with third parties to perform services requested by the user, such as fulfilling newsletter or guidebook requests and posting on social media forums."
+    }
+  },
+  {
+    "segment": "In addition, we may disclose your Personal Information in order to identify you to anyone to whom you send communications or gifts through our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Other",
+          "Third Party Entity": "Other users",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing personal information to identify the user to recipients of communications or gifts, indicating identifiable information is shared with other users for a specific purpose."
+    }
+  },
+  {
+    "segment": " Corporate Changes    We may disclose your information to a third party in connection with a corporate reorganization, merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of our business, assets or stock, including in connection with any bankruptcy or similar proceedings.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the potential disclosure of information to third parties in the event of corporate changes such as mergers or acquisitions."
+    }
+  },
+  {
+    "segment": " Other Legal Reasons    In addition, we may use or disclose your Personal Information as we deem necessary or appropriate:     under applicable law, including laws outside your country of residence;     to respond to requests from public and government authorities including public and government authorities outside your country of residence;     to comply with subpoenas and other legal processes;     to pursue available remedies or limit damages we may sustain;     to protect our operations or those of any of our Affiliates;     to protect the rights, privacy, safety or property of NOTMC, you and others; and     to enforce our Terms of Use and any other terms and conditions.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes the use or disclosure of personal information for legal reasons, such as complying with laws, responding to government requests, and legal processes. This aligns with the 'Legal requirement' purpose under Third Party Sharing/Collection."
+    }
+  },
+  {
+    "segment": " How We May Use and Disclose Other Information We Collect    Similarly, we generally use Other Information for any purpose not prohibited by law. In particular, we may collect, compile, store, publish, promote, report, sell, or otherwise disclose or use any and all Other Information, provided that such information does not personally identify you. Other Information that we collect generally will not personally identify you or be correlated to you individually for external purposes.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Other",
+          "Purpose": "Other"
+        }
+      },
+      "explanation": "The segment describes the use and disclosure of 'Other Information' that does not personally identify the user, indicating it is aggregated or anonymized. It is used for various unspecified purposes not prohibited by law."
+    }
+  },
+  {
+    "segment": "Where we combine Other Information with Personal Information in a way that can identify you or be used to identify you personally, we will treat that information as Personal Information, subject to the provisions of this Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Identifiability": "Identifiable"
+        }
+      },
+      "explanation": "The segment explains that when Other Information is combined with Personal Information in a way that can identify a user, it will be treated as identifiable Personal Information."
+    }
+  },
+  {
+    "segment": " Your Options    To manage and correct any factual inaccuracies in the information we have on file about you, please follow the directions in the e-mail or other relevant electronic communication you receive from us.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment provides users with the option to manage and correct factual inaccuracies in their information, indicating an 'Edit information' access type."
+    }
+  },
+  {
+    "segment": " How We Protect Your Personal Information    NOTMC has implemented reasonable safeguards designed to prevent loss, misuse and unauthorized access, disclosure or modification of Personal Information provided or collected through our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes the implementation of reasonable safeguards to protect personal information, which aligns with the 'Generic' security measure category as it mentions general preventive actions without specific details."
+    }
+  },
+  {
+    "segment": "Unfortunately, no system or online transmission of data can be guaranteed to be 100% secure and you should always take appropriate security measures to protect your Personal Information, including ensuring that you have up-to-date antivirus software. If you believe that your NOTMC account or any information you provided to us is no longer secure, please notify us immediately using the Contact Us information provided below.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Other"
+        }
+      },
+      "explanation": "The segment discusses the limitations of data security and advises users to take personal security measures, which falls under 'Other' as it does not specify a particular security measure implemented by the company."
+    }
+  },
+  {
+    "segment": " Cookies    \"Cookies\" are small text files containing pieces of data that are placed in your computer's Web browser to store your preferences. Cookies are not themselves personally identifiable, but may be linked to Personal Information that you provide to us through your interaction with our Online Services. A Cookie will typically contain the name of the domain (Internet location) from which the Cookie has come, the \"lifetime\" of the Cookie (its expiration period), and a value (such as a randomly generated unique number).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Cookies and tracking elements"
+        }
+      },
+      "explanation": "The segment describes cookies, which are small text files used for storing user preferences, and are categorized as 'Cookies and tracking elements'."
+    }
+  },
+  {
+    "segment": " How We Use Cookies    NOTMC and its agents use Cookies so that we can improve your online experience - for example, by remembering you when you come back to visit the Websites, and making the content you see more relevant to you. Cookies also enable us to track online purchases made through our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to enhance user experience by remembering users and customizing content, indicating collection on the website for personalization purposes."
+    }
+  },
+  {
+    "segment": " Your Options for Cookies    Web browsers allow some control of most Cookies. Please consult your particular Web browser's settings. You can learn more about Cookies, see what Cookies have been set on your computing device and learn how to manage and delete them at allaboutcookies.org.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment discusses how users can manage cookies through their web browser settings, which aligns with 'Browser/device privacy controls' under User Choice/Control."
+    }
+  },
+  {
+    "segment": " Online Advertising    NOTMC also uses Cookies and other technologies such as pixel tags, web beacons and clear GIF files, to help manage our online advertising program. These technologies are provided by our advertising management partners and enable them to recognize a unique Cookie that has been placed on your Web browser, which in turn enables us and these advertising management partners to learn which advertisements bring users to our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes the use of cookies and tracking technologies by advertising management partners to manage online advertising and track which ads bring users to the services. This involves sharing cookie data with unnamed third parties for advertising purposes."
+    }
+  },
+  {
+    "segment": "NOTMC and our advertising management partners also may use these technologies to track the actions of users of our Online Services, to measure statistics of our marketing efforts, and to deliver advertisements on our Online Services that may be more relevant to individual consumers and to otherwise improve the experience of consumers using our Online Services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of technologies to track user actions on their online services, which indicates data collection on their website for marketing and advertising purposes."
+    }
+  },
+  {
+    "segment": " Social Networking and Third Party Sites    When you link to our Online Services through any social networking or third party websites, applications or services (\"Third Party Services\"), please remember that you are also bound by the privacy policies of such Third Party Services, and NOTMC does not control and therefore is not responsible for the privacy practices of such Third Party Services. You should consult the privacy policies of such Third Party Services to understand their information practices.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses linking to the company's services through third-party sites and emphasizes that users are subject to the third parties' privacy policies, indicating a collection action by third parties on the first party's platform."
+    }
+  },
+  {
+    "segment": " Your California Privacy Rights    If you live in California and have an established business relationship with us, you can request a list of the personal information we have shared with third parties for their marketing purposes. We will also give you a list of the third parties that have received your information. You can make a request one time each year. To exercise your rights, you can contact us by email at online@notmc.com or as set forth in the Contact Us section below. Please be sure to mention when you contact us that you are making a \"California Shine the Light\" inquiry. We will respond within 30 days.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment specifically addresses the privacy rights of California residents under the 'California Shine the Light' law, allowing them to request information about data sharing with third parties for marketing purposes."
+    }
+  },
+  {
+    "segment": " Children's Online Privacy    NOTMC does not target children and does not knowingly collect any personally identifiable information from children under the age of thirteen (13). When a user discloses personal information on our Online Services, the user is representing to us that he or she is at least thirteen (13) years of age.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the service does not target children and does not collect personal information from children under 13, indicating compliance with regulations related to children's privacy."
+    }
+  },
+  {
+    "segment": "If you are the parent or guardian of a child under the age of thirteen (13), who you believe has provided NOTMC with personally identifiable information through our Online Services, please e-mail us at online@notmc.com so that we can delete the child's information from our records.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "This segment addresses the privacy of children under the age of thirteen and provides a method for parents or guardians to request the deletion of their child's personally identifiable information."
+    }
+  },
+  {
+    "segment": " International    This English-language Privacy Policy is NOTMC's official statement of our privacy practices. In case of any inconsistency between this English-language Privacy Policy and its translation into any other language, this English-language document will take precedence over such translation.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment discusses the precedence of the English-language Privacy Policy over translations, indicating its relevance to audiences in different countries."
+    }
+  },
+  {
+    "segment": " Contact Us    If you have any questions regarding our NOTMC's privacy practices, please do not hesitate to contact us as follows:   E-mail: online@notmc.com   Telephone: (504) 524-4784   U.S. Mail: 2020 St. Charles Ave., 4th Floor, New Orleans 70130  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to inquire about privacy practices, categorizing it as 'Privacy contact information' under 'Other'."
+    }
+  }
+]

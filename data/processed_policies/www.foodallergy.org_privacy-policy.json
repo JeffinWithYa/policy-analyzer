@@ -1,0 +1,366 @@
+[
+  {
+    "segment": " Privacy Policy   ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provided is simply titled 'Privacy Policy' without any specific details or context, indicating a generic or introductory reference to a privacy policy document."
+    }
+  },
+  {
+    "segment": " Introduction    The mission of FARE (Food Allergy Research & Education) is to raise public awareness, to provide advocacy and education, and to advance research on behalf of all those affected by food allergies and anaphylaxis. The Food Allergy Research & Education website provides information, resources, referrals, and data intended to assist the public in managing life-threatening food allergies. The website also provides information for healthcare professionals and offers opportunities for volunteering in Food Allergy Research & Education fundraising events.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general introduction to the mission and purpose of FARE, outlining the services and information provided by the organization without detailing specific privacy practices."
+    }
+  },
+  {
+    "segment": " Contact Information, Accessing, and Correcting Your Personal Information    If you have any questions about this Policy or you wish to review or correct your or your child's personal information, you may contact us by U.S. mail, e-mail, or telephone at the addresses and numbers listed below. Food Allergy Research & Education (FARE) 7925 Jones Branch Drive, Suite 1100 McLean, VA 22102 email: contactfare@foodallergy.org Telephone: (800) 929-4040  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to inquire about the privacy policy or to access and correct personal information, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": " Our Commitment to Privacy    We at Food Allergy Research & Education recognize the importance of protecting your privacy. The purpose of this notice is to explain the practices and procedures we implement to protect your personal information, the way we use this information, and the choices you can make regarding our use of your personal information. This notice may be accessed by clicking on a \"Privacy Policy\" link that appears on each page of our website. Food Allergy Research & Education is committed to protecting your privacy and will honor this Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction and commitment to privacy without specific details on practices or procedures."
+    }
+  },
+  {
+    "segment": " Changes to this Policy    Food Allergy Research & Education reserves the right to change this Policy at any time. To better serve you and your concerns about your privacy, we will notify you of any changes to this Policy by posting a notice prominently on the main page of our website (http://www.foodallergy.org) indicating that there has been a change or update to the Privacy Policy. We encourage you to read this Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment discusses changes to the privacy policy and indicates that users will be notified of such changes through a prominent notice on the website, implying a privacy-relevant change. No user choice is mentioned regarding the changes."
+    }
+  },
+  {
+    "segment": " The Information We Collect and How We Use It    You may browse Food Allergy Research & Education websites without submitting personal information. However, if you choose to sign up for one of our e-mail lists; become a member; purchase products; or participate in an event, contest, or program, you will be asked for applicable personal data such as your name, gender, postal address, e-mail address, phone number, fax number, payment information, relationship to food allergies, and date of birth. The purpose of collecting such data is to assist FARE in contacting individuals and to collect payments made online. Food Allergy Research & Education also uses this personal information to advise users of new online materials, activities, and events, and to provide users with the opportunity to contribute to local and national programs and research initiatives.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information such as name, address, and payment information when users sign up or make purchases. This data is used for contacting individuals and processing payments, indicating explicit collection and identifiable information for service operation purposes."
+    }
+  },
+  {
+    "segment": "Food Allergy Research & Education also collects personal information offline from volunteers, donors, and event participants. Such information may include name, address, telephone number, e-mail address, age, and information regarding the donation. The information is collected through offline registration forms, telemarketing appeals, and postal appeals. Food Allergy Research & Education uses this personal information to inform volunteers and donors of new materials, and activities and events that offer the opportunity to contribute to local and national programs and research initiatives.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect offline",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable personal information offline from specific groups for marketing purposes, including informing them about new materials and opportunities to contribute."
+    }
+  },
+  {
+    "segment": " Personal Health-Related Information    Personal information included in specific questions submitted to Food Allergy Research & Education is used solely as internal market research to help us better serve you. All other information entered on this site is used for aggregate demographic analysis only and no personally identifiable information is included in these analyses. Records are used to create aggregate reports for internal use only and are purged after one calendar year from the date of entry.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Health",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        },
+        "Data Retention": {
+          "Personal Information Type": "Health",
+          "Retention Period": "Stated Period",
+          "Retention Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the collection of health-related information for internal market research and demographic analysis, which is then anonymized. Data retention is specified to be for one calendar year, aligning with a stated period for analytics/research purposes."
+    }
+  },
+  {
+    "segment": " Payment Information    Payment information, such as credit card number and expiration date, is entered upon completion of a sale or registration that requires a fee. Food Allergy Research & Education uses Global Payments and Verisign as third-party intermediaries to process your online donations and payments. Your credit card information is encrypted when submitted to the processor and transmitted over a secure connection between your computer and our server using Secure Socket Layers (SSL), the industry standard, to ensure protection of your private information. This sensitive personal information is not shared with third parties other than the processor and is stored by Food Allergy Research & Education for verification purposes or for recurring donations that you have authorized.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the use of Secure Socket Layers (SSL) for the secure transmission of credit card information, which is a measure to ensure secure data transfer."
+    }
+  },
+  {
+    "segment": " Cookies, Gifs, Logs  Cookies are small text files that a website can place on a visitor's computer hard drive to recognize repeat visitors, to facilitate a visitor's use of the site and to track a visitor's access to and use of the site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "This segment describes the use of cookies, which are collected on the website to recognize repeat visitors and track their use of the site."
+    }
+  },
+  {
+    "segment": "Food Allergy Research & Education uses cookies to collect demographic data that help us better advertise our mission, programs, and events to potential visitors and to improve the functionality of the website and the experience for those who use our site. We receive data that includes the IP addresses, browser types, date/time stamp, donations, and sign-up information of visitors to our site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to collect demographic data and other information from website visitors to advertise their mission and improve website functionality. This involves implicit data collection on the website, with identifiable data like IP addresses being used for advertising purposes."
+    }
+  },
+  {
+    "segment": "In addition, Food Allergy Research & Education uses cookies to allow us to track which other websites have linked visitors to our site, what pages of our site are used by and are of interest to those visitors, and to link to information those visitors provide to Food Allergy Research & Education when they donate or sign up to take part in our programs and events.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies by Food Allergy Research & Education to track visitor behavior and link it to provided information, indicating collection on the website for analytics purposes with identifiable data."
+    }
+  },
+  {
+    "segment": "Cookies are used in the site in order to remember the user's name. Sites containing other programs run by Food Allergy Research & Education may contain information as to how cookies are used on those sites.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates the use of cookies on the site to remember the user's name, which implies implicit collection on the website for personalization purposes."
+    }
+  },
+  {
+    "segment": " Sharing Your Information with Third Parties    Food Allergy Research & Education never shares your e-mail addresses with third parties without your consent. Personal information collected from our donation pages is never shared with third parties.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does Not",
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment specifies that e-mail addresses and personal information from donation pages are not shared with third parties, indicating a 'Does Not' action for sharing contact information."
+    }
+  },
+  {
+    "segment": "If you are a California resident, please click here to view \"Your Privacy Rights\" under California law.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment specifically addresses California residents and refers to their privacy rights under California law, categorizing it under specific audiences for Californians."
+    }
+  },
+  {
+    "segment": " Public Forums    Food Allergy Research & Education advises users that personal information posted on the website is accessible only to members.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Generic personal information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment indicates that personal information posted on the website is accessible only to members, implying collection on the website and identifiability as it is associated with specific members."
+    }
+  },
+  {
+    "segment": " Children's Online Privacy Protection Act Compliance    We are in compliance with the requirements of COPPA (Children's Online Privacy Protection Act); we do not collect any information from anyone under 13 years of age. Our website, products, and services are all directed to people who are at least 13 years old or older.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies compliance with COPPA, indicating that the service is not directed towards children under 13 and does not collect information from them."
+    }
+  },
+  {
+    "segment": " Opting-Out of Future Food Allergy Research & Education Communications    You may opt out of Food Allergy Research & Education communications at any time by contacting contactfare@foodallergy.org.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment provides users with the option to opt out of communications by contacting the company, which falls under 'Opt-out via contacting company'."
+    }
+  },
+  {
+    "segment": "Food Allergy Research & Education reserves the right to acknowledge your donation. If you have subscribed to any newsletter or publication published by Food Allergy Research & Education, you may unsubscribe by following the instructions in the e-mail to which you subscribed. You may also remove yourself from Food Allergy Research & Education e-mail list by contacting us via e-mail at: contactfare@foodallergy.org.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment describes how users can opt-out of communications, indicating control over how their information is used by the first party for newsletters or publications."
+    }
+  },
+  {
+    "segment": "Please send us your name, phone number, and e-mail and postal addresses and which communications you would like to opt-out of from Food Allergy Research & Education. Your e-mail address is never shared with third parties without your express consent.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment discusses opting out of communications and specifies that the user's email will not be shared without consent, indicating user control over third-party sharing of contact information."
+    }
+  },
+  {
+    "segment": " Our Commitment to Data Security    Food Allergy Research & Education implements physical, electronic, and managerial procedures to ensure that your personal information is protected at all times. Our servers are housed in an off-site, secured co-location facility. Employee access to personal information is strictly on a need-to-know basis. All employees are made aware of the Privacy Policy and of any updates or changes to it. Employees are reminded of the importance of protecting the privacy of our donors and Internet site users.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes the implementation of physical, electronic, and managerial procedures to protect personal information, including secure data storage in an off-site facility and limiting employee access on a need-to-know basis."
+    }
+  },
+  {
+    "segment": " Your Child's Privacy    We may collect your child's personal information such as name, e-mail address, allergies, date of birth, gender, and postal address in order to register him or her in Food Allergy Research & Education activities such as school programs or contests.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Analytics/Research",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy describes the collection of identifiable personal information from children for the purpose of registering them in specific activities, indicating explicit collection on the website."
+    }
+  },
+  {
+    "segment": "Your child's personal information is subject to all of the terms of this privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the privacy policy terms apply to the personal information of children, indicating a focus on that specific audience."
+    }
+  },
+  {
+    "segment": " Your Privacy Rights Under California Law    Websites owned by organizations that operate in California must comply with the privacy practices outlined in California privacy bill S.B.27 pertaining to the collection and use of personal information in direct marketing activities.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Californians"
+        }
+      },
+      "explanation": "The segment specifies compliance with California privacy law S.B.27, indicating its relevance to Californians' privacy rights."
+    }
+  },
+  {
+    "segment": "As discussed throughout this Policy, Food Allergy Research & Education honors your requests concerning your own personal information as it pertains to online and postal, and telemarketing communications as well as list rentals and exchanges.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that the organization honors user requests regarding personal information in the context of online, postal, and telemarketing communications, as well as list rentals and exchanges, which relates to user choice and control over their contact information for marketing purposes."
+    }
+  },
+  {
+    "segment": "If you prefer not to receive e-mail communications or postal mail or telephone calls from Food Allergy Research & Education, please notify us by emailing contactfare@foodallergy.org or calling 800-929-4040.",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company",
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment provides users with the option to opt-out of receiving communications through email, postal mail, or telephone by contacting the company, indicating control over first-party use of contact information."
+    }
+  }
+]

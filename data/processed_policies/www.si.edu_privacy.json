@@ -1,0 +1,250 @@
+[
+  {
+    "segment": "Smithsonian Institution's Privacy Statement  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment 'Smithsonian Institution's Privacy Statement' is likely an introductory or generic part of the privacy policy, serving as a title or heading without specific details about data practices."
+    }
+  },
+  {
+    "segment": " Overview    Thank you for visiting the Smithsonian Institution network of Websites and reviewing our Privacy Statement. The Smithsonian Institution does not collect personal information about visitors to our Websites unless you choose to provide that information to us. The Smithsonian will use that information to respond to your message and to help us get you the information you have requested.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The Smithsonian Institution collects personal information only if visitors choose to provide it, indicating explicit collection for the purpose of responding to user messages and requests."
+    }
+  },
+  {
+    "segment": "This Privacy Statement applies to the online activities of the Smithsonian Institution and onsite interactive activities (collectively \"Websites\"). It does not apply to its Smithsonian Enterprises websites (Smithsonian Magazine, Air Space Magazine, Smithsonian Store, and Smithsonian Journeys). Consult those websites for the Smithsonian Enterprises privacy statement.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to the scope of the privacy statement, specifying which activities and websites it covers and excludes."
+    }
+  },
+  {
+    "segment": " Information Collected and Stored Automatically    When you visit our Websites, we automatically gather and store the following information about your visit so that we can track the use of our Websites in order to make improvements. This information is stored and used in the aggregate only, and is not used to contact you personally:     The IP address from which you access our Websites;     The name of the domain from which you access the Internet (for example, gmail.com, if you are connecting from a Google account);     The type of browser and operating system used to access our Websites;     The date and time you access our sites;     The pages, files, documents and links that you visit; and     The domain of the website which referred you to this Website (the last website you visited before visiting this one).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of information when a user visits the website. The information collected includes IP address and other browsing details, which are used in aggregate form for the purpose of analytics and research to improve the website. The collection is implicit, and the data is anonymized."
+    }
+  },
+  {
+    "segment": " Cookies    In addition to information collected automatically, we use cookies to support the internal functionality of the Websites. Cookies, which are small pieces of information sent to your browser by a website that you visit, are used to track usage patterns, traffic trends and customer behavior, as well as to record other information from the Website. When you register on the Websites, cookies also allow us to save information so that you will not have to re-enter it the next time you visit. Many content adjustments and customer service improvements are made based on the data derived from cookies. Some Smithsonian Websites use third-party vendors, such as Google Analytics, to place cookies and analyze the information collected by cookies in order to make the Smithsonian Websites more interesting and useful to you. No personally identifiable information is collected. Information that we collect from cookies will not be used to create profiles of individual users and only will be used in aggregate form. The data is retained for as long as necessary to support the mission of the Smithsonian Websites. You may set your browser to refuse cookies from any website that you visit. If you so choose, you may still gain access to most of the Smithsonian's Websites, but you may not be able to conduct certain types of transactions (such as shopping) or take advantage of some of the interactive elements offered. You may opt-out of Google Analytics using the Google Analytics Opt-out Browser Add-on.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies on the website to track usage patterns and improve services, indicating implicit collection for analytics purposes. It states that no personally identifiable information is collected and that data is used in aggregate form. Users have control via browser settings and can opt-out of Google Analytics, aligning with the choice type of browser/device privacy controls."
+    }
+  },
+  {
+    "segment": "Additionally, some Smithsonian Websites may use the Demographics and Interest reporting feature for Google Analytics for Display Advertising. The data provided by this service (such as age, gender, and interests) is used to better understand visitors to these Websites and customize our Websites to our users' interest. You may opt-out of Google Analytics for Display Advertising by visiting Ad Settings.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Demographic",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of demographic data from Google Analytics for Display Advertising to understand website visitors and customize the site, with an opt-out option provided through Ad Settings."
+    }
+  },
+  {
+    "segment": " If You Send Us Personal Information    The Smithsonian's Websites will only collect personal information which you knowingly and voluntarily provide by, for example, sending emails, completing membership forms, registering for classes, events, or other programs, responding to surveys or ordering merchandise. If you provide us with personal information, we will normally respond to your inquiry, request or order. We may also contact you to provide information about Smithsonian activities, programs, membership and development opportunities, products and special events that may interest you. Except as described below, we will not share your name or information outside the Smithsonian unless you affirmatively authorize us to do so by opting-in.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how the Smithsonian collects personal information from users when they voluntarily provide it through various interactions on the website. It specifies that this information is used for responding to inquiries and providing information about Smithsonian activities. Sharing with third parties requires user opt-in, indicating a level of user control over their data."
+    }
+  },
+  {
+    "segment": "When we send you such information by email, you will always have an immediate opportunity to decline further communication. Please use the contact specified in the email so that we can remove you from the list that contains your name. If you are uncertain about whom to contact, you may contact our webmaster at webmaster@si.edu.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment provides users with the opportunity to opt-out of further email communications by contacting the company, which indicates a user control over first-party use of their contact information."
+    }
+  },
+  {
+    "segment": "The Smithsonian uses outside vendors to provide certain services, such as companies that process credit card transactions for the Smithsonian. These third-party vendors will have access to the information needed to perform their functions, but may not use your information for any other purpose. Some Smithsonian units, on occasion, rent or exchange select member name and address information with other charitable or cultural non-profit organizations. You will be notified of any such sharing and provided an opportunity to opt-out.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy describes sharing user contact information with third-party vendors for service operation and security purposes, with an opt-out option provided to users."
+    }
+  },
+  {
+    "segment": "There may be sites within the Smithsonian's network of Websites where you can opt-in to receive information from non-Smithsonian entities. If you opt-in, you may receive correspondence from these organizations on programs, products or services that might interest you. If you decide to opt-out of receiving any further correspondence from a non-Smithsonian entity, please correspond directly with that business or organization to be removed from its mailing list.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The policy segment describes an opt-in mechanism for users to receive information from non-Smithsonian entities, indicating a choice type of 'Opt-in' for third-party sharing or collection of information."
+    }
+  },
+  {
+    "segment": "Please note that the Smithsonian also may provide your information to: (1) a Federal, State, or local law enforcement agency if the Smithsonian becomes aware of a violation or potential violation of law or regulation; (2) a court or party in a court or Federal administrative proceeding if the Smithsonian is a party or in order to comply with a subpoena; (3) a member of the public in response to his or her request for Smithsonian records under Smithsonian Directive 807, available at www.si.edu/ogc; (4) the Department of Justice or in certain legal proceedings when the Smithsonian, an employee of the Smithsonian, or the United States is a party to litigation or has an interest in the litigation and the use of such records is deemed relevant and necessary to the litigation; (5) Smithsonian officials, including the Inspector General, as needed to perform official duties; (6) a Committee of Congress in response to a formal request; (7) protect the security or integrity of the Smithsonian Websites and services; and (8) any other person or entity as required by law.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing user information with various third parties, such as law enforcement agencies, courts, and other entities, in compliance with legal requirements or official duties."
+    }
+  },
+  {
+    "segment": "Any further sharing or disclosure requires your consent.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The segment indicates that further sharing or disclosure of information requires user consent, which aligns with the opt-in choice type for third-party sharing or collection."
+    }
+  },
+  {
+    "segment": " Security    The Smithsonian takes reasonable steps to design and manage our Websites' technology to ensure that its information technology systems, applications, and information technology infrastructure are secure. The Smithsonian requires credit card processing be secured based on compliance with Payment Card Industry (PCI) standards. When you use your credit card for any purchase on a Smithsonian Website, that transaction is always encrypted when traveling over the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes measures taken to ensure secure data transfer, specifically mentioning encryption for credit card transactions and compliance with PCI standards."
+    }
+  },
+  {
+    "segment": "As appropriate and feasible, the Smithsonian monitors network traffic to identify unauthorized attempts to access, upload, or change information or otherwise cause damage. Unauthorized access and/or unauthorized attempts to change information on Smithsonian Websites are strictly prohibited and punishable under the Computer Fraud and Abuse Act of 1986 and the National Information Infrastructure Protection Act. In addition to limiting access to personal information to those who have a business \"need to know\", the Smithsonian requires its service providers who help maintain or operate its Websites to contractually agree to protect the confidentiality, integrity, availability and security of the personal information.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Data access limitation"
+        }
+      },
+      "explanation": "The segment describes measures taken to limit access to personal information to those with a business need to know and contractual obligations for service providers to protect information, indicating data access limitation."
+    }
+  },
+  {
+    "segment": " Embedded Plug-Ins, Widgets, and Links    Within the Smithsonian's Websites there are embedded applications, plug-ins, widgets or links to non-Smithsonian Websites (collectively \"sites\"). These sites operate independently of the Smithsonian and have their own privacy policies. When you visit these sites, you leave our Website and no longer will be subject to our privacy and security policies. The Smithsonian is not responsible for the privacy or security practices or the content of other sites, and such sites are not intended to be an endorsement of those sites or their content.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses third-party sites that are linked or embedded within the Smithsonian's website, indicating that these third-party sites may collect data independently, which falls under third-party collection on a first-party website."
+    }
+  },
+  {
+    "segment": " Children    The Smithsonian's Websites are intended to be accessible and enjoyed by general audiences. We do not knowingly collect personal information from children under the age of 13, without first providing the parent or legal guardian with notice and obtaining prior verifiable consent. Where a Smithsonian Website is specifically directed toward children under the age of 13, the terms of the Smithsonian's Kids Online Privacy (\"SKOP\") Statement will apply and the Website will include a link to the SKOP.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies how the Smithsonian handles personal information collection for children under 13, indicating compliance with children's privacy regulations."
+    }
+  },
+  {
+    "segment": " Comments    The Smithsonian is a large organization with many people sharing responsibility for the content of our Websites. Please help us respond to your comments and inquiries by sending them to the appropriate Smithsonian office. Consult our special Web page to help you determine where to send your inquiry at http://www.si.edu/contacts. If you have questions about this Privacy Statement, please contact us via email at Privacy@si.edu.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for inquiries about the privacy statement, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "Last revised: June 18, 2014",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides the date of the last revision of the privacy policy, which is typically introductory or generic information about the document itself."
+    }
+  }
+]

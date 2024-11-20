@@ -1,0 +1,299 @@
+[
+  {
+    "segment": "Cincymuseum.org and all other websites and/or domains hosted in conjunction with this domain (the \"Site\") are services of Cincinnati Museum Center (CMC), a non-profit organization based in Cincinnati, OH.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides introductory information about the organization and the domain, which is typical of a generic introduction in a privacy policy."
+    }
+  },
+  {
+    "segment": "Cincinnati Museum Center has created this privacy policy to demonstrate our firm commitment to protecting your information and informing you about how we handle your information. This privacy policy applies to all interactions with, transactions made, and data gathered on the Site. Please review this privacy policy periodically as we may update it from time to time. This privacy policy was last revised per the date listed below. Each time you visit the Site or provide us with information, by doing so you are accepting the practices described in this privacy policy at that time.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment provides a general introduction to the privacy policy, indicating its scope and the commitment to protecting user information, without detailing specific practices or categories."
+    }
+  },
+  {
+    "segment": " Your IP Address    Like most websites, each time you visit the Site, we automatically collect your IP address and the web page from which you came. We use your IP address in order to administer and optimize the Site for you and to diagnose problems with our Site, and, in certain cases, to help identify you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of IP addresses when visiting the site, which is used for site administration and optimization, indicating implicit collection and identifiable use for service operation and security purposes."
+    }
+  },
+  {
+    "segment": " Cookies    Like most websites, the Site uses cookies to keep track of your purchases and other activity on the Site and enhance your experience on the Site. We also use cookies to deliver content specific to your interests, to save your password, and if you choose, to save other information so you do not have to re-enter it each time you visit the Site. If you wish to disable these cookies, the \"help\" portion of the toolbar on most browsers will tell you how. However, if you set your browser to disable cookies, you may not be able to access certain areas on the Site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to track user activity and enhance user experience on the website. Users can control cookie settings through browser controls, indicating a choice scope of both collection and use. The purpose is personalization, and the information is identifiable as it tracks user activity and preferences."
+    }
+  },
+  {
+    "segment": " Information We Collect From You    In order to operate the Site and provide you with information on products and services that may be of interest to you, we may collect personal information (i.e. information that could be used to contact you, such as full name, postal address, phone number and email address), financial information (e.g. passwords and credit card numbers) and demographic information (e.g. zip code, hometown, gender, purchase history information and age) from you. Please note that nowhere on the Site do we knowingly collect personal information from directly children under the age of 13.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Personal Information Type": "Contact, Financial, Demographic",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal, financial, and demographic information from users on the website to provide services and information about products. It specifies that the collection is not knowingly from children under 13, indicating compliance with legal standards for children's data."
+    }
+  },
+  {
+    "segment": " Information Other Web Sites Collect From You    On the Site, we place links to other web sites operated by other parties. Some of these other web sites contain our brand names and trademarks and other intellectual property that we own; others do not. When you click on these links and visit these other web sites, regardless of whether or not they contain our brand names, trademarks and other intellectual property, you need to be aware that we do not control these other web sites or these other web sites' business practices, and that this privacy policy does not apply to these other web sites. Consequently, the operators of these other web sites may collect different kinds of information about you, and may use and disclose that information in different ways than we would if it were collected on the Site. We encourage you to review their privacy policies and remind you that we will not be responsible for their actions.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses other websites collecting information from users when they click links from the first party site, indicating collection by third parties."
+    }
+  },
+  {
+    "segment": " How We Use Personal Information    We use your personal information to help us efficiently perform transactions on the Site, to deliver the services you have requested, to contact you when necessary in connection with events for which you purchased items and services on the Site (including event confirmations, changes and cancellations), and to send you information, offers and other promotional materials. We carefully select the information we send to you and attempt to send you offers that are of value to you, such as discounts, exclusive offers or special event information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes how personal information is used for performing transactions, delivering services, and contacting users, which aligns with the purpose of service operation and security."
+    }
+  },
+  {
+    "segment": "We do not share or sell email addresses gathered on the Site.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The statement clearly specifies that email addresses gathered on the site are not shared or sold, indicating a 'Does Not' action for third party sharing/collection."
+    }
+  },
+  {
+    "segment": "Transactions. To process transactions on the Site, we may share your personal information with our agents, representatives, contractors and service providers so they can provide us with support services such as authorization of credit card transactions, order fulfillment and sweepstakes and promotional fulfillment. We require these entities not to use your information for any other purpose.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Basic service/feature",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with third parties for transaction processing and fulfillment purposes, indicating identifiable financial information is shared with unnamed third parties for basic service features."
+    }
+  },
+  {
+    "segment": "Tickets. We use a third party ticketing agent for ticketing processing. If you purchase a ticket or perform any other transaction through our ticketing partner, their Privacy Policy is in effect for that transaction.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes the use of a third-party ticketing agent for processing transactions, indicating that the third party collects information on the first party's website or app."
+    }
+  },
+  {
+    "segment": "Newsletter. By subscribing to our email newsletter (or electing to receive communications of any kind through the Site), you consent to us providing your email to our third-party email provider to facilitate the delivery of email. However, your email address will not be otherwise shared or sold.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The policy states that the user's email will be shared with a third-party email provider to facilitate email delivery."
+    }
+  },
+  {
+    "segment": "Exceptions. Your personal information may be passed on to a third party in the unlikely event of a transfer of ownership or assets, or a bankruptcy, of CMC. We may also disclose specific information when we determine that such disclosure is necessary to comply with law, to cooperate with law enforcement or to protect the interests or safety of Cincinnati Museum Center or other visitors to the Site.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes scenarios where personal information may be shared with third parties, specifically in cases of ownership transfer, bankruptcy, or legal compliance, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": " How We Use Financial Information    We use your financial information to check your qualifications, to bill you for products and services and to enable you to participate in discount, rebate, and similar programs in which you may elect to participate. By making a purchase, or engaging in any other kind of activity that uses financial information, on the Site, you consent to our providing your financial information to our service providers and to such third parties as we determine is necessary to process your transactions, as well as to your credit card issuer for their purposes. These third parties include the credit card companies and banking institutions used to process the transaction.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment explains how the company uses financial information for billing, checking qualifications, and enabling participation in programs, which falls under service operation and security."
+    }
+  },
+  {
+    "segment": " How We Use Demographic Information    We use demographic information to tailor the Site and communications to the interests of our users. We may share anonymous, aggregated (i.e. grouped) demographic information third parties (such as grant making organizations and foundations), so that they can tailor their advertisements and communications to the appropriate audience.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment describes the use of demographic information to tailor the site and communications, indicating personalization/customization as the primary purpose."
+    }
+  },
+  {
+    "segment": " Our Security Precautions    Strong precautions are taken to protect the information of the users of our Site. When users submit sensitive information via the Site, that Information is protected both online and off-line.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes strong precautions taken to protect user information, indicating a generic approach to data security without specifying particular measures."
+    }
+  },
+  {
+    "segment": "We take credit card information security seriously and use a variety of technical solutions to make shopping safe at our Site. The Site has security measures in place to protect against the loss, misuse and alteration of the information under our control. Furthermore, your information is encrypted and is protected utilizing the industry standard Secure Sockets Layer (SSL) encryption software. Our secure server software is among the best software available today for secure commerce transactions. We encrypt all of your personal and financial information as it travels over the Internet. In addition, all of the information of our Site's users, including the sensitive information mentioned above, is maintained in locked, secure facilities, whether on CMCs premises or those of the server providers with which we contract.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes measures for secure data storage, including encryption and maintaining data in locked, secure facilities."
+    }
+  },
+  {
+    "segment": "Note, your information may be transferred to and maintained on computer networks which may be located outside of the state, province, country, or other governmental jurisdiction in which you reside, and the country or jurisdiction in which these computer networks are located may not have privacy laws as protective as the laws in your country or jurisdiction.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "This segment addresses the transfer of personal information across international borders, indicating potential differences in privacy protections, which is relevant to citizens from other countries."
+    }
+  },
+  {
+    "segment": " How You Can Access and Update Your Personal Information and other Account Information    We give you the opportunity to modify information you have provided to us at anytime by logging into the system and navigating to your account and selecting those portions of your account you would like to update. Please note that changing or deleting your information through your account profile will only change or delete the data in our database for purposes of transacting future business on the Site and for managing future communications from Cincinnati Museum Center. These changes and deletions will not change or delete:  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment describes the user's ability to modify their personal information by logging into their account, which falls under the category of editing profile data."
+    }
+  },
+  {
+    "segment": "A) Information already collected as part of a particular purchase in our transactions database which may be shared with third parties involved in the processing of financial transactions, as discussed above; or  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Financial",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing financial transaction data with third parties involved in processing, indicating a sharing action for service operation purposes with unnamed third parties."
+    }
+  },
+  {
+    "segment": "B) Information that we may have already forwarded to credit card companies or any other third parties, all as provided above in this privacy policy. If you have any questions or concerns about this privacy policy, the practices of the Site, or your dealings with the Site, you can contact us at domains@cincymuseum.org.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for users to address questions or concerns about the privacy policy, which fits under the category of privacy contact information."
+    }
+  },
+  {
+    "segment": "You can also send us mail to: Cincinnati Museum Center, Union Terminal, 1301 Western Ave., Cincinnati, OH 45203  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides a physical mailing address for contacting the organization, which falls under privacy contact information."
+    }
+  },
+  {
+    "segment": "Please use this contact information only for legal and privacy policy matters. For all other inquiries, refer to the Contact Us section of our home page.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides specific contact information usage instructions related to legal and privacy policy matters, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "This document was last revised on 09/29/2011  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates the date of the last revision of the document, suggesting a change in the privacy policy, but does not specify the type of change or notification method beyond being a general notice in the privacy policy."
+    }
+  },
+  {
+    "segment": "Unless otherwise indicated, all material on this site 2011 Cincinnati Museum Center.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is a generic statement about the ownership of the material on the website, which does not pertain to privacy practices."
+    }
+  }
+]

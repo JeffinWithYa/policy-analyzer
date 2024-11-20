@@ -1,0 +1,432 @@
+[
+  {
+    "segment": " This Web Site's Privacy Policy   ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment 'This Web Site's Privacy Policy' is a general or introductory statement typically found at the beginning of privacy policies, indicating the document's purpose or scope."
+    }
+  },
+  {
+    "segment": "We provide a variety of online web services, mobile applications, and services for location-enabled and other types of devices (collectively, the \"Services\") from news and weather to interactive entertainment to electronic commerce via our relationship with Gannaway Web Holdings, LLC d/b/a WorldNow (\"WorldNow\"). WorldNow is the host of this Web site. Because the success of the Services is dependent on building and maintaining goodwill with our customers, this Web site and WorldNow (hereinafter collectively referred to as \"we\" or \"us\" or \"our\") are committed to implementing measures designed to protect the privacy of those using our services. Moreover, we see it as our responsibility to set examples and help establish the standards for privacy on the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general introduction and statement of commitment to privacy without specifying particular practices or policies."
+    }
+  },
+  {
+    "segment": "Although we respect the privacy of all those who use our Services, we do collect information from our members and visitors. This Privacy Policy governs your interaction with the Services, and your registration for and use of this station's Services. Except as set forth within this Privacy Policy and the Terms of Service and/or other published guidelines, we do not release personally identifiable information about the Service's members and visitors without their permission.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that the company collects information from members and visitors when they interact with the Services, which suggests collection on the website."
+    }
+  },
+  {
+    "segment": "Please note that we review these privacy practices from time to time, and that these practices are therefore subject to change. We ask that you periodically review this page to ensure continuing familiarity with the most current version of this Web site's Privacy Policy. To contact us about privacy issues, to report a violation of this Web site's Privacy Policy, or to raise any other issue regarding the Web site, please e-mail us at Info@WorldNow.com.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that privacy practices are reviewed and subject to change, but does not specify the type of change."
+    }
+  },
+  {
+    "segment": " The information we gather    We gather two types of information about the users of the Services:  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment indicates that the company collects information about users of their services, implying collection on their website or app."
+    }
+  },
+  {
+    "segment": "(1) Non-personally identifiable information: When you use the Services, we may collect and aggregate information indicating, among other things, which pages were visited, the order in which they were visited, and which hyperlinks were \"clicked.\" Collecting such information involves the logging of IP addresses, operating system and browser software used by each user. Although such information is not personally identifiable, we can determine from the IP address a visitor's Internet Service Provider and the geographic location of his or her point of connectivity.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of non-personally identifiable information, specifically IP addresses and device information, for analytics purposes. The data is collected implicitly as users navigate the website."
+    }
+  },
+  {
+    "segment": "The non-personally identifiable information we collect helps us diagnose problems with our server, administer the Services, identify the most popular areas or features of the Services, and determine the effectiveness of our promotional activities. In addition, we may disclose some of this information to advertisers to inform them of the number of people who have seen and/or clicked through their advertisements.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses collecting non-personally identifiable information for server diagnostics, service administration, identifying popular features, and evaluating promotional activities, which falls under analytics/research purposes. The information is aggregated or anonymized and collected on the website."
+    }
+  },
+  {
+    "segment": "For the same purposes, we use \"cookies\"---that is, small text files placed on your computer's hard drive---to help us determine the type of content and sites to which you link, the length of time you spend at any particular area or feature of the Services, and your usage of the Services. Cookies also tell us which advertising you have seen on the Services. At certain times, we may use outside advertising companies to display advertisements on the Web site that may contain cookies (\"banner ads\"). These banner ads collect information stored by the advertising company and we do not have access to this information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to collect information about user interactions and advertising exposure on the website, indicating first-party data collection on the website."
+    }
+  },
+  {
+    "segment": "Essentially, cookies are your identification cards for our computers, or servers, that placed them there. Cookies are only read by the server that placed them, and are unable to execute any code or virus. Cookies allow us to serve you better and more efficiently, and to personalize your experience on the Services. Nevertheless, you are able to control how and whether cookies will be accepted by your web browser or device. For more information on how to do so, please refer to the documentation accompanying your browser or device.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies for personalization, indicating collection on the website with user control via browser/device settings. Cookies are identifiable and the user can manage their acceptance, fitting the categories specified."
+    }
+  },
+  {
+    "segment": "The Services may also utilize an electronic file called a web beacon to count users who have visited a web page or recognize users by accessing certain cookies. We, our third-party suppliers and/or the web sites and services of advertisers and merchants with which we have a relationship may use cookies and web beacons (a) for auditing purposes and to collect information from the web sites of certain advertisers or merchants; (b) to report anonymous individual and/or aggregate information about our users from such advertisers or merchants and (c) to collect general internet usage information over time regarding users of the Services. Aggregate information may include demographic and usage information. You may choose to opt-out by contacting us at www.info@worldnow.com.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of web beacons and cookies by the service and third parties for analytics and research purposes, with an opt-out option available by contacting the company. Data collected is anonymized or aggregated."
+    }
+  },
+  {
+    "segment": "At this time, this website and the Services do not recognize automated browser signals regarding tracking mechanisms and preferences, which may include \"do not track\" instructions. However, you may adjust the privacy preferences of your browser, including the control of how and whether cookies will be accepted by your web browser or device. For more information on how to do so, please refer to the documentation accompanying your browser or device.  ",
+    "model_analysis": {
+      "category": {
+        "Do Not Track": {
+          "Do Not Track policy": "Not honored"
+        }
+      },
+      "explanation": "The segment explicitly states that the website and services do not recognize automated browser signals regarding tracking mechanisms, such as 'do not track' instructions, indicating that 'do not track' is not honored."
+    }
+  },
+  {
+    "segment": "(2) Personally identifiable information: Certain features of the Services, such as surveys and contests, may require that you provide personally identifiable information (including, for example, zip code, age, income, and e-mail address, and when applicable, credit card information). WorldNow, as host of the Web site, has access to this information. In addition, when registering to set up an account to use certain services of the Web site such as e-mail, chat rooms, and forums, or to receive certain newsletters or specifically targeted information, we do require that you provide a valid e-mail address.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personally identifiable information during the use of certain features on the website, such as surveys and contests, and when setting up an account. The information is clearly identifiable and collected explicitly for providing basic services."
+    }
+  },
+  {
+    "segment": "In addition, we may collect information about your location when you access any of our mobile applications. If you do not enable the service to use your location information or if the app does not have that feature, we will not collect or store your location information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Unspecified",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of location information in a mobile app, which occurs only if the user enables the service, indicating an opt-in choice. The collection is explicit and involves identifiable location data."
+    }
+  },
+  {
+    "segment": "We do not knowingly collect personally identifiable information from children younger than 13 years of age. Before registering for an account to use the Services of the Web site, we ask that all minors thirteen years old and older to have their parents read our Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the company does not collect personal information from children under 13 and requires parental involvement for minors 13 and older, indicating a focus on protecting children's privacy."
+    }
+  },
+  {
+    "segment": "We do not control the acts of users of the Services. All users should be aware that, when they disclose personally identifiable information in a bulletin board, chat room, guestbook, or other forum, the information may be collected and used by others to send that person unsolicited e-mail from other parties outside of the Services or WorldNow. In the event that you encounter any user of the Services who is improperly collecting or using information about you or other users, please contact Info@WorldNow.com.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses how third parties may collect and use personally identifiable information disclosed by users in public forums, indicating collection on the first party's platform."
+    }
+  },
+  {
+    "segment": " How we use (and do not use) the information we gather    Please take some time to familiarize yourself with the different ways we use the information that we gather. We cannot and do not assume any responsibility for any actions or omissions of third parties, including the manner in which they use information received either from us or independently. Nevertheless, in the event you encounter any third party associated with, or who claims association with us who you feel is improperly collecting or using information about you, please contact Info@WorldNow.com; we will be happy to forward your message to the third party.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses third parties receiving or using information, indicating sharing with or receiving by third parties."
+    }
+  },
+  {
+    "segment": "(1) How we use (and do not use) non-personally identifiable information: We use non-personally identifiable information in aggregate form to build higher quality, more useful Services by performing statistical analyses of the collective characteristics and behavior of the users of the Services, and by measuring demographics and interests regarding specific areas and features of the Services. We provide statistical information based on this data to advertisers, affiliates, and other current and potential business partners. We also use the aggregate data to inform these third parties as to the number of people who have seen and clicked on links to their web sites.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Demographic",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of non-personally identifiable information in aggregate form for analytics and research purposes, specifically to improve services and provide statistical information to third parties. It mentions collection on the website and use, with data being aggregated or anonymized."
+    }
+  },
+  {
+    "segment": "The Services may contain links to other Internet websites and services, including co-branded or other affiliated sites that may or may not be owned or operated by us. Unless otherwise explicitly stated, we are not responsible for the privacy practices or the content of such websites or services, including their use of any information (such as IP number, browser type, or operating system) collected when users or visitors to the Services click through links to those sites. Even though such information might not identify you personally, we strongly encourage you to become familiar with the privacy practices of those sites and services.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses third-party websites and services that users may access through links on the primary service. It emphasizes that the primary service is not responsible for the privacy practices of these third parties, indicating that collection may occur on the first-party website/app when users click through links."
+    }
+  },
+  {
+    "segment": "(2) How we use (and do not use) personally identifiable information: This Privacy Policy serves as notice that personally identifiable information is collected during the registration process. You may choose to \"opt in\" to receiving promotional materials from us and/or our affiliates, advertisers, or other business partners. If you \"opt in\" to receiving such promotional materials, we reserve the right to release any personally identifiable registration information regarding you to third parties who provide goods or services that we believe may be of interest to you. We will not release your credit card information to third parties unless necessary to complete a transaction between you and such a third party. If you decide that you would like to discontinue receiving promotional information from such third parties, please contact those third parties directly, or contact us at Info@WorldNow.com.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personally identifiable information during registration, with an opt-in choice for receiving promotional materials from the company and third parties. The information is identifiable and used for marketing purposes."
+    }
+  },
+  {
+    "segment": "We limit our own e-mail contact and solicitations to those customers who have \"opted in\" to receiving such communications. The solicitations are limited in that they, among other things, will clearly indicate the originator of the e-mail and provide the customer with a method of \"opting out\" of receiving future communications of a similar nature.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The policy specifies that email contact and solicitations are sent only to customers who have opted in, and provides a method to opt out, indicating user control over first-party use of their email for solicitations."
+    }
+  },
+  {
+    "segment": "In addition, as our businesses change, we may buy or sell various assets. In such cases, personally identifiable information about our users of our Services may be disclosed to the other party(ies) of the transaction.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the disclosure of personally identifiable information during business transactions such as buying or selling assets, which is related to changes in case of mergers or acquisitions."
+    }
+  },
+  {
+    "segment": "In addition, we sometimes use demographic data to decide which advertisements and sponsor messages to show to which members. As an example, if Sponsor XYZ wishes to display their advertising only to female members of the Services, we may use member registration data to ensure that Sponsor XYZ's ads are displayed only to female members.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The policy describes the use of demographic data to tailor advertisements to specific groups, such as displaying ads to female members, which falls under the purpose of advertising."
+    }
+  },
+  {
+    "segment": "Finally, we may use individual members' data to \"pre-populate\" forms, which are displayed for the purpose of collecting individual data by us and/or our sponsors. In no case does pre-populating a form transfer any data to any advertiser or third party. Only if the member voluntarily requests that such data be transferred will any transfer take place---for example, if/when a member clicks a \"submit form\" button or other button.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes using members' data to pre-populate forms for data collection, which serves the purpose of facilitating service operation. It explicitly states that data is not transferred to third parties unless the user voluntarily submits it, indicating a focus on operational use rather than sharing."
+    }
+  },
+  {
+    "segment": "In addition, we may use information about your location when you access our mobile applications to provide location aware products or services and for advertising purposes, and if you submit video or images for the news, for news reporting purposes. Notwithstanding anything herein to the contrary, we may provide your location information to third parties who provide goods or services that we believe may be of interest to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Advertising",
+          "User Type": "User with account"
+        },
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection and use of location data from mobile app users for providing services and advertising, and sharing this data with third parties for advertising purposes."
+    }
+  },
+  {
+    "segment": "We reserve the right to release any and all information contained within our access logs concerning any visitor or member when that visitor or member is in violation of our Terms of Service or other published guidelines, or partakes (or is reasonably suspected of partaking) in any illegal activity, even without a subpoena, warrant, or other court order, and to release such information in response to discovery requests, or in response to any circumstance which we, in our sole discretion, deem an emergency. We cooperate with law enforcement agencies in identifying those who may be using the Services for illegal activities. We also reserve the right to report any suspected illegal activity to law enforcement for investigation or prosecution. We also reserve the right to comply with subpoenas, warrants, and other court orders requesting information obtained or any information obtained or stored by us.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the release of information to law enforcement and other entities in response to legal requirements or emergencies, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": "If and when we sponsor promotions or sweepstakes, or third parties sponsor promotions or sweepstakes in conjunction with us, either we or the third party will post relevant privacy information in the official rules and/or registration area for the promotion or sweepstakes. That privacy information, to the extent it conflicts with this Privacy Policy, will govern that particular promotion or sweepstakes.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment discusses the handling of privacy information for promotions or sweepstakes, indicating that specific privacy information will be provided, which may differ from the general privacy policy. This is a practice not covered by the main categories, as it pertains to specific events."
+    }
+  },
+  {
+    "segment": " Security    No security system is impenetrable. Accordingly, we cannot guarantee the security of any database that stores personally identifiable information in connection with the Services, nor can we guarantee that information you supply will not be intercepted while being transmitted to us over the Internet. Questions regarding this Privacy Policy should be directed to us at Info@WorldNow.com.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment discusses the limitations of security measures but does not specify any particular security measures in place, thus categorized as 'Generic'."
+    }
+  },
+  {
+    "segment": " Changing/deleting personal information    If you would like to have your personally identifiable information changed or removed from our database, please contact us at Info@WorldNow.com, and we will use reasonable efforts to comply with your request. Keep in mind, however, that there will be residual information that will remain within our databases, access logs, and other records, which may or may not contain such personally identifiable information. The residual information will not be used for commercial purposes; however we reserve the right, from time to time, to recontact former customers or users of this Web site.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment provides users with the option to change or remove their personally identifiable information from the database, indicating an 'Edit information' access type."
+    }
+  },
+  {
+    "segment": " Third-Party Ad Serving    We may use third-party advertising companies to serve ads when you visit this Web site. These companies may use information (not including your name, address or telephone number) about your use of the Services and visits to other web sites and services in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know you choices about not having this information used by these companies, please contact us at Info@WorldNow.com, or click here http://www.networkadvertising.org/optout_nonppii.asp.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Track on first party website/app",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes the use of third-party advertising companies that track user activities on the website and other sites to serve ads. Users are offered an opt-out link to prevent this information from being used, indicating an opt-out choice type. The information used is not personally identifiable and is related to user online activities for advertising purposes."
+    }
+  },
+  {
+    "segment": " Questions?    Questions regarding this Privacy Policy should be directed to us at Info@WorldNow.com.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides a contact email for users to direct their questions regarding the privacy policy, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "Effective date: July 1, 2004, Updated: December 23, 2013",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Non-privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment provides dates for the effective date and an update, indicating a change in the policy. However, it does not specify the nature of the change, implying it is a non-privacy relevant update with general notice in the policy and no specific user choice involved."
+    }
+  }
+]

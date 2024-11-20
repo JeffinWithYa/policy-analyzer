@@ -1,0 +1,462 @@
+[
+  {
+    "segment": "IMDb Privacy Notice  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment 'IMDb Privacy Notice' is likely an introductory or generic statement indicating the beginning of a privacy policy document, rather than specific policy details."
+    }
+  },
+  {
+    "segment": "Last Updated, December 5, 2014 . To see what has changed click here.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates a policy change with a last updated date, and provides a link to see changes, but does not specify the nature of the changes or any user choice options."
+    }
+  },
+  {
+    "segment": "IMDb knows that you care how information about you is used and shared, and we appreciate your trust that we will do so carefully and sensibly.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is an introductory statement expressing the company's understanding of user concerns about information usage and trust, without specific details about practices."
+    }
+  },
+  {
+    "segment": "By visiting IMDb, you are accepting the practices described in this Privacy Notice.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is an introductory statement indicating user acceptance of the privacy policy by using the service, which is a generic practice often seen at the beginning of privacy notices."
+    }
+  },
+  {
+    "segment": " What Personal Information About Users Does IMDb Gather-    The information we learn from users helps us personalize and continually improve your experience at IMDb. Here are the types of information we gather.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "This segment indicates that IMDb collects information from users to personalize and improve their experience, which implies collection on the website."
+    }
+  },
+  {
+    "segment": " Information You Give Us :  We receive and store any information you enter on our Web site or give us in any other way. Click here to see examples of what we collect. You can choose not to provide certain information, but then you might not be able to take advantage of many of our features. We use the information that you provide for such purposes as responding to your requests, customizing future browsing for you, improving our site, and communicating with you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Dont use service/feature",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes how the company collects information directly from users on their website and uses it for service operation and customization. Users have the choice not to provide information, affecting their ability to use certain features."
+    }
+  },
+  {
+    "segment": " Automatic Information :  We receive and store certain types of information whenever you interact with us. For example, like many Web sites, we use \"cookies,\" and we obtain certain types of information when your Web browser accesses IMDb or advertisements and other content served by or on behalf of IMDb on other Web sites. Click here to see examples of the information we receive.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of information through cookies when users interact with the website, which falls under the action of collecting on the website."
+    }
+  },
+  {
+    "segment": " E-mail Communications :  To help us make e-mails more useful and interesting, we often receive a confirmation when you open e-mail from IMDb if your computer supports such capabilities. We also compare our user list to lists received from other companies, in an effort to avoid sending unnecessary messages to our users. If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "First-party privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Analytics/Research",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how IMDb collects and uses email open confirmations to make emails more useful. Users can adjust preferences via User Administration pages, indicating a choice scope of use and first-party privacy controls."
+    }
+  },
+  {
+    "segment": " Mobile :  When you download or use apps created by IMDb, we may receive information about your location and your mobile device, including a unique identifier for your device. We may use this information to provide you with location-based services, such as advertising, local showtimes, search results, and other personalized content. Most mobile devices allow you to turn off location services. For more information about how to do this, click here.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Location",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how IMDb collects location and device information via its mobile app to provide personalized services. Users can control this collection via device settings, indicating a choice scope of collection with browser/device privacy controls."
+    }
+  },
+  {
+    "segment": " Information from Other Sources :  We might receive information about you from other sources and add it to our account information. Click here to see examples of the information we receive.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Receive from other service/third-party (unnamed)"
+        }
+      },
+      "explanation": "The segment indicates that the company receives information about the user from other sources, which are not specified, and adds it to the user's account information."
+    }
+  },
+  {
+    "segment": " What About Cookies-      Cookies are alphanumeric identifiers that we transfer to your computer's hard drive through your Web browser to enable our systems to recognize your browser and to provide features such as My Movies, local show times, and browsing preferences.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to recognize browsers and provide personalized features, indicating collection on the website and use for customization purposes."
+    }
+  },
+  {
+    "segment": "  The \"help\" portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether. Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer. However, because cookies allow you to take full advantage of some of IMDb's essential features, we recommend that you leave them turned on.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection"
+        }
+      },
+      "explanation": "The segment explains how users can control the collection of cookies by their browsers, which falls under first-party collection control."
+    }
+  },
+  {
+    "segment": "  We use web beacons (also known as \"action tags\" or \"single-pixel gifs\") and other technologies to measure the effectiveness of certain site features and to conduct research and analysis. We also allow third parties to place web beacons and other technologies on our site to conduct research and analysis, but we do not provide personal information to such third parties.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Purpose": "Analytics/Research",
+          "Personal Information Type": "Cookies and tracking elements"
+        },
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app",
+          "Does/Does Not": "Does Not",
+          "Purpose": "Analytics/Research",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes the use of web beacons and similar technologies for research and analysis by both the first party and third parties. It specifies that no personal information is provided to third parties, indicating collection on the website and third-party collection without sharing personal data."
+    }
+  },
+  {
+    "segment": " Does IMDb Share the Information It Receives-    Information about our users is an important part of our business, and we are not in the business of selling it to others. We share user information with our parent corporation (Amazon.com, Inc.), the subsidiaries it controls, and as described below.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that IMDb shares user information with its parent corporation, Amazon.com, Inc., and its subsidiaries, implying a sharing action with other parts of the company or affiliates."
+    }
+  },
+  {
+    "segment": " Affiliated Businesses We Do Not Control :  We work closely with our affiliated businesses. In some cases, we will include offerings from these businesses on IMDb. In other cases, we may include joint offerings from IMDb and these businesses on IMDb. You can tell when another business is involved in the offering, and we share user information related to those offerings with that business.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing user information with affiliated businesses when there are joint offerings, indicating third-party sharing."
+    }
+  },
+  {
+    "segment": " Agents :  We employ other companies and individuals to perform functions on our behalf. Examples include sending e-mail, removing repetitive information from user lists, analyzing data, and providing marketing assistance. They have access to personal information needed to perform their functions, but may not use it for other purposes.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how third-party agents are employed to perform functions on behalf of the company, indicating that personal information is shared with them for these purposes."
+    }
+  },
+  {
+    "segment": " Promotional Offers :  Sometimes we send offers to selected groups of IMDb users on behalf of other businesses. When we do this, we do not give that business your name and e-mail address. If you do not want to receive such offers, please use our User Administration pages to adjust your preferences.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that IMDb sends promotional offers to users on behalf of other businesses, implying sharing of information with third parties, but without sharing personal identifiers like name and email."
+    }
+  },
+  {
+    "segment": " Business Transfers :  As we continue to develop our business, we might sell or buy additional services or business units. In such transactions, user information generally is transferred along with the rest of the service or business unit. Also, in the event that IMDb, Inc., or substantially all of its assets are acquired, user information will of course be included in the transaction.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment discusses the transfer of user information during business transactions such as sales or acquisitions, which falls under policy changes related to mergers or acquisitions."
+    }
+  },
+  {
+    "segment": " Protection of IMDb and Others :  We release account and other personal information when we believe release is appropriate to comply with law; enforce or apply our Terms and Conditions of Use and other agreements; or protect the rights, property, or safety of IMDb, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction. Obviously, however, this does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Notice.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier"
+        }
+      },
+      "explanation": "The segment discusses sharing personal information with other companies for purposes such as fraud protection and credit risk reduction, which falls under service operation and security. It specifies that this sharing is identifiable and involves unnamed third parties, without violating privacy commitments."
+    }
+  },
+  {
+    "segment": " With Your Consent :  Other than as set out above, you will always receive notice when information about you might go to third parties, and you will have an opportunity to choose not to share the information.    What About Third-Party Advertisers-    Our site includes third-party advertising and links to other websites. We do not provide any personally identifiable customer information to these advertisers or third-party websites.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does Not",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment indicates that users will be notified and given a choice (opt-out) before their information is shared with third parties, and it explicitly states that personally identifiable information is not shared with third-party advertisers or websites."
+    }
+  },
+  {
+    "segment": "These third-party websites and advertisers, or Internet advertising companies working on their behalf, sometimes use technology to send (or \"serve\") the advertisements that appear on our website directly to your browser. They automatically receive your IP address when this happens. They may also use cookies, JavaScript, web beacons (also known as action tags or single-pixel gifs), and other technologies to measure the effectiveness of their ads and to personalize advertising content. We do not have access to or control over cookies or other features that they may use, and the information practices of these advertisers and third-party websites are not covered by this Privacy Notice. Please contact them directly for more information about their privacy practices. In addition, the Network Advertising Initiative offers useful information about Internet advertising companies (also called \"ad networks\" or \"network advertisers\"), including information about how to opt-out of their information collection.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes how third-party advertisers collect information directly on the first party's website using technologies like cookies and web beacons. The collection is done by third-party entities, not by the first party itself."
+    }
+  },
+  {
+    "segment": "IMDb also displays personalized third-party advertising based on personal information about users, such as information you submit to us about movies you own or have watched. Click here for more information about the personal information that we gather. Although IMDb does not provide any personal information to advertisers, advertisers (including ad-serving companies) may assume that users who interact with or click on a personalized advertisement meet their criteria to personalize the ad (for example, users in the northwestern United States who bought, watched, or browsed for romantic comedies). If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes how IMDb shares personal information with third-party advertisers for personalized advertising, although it does not provide personal information directly to them."
+    }
+  },
+  {
+    "segment": " How Secure Is Information About Me-    If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the use of SSL software to encrypt information during transmission, which is a measure for secure data transfer."
+    }
+  },
+  {
+    "segment": "It is important for you to protect against unauthorized access to your password and to your computer. Be sure to sign off when finished using a shared computer.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure user authentication"
+        }
+      },
+      "explanation": "The segment advises users to protect their passwords and sign off from shared computers, which relates to secure user authentication practices."
+    }
+  },
+  {
+    "segment": " What Choices and Access Do I Have-      As discussed above, you can always choose not to provide information, even though it might be needed to take advantage of such IMDb features as My Movies and local show times.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Dont use service/feature",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment indicates that users have the choice not to provide information, which affects their ability to use specific features of the service. This aligns with the 'Dont use service/feature' choice type within the first-party collection scope."
+    }
+  },
+  {
+    "segment": "  You can add or update certain information, such as your e-mail address, by using our User Administration pages. When you update information, we usually keep a copy of the prior version for our records.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment describes the ability to add or update certain information, which falls under 'Edit information' in the User Access, Edit and Deletion category."
+    }
+  },
+  {
+    "segment": "  If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences. (If you do not want to receive legal notices from us, such as this Privacy Notice, those notices will still govern your use of IMDb, and it is your responsibility to review them for changes.)  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "First-party privacy controls"
+        }
+      },
+      "explanation": "The segment indicates that users can adjust their preferences regarding receiving emails or mail, which falls under user control over first-party use of their contact information."
+    }
+  },
+  {
+    "segment": "  If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "Third party use",
+          "Choice Type": "First-party privacy controls",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment provides users with the option to adjust advertising preferences, indicating control over the use of personal information by third parties for personalized advertising."
+    }
+  },
+  {
+    "segment": "  The \"help\" portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether. Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer. However, because cookies allow you to take advantage of some of IMDb's essential features, we recommend that you leave them turned on.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Browser/device privacy controls"
+        }
+      },
+      "explanation": "The segment explains how users can control cookies through their browser settings, which falls under browser/device privacy controls."
+    }
+  },
+  {
+    "segment": " Children    IMDb is not intended for use by children under the age of 13. If you are under 13, you may not submit information about yourself to IMDb.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that IMDb is not intended for use by children under the age of 13, indicating a specific audience restriction."
+    }
+  },
+  {
+    "segment": " Does IMDb.com Participate in the Safe Harbor Program-    As a subsidiary of Amazon.com, Inc., IMDb.com is a participant in the Safe Harbor program developed by the U.S. Department of Commerce and (1) the European Union and (2) Switzerland, respectively. Amazon has certified that we adhere to the Safe Harbor Privacy Principles agreed upon by the U.S. and (1) the European Union and (2) Switzerland, respectively. For more information about the Safe Harbor and to view our certification, visit the U.S. Department of Commerce's Safe Harbor Web site.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment mentions IMDb.com's participation in the Safe Harbor program, which is relevant to European Union and Swiss audiences, indicating compliance with international data protection standards."
+    }
+  },
+  {
+    "segment": "In compliance with the US-EU and US-Swiss Safe Harbor Principles, we endeavor to resolve all complaints about privacy and the collection or use of customer information. If you have questions about our participation in the Safe Harbor program or have a complaint, please send an e-mail to safeharbor@amazon.com.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment discusses compliance with the US-EU and US-Swiss Safe Harbor Principles, indicating a focus on European audiences."
+    }
+  },
+  {
+    "segment": "Under the Safe Harbor program, any unresolved privacy complaints can be referred to an independent dispute resolution mechanism. We use the BBB EU Safe Harbor Program, which is operated by the Council of Better Business Bureaus. If you feel that we have not satisfactorily addressed your complaint, you can visit the BBB EU Safe Harbor Program web site at www.bbb.org/us/safe-harbor-complaints for more information on how to file a complaint.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides information on how users can address unresolved privacy complaints through an independent dispute resolution mechanism, specifically the BBB EU Safe Harbor Program, which falls under providing contact information related to privacy concerns."
+    }
+  },
+  {
+    "segment": " Conditions of Use, Notices, and Revisions    If you choose to visit IMDb, your visit and any dispute over privacy is subject to this Notice and our Terms and Conditions of Use, including limitations on damages, resolution of disputes, and application of the law of the state of Washington.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment discusses general conditions of use and legal jurisdiction without detailing specific privacy practices."
+    }
+  },
+  {
+    "segment": "If you have any concern about privacy at IMDb, please send us a thorough description to our help desk, and we will try to resolve it.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides information on how users can contact IMDb regarding privacy concerns, indicating a channel for privacy-related communication."
+    }
+  },
+  {
+    "segment": "Our business changes constantly. This Notice and the Terms and Conditions of Use will change also, and use of information that we gather now is subject to the Privacy Notice in effect at the time of use. We may e-mail periodic reminders of our notices and conditions, unless you have instructed us not to, but you should check our Web site frequently to see recent changes. Unless stated otherwise, our current Privacy Notice applies to all information that we have about you and your account. We stand behind the promises we make, however, and will never materially change our policies and practices to make them less protective of customer information collected in the past without the consent of affected customers.",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "Opt-in"
+        }
+      },
+      "explanation": "The segment discusses potential changes to the privacy policy and states that changes will not be made to be less protective without user consent, indicating a privacy relevant change with an opt-in choice for users. It also mentions checking the website for updates, suggesting general notice on the website."
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "segment": " PRIVACY POLICY    Copyright 2008 Abita and ABITA.COM, LLC TM. All Right Reserved.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is an introductory or generic statement about copyright, not detailing any specific privacy practices or policies."
+    }
+  },
+  {
+    "segment": "Abita is committed to protecting your privacy. By accessing this website, you are consenting to the information collection and use practices described in this privacy statement.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment is a general introductory statement about the company's commitment to privacy and does not provide specific details about practices or categories."
+    }
+  },
+  {
+    "segment": " Collection of your Personal Information:    We will ask you when we need information that personally identifies you (personal information) or allows us to contact you to provide a service or carry out a transaction that you have requested such as receiving information about Abita products and services, entering a contest, ordering e-mail newsletters, joining a limited-access premium site or service, or when purchasing, downloading and/or registering Abita products. The personal information we collect may include your name, title, company or organization name, work e-mail, work phone, work or home address, information about your job function, information about your company, information about circumstances related to your purchase, and payment information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information directly from users on the website for providing services or carrying out transactions, such as product purchases or newsletter subscriptions."
+    }
+  },
+  {
+    "segment": "We may collect certain information about your visit, such as the name of the Internet service provider and the Internet Protocol (IP) address through which you access the Internet; the date and time you access the site; the pages that you access while at the Site and the Internet address of the Web site from which you linked directly to our site. This information is used to help improve the site, analyze trends and administer the site.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses and other visit-related data on the website to improve the site, analyze trends, and administer the site, which falls under first-party collection for analytics/research purposes."
+    }
+  },
+  {
+    "segment": " Control of your Personal Information:    Except as otherwise described in this statement, personal information you provide on the site will not be shared outside of Abita and its controlled subsidiaries and affiliates without your permission.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment states that personal information will not be shared outside of Abita and its subsidiaries and affiliates without permission, indicating a policy of not sharing information with third parties unless consent is given."
+    }
+  },
+  {
+    "segment": "Please be aware that this privacy statement and any choices you make on the site will not necessarily apply to personal information you may have provided to Abita in the context of other, separately operated, Abita products or services.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The statement provides a general notice that the privacy policy and user choices may not apply to other Abita products or services, indicating an introductory or generic clarification."
+    }
+  },
+  {
+    "segment": "ABITA.COM may send out periodic e-mails informing you of issues related to a product or service you requested, or confirming you requested a product or service such as invoices and confirmations. In some services offered by ABITA.COM, contact with the customer is a necessary part of the service.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how ABITA.COM uses collected contact information to send emails related to products or services requested by the user, which is a basic service feature."
+    }
+  },
+  {
+    "segment": "Some services offered on ABITA.COM may collect information that is not accessible to the customer via our website. In such cases, you can access your personal information by contacting ABITA.COM as described at the bottom of this statement, or through alternative means of access described by the service.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Unspecified",
+          "Access Type": "View"
+        }
+      },
+      "explanation": "The segment describes how users can access their personal information by contacting the company or through other means, indicating a view access type, but does not specify the scope of data accessible."
+    }
+  },
+  {
+    "segment": " Security of your Personal Information:    Abita is committed to protecting the security of your personal information. We use a variety of security technologies and procedures to help protect your personal information from unauthorized access, use, or disclosure. For example, we store the personal information you provide on computer servers with limited access that are located in controlled facilities. Additionally, when we transmit sensitive personal information (such as a credit card number) over the Internet, we protect it through the use of encryption, such as the Secure Socket Layer (SSL) protocol.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes measures such as storing personal information on servers with limited access in controlled facilities and using encryption like SSL for data transmission, indicating secure data storage practices."
+    }
+  },
+  {
+    "segment": " Protection of Children's Personal Information    ABITA.COM does not knowingly collect any personal information from children. It is against our Terms of Use for anyone under 21 to submit data to our site.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies that the company does not knowingly collect personal information from children, indicating a policy regarding children's data."
+    }
+  },
+  {
+    "segment": " Use of Cookies    We may use cookies and/or web beacons on this website to ensure the integrity of the registration process and to personalize the site. Cookies and Web Beacons cannot be used to run programs or deliver viruses to your computer. You can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the interactive features of this or other Web sites you visit. ABITA.COM prohibits Web Beacons from being used to collect or access your personal information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Unspecified",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies and web beacons for personalization on the website, with user control over cookies through browser settings. It mentions that cookies are used implicitly and can be declined by the user."
+    }
+  },
+  {
+    "segment": " Unsubscribe Information    Instructions to remove an email address are located on the bottom of every promotional email. Alternatively, unsubscribe requests may be handled using our online unsubscription form.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes how users can opt-out of receiving promotional emails, indicating user control over first-party use of their contact information through an opt-out link or form."
+    }
+  },
+  {
+    "segment": " How to Contact Us    If you have any questions or concerns about the ABITA.COM online privacy policy or its implementation you may contact us at: ABITA.COM Customer Care, Attn: Privacy Policy Issues, PO Box 1510, Abita Springs, LA 70420; or online at friends@ABITA.COM  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to reach out regarding questions or concerns about the privacy policy, categorizing it as privacy contact information."
+    }
+  },
+  {
+    "segment": "You may also send an e-mail or letter to the above e-mail or street address requesting access to or correction of your personally identifiable information. For verification purposes please include your first name, last name, e-mail address and the password you use for said ABITA.COM service.",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment provides information on how users can request access to or correction of their personally identifiable information, which involves editing profile data. It specifies the need for verification, indicating that this access is for users with an account."
+    }
+  }
+]

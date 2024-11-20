@@ -1,0 +1,35 @@
+[
+  {
+    "segment": "Privacy Policy  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The term 'Privacy Policy' alone is introductory or generic as it does not provide any specific information about the practices or details of the policy."
+    }
+  },
+  {
+    "segment": "TangerOutlets is committed to keeping your personal information confidential. Any and all personal identifiable information collected from our customers is used by Tanger Outlets only, and is not sold, shared or distributed to any third party.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment specifies that personal identifiable information collected is not sold, shared, or distributed to any third party, indicating that third-party sharing does not occur."
+    }
+  },
+  {
+    "segment": "If at any time you want your email information removed from our database, simply utilize the unsubscribe link provided in your email. Any other data updates or removal requests can be sent to TangerOutlets, Attn: Marketing Department, PO Box 10889, Greensboro, NC 27408.",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Delete account (partial)"
+        }
+      },
+      "explanation": "The segment provides users with the ability to remove their email information from the database via an unsubscribe link, indicating a partial deletion option."
+    }
+  }
+]

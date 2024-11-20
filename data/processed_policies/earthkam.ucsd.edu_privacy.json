@@ -1,0 +1,141 @@
+[
+  {
+    "segment": "Privacy Policy   Sally Ride Science is committed to protecting the privacy of its customers. The Sally Ride Science websites provide innovative and interactive online science, math and technology related activities for young girls and boys, while safeguarding their privacy. Parental consent and the protection of personal information are the cornerstones of our approach to online privacy.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The policy segment emphasizes the protection of privacy for young users, indicating a focus on children as the specific audience."
+    }
+  },
+  {
+    "segment": "Sally Ride Science is also committed to complying fully with the Children's Online Privacy Protection Act of 1998. We limit the collection, use and disclosure of personal information collected on the Sally Ride Science websites from children under the age of thirteen. Our information collection practices and privacy and security measures are described below.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies compliance with the Children's Online Privacy Protection Act, indicating a focus on protecting the privacy of children under the age of thirteen."
+    }
+  },
+  {
+    "segment": "Why and How We Collect and Store Information Sally Ride Science collects and stores some information about your daughter or son, to allow her or him to participate in some activities. For example, we store and use email addresses and other contact information to communicate with users about contests and other special events. We request parent contact information and parent consent when a girl or boy participates in Sally Ride Science events and activities. This enables us to confirm that a parent consents to their daughter's or son's participation in an event or activity and agrees to the terms of our privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection and storage of information by Sally Ride Science to allow children to participate in activities, specifically mentioning the collection of email addresses and contact information."
+    }
+  },
+  {
+    "segment": "Sally Ride Science may disclose general, aggregated information that is not specifically associated with any child, to sponsors and other third parties. This information might include, for example, first name or screen name, age, city/state/country, special interests, etc., not readily identifiable to your son or daughter.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the sharing of aggregated information with third parties, which is not specifically associated with any child, indicating the action of sharing data with third parties."
+    }
+  },
+  {
+    "segment": "We may also compile information regarding site traffic to determine the number of visitors to any of the Sally Ride Science websites, how long each visitor stayed, what pages of the site were visited and other general information, which is not otherwise personally identifiable to your daughter or son. We might share aggregate (non-personal) information compiled from traffic reports with our partners or sponsors.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of site traffic data for analytics purposes, which is not personally identifiable. The information is aggregated and shared with partners or sponsors, indicating an implicit collection mode and anonymized identifiability."
+    }
+  },
+  {
+    "segment": "No Disclosure of Personally Identifiable Information Sally Ride Science will not disclose or sell personally identifiable information (such as full name, email address, school, etc.) about your child without your prior consent. At this time, we would only disclose personally identifiable information about your daughter or son to a successor to our business or to a third party that helps us run Sally Ride Science events and activities (such as a company that hosts our website), but only if that party agrees to comply with our privacy policy and to maintain the confidentiality and security of the information. Should you not agree to this limited third party disclosure of your child's personally identifiable information, please contact the Sally Ride Science operator at the address below.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Third party sharing/collection",
+          "Choice Type": "Opt-out via contacting company",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The policy segment indicates that personally identifiable information of children may be shared with third parties involved in running events and activities, with user consent required for such disclosure. It specifies an opt-out option by contacting the company, and the information is identifiable and shared for service operation purposes."
+    }
+  },
+  {
+    "segment": "Review Your Child's Data and Security Sally Ride Science allows you, as a parent or guardian, to review, modify, or delete account information regarding your daughter or son at any time; and you may also refuse to allow any further collection or use of your child's personal information.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "User account data",
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment describes the ability for parents or guardians to review, modify, or delete their child's account information, which falls under user access, edit, and deletion."
+    }
+  },
+  {
+    "segment": "To (a) initiate a review of your son's or daughter's account information, (b) correct factual errors in such information, (c) request to have information deleted, or (d) request that we no longer collect or maintain such information about your child, please call us at 1.800.561.5161 or email us.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment describes how a parent can initiate a review, correct errors, request deletion, or stop the collection of their child's account information, indicating user access and edit rights."
+    }
+  },
+  {
+    "segment": "To protect your daughter's or son's privacy and security, we will take reasonable steps to verify your identity as the child's parent/guardian before granting you access to the personal information that we collect and maintain about your daughter or son.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Other data about user"
+        }
+      },
+      "explanation": "The segment describes a process for verifying a parent's identity before granting access to a child's personal information, indicating an access scope related to other data about the user (the child)."
+    }
+  },
+  {
+    "segment": "Sally Ride Science has taken steps to ensure that any information we collect is secure. Our security measures include limiting the number of people who have physical access to our database and servers, utilizing electronic security systems, and using password protections that guard against unauthorized access. We are also sensitive to security concerns regarding the use of credit cards for purchases. We protect your credit card information (and all other personal information) using Secure Socket Layer (SSL) technology that automatically encrypts all data while information is being transmitted over the Internet. Furthermore, we will not keep your credit card number in our database once a transaction is completed.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes multiple security measures such as limiting access, electronic security systems, password protections, and SSL technology to secure data storage and transmission."
+    }
+  },
+  {
+    "segment": "If you have any questions, comments or concerns regarding the Sally Ride Science's privacy policy, please contact us at: Privacy Coordinator Sally Ride Science 9191 Towne Centre Drive, Suite L101 San Diego, CA 92122 Tel: 1.800.561.5161",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to address questions or concerns about the privacy policy, categorizing it as privacy contact information."
+    }
+  }
+]

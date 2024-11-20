@@ -1,0 +1,175 @@
+[
+  {
+    "segment": " Privacy Policy    Your privacy is important to us. Public Citizen does not automatically collect personal information from people who visit or interact with our website. This privacy policy applies to the www.citizen.org website.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The policy states that no personal information is automatically collected from users who visit or interact with the website, indicating a collection action related to the website."
+    }
+  },
+  {
+    "segment": "If you provide your name, postal address, email address, phone number, or other information via a form on the website, we may store that information and contact you about our work. Except as outlined below, we do not sell, rent, trade, or otherwise disclose to any business, organization, individual, or other outside entity information provided by people who visit or interact with the website.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable contact information via a form on the website, with the purpose of contacting users about their work, indicating explicit collection and identifiable data."
+    }
+  },
+  {
+    "segment": " Taking Action    We do not disclose the information you enter on an action page to any outside entity - except as follows:   If you sign a petition, your name and state may be included in an electronic file or hard-copy printout delivered to legislators or other policymakers.     If you email a member of Congress or other policymaker, submit a comment to a government agency, send a letter-to-the-editor, or take any other action that generates a communication to an outside entity, the information you enter on the action page may be passed along to that outside entity.     We may give consultants and organizations working with us on specific projects temporary access to information about our online action-takers. They will not retain the information or contact the people whose information they have access to.     We may offer to connect you to other activists or volunteer organizers. Before doing so, we will notify you by email with an option to decline.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing user information with outside entities such as legislators, policymakers, and consultants, indicating third-party sharing."
+    }
+  },
+  {
+    "segment": "Once you take action, we will send you emails about our work. To stop receiving emails, complete the form at http://action.citizen.org/unsubscribe.jsp.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment describes a method for users to stop receiving emails by completing an opt-out form, indicating control over first-party use of their contact information."
+    }
+  },
+  {
+    "segment": " Signing Up for Email Lists or E-Newsletters    We do not disclose the information you enter on a sign-up page to any outside entity - except as follows: We may give consultants and organizations working with us on specific projects temporary access to such information; they will not retain the information or contact the people whose information they have access to. To stop receiving emails, complete the form at http://action.citizen.org/unsubscribe.jsp.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment specifies that information entered on a sign-up page may be temporarily shared with consultants and organizations working on specific projects, indicating third-party sharing."
+    }
+  },
+  {
+    "segment": " Making Donations or Payments    The information you enter on a donation or payment page may be shared with third-party service providers (such as services that verify credit card data).  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The policy segment indicates that information entered on donation or payment pages may be shared with third-party service providers, categorizing it as 'Receive/Shared with' under Third Party Sharing/Collection."
+    }
+  },
+  {
+    "segment": "If you donate, your contact information may be added to a donor file that is occasionally exchanged with other progressive organizations. You can opt out of such exchanges by contacting our Member Services team at (800) 289-3787 or member@citizen.org.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes that donor contact information may be shared with other organizations, indicating third-party sharing."
+    }
+  },
+  {
+    "segment": "We may give consultants and organizations working with us on specific projects temporary access to information about people who make donations or payments; they will not retain the information or contact the people whose information they have access to.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing information with consultants and organizations for specific projects, indicating a third party receives or is shared with information."
+    }
+  },
+  {
+    "segment": " Security    Public Citizen is fully compliant with PCI-DSS (Payment Card Industry Data Security Standard) and does not maintain credit card information on any of our servers. Public Citizen's network is protected at the perimeter by firewalls that include intrusion detection and prevention capabilities, and all servers and workstations have centrally managed antivirus software. Servers and workstations are patched regularly and monitored for signs of suspicious activity. Access to Public Citizen's network is restricted to Public Citizen-owned devices. Data in transit outside of Public Citizen's secure network is encrypted.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes various security measures implemented by Public Citizen, including compliance with PCI-DSS, use of firewalls, antivirus software, regular patching, network access restrictions, and encryption of data in transit, indicating secure data storage practices."
+    }
+  },
+  {
+    "segment": " Contacting Us    If you contact us by phone or email, we may keep a record so that we can follow up with you if necessary. We do not disclose the information in that record to any outside entity unless you give us permission to do so or unless disclosure is compelled by law.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of contact information when users contact the company by phone or email, and mentions the conditions under which this information may be disclosed."
+    }
+  },
+  {
+    "segment": " Cookies and IP Addresses    Our website uses cookies for these reasons:   so that you don't have to reenter information on action, donate, or payment pages;     for tracking traffic so that we can evaluate and improve the website; and     to facilitate outreach based on visitors' interests.    ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of cookies on the website for various purposes, indicating first-party collection and use of data."
+    }
+  },
+  {
+    "segment": "For systems administration and troubleshooting, we log the IP address (the location on the Internet) of the computer or network from which someone visits the website. We also use IP addresses in the aggregate to track traffic so that we can evaluate and improve the website.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The policy segment describes the collection of IP addresses for systems administration, troubleshooting, and to track traffic in aggregate for website evaluation and improvement. This involves implicit collection on the website and uses the data in an aggregated form for service operation and security purposes."
+    }
+  },
+  {
+    "segment": " Updates to This Policy    This page reflects the current policy at any given time. It may be updated occasionally. It was most recently updated on May 21, 2015.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that the policy may be updated occasionally and reflects the current policy, with a specific mention of the last update date. It suggests a general notice in the privacy policy but does not specify the type of changes or user choice options."
+    }
+  },
+  {
+    "segment": " Questions    If you have questions about this privacy policy, contact our Member Services team at (800) 289-3787 or member@citizen.org.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for users to inquire about the privacy policy, categorizing it as privacy contact information."
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "segment": "UpToDate online privacy policy   UpToDate, Inc. is very sensitive to the privacy needs of its website visitors and subscribers and is wholly committed to maintaining privacy at the highest level. UpToDate does not sell or otherwise share subscribers' or website visitors' personal information with anyone.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The policy explicitly states that UpToDate does not sell or share personal information with anyone, indicating they do not engage in third party sharing or collection."
+    }
+  },
+  {
+    "segment": "To better understand UpToDate's online privacy policies, please read the following Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The request is for a general understanding of UpToDate's privacy policies, which falls under an introductory or generic inquiry about privacy practices."
+    }
+  },
+  {
+    "segment": "Subscriber Information   UpToDate never automatically collects any information that specifically identifies you such as your name, address, or e-mail address. This information is collected only when you voluntarily provide it as part of the subscription process (\"Subscriber Information\"). We will ask you whenever we need Subscriber Information that identifies you or allows us to contact you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable contact information voluntarily provided by the user during the subscription process, indicating explicit opt-in consent for this basic service feature."
+    }
+  },
+  {
+    "segment": "Consent and Security   It is your choice whether or not you provide your Subscriber Information to UpToDate, but Subscriber Information is required for UpToDate to provide you with services (for example, access to UpToDate under a subscription agreement).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes that providing Subscriber Information is a choice but necessary for service access, indicating an opt-in choice for collection on the website, explicitly provided by the user, and identifiable for basic service provision."
+    }
+  },
+  {
+    "segment": "Use of Subscriber Information   Your Subscriber Information may be used internally within UpToDate. For example, UpToDate may use your Subscriber Information internally to provide subscription services to you and process your transactions, to contact you for customer service and billing purposes, to communicate to you about your subscription or changes to our service, to understand who uses the Website and to improve the Website. In addition, UpToDate reserves the right to disclose your Subscriber Information under limited circumstances in the event UpToDate believes that the Website is being used to commit unlawful acts, and/or if disclosure of your Subscriber Information is required to comply with applicable laws or regulations, or with a court or administrative order.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how Subscriber Information is used internally by UpToDate for service operations, customer service, and legal compliance, indicating identifiable information is collected on the website and used for service operation and security purposes."
+    }
+  },
+  {
+    "segment": "Usage Information   Non-personally identifying information (\"Usage Information\") comprises information that does not identify any particular user. Examples include: information about which of UpToDate's pages are visited on an aggregate level, browser type, operating system type, or IP address.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Generic personal information"
+        }
+      },
+      "explanation": "The segment describes the collection of non-personally identifying information, such as browser type and operating system, which is categorized as generic personal information."
+    }
+  },
+  {
+    "segment": "Use of Usage Information   Your Usage Information may be disclosed internally within UpToDate and to third parties. For example, UpToDate may disclose Usage Information in order to better understand which parts of the Website users are visiting, to improve the content of the Website, and for marketing, advertising, or research purposes. (Institutional licensees should refer to their subscription and license agreement).  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that Usage Information may be disclosed to third parties for purposes such as marketing, advertising, or research, implying sharing with external entities."
+    }
+  },
+  {
+    "segment": "Cookies   The UpToDate Website may place a text file called a \"cookie\" in the browser files of your computer. Cookies can be used to provide you with tailored information from the Website. The cookie itself does not contain Subscriber Information. You can set your browser to notify you when you receive a cookie, giving you the chance to decide whether or not to accept it.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies on the website for providing tailored information, indicating collection on the website. Users have control via browser settings, implying implicit collection. Cookies are used for personalization, and the policy states they do not contain subscriber information, suggesting aggregated or anonymized identifiability."
+    }
+  },
+  {
+    "segment": "Effective Date   This Privacy Policy is effective as of October 27, 2007 and will remain in effect unless changed. UpToDate may modify this Privacy Policy at any time, and such modifications shall be effective immediately upon posting of the modified Privacy Policy on the Website.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment indicates that the privacy policy can be modified at any time and changes are effective immediately upon posting on the website, which implies a privacy relevant change with notification through a general notice on the website and no user choice indicated."
+    }
+  },
+  {
+    "segment": "Contacting the Website   If you have any questions about this Privacy Policy, the practices of this Website, or your dealings with this Website, please contact info@uptodate.com.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to inquire about the privacy policy or website practices, falling under the Privacy contact information category."
+    }
+  }
+]

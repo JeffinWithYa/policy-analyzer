@@ -1,0 +1,356 @@
+[
+  {
+    "segment": " Privacy Policy    Protecting your personal information and privacy is important to the Library. We collect, use, and share information obtained from our online visitors and subscribers to Short Message Service (SMS) notifications only in the following ways:   We will only collect personal information that you voluntarily provide.   We will only use the personal information you provide for its intended purpose.   We will only disclose personal information to a government agency if required by law.   We will only disclose personal information to contractors or associates to carry out your requests; these third parties follow our privacy policy or prominently display their own.   We will not disclose your personal information to other outside parties without first obtaining your permission.   We provide a safe online environment for children and follow COPPA principles.   We have implemented safeguards to protect any information collected.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The policy states that personal information is collected from online visitors and subscribers, which indicates collection on the website."
+    }
+  },
+  {
+    "segment": "For more information follow these links:     Types of Information Collected     Automatically Collected Information     Information Collected for Measurement and Customization (Cookies)     Personal Information     Children's Privacy Policy  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides links to various sections of the privacy policy without detailing specific practices, serving as an introductory or navigational guide."
+    }
+  },
+  {
+    "segment": " Types of Information Collected    The Library collects several types of information, although never for commercial marketing use:   Automatically Collected Information     Information Collected for Measurement and Customization (Cookies)     Personal Information  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The policy mentions the collection of cookies for measurement and customization, indicating analytics or research purposes, and specifies that the information is not used for commercial marketing."
+    }
+  },
+  {
+    "segment": "The Library has implemented safeguards to protect this information, including only providing access to designated Library staff members that require this access to perform their duties.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Data access limitation"
+        }
+      },
+      "explanation": "The segment describes a security measure where access to information is limited to designated staff members who require it to perform their duties, which falls under data access limitation."
+    }
+  },
+  {
+    "segment": " Automatically Collected Information    The Library of Congress strives to provide the best experience for our Web and SMS users. To that end, the Library automatically collects and stores the following non-personally identifiable information:   The name of the domain from which you access the Internet,     The Internet Protocol address of your Internet provider's gateway, or in some cases, the computer you are using,     The date and time you access the Library's site,     The URL of the pages you visit and files you download,     The Internet address of the website from which you linked directly to our site,     Characteristics of your system, and     Search terms used to come to the site and while on the site (in aggregate only).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The Library of Congress collects non-personally identifiable information automatically when users access their website. This includes domain names, IP addresses, access times, visited URLs, referrer URLs, system characteristics, and search terms, all in an aggregated form. The purpose is to enhance user experience and ensure service operation and security."
+    }
+  },
+  {
+    "segment": "This information allows us to improve our website design, presentation and system performance. We collect this information from users who read, browse and/or download information from the Library's websites.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Unspecified",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Analytics/Research",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the collection of user information from the Library's websites to improve design and performance, which fits under First Party Collection/Use with implicit collection and analytics/research purpose."
+    }
+  },
+  {
+    "segment": "Additionally, if you choose to receive our Library Alerts via text message delivered to cell phones by SMS messaging, we automatically collect your cell phone number so we can send you the Library Alerts. You can opt out of our Library Alerts at any time.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of cell phone numbers for sending Library Alerts, which is a use of personal information. Users can opt-out, indicating a choice type of opt-out link. The collection is implicit as it occurs when users choose to receive alerts."
+    }
+  },
+  {
+    "segment": " Information Collected for Measurement and Customization (Cookies)    The Library wants to provide our users with the best online experience possible. As such, we use commercial software products to analyze and report on aggregated web metrics data. This data is generally retained indefinitely to support the mission of our Library of Congress web properties.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment discusses the use of cookies for analyzing web metrics data, which is retained indefinitely for research purposes, thus fitting into the specified categories."
+    }
+  },
+  {
+    "segment": "The Library uses three types of information collecting tools on its various websites: session cookies, persistent cookies, and other customization tools. \"Cookies\" are small files that a website transfers to your computer to allow the site to remember specific information. If you do not want cookies to be transferred to your computer, you may choose to opt out of their use by modifying your browser options. While you will still be able to access most features of the Library's websites, certain features may not work as well or may be unavailable to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies and customization tools on the Library's websites, allowing users to opt-out via browser settings, which falls under first-party collection and use for personalization."
+    }
+  },
+  {
+    "segment": "Session cookies do not contain personal information and once you close your browser, the cookies disappear. The Library uses session cookies on our site for technical purposes such as to enable you to more easily navigate throughout the Library's websites. Session cookies only collect non-personally identifiable data.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of session cookies, which are collected on the website for technical purposes and do not contain personal information, indicating aggregated or anonymized data collection for service operation and security."
+    }
+  },
+  {
+    "segment": "Persistent cookies store information on your computer for longer periods of time and across multiple sessions. The Library never uses persistent cookies to collect personal identifiable information about our website visitors. The Library uses persistent cookies to improve our web metrics by distinguishing between new and returning visitors; to prevent repeated prompting to complete our customer satisfaction survey, to anonymously aggregate data on how visitors use our sites and to \"remember\" preferences that you voluntarily provide in order to create a more seamless experience.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does Not",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of persistent cookies on the website for analytics and improving user experience, explicitly stating that no personal identifiable information is collected, indicating aggregated or anonymized data."
+    }
+  },
+  {
+    "segment": "Customization tools allow you to voluntarily provide information to personalize and improve your online experience on a particular Library website. This information is saved on our servers.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "User profile",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the voluntary provision of information by users to personalize their experience, indicating explicit collection on the website for customization purposes."
+    }
+  },
+  {
+    "segment": " Personal Information    In order to use certain features of the Library's websites, you may need to submit personal information so we can respond appropriately. We will inform you what information we require and will only use it for the stated purpose. Examples include making a purchase from the Library's online gift shop, requesting a response on a feedback form and participating in the Library's wikis or blog areas. By providing the information, you are giving consent to the Library to use the information for the stated purpose; if you do not want to provide the information, the feature will not be available to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Generic personal information",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information on the website for specific features, requiring explicit consent (opt-in) from the user for basic service purposes."
+    }
+  },
+  {
+    "segment": "Occasionally, we may associate or contract with third parties in order to better serve you, for example, to fulfill your online order, or provide you with requested information or email updates, to collect your voluntarily provided feedback. Those sites will either follow our privacy policy or display their own. Except for the foregoing exceptions and for authorized government law enforcement activities, the Library does not provide personal information to outside organizations without first obtaining your permission.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with third parties to fulfill services like orders or information requests. It specifies that user permission is required, indicating an opt-in choice type. The third parties may follow the library's privacy policy or have their own."
+    }
+  },
+  {
+    "segment": " Children's Privacy Policy    Children are naturally curious about our world and the Library considers it part of its mission to reach out to them in creative and educational ways that protect their privacy. Certain Library websites offer educational content to children under 13 and this privacy policy, which complies with COPPA (the Children's Online Privacy Protection Act), will be available at these sites by a link.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies a privacy policy focused on protecting the privacy of children under 13, complying with COPPA, which indicates it is targeted towards children."
+    }
+  },
+  {
+    "segment": "Some of these sites provide games and activities, and occasionally, we collect personally identifiable information in order to complete the one-time game or activity. We do not use the information for any other purpose and delete the information as soon as practical. For example, in our Lifelong Literacy area, children can create an online picture postcard and email it to a friend. In order to send the online postcard, we need both email addresses as well as the child's first name so that the recipient will know who sent the card. This information is not retained. If the child chooses to post the online postcard in our gallery, we will not post any personally identifying information.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the collection of personally identifiable information (such as email addresses and first name) explicitly for the purpose of completing a one-time game or activity. The information is not used for any other purpose and is deleted as soon as practical. The collection is identifiable and specific to users without accounts engaging in the activity."
+    }
+  },
+  {
+    "segment": "If we become aware that a child under the age of 13 has made a request for information, for example through our Ask a Librarian forms, we will respond to the request and any identifying information will be deleted once we have responded. Similarly, if we become aware that a child under 13 posted personally identifiable information on any of our websites, we will also delete that information.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies actions taken when information is collected from children under the age of 13, indicating a focus on protecting this specific audience."
+    }
+  },
+  {
+    "segment": "The Library will disclose information about a child under the age of 13 if it is necessary to protect the child or the site itself, or to respond to law enforcement.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment discusses disclosing information about children under the age of 13, which pertains to specific privacy considerations for children."
+    }
+  },
+  {
+    "segment": "We take children's privacy very seriously, and encourage parents to contact us with any questions or concerns they may have via the web form at www.loc.gov/contact/web-site-comments/. Additionally, if parents want us to delete any collected personally identifiable information about their children under the age of 13, they can also contact us at the website address listed above.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifically addresses the privacy of children under the age of 13 and provides a method for parents to contact the organization regarding their children's data."
+    }
+  },
+  {
+    "segment": " Linking to the Library's Website    As a publicly supported U.S. Government institution, the Library generally does not own rights in its collections and what is posted on its website. Therefore, it does not charge permission fees for use of such material and generally does not grant or deny permission to publish or otherwise distribute material on its website. However, the Library requests that your link to the Library's website be presented in a manner that does not give the impression that the Library is making an express or implied endorsement of any good or service provided on your website and that the link is presented in a manner that clearly indicates that the user is leaving one site and accessing another.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides general information about linking to the Library's website, including a request for how links should be presented, but does not address specific privacy practices or policies."
+    }
+  },
+  {
+    "segment": " About Our Web Surveys    The Library uses various types of online forms and surveys to collect opinions and feedback from a random sample of visitors. Primarily, the Library uses the ForeSee Results' American Customer Satisfaction Index (ACSI) online survey on an ongoing basis to obtain feedback and data on visitors' satisfaction with various Library of Congress web properties. The ACSI survey invitation pops up for a random sample of visitors; it is voluntary and does not collect personal information. The Library may also use other third party forms and surveys allowing you to provide feedback. All information you submit is voluntary.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of online forms and surveys by the Library to collect feedback from visitors on its website, indicating first-party data collection."
+    }
+  },
+  {
+    "segment": "If you are randomly selected, a pop-up window will lead to the survey. The survey uses a persistent \"cookie\" to recognize that you have been invited to complete the survey and block subsequent prompts. If you have set up your Internet browser to ignore or disable pop-ups, you will not be able to be randomly selected for the survey. If you have disabled JavaScript in your browser, but are interested in responding to our survey if randomly selected, you will want to enable JavaScript and reload the website now.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the use of a persistent cookie to recognize users for survey participation, which is a form of data collection on the website. The use of browser settings to control pop-ups and JavaScript indicates user choice in the collection process."
+    }
+  },
+  {
+    "segment": "If you get the survey pop-up request, please consider completing it for us. Thank you for your time and comments.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is a general request for user participation in a survey, which does not pertain to privacy practices or data handling."
+    }
+  },
+  {
+    "segment": "August 11, 2014",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The date provided does not contain any specific privacy policy information but appears to be a generic or introductory element, possibly indicating when a policy was published or updated."
+    }
+  }
+]

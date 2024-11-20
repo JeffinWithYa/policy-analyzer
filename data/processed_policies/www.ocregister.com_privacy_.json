@@ -1,0 +1,242 @@
+[
+  {
+    "segment": "PRIVACY POLICY Freedom Communications, Inc. (Freedom) has agreed to sell the assets of the Lima News, Sedalia Democrat, Jacksonville Journal Courier and Alton Telegraph (the Properties) to an affiliate of Ohio Community Media, an Ohio-based publisher of community newspapers. This affiliate, called Testor FCI Acquisition, LLC (Publisher), plans to continue the Properties operations uninterrupted after the sale to provide readers with high quality local news services.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition"
+        }
+      },
+      "explanation": "The segment describes the sale of assets to another company, indicating a change in ownership which is relevant for privacy policy changes due to merger or acquisition."
+    }
+  },
+  {
+    "segment": "As part of this sale, Freedom will be transferring to Publisher customer data collected from users of the Properties websites. Customer data transferred to Publisher will be held and maintained by Publisher pursuant to Publishers respective privacy policies, which can be found at the following: http://lima.ohcommedia.com, http://sedalia.ohcommedia.com, http://jacksonville.ohcommedia.com and http://alton.ohcommedia.com. Please do not register or submit information to any of the Properties websites if you do not want your customer data transferred to Publisher.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the transfer of customer data to a third party (Publisher) as part of a sale, indicating sharing of data with another entity."
+    }
+  },
+  {
+    "segment": "This is the Privacy Policy for all Web sites owned or operated by Freedom Communications, Inc. (\"Freedom\" \"we\" or \"our\"), including, without limitation the Web sites listed here (collectively, the \"Site\"). We respect your privacy and appreciate the confidence you have placed in the Site. We are committed to protecting your privacy and preserving your trust. Please carefully review this Privacy Policy to learn about how we collect, use, and protect any personal information you provide us and your choices for managing your personal information. This Privacy Policy is subject to the User Agreement posted on the Site.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment serves as an introductory statement to the privacy policy, outlining the company's commitment to privacy and providing a general overview of what the policy will cover."
+    }
+  },
+  {
+    "segment": " Managing Information Preferences    We want to communicate with you only if you want to hear from us. If you have questions or concerns regarding this Privacy Policy or if you wish to exclude your personal information from our direct marketing purposes, please feel free to contact us at:   17666 Fitch   Irvine , CA 92614   E-mail: pp@freedom.com  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out via contacting company"
+        }
+      },
+      "explanation": "The segment provides users with an option to exclude their personal information from direct marketing purposes by contacting the company, indicating a choice control over first-party use."
+    }
+  },
+  {
+    "segment": "If you would like to correct, update, or change your personal information with us please contact us the same way.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment mentions that users can correct, update, or change their personal information by contacting the company, indicating an option to edit information."
+    }
+  },
+  {
+    "segment": " What Types Of Information Do We Collect?    We collect information that may personally identify you (such as your name, address, telephone number, email address, billing information, or other data which can be reasonably linked to such information) only if you choose to share such information with us. For example, we may collect personal information from you when you register on the Site, subscribe to one of our services, enter sweepstakes, contests or other promotions, and at other times. We also collect credit card information in connection with any purchase you make on or through the Site. The decision to provide this information is optional; however, if you decide not to register or provide such information, you may not be able to use certain features of the Site or other services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable personal information such as name, address, and billing information when users choose to share it, typically during registration or purchases on the website. Users opt-in by providing this information explicitly, which is necessary for accessing certain site features."
+    }
+  },
+  {
+    "segment": "We may automatically collect non-personal information that does not identify an individual user, such as IP (internet protocol) address, ISP (internet service provider), the Web browser used to visit the Site, the time the Site is visited, which Web pages were visited on the Site, a unique mobile device identifier (in connection with the use of the Sites or related services from mobile devices) and other anonymous Site usage data.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of non-personal information by the first party when users visit the site, which includes IP address, ISP, browser type, visit time, pages visited, and mobile device identifier."
+    }
+  },
+  {
+    "segment": "We also use cookies (a small file containing a string of characters that uniquely identifies your Web browser) and Web beacons (an electronic file placed within a Web site that monitors usage). We use cookies and Web beacons to improve the quality of the Site. Most Web browsers are initially set up to accept cookies, but you can reset your Web browser to refuse all cookies or to indicate when a cookie is being sent. However, certain features of the Site may not work if you delete or disable cookies. Certain of our Service Providers (defined below) may use cookies and Web beacons in connection with the services they perform on our behalf, including, without limitation, ad serving.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the use of cookies and web beacons to improve the site, indicating first-party collection and use. Users have browser control over cookies, and the data is identifiable as it uniquely identifies the browser. The purpose is to enhance service operation and security."
+    }
+  },
+  {
+    "segment": " How Do We Use The Information We Collect?    We will not sell, share, or rent personal information to third parties, and we will not otherwise disclose personal information to third parties, without your permission, except as disclosed in this Privacy Policy.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment states that the company will not sell, share, or rent personal information to third parties without permission, indicating a policy of not disclosing personal information to third parties."
+    }
+  },
+  {
+    "segment": "We use personal information and non-personal information for internal purposes, including:     enhancing your experience at the Site;     performing administration and technical support for the Site;     enabling you to enter sweepstakes, contests and other promotions;     enabling you to use certain services and features available on or through the Site;     creating aggregate information about demographics and usage patterns;     inviting our promotional vendors and advertiserswith your permissionto call to your attention special offers, products and services that may be of interest to you; and     enabling purchases of goods and services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The segment describes the use of personal and non-personal information for internal purposes such as enhancing user experience, performing site administration, enabling participation in promotions, and enabling purchases, which aligns with service operation and security purposes."
+    }
+  },
+  {
+    "segment": "We may use aggregate information to measure general Site usage patterns and characteristics of our user base, and we may include such aggregate information about our audience in reports to our commercial vendors. We may also disclose aggregated user statistics (for example, a certain percentage of our users live in a certain area) without your permission in order to describe our audience to existing and prospective advertisers or other third parties. However, this aggregate information does not reference names, phone numbers, e-mail addresses, or other personal information, and it is not traceable to a specific recipient or user e-mail address.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection and use of aggregate information to measure site usage patterns and characteristics, which is then shared with commercial vendors and third parties."
+    }
+  },
+  {
+    "segment": "We also may share personal information with entities controlling, controlled by, or under common control with Freedom. In the event that Freedom is merged, or in the event of a transfer of our assets, we may disclose or transfer your personal information and non-personal information in connection with such transaction.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Third Party Entity": "Other part of company/affiliate"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with entities related by control and in the event of a merger or asset transfer, indicating sharing with affiliates or during corporate transactions."
+    }
+  },
+  {
+    "segment": "From time to time, we might establish a business relationship with other persons or entities whom we believe trustworthy and whom we have asked to confirm that their privacy practices are consistent with ours (\"Service Providers\"). For example, we may contract with Service Providers to provide certain services including credit card processing, advertising, promotions, analytics tools, data management, Web hosting, and Web development. We provide our Service Providers with the information needed for them to perform these services. Each Service Provider must agree to implement and maintain reasonable security procedures and practices appropriate to the nature of your information in order to protect your personal information from unauthorized access, destruction, use, modification, or disclosure.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing information with third-party service providers for various services, indicating a 'Receive/Shared with' action."
+    }
+  },
+  {
+    "segment": "We may work with third-party advertising companies which may use information about your visit to the Site in order to provide advertisements about goods and services that may be of interest to you on the Site and on third-party Web sites. From the Site, these companies may place or recognize a unique cookie on your computer or use other technologies such as Web beacons or pixel tags. Our Privacy Policy does not cover any use of information that a third-party advertisement serving company may collect from you. For more information about ad cookies and companies that provide users the ability to \"opt-out\" of the collection of information from such cookies, please click here.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The text describes how third-party advertising companies may collect information on the first party website using cookies and other technologies."
+    }
+  },
+  {
+    "segment": "Although unlikely, in certain instances we may disclose your personal information when we have reason to believe it is necessary to identify, contact or bring legal action against persons or entities who may be causing injury to you, to Freedom or its affiliates, or to others. We may also disclose your personal information when we believe the law or legal process requires such disclosure. Please note that courts of equity, such as U.S. Bankruptcy Courts, may have the authority under certain circumstances to permit your personal information to be shared or transferred to third parties without your permission.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses disclosing personal information to third parties under legal circumstances, indicating sharing with third parties."
+    }
+  },
+  {
+    "segment": " Security    We use encryption and authentication tools to protect the security of personal information that you share with us. However, no data transmission over the Internet (or, with respect to our mobile services, over cellular phone networks) can be guaranteed to be 100% secure. As a result, while we strive to protect personal information, we cannot and do not guarantee or warrant the security of any information you transmit to or from the Site, and you do so at your own risk.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the use of encryption and authentication tools to protect personal information, indicating secure data transfer as the security measure."
+    }
+  },
+  {
+    "segment": " Links To Third-Party Web Sites    The Site may contain links to Web sites operated and maintained by third parties, over which we have no control. Privacy policies on such linked Web sites may be different from our Privacy Policy. You access such linked Web sites at your own risk. You should always read the privacy policy of a linked Web site before disclosing any personal information on such site.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Other"
+        }
+      },
+      "explanation": "The segment discusses the presence of links to third-party websites, indicating that these sites are not controlled by the first party and may have different privacy policies. This falls under third-party actions but does not specify collection or sharing activities."
+    }
+  },
+  {
+    "segment": " Discussion Board, Forums and Other User Generated Content    Our online chat areas, bulletin boards, social networks, mobile messaging services, other public forums and user-generated content (i.e., photos, videos) can be a useful way for you to express yourself to other online users. When you post messages or otherwise use these features, the information that you provide (including personal information) may be publicly available to, collected by, and used by third parties. We are not responsible for the content of such messages or images posted by users or such disclosures of personal information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment explains that personal information shared in user-generated content areas may be collected and used by third parties. This indicates third-party collection on the first-party platform."
+    }
+  },
+  {
+    "segment": " Children's Privacy Statement    We do not knowingly collect personal information from children under the age of 13. If we become aware that we have inadvertently received personal information from a child under the age of 13, we will delete such information from our records.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment addresses the collection of personal information from children under the age of 13, indicating a policy specific to this audience."
+    }
+  },
+  {
+    "segment": " Policy Changes    If we decide to change our Privacy Policy, in whole or in part, we will inform you by posting the changed Privacy Policy on the Site. Your continued use of the Site constitutes your agreement to abide by the Privacy Policy as changed. If you object to any such changes, your sole recourse shall be to cease using the Site.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment describes a change in the privacy policy with notification via posting on the site, indicating a privacy relevant change. Continued use implies acceptance, and the only option for objection is to stop using the site, indicating no user choice."
+    }
+  }
+]

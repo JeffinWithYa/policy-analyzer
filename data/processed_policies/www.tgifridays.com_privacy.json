@@ -1,0 +1,199 @@
+[
+  {
+    "segment": "TGI FRIDAYS PRIVACY POLICY   We want to make your online and mobile experiences satisfying and safe. We want to provide you with the means to control your privacy and give you a way to voice questions or concerns you may have.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The text is an introductory statement about the company's commitment to user privacy, without specific details on practices or policies."
+    }
+  },
+  {
+    "segment": "When you use our digital or mobile application, certain information about your activity is collected. We use this information to determine our users' preferences, to design initiatives to meet those preferences, to eliminate hassles, and to generally make your TGI Fridays experience more satisfying. From time to time, we may initiate a program, service or survey that requests your name, birthday, email address, city of residence, ZIP code, or information about what you like and do not like about TGI Fridays. We recognize that the loyalty of our customers depends upon our relationships with them and we strongly support the rights of customers to maintain privacy of personal data. Don't worry, at TGI Fridays, your personal information is safe.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of user activity information through a digital or mobile application. It mentions the collection of identifiable personal information like name, birthday, and email address for purposes such as determining user preferences and enhancing user experience, indicating implicit collection and identifiable data."
+    }
+  },
+  {
+    "segment": " LOGGING IN TO MOBILE APPLICATION    When you log in to our mobile application, you will be asked whether you want the mobile application to remember you. If you choose yes, the mobile application will remain logged in to your information. At any time you can choose to log out by choosing the logout button on the application.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app"
+        }
+      },
+      "explanation": "The segment describes a process where the mobile application collects user login information to maintain a logged-in state if the user chooses to be remembered."
+    }
+  },
+  {
+    "segment": " OUR COMMITMENTS TO YOUR FAMILY    Like you, we have children of our own and are concerned about their safety when they use the Internet. We want you and your family to be safe while visiting our website. That is why, consistent with the Federal Children's Online Privacy Protection Act of 1998 (COPPA), we do not offer program participation to minors and will never knowingly request information from children. For more information about protecting the privacy and safety of minors online, we recommend you visit http://www.ftc.gov/privacy/privacyinitiatives/childrens.html.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifies commitments to protecting children's privacy online, consistent with COPPA, indicating it is targeted towards children as a specific audience."
+    }
+  },
+  {
+    "segment": " WHAT INFORMATION DO WE COLLECT?    We collect information in several different ways. We collect the domain name of visitors to our web pages, user-specific information on the pages visitors access, and information such as survey information or other information that you provide voluntarily. Like many other commercial websites, our website may employ a standard technology called a \"cookie\" to collect information about how our site is used. Our website provides a direct link (among others) to the TGI Fridays Give Me More Stripes Guest Recognition Program site ( www.givememorestripes.com) where, should you choose to enroll, you will be asked to submit personal information, which will be subject to the Give Me More Stripes terms and conditions, separate privacy policy and other policies. Our mobile application also allows enrollment in the Give Me More Stripes program by providing the same information. In addition, we may from time to time provide direct links to news or promotional sites featuring articles about TGI Fridays, which would be subject to those sites' policies.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the collection of domain names, pages accessed, and voluntary information from users on the website, as well as the use of cookies, indicating collection on the website."
+    }
+  },
+  {
+    "segment": " HOW THE INFORMATION IS USED    We use the information that we collect to understand your preferences and history using our website, mobile application and related services. With this information we make it easier and more rewarding for you to use our website, mobile application, any related services, and enjoy your guest experience at our restaurants (in the case of voluntary surveys).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The information is used to understand user preferences and history to enhance their experience, indicating a purpose of personalization/customization."
+    }
+  },
+  {
+    "segment": "Our ability to provide enhanced services may occasionally depend on our ability to develop summary reports for our advertising agents that contain raw numbers or statistics (but never tell them who it was that stated a preference or clicked an option).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment discusses the creation of summary reports for advertising purposes, which suggests the use of collected data for advertising. It explicitly states that the data is anonymized, focusing on raw numbers or statistics."
+    }
+  },
+  {
+    "segment": "It is our policy to never send messages to website users unless they request that we do so.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment specifies that messages will only be sent to website users upon their request, indicating a collection action related to user consent on the website."
+    }
+  },
+  {
+    "segment": " WHO HAS ACCESS TO YOUR PERSONAL INFORMATION    The information that you provide is collected by TGI Fridays. In the case of links to our gift card and guest recognition sites, the information you voluntarily provide at those sites will only be shared with those service vendors who help TGI Fridays administer those websites or mobile application and the services they provide. In any case, TGI Fridays is the lawful \"owner\" of the information and each of these vendors may use the information only for the purpose of administering the digital or mobile application and its services for TGI Fridays, and will take all necessary precautions to protect the information. Ownership of any information you provide us will be held solely by TGI Fridays. We will not sell ownership of this data to any other company or organization.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes that personal information is shared with service vendors who help administer websites or mobile applications for TGI Fridays."
+    }
+  },
+  {
+    "segment": "We will not transfer information to competitors. Your information will always be used only to help us ensure that our website, mobile application and any related services meet your expectations. At TGI Fridays, your personal information is safe. We don't sell or lend your information to anyone, and only share information with the parties described above.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The segment indicates that the company does not transfer information to competitors and does not sell or lend information to anyone, suggesting a policy of not sharing data with third parties."
+    }
+  },
+  {
+    "segment": " INFORMATION DISTRIBUTION    It is our strict policy not to share your personal information or preferences with any third party, except as is necessary to operate and improve our digital or mobile application, or to provide any service requested by you on our digital or mobile application.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Does/Does Not": "Does Not"
+        }
+      },
+      "explanation": "The policy clearly states that personal information or preferences are not shared with any third party, except as necessary for service operation and improvement or to provide requested services."
+    }
+  },
+  {
+    "segment": "Although unlikely, we may be required by law enforcement or judicial authorities to provide personally identifiable information to the appropriate governmental authorities. If requested as part of a legal proceeding, we will provide this information upon receipt of the appropriate documentation.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment indicates that personally identifiable information may be shared with governmental authorities as part of a legal requirement during legal proceedings."
+    }
+  },
+  {
+    "segment": "It is not our usual policy, but from time to time we may permit other companies to place advertising on our website, and these companies may collect information about you through the use of cookies when you view or click their advertising or content (using the same techniques described above). Due to the way the Internet operates, we cannot control this collection of information. You should contact these advertisers or content providers if you have any questions about their use of the information they collect.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes how third-party companies may collect information through cookies when users interact with their ads on the website, indicating third-party collection on the first-party website."
+    }
+  },
+  {
+    "segment": "There may be links that will let you leave our digital or mobile application, such as when purchasing a TGI Fridays gift card or finding out more about the Give Me More Stripes Guest Recognition Program. Except for websites directly related to TGI Fridays programs and services, we cannot control the links or their websites and we are not responsible for the contents of any linked website or any link contained in a linked website. The inclusion of any link does not imply endorsement of the website. The use and/or privacy provided by a linked website as to any information you provide in accessing that website is in no way subject to our privacy policy. Any linked website may have its own policy that could differ considerably from our policy, or the linked website may not display any privacy policy at all. In any case, even though a linked website is accessed through our website, we cannot be responsible for any use that a linked website may make of your information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment discusses links to third-party websites and clarifies that TGI Fridays is not responsible for the privacy practices of these sites, indicating potential third-party data collection."
+    }
+  },
+  {
+    "segment": "From time to time, TGI Fridays may engage in certain promotions and giveaways on its website. As part of registering for those giveaways, you may be asked whether you'd like to receive notifications via text message. If you agree to those communications, you may receive text messages regarding that promotion or giveaway. This messaging may be subject to text message and data rates. If you have opted in to receive email communications from TGI Fridays (and are NOT a Give Me More Stripes member) and wish to no longer receive those emails, you can click \"unsubscribe\" on any of those email messages, or Contact Us at http://www.tgifridays.com/contact.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use"
+        }
+      },
+      "explanation": "The segment discusses user choice regarding receiving text message notifications and email communications, including the ability to unsubscribe, which pertains to first-party use of contact information."
+    }
+  },
+  {
+    "segment": " WHAT KIND OF SECURITY PROCEDURES ARE IN PLACE TO PROTECT THE LOSS, MISUSE OR ALTERATION OF INFORMATION UNDER THE COMPANY'S CONTROL    We operate secure data networks protected by industry standard firewall and password protection systems. Our security and privacy policies are periodically reviewed and enhanced as necessary and only authorized individuals have access to the information provided by our customers. Any particularly sensitive information, such as a customer's credit card number, is encrypted prior to transmission. To the extent that administration of the program requires us to grant our Service Vendors access to customer information, we insist that they implement similar controls.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes the use of secure data networks, encryption for sensitive information, and access limitations, indicating secure data storage measures."
+    }
+  },
+  {
+    "segment": " YOUR ACCEPTANCE OF THESE TERMS    By using this site or mobile application, you agree to our Privacy Policy. We may also change the policy from time to time, so please be sure to visit this site often to see if anything has changed. If we post changes and you continue to use the site, you will be deemed to have agreed to the changes.",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment indicates that changes to the privacy policy may occur and users are expected to check for updates, implying a general notice in the privacy policy without specific user choice or notification beyond this."
+    }
+  }
+]

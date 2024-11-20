@@ -1,0 +1,247 @@
+[
+  {
+    "segment": " Web Privacy Statement   ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The term 'Web Privacy Statement' suggests an introductory or generic section of a privacy policy that outlines the general privacy practices of a website."
+    }
+  },
+  {
+    "segment": "Austin Community College (ACC) is committed to ensuring the privacy of personal information. We do not actively share personal information gathered from our Web servers. However, because ACC is a public institution, some information collected from the ACC web site, including summary server log information, emails, and information collected from Web-based forms, may be subject to. This means that while we do not share or sell information unless solicited, in some cases we may be compelled by Open Records law to release information.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that personal information may be shared with third parties due to legal requirements, specifically Open Records law, suggesting that information may be released under certain conditions."
+    }
+  },
+  {
+    "segment": "Student directory information is routinely requested by vendors through the Texas Public Information Act. Students have the option of excluding their personal information from the directory during registration.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party collection",
+          "Choice Type": "Opt-out link",
+          "Personal Information Type": "Personal identifier",
+          "Purpose": "Unspecified",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes that students can opt out of having their personal information included in the directory, indicating a choice control over first-party collection of personal identifiers."
+    }
+  },
+  {
+    "segment": "ACC complies with the Family Educational Rights and Privacy Act (FERPA), which prohibits the release of education records without student permission.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Other"
+        }
+      },
+      "explanation": "This segment refers to compliance with FERPA, which is a specific regulation concerning the privacy of student education records, indicating a focus on students as a specific audience."
+    }
+  },
+  {
+    "segment": "The ACC website consists of several web servers. Some servers hosted by ACC may adopt different privacy statements as their specific needs require. If another ACC web server has a privacy statement that is different from this statement, that policy will be posted on their site.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "This segment mentions that different web servers may have different privacy statements, which is a practice not covered by a single privacy policy."
+    }
+  },
+  {
+    "segment": "The ACC website contains links to external websites. The college is not responsible for the privacy practices or content of external web links.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Other"
+        }
+      },
+      "explanation": "The statement indicates that the ACC website includes links to external websites, and clarifies that the college does not take responsibility for the privacy practices of these external sites. This relates to third-party sharing/collection as it involves directing users to third-party sites."
+    }
+  },
+  {
+    "segment": " Information we gather    The following information is collected and stored automatically from all users accessing the ACC website to browse or download information:     Internet address of computer being used     Web pages requested     Referring web page     Date and time     Type of web browser being used  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Computer information",
+          "Purpose": "Service Operation and Security",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the automatic collection of computer information from users accessing the website, indicating collection on the website for service operation and security purposes. The information is identifiable as it includes specific details about the user's computer and browsing activity."
+    }
+  },
+  {
+    "segment": "This information is used to create summary statistics which are used for purposes such as assessing what information is of most interest to users, determining technical design specifications, and identifying system performance or problem areas.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Analytics/Research"
+        }
+      },
+      "explanation": "The segment describes the use of information to create summary statistics for assessing user interests, technical design, and system performance, which aligns with analytics and research purposes."
+    }
+  },
+  {
+    "segment": "This information is not reported or used in any manner that would reveal personally identifiable information, and will not be released to outside (third) parties unless legally required.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that information will not be shared with third parties unless legally required, implying a conditional sharing action."
+    }
+  },
+  {
+    "segment": "ACC will collect anonymous non-personally identifiable information about your website visit through pixel tags, sometimes known as cookies. These tags help us track information about your visit and are used to deliver banner advertisements to you on the Internet.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Advertising",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of non-personally identifiable information using pixel tags (cookies) during website visits for the purpose of delivering advertisements. The information is collected implicitly as part of the website visit and is aggregated or anonymized."
+    }
+  },
+  {
+    "segment": " Personal information you provide to us    ACC does not retain personally identifiable information about you when you visit our web sites unless you choose to provide such information to us (i.e. sending an email, participating in a survey, responding to a request for information or \"contact us\" form, etc.)  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Personal Information Type": "Contact"
+        }
+      },
+      "explanation": "The segment indicates that personally identifiable information is retained only if the user chooses to provide it, such as through emails or forms, which typically involve contact information."
+    }
+  },
+  {
+    "segment": "We consider any information that could reasonably be used to identify you as \"personally identifying information.\" This includes, but is not limited to:     Name     Address     Email address     Social Security Number     Any combination of data that could be used to identify you such as your birth date, your zip code and your gender  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Personal Information Type": "Personal identifier"
+        }
+      },
+      "explanation": "The segment defines what constitutes personally identifying information, including specific identifiers like name, address, and social security number, which are categorized as 'Personal identifier'."
+    }
+  },
+  {
+    "segment": "If you provide personal information in an email or by completing a form and submitting it through our Web site, we may use that information to respond to your message and to help us get you the information you have requested. We do not collect personal information from such communications for any purpose other than to respond to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information through forms or emails on the website, used specifically to respond to user inquiries, indicating explicit collection for basic service purposes."
+    }
+  },
+  {
+    "segment": " Cookies    ACC uses cookies, which are small pieces of information sent to your browser by a website that you visit. These cookies do not collect personally identifiable information. Cookies are used to track usage patterns, traffic trends and customer behavior, as well as to record other information from the website. Many content adjustments and customer service improvements are made based on the data derived from cookies. Information that ACC collects from cookies will not be used to create profiles of users and will only be used in aggregate form.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "Cookies are collected on the website to track usage patterns and improve services. The information is used in aggregate form, meaning it is not identifiable, and the purpose is for analytics and research."
+    }
+  },
+  {
+    "segment": " Web Beacons    A \"tracking pixel\" (sometimes called \"web beacons\", \"transparent GIFs\", \"clear GIFs\", \"pixel gifs\", or \"pixel tags\") is a tiny, invisible image that allows us to track activities based on pages you visit. Tracking pixels redeliver advertising and notifications through 3rd party vendors. No personally identifiable information is collected through these retargeting services, and we do not sell or rent the information collected through tracking pixels. Information collected through tracking pixels can only be shared with third parties in aggregated form and in accordance with the college's privacy policy.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the use of tracking pixels to collect information that can be shared with third parties in aggregated form, indicating third-party sharing or collection."
+    }
+  },
+  {
+    "segment": " Security accuracy of personal and confidential information    Although no computer system is 100 percent secure, Austin Community College has deployed extensive security measures to protect against the loss, misuse, or alteration of the information under our control.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment describes the use of extensive security measures to protect personal and confidential information, which aligns with the 'Generic' sub-category under Data Security."
+    }
+  },
+  {
+    "segment": "If you are concerned about the accuracy of information contained in your personal records, you should contact the custodian of the record, which is typically the department that collects and maintains the information. For example, contact the Admissions and Records Office about information collected through the Web application for admission.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment advises users to contact the custodian of the record to address concerns about the accuracy of their personal information, implying they have the ability to request corrections or edits."
+    }
+  },
+  {
+    "segment": " Offsite links    Links to non-ACC organizations are provided solely as a service to our users. These links do not constitute an endorsement of these organizations or their programs by ACC, and none should be inferred. ACC is not responsible for the content found at these links.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a disclaimer about offsite links, stating they are for user convenience and do not imply endorsement, which is a general introductory statement."
+    }
+  },
+  {
+    "segment": " Questions    If you have questions about this privacy statement or you believe that your personal information has been released without your consent email the Help Center.",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "The segment provides contact information for users to inquire about the privacy policy or report unauthorized release of personal information, which falls under privacy contact information."
+    }
+  }
+]

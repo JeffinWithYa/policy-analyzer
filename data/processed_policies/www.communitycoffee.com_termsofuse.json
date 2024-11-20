@@ -1,0 +1,51 @@
+[
+  {
+    "segment": " PRIVACY STATEMENT    OUR COMMITMENT TO PROTECTING YOUR PRIVACY Community Coffee Company respects your right to privacy and is committed to protecting it. In our site, we give you opportunities to provide your name, address, email and other relevant information that we use to give you a more personalized shopping experience and to make ordering and reordering easier for you. We do not sell or trade customer information with others for use on their mailing lists.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does Not",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information such as name, address, and email on the company's website to provide a personalized shopping experience. It explicitly states that customer information is not sold or traded, indicating a focus on first-party use for personalization."
+    }
+  },
+  {
+    "segment": "THE PROTECTION OF YOUR PERSONAL ACCOUNT INFORMATION When you place an order on our site, it is placed through a secure server. This server encrypts all information you input before it is sent. Once your personal information is received, we protect it against unauthorized use.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the use of encryption to protect personal information during transmission, indicating a secure data transfer measure."
+    }
+  },
+  {
+    "segment": "THE USE OF COOKIES Cookies are alphanumeric identifiers which collect anonymous browsing data that enables us to recognize your browser and provide convenience features such as the storing of items in your Shopping Cart and the personalization of content based on your preferences. You can learn how to de-activate cookies using the Help feature of your browser, but we recommend that you leave them turned on in order to enjoy all the value-added features of this website.",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Personalization/Customization",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of cookies to collect browsing data for personalization and convenience features on the website. It mentions that users can deactivate cookies through browser settings, indicating a choice type of browser/device privacy controls."
+    }
+  }
+]

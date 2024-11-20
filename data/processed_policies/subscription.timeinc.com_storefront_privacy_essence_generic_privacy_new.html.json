@@ -1,0 +1,57 @@
+[
+  {
+    "segment": " Essence     PRIVACY POLICY     Table of Contents    The Information We Collect   How We Use the Information   Privacy Options   Your California Privacy Rights: Notice to California Customers   Collection of Information by Third-Party Sites and Sponsors   Cookies   Our Commitment to Security   Accessing, Correcting, and Deleting Your Personal Information   Retention of Personal Information   Special Note for Parents   Changes to this Privacy Policy   How to Contact Us   Safe Harbor Privacy Policy   European Union Privacy Information   For citizens of member countries of the European Union, and Switzerland, Norway, Lichtenstein, Iceland, Australia, and New Zealand   Canada Privacy Information  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a table of contents for the privacy policy, listing the various sections covered. It functions as an introductory overview without detailing specific practices or policies."
+    }
+  },
+  {
+    "segment": "This is the Privacy Policy which applies to you if you live outside the European Union, Switzerland, Norway, Lichtenstein, Iceland, Australia, New Zealand, and Canada.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment specifies the applicability of the privacy policy to users living outside certain countries, categorizing it under 'Citizens from other countries'."
+    }
+  },
+  {
+    "segment": "Thank you for visiting Essence, or using our mobile device applications (the \"Apps\") or other services (together with the Apps, the \"Services\"), Services within the network of Time Inc. and its subsidiaries, each of which have adopted this Privacy Policy. Your privacy is important to us. To better protect your privacy, we provide this notice explaining our information practices and the choices you can make about the way your information is collected and used by Time Inc. and its subsidiaries. Click here for a list of the sites of Time Inc. and its subsidiaries which are governed by this Privacy Notice.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "This segment is an introductory statement about the privacy policy, emphasizing the importance of user privacy and indicating that the policy applies to services within the network of Time Inc. and its subsidiaries."
+    }
+  },
+  {
+    "segment": " Retention of Personal Information    We will retain your personal information while you have an account with us and thereafter for as long as we need it for purposes not prohibited by applicable laws. Thereafter, we will either delete your personal information or de-identify it so that it is anonymous and not attributed to your identity. Your rights to request that we delete your personal information are set forth in the \"Accessing, Correcting, and Deleting Your Personal Information\" section above.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Unspecified"
+        }
+      },
+      "explanation": "The retention period is not explicitly stated as it depends on the duration of the user's account and unspecified legal purposes."
+    }
+  },
+  {
+    "segment": " How to Contact Us    If you have any questions or concerns about the Time Inc. Privacy Notice or its implementation please contact us via email by clicking here or by writing to:   Time Customer Service  Attention: Consumer Affairs  3000 University Center Drive  Tampa, Florida 33612-6408   http://www.essence.com  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Privacy contact information"
+        }
+      },
+      "explanation": "This segment provides contact information for users to reach out with questions or concerns about the privacy notice, which falls under privacy contact information."
+    }
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "segment": " Privacy Policy    Posted: Tuesday, September 18, 2012 12:29 pm    Updated: Thursday, May 21, 2015 3:22 pm.     Our commitment to you    The Frederick News-Post and its owner, Randall Family, LLC (collectively, \"The News-Post\"), recognize the importance of protecting the privacy of personally identifiable information collected about you, our customers. This customer privacy policy is intended to outline our legitimate business interests in collecting and using information and your reasonable expectations of privacy.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides a general introduction to the privacy policy, outlining the company's commitment to protecting user privacy and the purpose of the policy."
+    }
+  },
+  {
+    "segment": " Security    We take the responsibility for keeping your payment and personal information private and secure very seriously. When entering payment and personal information on our web pages you will see that we use SSL certificates to encrypt your data as you submit it. Our internal systems and procedures are periodically reviewed for compliance with industry standards on data security.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data transfer"
+        }
+      },
+      "explanation": "The segment describes the use of SSL certificates to encrypt data during submission, which is a measure for secure data transfer."
+    }
+  },
+  {
+    "segment": " User information collected    The News-Post gathers identifying information about you only when you provide that information on a voluntary basis for such purposes as member or subscriber registration, reader comments and blogs, contests, news alerts, purchasing products and using social networking tools. The personal information required to use our site services varies from service to service but may include your name, age, email address, mailing address and phone number. For purchases, credit card and billing information may be required.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable personal information such as name, age, email, and billing details when users voluntarily register or purchase on the website, indicating explicit collection for basic service features."
+    }
+  },
+  {
+    "segment": "The News-Post employs 'cookies' in circumstances that require session data or require user verification. We have several feedback forms on websites operated by The News-Post. Any feedback that is submitted through these forms or through email is the property of The News-Post. We may use this feedback for marketing purposes or to contact you for additional feedback.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Cookies and tracking elements",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the use of cookies for session data or user verification, indicating implicit collection of identifiable information. Feedback collected is used for marketing, showing identifiable use. The context implies collection on the website and use for marketing purposes."
+    }
+  },
+  {
+    "segment": " Uses of information    The News-Post may use information it has collected from users to communicate with its users about changes in policies or operations.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Service Operation and Security"
+        }
+      },
+      "explanation": "The information is used by the News-Post to communicate with users about changes in policies or operations, which falls under the purpose of service operation and security."
+    }
+  },
+  {
+    "segment": "The News-Post may use information it has collected from users to promote News-Post products and services; we will make every effort to allow users to opt out of promotional messages from The News-Post.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Marketing"
+        }
+      },
+      "explanation": "The segment indicates that The News-Post uses collected information for promoting its products and services, which falls under marketing purposes."
+    }
+  },
+  {
+    "segment": "The News-Post may use information it has collected from users to promote products and services on behalf of advertisers; we will make every effort to allow users to opt out of promotional messages from advertisers.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Advertising"
+        }
+      },
+      "explanation": "The segment indicates that the information collected from users will be used to promote products and services, which falls under the purpose of advertising."
+    }
+  },
+  {
+    "segment": "The News-Post performs statistical analyses of its server logs to study the use and popularity of various areas of our site. We also look at IP addresses to analyze where we are getting our audience.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Analytics/Research",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses the collection of IP addresses and server logs for statistical analysis and understanding audience location, which falls under first-party collection for analytics purposes."
+    }
+  },
+  {
+    "segment": " Third-party uses of information    It is not the policy of The News-Post to sell or make available personally identifiable user information to unrelated third parties. The News-Post may provide advertisers and other third parties with general, aggregate usage data. Unless stated otherwise, we will use our best efforts not to disclose information about individual visits to websites operated by The News-Post or personal information that you provide, such as your name, address, e-mail address, telephone number, or credit card number to any outside parties, unless otherwise required by law.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment states that The News-Post does not sell or make available personally identifiable information to unrelated third parties, but may share aggregate usage data with advertisers and other third parties."
+    }
+  },
+  {
+    "segment": "The News-Post may allow registered users, members and subscribers to establish online identities and use social networking tools, which can include befriending other users, updating profile information, posting comments on other users' profiles and identifying pieces of content as something of interest. When you take advantage of these site features, you are agreeing to share personal information with other users. The News-Post provides privacy tools within its social networking framework so that you can control which types of personal information are shared with other users.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "First-party privacy controls",
+          "Personal Information Type": "User profile",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how users can control the sharing of their personal information within the social networking features of the site, indicating user choice/control over first-party use of their user profile information."
+    }
+  },
+  {
+    "segment": "Users should keep in mind when posting a user name or e-mail address on bulletin boards or in other user-posted content areas that information, along with any information in their postings, can be read by any third parties and may result in unsolicited messages from other posters or third parties.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Practice not covered"
+        }
+      },
+      "explanation": "The segment advises users about the potential visibility and consequences of sharing personal information in public areas, but doesn't specify any practices or policies by the company regarding this issue."
+    }
+  },
+  {
+    "segment": "The News-Post may make use of or refer to user-posted content for the purposes of promoting Randall Family, LLC publications, in print or online. The News-Post makes no claim of ownership to such user-posted content.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Marketing"
+        }
+      },
+      "explanation": "The segment indicates that user-posted content may be used for promoting publications, which falls under marketing purposes. It specifies the use of content but does not claim ownership, focusing on promotional activities."
+    }
+  },
+  {
+    "segment": "Please be aware that any information submitted on a co-branded page with a third party may result in that third party using your information according to its privacy policy. We do not and cannot control such third-party uses. Examples of third parties that The News-Post currently utilizes are Associated Press, Google.com, Second Street Media and Legacy.com.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Third Party Entity": "Named third party"
+        }
+      },
+      "explanation": "The segment indicates that information submitted on co-branded pages is shared with third parties, which may use the information according to their own privacy policies. Named third parties include Associated Press, Google.com, Second Street Media, and Legacy.com."
+    }
+  },
+  {
+    "segment": "We use third-party advertising companies to serve ads when you visit websites operated by The News-Post. These companies may use information (not including your name, address, email address or telephone number) about your visits to this and other Web sites in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, visit http://www.networkadvertising.org.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes third-party advertising companies collecting information about user visits to provide targeted ads, with an option to opt-out via a link for more information."
+    }
+  },
+  {
+    "segment": " Process to remove your personal information    Most of our services include information on how to remove your information and cancel the service. You may alternatively send us an email at webmaster@newspost.com identifying the services and information you would like removed. Please provide explicit reasons why we should remove the content. We reserve the right to decline requests for removal of information based on maintaining the historical and archival nature of our website(s).  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Type": "Delete account (partial)"
+        }
+      },
+      "explanation": "The segment describes the process for users to request the removal of their personal information, indicating a partial deletion of account information."
+    }
+  },
+  {
+    "segment": " Children    We do not specifically collect information about children. We believe that children should get their parents' consent before giving out personal information. We further believe that parents should participate in and guide their children's experiences on The News-Post.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "The segment specifically addresses the collection of information about children, stating that they do not specifically collect such information and emphasizing the importance of parental consent and guidance."
+    }
+  },
+  {
+    "segment": " Privacy Policy Changes    If we decide to change our privacy policy, we will post these changes here so that you will always know what information we gather, how we might use that information and whether we will disclose it to anyone. If, at any time, you have questions or concerns about The News-Post's privacy policy, please feel free to e-mail us at webmaster@newspost.com or call 301-662-1177 and speak to our Director of Online Operations.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice in privacy policy",
+          "User Choice": "None"
+        }
+      },
+      "explanation": "The segment describes how changes to the privacy policy will be communicated by posting updates directly in the policy, indicating a 'Privacy relevant change' with 'General notice in privacy policy' as the notification type. No specific user choice mechanism is mentioned."
+    }
+  },
+  {
+    "segment": " Terms of use    By accessing or using a website operated by The News-Post, you agree to be bound by the site's Terms of Use and Privacy Policy (\"Agreement\"), as The News-Post may amend them at any time. All amendments automatically go into effect on the day after they are posted on the website. Use of the website subsequent to such posting shall constitute your agreement to all such amendments. (See Terms of Use.)  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes how changes to the Terms of Use and Privacy Policy are handled, indicating that amendments automatically go into effect after being posted, but does not specify if these changes are privacy relevant or not."
+    }
+  },
+  {
+    "segment": "Revised May 3, 2012.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Non-privacy relevant change"
+        }
+      },
+      "explanation": "The segment indicates a revision date, suggesting a change to the privacy policy, but does not specify the nature of the change, thus it is categorized as a non-privacy relevant change."
+    }
+  }
+]

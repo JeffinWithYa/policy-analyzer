@@ -1,0 +1,757 @@
+[
+  {
+    "segment": "The Motley Fool, LLC (\"The Motley Fool\" or \"we\" or \"us\") is committed to protecting and respecting your privacy. This Privacy Statement sets out our privacy practices and explains what we do with the personal information that we collect from you on www.fool.com. Please read the following to understand our practices regarding personal information and how they affect you as you use our features and services. This statement discloses our current privacy practices; if we make material changes to these practices, we will announce them and notify you via email.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "Personal notice",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that if there are material changes to the privacy practices, the company will notify users via email, suggesting a privacy relevant change and personal notice."
+    }
+  },
+  {
+    "segment": "This Privacy Statement answers the following questions:     What information does The Motley Fool gather about you-     How does The Motley Fool use your personal information-     Will The Motley Fool disclose any of your personal information-     What kind of security measures do we take to protect your information from accidental loss or disclosure-     Will The Motley Fool use your information for direct mailings-     How can you deactivate your account or correct or revise information that we have about you-     How do we respect children's privacy-     What else should you know about your privacy-     Does the Motley Fool participate in the Safe Harbor program-     How will you know whether The Motley Fool's privacy policy has changed-  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides an overview of the topics covered in the privacy statement without detailing specific practices. It is introductory and sets the stage for more detailed sections."
+    }
+  },
+  {
+    "segment": " What Information Does The Motley Fool Gather About You-    The Motley Fool collects information about our readers so that we can provide a more interesting and useful service, as well as more appropriate advertising. We ask for your name, email address, and other personal information when you register to use certain features of our Web site, or if you sign up for special or personalized services, such as our discussion boards or email newsletters. We also may ask for this information at other times, such as when you enter contests or other promotions sponsored by The Motley Fool and/or our partners. We sometimes conduct surveys as well, although you do not have to respond to them.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Both",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The Motley Fool collects identifiable personal information such as name and email address when users register or sign up for services. This collection is explicit and opt-in, and the purpose is to provide personalized services and appropriate advertising."
+    }
+  },
+  {
+    "segment": "If you use our recommendation service to email one of our articles to a friend, you will need to provide us with your friend's email address and your email address as a return address. We will automatically send this person a one-time email, with the recommended article attached, as well as invite your friend to visit and register with our site. We will not use these email addresses for any other purpose.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Additional service/feature",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment describes the collection of email addresses when using a recommendation service on the website. It specifies that email addresses are collected explicitly to send a one-time email, thus identifying the purpose as an additional service/feature."
+    }
+  },
+  {
+    "segment": "We collect IP addresses for site security and to help us understand how people use our sites so that we can improve our sites and our users' respective experiences. For similar quality reasons, we use a feature known as a \"cookie.\" Cookies contain bits of information that websites transfer to your computer's hard drive for record-keeping purposes. Cookies can make the Web more convenient by storing information about your preferences on a site. Although we may assign your browser a cookie, the cookie does not tell us who you are. Only you can tell us that. We discuss cookies later in this Privacy Statement.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Unspecified",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "IP address and device IDs",
+          "Purpose": "Service Operation and Security",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the collection of IP addresses and cookies on the website for security and user experience improvement. The cookies are used for storing site preferences and are mentioned as not identifying the user directly, indicating aggregated or anonymized identifiability."
+    }
+  },
+  {
+    "segment": "When you place an order for a product or service, we need to know the sort of information typically used for credit card transactions, such as your name, mailing and billing addresses (and shipping address, if different), telephone number, and credit card number and expiration date. Gathering this information allows us to process and fulfill your order and notify you of your order status. We will also use your information to contact you regarding your order if necessary. We encrypt all of this information using Secure Socket Layers (SSL) technology.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Financial",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of identifiable financial information (e.g., credit card details) for the purpose of processing and fulfilling orders, indicating explicit collection on the website. Secure Socket Layers (SSL) is mentioned as a security measure for this data."
+    }
+  },
+  {
+    "segment": "If you enter stocks into a Watchlist or premium Scorecard, we will save that information, and use it to identify content that we think is relevant to you. We will also use that information in the aggregate to help us better understand what our community and our premium members are interested in, so we can create and target our content better.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User profile",
+          "Purpose": "Personalization/Customization",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of user-entered stocks for personalization and content targeting, indicating implicit collection on the website for users with accounts, with data used in an aggregated manner."
+    }
+  },
+  {
+    "segment": "If you use a Motley Fool application on a third party site or mobile device we may collect data about you including your email address. We will let you know what data, if any, we are collecting at the time.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect in mobile app",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses data collection by Motley Fool through their application on third-party sites or mobile devices, specifically mentioning the collection of email addresses. It indicates that users will be informed about the data being collected, suggesting explicit collection."
+    }
+  },
+  {
+    "segment": "Our Web site includes social media features including the Facebook Like button and widgets, such as the Share this button or other interactive mini-programs that run on our site (the \"Social Media Features\"). These features may collect your IP address, which page you are visiting on our site, and may set a cookie to enable the feature to function properly. Social Media Features are either hosted by a third party or hosted directly us. Your interactions with these Social Media Features are governed by the privacy policy of the company providing it.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes how third-party social media features collect user information on the website, indicating third-party data collection."
+    }
+  },
+  {
+    "segment": "You can log in to our site using third party sign-in services such as Facebook Connect or an Open ID provider. These services will authenticate your identity and provide you the option to share certain personal information with us such as your name and email address to pre-populate our sign up form. Services like Facebook Connect give you the option to post information about your activities on Fool.com to your profile page to share with others within your network.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes the use of third-party sign-in services like Facebook Connect, which authenticate users and share personal information such as name and email address with the site."
+    }
+  },
+  {
+    "segment": "We may also collect your email address when you submit content to our sites (for example, a contest entry, or a review of a product). Unless we get your approval, we will not display your address with your submission.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Other",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The policy describes the collection of email addresses when users submit content, such as contest entries or product reviews, on the website. It specifies that email addresses will not be displayed without user approval, indicating an opt-in choice type for use."
+    }
+  },
+  {
+    "segment": "Besides cookies, we may also use tiny electronic images (called \"single-pixel GIFs\" or \"Web beacons\"), which allow us to count users who have visited specific pages or access certain cookies. We may use single-pixel GIFs in the following ways:     To count and recognize users.     To conduct research on behalf of some partners on their websites, and for auditing purposes.     To determine aggregate information about users, including demographic and usage information.     To determine which email messages were opened (and when), as well as acted upon when we send HTML-formatted email messages (messages resembling Web pages that include graphics).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes the use of web beacons to collect information on user interactions with the website and emails, indicating collection on the website."
+    }
+  },
+  {
+    "segment": "Our Web beacons do not collect personally identifiable information. You can disable our Web beacon by turning images \"off\" in your email client.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Browser/device privacy controls",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Unspecified",
+          "User Type": "Unspecified"
+        }
+      },
+      "explanation": "The segment describes the use of Web beacons, which do not collect personally identifiable information, and provides users with a method to disable them through browser/device privacy controls, indicating a collection action with anonymized data."
+    }
+  },
+  {
+    "segment": "Advertising networks that serve ads on our site may also use single-pixel GIFs in their advertisements. In general, any electronic image viewed as part of a Web page, including an ad banner, can act as a Web beacon.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment describes how advertising networks use single-pixel GIFs, which are a type of web beacon, to collect data on the first-party website."
+    }
+  },
+  {
+    "segment": "We have engaged third-party companies to process information about our users on our behalf, to help us improve our sites and find new members. These companies will combine our anonymized data about how you visit our websites with information that they have collected from outside our sites and provide it to us (and only us) so that we can optimize your experience on fool.com across devices and based on your interests. We will not provide the third-party service providers with your name, address, email address, or telephone number.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Personalization/Customization",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes third-party companies processing user information to improve the site and find new members. It specifies that data is anonymized and combined with other data collected by third parties to optimize user experience, indicating sharing with unnamed third parties for personalization purposes."
+    }
+  },
+  {
+    "segment": "If you would like more information about the information we are receiving and your choices with respect to that data, please:     visit the DAA opt-out program the Evidon opt-out program to learn how to opt out of having your information collected in browsers for ad serving purposes;     download the Evidon Ad Control application, available for iOS and Android, to learn how to opt out of having your information collected in mobile apps; and     visit the Network Advertising Initiative's opt out page.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link",
+          "Choice Scope": "Third party sharing/collection"
+        }
+      },
+      "explanation": "The segment provides users with options to opt out of data collection for advertising purposes through various opt-out programs, indicating user control over third-party data sharing and collection."
+    }
+  },
+  {
+    "segment": " How Does The Motley Fool Use Your Personal Information-    The Motley Fool collects personal information to provide you, the user, with the best and most personalized experience possible, and to provide our advertisers with an efficient way to reach the right audience. In short, by knowing a little about you, The Motley Fool can deliver more relevant content and advertisements to you.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Purpose": "Personalization/Customization"
+        }
+      },
+      "explanation": "The segment indicates that The Motley Fool uses personal information to provide a personalized experience and relevant advertisements, which falls under the purpose of personalization/customization."
+    }
+  },
+  {
+    "segment": "We conduct research on our users' demographics, interests, and behavior based upon the information you provide us when you register or participate in contests or other promotions on our site, or based upon information we receive from other sources. This research is usually compiled and analyzed on an aggregated basis, but may also be combined with personal information to help us improve your experience. We may also notify you of products, services, or areas of our site that we think may interest you based on the information we've received. If you would prefer us not to contact you for these purposes, simply go to our opt-out page and let us know.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "Demographic",
+          "Purpose": "Analytics/Research",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of demographic and behavioral data for research purposes, which is combined with personal information to improve user experience. Users can opt-out of being contacted for marketing purposes through an opt-out page."
+    }
+  },
+  {
+    "segment": "Sometimes we ask for personal information when providing special features and services. You do not have to give us that information, but without it, you may not be able to take advantage of those products or services. For example, you will be unable to track your personal stock portfolio on our site unless you input the stocks you own, and you may not be able to gain access to certain areas of our site unless you register and/or subscribe.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Collection",
+          "Choice Type": "Opt-in",
+          "Collection Mode": "Explicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Generic personal information",
+          "Purpose": "Additional service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes the collection of personal information on a website for providing special features and services. Users can choose to provide this information (opt-in) to access certain features, indicating explicit collection. The information is identifiable as it relates to personal stock portfolios and site registration."
+    }
+  },
+  {
+    "segment": " Will The Motley Fool Disclose Any of Your Personal Information-    The Motley Fool will not disclose any personally identifiable information about individual users, except as described in this Privacy Statement. With the few exceptions that we explain here, we do not give, rent, lend, or sell individual information to our advertisers, although we do provide aggregate information. For example, we might tell an advertiser that there are 120,000 Registered Fools in Gotham City, but we will not tell them that Batman is one of them, nor will we tell them that his email address is bruce@statelywaynemanor.com. We may also use this aggregated information to help the advertisers reach the kind of audience they want. They may give us an ad and tell us the type of audience they want to reach (for example, males in the 22314 ZIP code). The Motley Fool (or people working on our behalf, under contracts and confidentiality agreements) would then take the ad and display it to users who have told us they meet those criteria. We may also disclose aggregate information (for example, information showing that 35 million of our readers clicked on a particular Web advertising banner last month) in order to describe our services to prospective partners, advertisers, and other third parties, and for other lawful purposes.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes how The Motley Fool shares aggregated, non-identifiable user information with advertisers to help them reach target audiences, indicating third-party sharing for advertising purposes without disclosing personally identifiable information."
+    }
+  },
+  {
+    "segment": "As for individually identifiable information, we may disclose it only under the following circumstances:  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment indicates that individually identifiable information may be disclosed to third parties under certain circumstances, which aligns with sharing information with third parties."
+    }
+  },
+  {
+    "segment": "  We may disclose information to others when we have your consent.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Choice Type": "Opt-in"
+        }
+      },
+      "explanation": "The segment indicates that information is disclosed to others only when user consent is obtained, which aligns with an opt-in choice type for third-party sharing."
+    }
+  },
+  {
+    "segment": "  If you sign up for a special offer from an advertiser (for example, in our \"What Every Fool Needs\" or \"Special Offers\" areas, or whatever we call them if we change their names), we will provide your individual contact information (for example, name, mailing address, email address, and/or telephone number), so that the advertiser or its agent can fulfill the special offer. Once the advertiser receives the information, it will handle the information under its own privacy policies. Obviously, if you do not want a particular advertiser to have your personal information, then you should not sign up for that advertiser's offer.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact",
+          "Third Party Entity": "Unnamed third party",
+          "Purpose": "Additional service/feature"
+        }
+      },
+      "explanation": "The segment describes sharing individual contact information with advertisers for fulfilling special offers, categorizing it under third-party sharing with unnamed third parties for additional services."
+    }
+  },
+  {
+    "segment": "  If you sign up for a service that relies upon third parties for important elements, we will provide your personal information to the third parties so that they can provide you with their services, and those companies will treat the data under their own policies. We will tell you about these service providers at the time you sign up for the service.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Scope": "Collection",
+          "Choice Type": "Unspecified",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Unspecified",
+          "Purpose": "Basic service/feature",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The policy indicates that personal information will be shared with third parties for providing services, with the third parties handling the information according to their own policies. The sharing is for basic service provision, and users are informed about these third parties at sign-up."
+    }
+  },
+  {
+    "segment": "  We may disclose information to selected partners, under nondisclosure agreements, only for the purpose of marketing Motley Fool co-branded offerings (such as a Motley Fool newsletter published by another company, a Motley Fool-branded credit card, Motley Fool cereal, or Motley Fool meringues-by-mail baked and delivered with love by eMeringue). Those partners will be able to use the personal information they receive from us only for marketing the co-branded offerings, not for marketing anything else. So, you might get a notice about Motley Fool Morsels, manufactured by Nature's Miracle cereal company, but you will not receive one for that company's other flakes, crisps, or nuggets. Of course, if you then sign up for a co-branded product from our partner, the information you provide to that company will be subject to the partner's own privacy policies. If you would prefer not to hear about such products and services, simply go to our opt-out page and let us know.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with selected partners for marketing co-branded offerings, with an opt-out option provided. The information is identifiable and shared under nondisclosure agreements."
+    }
+  },
+  {
+    "segment": "  If you provide us with a \"snail mail\" address after May 15, 2005, we may provide that information to advertisers so that they can send you mail about their own products and services. If you do not want such mail, you can throw it in the trash, use it for kindling, or go to the opt-out page. Note: This provision does not apply to information received by us before May 15, 2005.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment describes sharing 'snail mail' addresses with advertisers, which involves third-party sharing."
+    }
+  },
+  {
+    "segment": "  If you buy something from us, we will disclose your personal information to the extent necessary to fulfill your order and charge your credit card (if applicable). We may use a fulfillment company to fill and ship your order (excluding products you download directly from our site) and a credit card processing company to verify your card number and process the transaction. For example, if you order a \"Fool\" cap with your credit card, we need to give your address to the fulfillment house (so that it can ship the cap to you) and your credit card information to the processing company (to confirm payment). We may also give your information to a delivery or postal service so that it can get your order to you.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes sharing personal information with third parties such as fulfillment and credit card processing companies to fulfill an order, indicating 'Receive/Shared with' action for 'Service operation and security' purposes."
+    }
+  },
+  {
+    "segment": "  If you use our recommendation service to email one of our articles to a friend, The Motley Fool will automatically send this person a one-time email, with the recommended article attached. The email address you give us will appear on the \"From\" line of the email, thereby disclosing this information to whoever opens and reads the email. Similarly, if you send email from our site, by using \"Reply to Author\" or \"Email this Post,\" your address may appear as the return address of that email.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes how the service collects email addresses when users use the recommendation service to email articles to friends."
+    }
+  },
+  {
+    "segment": "  We may disclose your personal information as required by applicable law, or in response to legal process, to protect the rights or property of The Motley Fool, or to protect the safety of The Motley Fool, our users, or others.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes disclosing personal information in response to legal requirements or processes, which falls under the 'Legal requirement' purpose of third-party sharing."
+    }
+  },
+  {
+    "segment": "  We may sometimes conduct mailings to other people's lists. To make it easier for us to comply with the Federal CAN-SPAM Act of 2003, we may share our email list of people who have requested not to receive promotional communications from us with the list providers (or contractors) solely so that we can avoid sending emails to people who have asked not to receive them (or, conversely, so that our advertisers can avoid sending emails to people who have requested not to hear from them). We provide these lists only to list providers or contractors that we consider to be reputable, and only under strict nondisclosure/nonuse agreements.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact",
+          "Purpose": "Service operation and security",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing an email list with third-party list providers or contractors to comply with the CAN-SPAM Act, ensuring that promotional communications are not sent to those who opted out. The information shared is contact details, specifically email addresses, and the purpose is to ensure compliance with legal requirements related to email communications."
+    }
+  },
+  {
+    "segment": "  We may disclose personal information in some other limited circumstances, but we will specifically describe them to you when we collect the information, such as in the rules of a contest or a new service. For example, if we are going to give personal information to a contest's sponsor, we will disclose it when you sign up for the contest, so that you can decide whether to enter.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses disclosing personal information to third parties, such as a contest's sponsor, which implies sharing information with them."
+    }
+  },
+  {
+    "segment": "  We may employ contractors or other third parties to help with our operations. We may give them access to databases of user information, so that they can perform their services for us, including performing system maintenance, displaying personalized content (such as portfolios), performing list analysis or management, or sending mailings for us from our advertisers. These parties are all subject to confidentiality agreements that restrict their use and disclosure of information they obtain through their relationship with The Motley Fool.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment discusses sharing user information with third parties to help with operations, indicating a 'Receive/Shared with' action by third parties."
+    }
+  },
+  {
+    "segment": "  The ads appearing on this Web site are delivered to you by our Web advertising partners. Information about your visits to Fool.com and our partner sites, such as the number of times you have viewed an ad (but not your name, address, or other personal information), is used to serve ads to you. For more information about DoubleClick and how to opt-out of their tracking methods, please click here. For more information about AOL, including how to opt-out of their tracking methods, please click here. For more information about Advertising.com, and their opt-out methods, click here. For more information about opting out of advertising generally, please click here.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Choice Type": "Opt-out link",
+          "Does/Does Not": "Does",
+          "Identifiability": "Aggregated or anonymized",
+          "Personal Information Type": "User online activities",
+          "Purpose": "Advertising",
+          "Third Party Entity": "Named third party",
+          "User Type": "User without account"
+        }
+      },
+      "explanation": "The segment discusses sharing user online activity information with third-party advertising partners to serve ads, with an opt-out option provided for tracking by named third parties like DoubleClick, AOL, and Advertising.com. The information shared does not include identifiable personal data."
+    }
+  },
+  {
+    "segment": "  Because we are one big, happy family, The Motley Fool and its subsidiaries may share information for site administration or order fulfillment, and to notify you of products and services that may interest you.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with"
+        }
+      },
+      "explanation": "The segment mentions that The Motley Fool and its subsidiaries may share information for site administration or order fulfillment, indicating sharing within a corporate group."
+    }
+  },
+  {
+    "segment": "  If The Motley Fool is involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our Web site of any change in ownership or uses of your personal information, as well as any choices you may have regarding your personal information.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "In case of merger or acquisition",
+          "Notification Type": "Personal notice",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment discusses notifying users in case of a merger, acquisition, or sale, which falls under 'In case of merger or acquisition'. Notification is specified as via email and/or a prominent notice on the website, categorized as 'Personal notice'. The segment mentions choices regarding personal information but does not specify them, hence 'Unspecified' for User Choice."
+    }
+  },
+  {
+    "segment": " What Kind of Security Measures Do We Take to Protect Your Information From Accidental Loss or Disclosure-    The Motley Fool is committed to protecting your personal information. We store information you provide us on our secure servers. Further, the information you provide when making a purchase is encrypted with SSL technology.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure data storage"
+        }
+      },
+      "explanation": "The segment describes storing personal information on secure servers and using SSL encryption for purchases, indicating secure data storage measures."
+    }
+  },
+  {
+    "segment": "Personalized areas of our sites, such as My Fool, are password-protected. Only you have access to these password-protected areas. Do not share your passwords with anyone. The Motley Fool will never ask you for your password in an unsolicited phone call or email. If you are using a computer to which others have access, such as one in a computer lab, Internet cafe, or public library, always remember to log out and close your browser window when leaving our site.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Secure user authentication"
+        }
+      },
+      "explanation": "The segment describes secure user authentication practices by emphasizing password protection and advising users not to share passwords, which is a security measure to protect personalized areas of the site."
+    }
+  },
+  {
+    "segment": " Data Retention    Upon your request, we will remove your personal information from the website but we will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our Fool Rules and take other actions otherwise permitted by law.  ",
+    "model_analysis": {
+      "category": {
+        "Data Retention": {
+          "Retention Period": "Limited",
+          "Retention Purpose": "Legal requirement"
+        }
+      },
+      "explanation": "The segment describes that personal information will be removed upon request but retained as necessary to comply with legal obligations, indicating a limited retention period for legal purposes."
+    }
+  },
+  {
+    "segment": " Will The Motley Fool Use Your Information for Direct Mailings-    If you register with The Motley Fool or sign up for or buy any of our products or services, we will send you information about our various products and services, or other products and services that we believe may interest you. Our partners in co-branded products (for example, our Motley Fool-branded credit card) may also send you information, but only for those Fool-branded products.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Opt-out link",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes how The Motley Fool uses collected information to send marketing materials to users who register or purchase products. It specifies that information may also be shared with partners for co-branded products, indicating the collection is identifiable and for marketing purposes."
+    }
+  },
+  {
+    "segment": "As we stated earlier, we may also provide your physical mailing address (but not your email address) to people who will send you promotional \"snail\" mailings about their products and services. Note, again: This provision applies only to information received by us after May 15, 2005.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Receive/Shared with",
+          "Personal Information Type": "Contact",
+          "Purpose": "Marketing",
+          "Third Party Entity": "Unnamed third party"
+        }
+      },
+      "explanation": "The segment describes sharing the user's physical mailing address with third parties for the purpose of sending promotional mailings, which falls under third-party sharing for marketing purposes."
+    }
+  },
+  {
+    "segment": "If you do not want to receive such offers and mailings, you can let us know on our opt-out page, or you may send snail mail to Privacy Penelope, The Motley Fool, 2000 Duke St., 4th Floor, Alexandria, VA 22314. We'll remove your name from our lists as soon as we can. Another way is to simply to click the \"unsubscribe\" link found in our email messages.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment provides users with options to opt-out of receiving offers and mailings through an opt-out page, snail mail, or an 'unsubscribe' link in emails, indicating an opt-out choice type."
+    }
+  },
+  {
+    "segment": "Please note: If you purchase products or services from us, or if you register for an account with us, we may contact you to confirm your purchase, subscription, or registration, or to provide you with information about its terms or features. You may wish to keep these transactional or relationship emails, to help you use our products and services.  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website",
+          "Choice Scope": "Use",
+          "Choice Type": "Unspecified",
+          "Collection Mode": "Implicit",
+          "Does/Does Not": "Does",
+          "Identifiability": "Identifiable",
+          "Personal Information Type": "Contact",
+          "Purpose": "Basic service/feature",
+          "User Type": "User with account"
+        }
+      },
+      "explanation": "The segment describes contacting users who purchase products, services, or register an account, indicating the collection and use of contact information for transactional purposes."
+    }
+  },
+  {
+    "segment": " How Can You Deactivate or Reactivate Your Account or Edit the Information We Have About You-    If you want to correct, delete/remove or change information in your Personal Profile, or any other tidbits we have about you, please go to http://www.fool.com/Community/EditAccount/EditAccount.asp. Either you will be able to make your changes right there, or we will give you instructions.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data",
+          "Access Type": "Edit information"
+        }
+      },
+      "explanation": "The segment provides instructions on how users can edit their personal profile information, indicating user access and the ability to edit information."
+    }
+  },
+  {
+    "segment": "If you want to make changes to your paid Fool newsletter subscriptions or free trials, please email us at CS@fool.com If you want to change your email address for email products, do so here.  ",
+    "model_analysis": {
+      "category": {
+        "User Access, Edit and Deletion": {
+          "Access Scope": "Profile data"
+        }
+      },
+      "explanation": "The segment provides instructions for users to change their email address or subscription status, which involves accessing and editing profile data."
+    }
+  },
+  {
+    "segment": "Please note that if you have opted out of receiving emails and other communications from us and you subsequently select to receive one of our free reports or take a free trial subscription, you will need to opt out again if you still prefer us not to contact you. Otherwise, we may contact you using the email address you provided us at the time you signed up for the free report or offer.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Scope": "First party use",
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The segment discusses the user's ability to opt out of communications, indicating a control over first-party use of their email contact information, and the need to opt out again after engaging with certain services."
+    }
+  },
+  {
+    "segment": "To cancel any of your free email subscriptions, do so at your Account Settings page or click the unsubscribe link within the emails.  ",
+    "model_analysis": {
+      "category": {
+        "User Choice/Control": {
+          "Choice Type": "Opt-out link"
+        }
+      },
+      "explanation": "The text provides users with the option to unsubscribe from email subscriptions via an unsubscribe link, which is a form of user choice/control."
+    }
+  },
+  {
+    "segment": " How Do We Respect Children's Privacy-    Our sites are not directed at children under the age of 13. We operate our sites in compliance with the Children's Online Privacy Protection Act and will not knowingly collect or use personally identifiable information from anyone under 13.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Children"
+        }
+      },
+      "explanation": "This segment addresses how the company respects the privacy of children under 13, stating compliance with COPPA and not collecting personal information from children."
+    }
+  },
+  {
+    "segment": " Does The Motley Fool Participate in the Safe Harbor Program-    The Motley Fool complies with the US-EU Safe Harbor Framework and the US-Swiss Safe Harbor Framework as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information from European Union member countries and Switzerland. The Motley Fool has certified that it adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access and enforcement. To learn more about the Safe Harbor program, and to view our certification, please visit www.export.gov/safeharbor/.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Europeans"
+        }
+      },
+      "explanation": "The segment discusses The Motley Fool's compliance with the US-EU and US-Swiss Safe Harbor Frameworks, which are relevant to the handling of personal information from European Union member countries and Switzerland."
+    }
+  },
+  {
+    "segment": " What Else Should You Know About Your Privacy-    When you post information on discussion boards, in chat rooms, and in such features as your Personal Profile or your Foolish Interview, that information, along with your screen name, is visible to the public. Please remember that whenever you disclose personal information publicly that information can be collected and used by others. In short, if you post personal information online where people can see it, people will know that information and you may receive unsolicited messages from other parties in return. If you do not want strangers to have your email address, you should not post your email address on a discussion board. Similarly, if you do not want people to know that you are President Barack Obama and you use our \"Living Below Your Means\" discussion board for help in balancing the federal budget, then you should not post that information, Mister President.  ",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides general advice about the risks of sharing personal information publicly online, which is not specific to any particular data practice covered by the privacy policy."
+    }
+  },
+  {
+    "segment": "Also please be aware that when you post messages on our discussion boards, people can respond to your posts through our \"Reply to Author\" email function. Of course, they still will not know your email address (unless you send email to them).  ",
+    "model_analysis": {
+      "category": {
+        "First Party Collection/Use": {
+          "Action First-Party": "Collect on website"
+        }
+      },
+      "explanation": "The segment describes a situation where users post messages on discussion boards, implying collection of user-generated content on the website. The 'Reply to Author' function indicates interaction facilitated by the website, but the user's email remains undisclosed unless they choose to share it."
+    }
+  },
+  {
+    "segment": "This Privacy Statement applies to the operations of The Motley Fool, LLC, which serves users in the United States of America, and by using the sites and providing us with personal data you are consenting to our processing data in the United States and under its laws. Data handling practices and rules may differ from country to country. Each Motley Fool entity (e.g., The Motley Fool Limited, which operates fool.co.uk in the United Kingdom) may have different policies, which will apply to (and be stated on) its sites.  ",
+    "model_analysis": {
+      "category": {
+        "International and Specific Audiences": {
+          "Audience Type": "Citizens from other countries"
+        }
+      },
+      "explanation": "The segment mentions that The Motley Fool, LLC operates in the United States and that data handling practices may differ by country, indicating relevance to international users."
+    }
+  },
+  {
+    "segment": "While we do our best to protect your personal information, The Motley Fool cannot ensure or warrant the security of any information you transmit to us, and you do so at your own risk. What does all of this mean- Just as in the investing world, you must protect yourself. You are responsible for maintaining the secrecy of any password and/or account information. Please be careful and responsible whenever you are online, especially when using a computer that other people can use also.  ",
+    "model_analysis": {
+      "category": {
+        "Data Security": {
+          "Security Measure": "Generic"
+        }
+      },
+      "explanation": "The segment discusses the limitations of the company's ability to ensure data security, emphasizing the user's responsibility to protect their own information. It does not specify any particular security measures beyond general caution."
+    }
+  },
+  {
+    "segment": "Many of our advertisers or partners, such as brokerages, merchants, or data providers, link from our site to areas on their own sites where they sell their own products and services. If you follow links from our site to others, you should be aware that you are doing business with those other sites, which have their own privacy and data collection practices. The Motley Fool has no responsibility or liability for these independent policies (and we may not even know what they are). For more information regarding a site and its privacy policies, check that site.  ",
+    "model_analysis": {
+      "category": {
+        "Third Party Sharing/Collection": {
+          "Action Third Party": "Collect on first party website/app"
+        }
+      },
+      "explanation": "The segment explains that third parties, such as advertisers or partners, may collect data on their own sites when users follow links from the first party site. It highlights that these third parties have their own privacy practices."
+    }
+  },
+  {
+    "segment": " How Will You Know Whether The Motley Fool's Privacy Policy Has Changed-    We may change this Privacy Statement at any time, but we will give notice of any material change (or any notices that we are required to give you) on our websites and/or in email messages prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy.  ",
+    "model_analysis": {
+      "category": {
+        "Policy Change": {
+          "Change Type": "Privacy relevant change",
+          "Notification Type": "General notice on website",
+          "User Choice": "Unspecified"
+        }
+      },
+      "explanation": "The segment indicates that users will be notified of material changes to the privacy policy via the website and/or email, indicating a 'Privacy relevant change' and 'General notice on website'. The 'User Choice' is unspecified as it does not mention any opt-in or opt-out mechanism."
+    }
+  },
+  {
+    "segment": "Last Updated: December 1st, 2014",
+    "model_analysis": {
+      "category": {
+        "Other": {
+          "Other Type": "Introductory/Generic"
+        }
+      },
+      "explanation": "The segment provides the date of the last update to the privacy policy, which is typically introductory or generic information."
+    }
+  }
+]

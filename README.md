@@ -2,26 +2,40 @@
 
 A tool for analyzing privacy policies using AI. This system processes privacy policy text segments and categorizes them according to standard privacy policy categories like data collection, sharing, retention, and user controls.
 
-This repository is based off a blueprint and full toolkit for a LangGraph-based agent service architecture. It includes a [LangGraph](https://langchain-ai.github.io/langgraph/) agent, a [FastAPI](https://fastapi.tiangolo.com/) service to serve it, a client to interact with the service, and a [Streamlit](https://streamlit.io/) app that uses the client to provide a chat interface.
-**[🎥 Watch a video walkthrough of the template repo and app](https://www.youtube.com/watch?v=VqQti9nGoe4)**
+
+This repository includes three specialized AI agents:
+
+1. **Policy Segmenter Agent**: Breaks down privacy policies into meaningful segments
+2. **Policy Annotator Agent**: Analyzes and categorizes policy segments
+3. **GDPR Compliance Agent**: Evaluates policies against regulatory requirements
 
 ## Features
 
-- Automated analysis of privacy policy segments
-- Categorization into standard privacy categories:
-  - First Party Collection/Use
-  - Third Party Sharing/Collection
-  - User Choice/Control
-  - User Access, Edit, and Deletion
-  - Data Retention
-  - Data Security
-  - Policy Change
-  - Do Not Track
-  - International and Specific Audiences
-  - Other
+- **Policy Segmentation**
+  - Breaks down privacy policies into distinct clauses
+  - Preserves original text and context
+  - Ensures segments are self-contained and meaningful
 
-- Structured output with explanations for each categorization
-- Comparison with human annotations for accuracy assessment
+- **Policy Annotation**
+  - Categorizes segments into standard privacy categories:
+    - First Party Collection/Use
+    - Third Party Sharing/Collection
+    - User Choice/Control
+    - User Access, Edit, and Deletion
+    - Data Retention
+    - Data Security
+    - Policy Change
+    - Do Not Track
+    - International and Specific Audiences
+    - Other
+  - Provides detailed explanations for categorizations
+  - Compares results with human annotations
+
+- **Regulatory Compliance**
+  - Evaluates policies against GDPR requirements
+  - Checks for required disclosures and practices
+  - Identifies potential compliance gaps
+  - Generates compliance reports
 
 ## Setup
 
@@ -167,3 +181,29 @@ The matching_details field provides metrics on how well the model's categorizati
 - `matched_categories`: List of human annotation categories that matched
 
 In this example, the model correctly identified the segment as "Other: Introductory/Generic", matching one of the human annotations perfectly. Note that human annotators may identify multiple applicable categories (in this case, both "Other" and "Policy Change"), while the model currently focuses on the primary category.
+
+## Agent Architecture
+
+### Policy Segmenter Agent
+- Breaks down privacy policies into logical segments
+- Uses LangGraph for workflow management
+- Ensures each segment contains one complete privacy statement
+- Preserves original text exactly as written
+
+### Policy Annotator Agent
+- Analyzes individual policy segments
+- Categorizes according to standard privacy categories
+- Provides detailed explanations for categorizations
+- Compares results with human annotations for accuracy
+
+### GDPR Compliance Agent
+- Evaluates policies against key GDPR requirements:
+  - Identity and contact details
+  - Processing purposes and legal basis
+  - Data recipient information
+  - International transfer safeguards
+  - Retention periods
+  - Data subject rights
+  - Consent withdrawal
+  - Complaint procedures
+  - Automated decision-making details

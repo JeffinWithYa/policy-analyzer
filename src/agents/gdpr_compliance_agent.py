@@ -133,28 +133,98 @@ def create_gdpr_agent():
     """Create the GDPR compliance analysis agent for use with /invoke endpoint"""
     logger.info("Creating GDPR agent")
 
-    def agent(state):
-        """Agent to process GDPR compliance analysis"""
-        logger.info("GDPR agent called")
-        messages = state["messages"]
+    def grade_relevance(docs, question):
+        """Grade if retrieved documents are relevant to the question"""
+        # Map questions to key terms for relevance checking
+        question_terms = {
+            "What are the identity and contact details of the organization?": [
+                "contact",
+                "email",
+                "address",
+                "organization",
+                "company",
+                "identity",
+            ],
+            "What are the purposes and legal basis for processing personal data?": [
+                "legal basis",
+                "consent",
+                "legitimate interest",
+                "purpose",
+                "processing",
+            ],
+            "What are the legitimate interests of the organization?": [
+                "legitimate interest",
+                "business purpose",
+                "processing reason",
+            ],
+            "Who are the recipients of personal data?": [
+                "recipient",
+                "third party",
+                "share",
+                "transfer",
+                "disclosure",
+            ],
+            "Are there any international data transfers and what safeguards exist?": [
+                "international",
+                "transfer",
+                "safeguard",
+                "overseas",
+                "cross-border",
+            ],
+            "What is the data retention period?": [
+                "retention",
+                "store",
+                "keep",
+                "period",
+                "duration",
+            ],
+            "What are the data subject rights?": [
+                "right",
+                "access",
+                "rectification",
+                "erasure",
+                "portability",
+            ],
+            "How can consent be withdrawn?": [
+                "withdraw",
+                "consent",
+                "opt-out",
+                "revoke",
+            ],
+            "How can complaints be lodged?": [
+                "complaint",
+                "supervisory",
+                "authority",
+                "lodge",
+            ],
+            "What are the requirements for providing personal data?": [
+                "requirement",
+                "mandatory",
+                "voluntary",
+                "provide",
+            ],
+            "Is there automated decision-making or profiling?": [
+                "automated",
+                "profiling",
+                "decision",
+                "automatic",
+            ],
+        }
 
+        terms = question_terms.get(question, [])
+        for doc in docs:
+            text = doc.page_content.lower()
+            if any(term.lower() in text for term in terms):
+                return True
+        return False
+
+    def process_segments(state):
+        """Process privacy segments and create vectorstore"""
+        messages = state["messages"]
         try:
-            # Extract privacy segments from the last message
             last_message = messages[-1].content
-            try:
-                data = json.loads(last_message)
-                privacy_segments = data.get("privacy_segments", [])
-                logger.info(f"Received {len(privacy_segments)} privacy segments")
-            except json.JSONDecodeError:
-                logger.error("Failed to parse privacy segments from message")
-                return {
-                    **state,
-                    "messages": [
-                        AIMessage(
-                            content="Please provide privacy segments in valid JSON format"
-                        )
-                    ],
-                }
+            data = json.loads(last_message)
+            privacy_segments = data.get("privacy_segments", [])
 
             if not privacy_segments:
                 return {
@@ -164,30 +234,28 @@ def create_gdpr_agent():
                     ],
                 }
 
-            # Create vectorstore and retriever
             vectorstore, segment_lookup = create_vectorstore(privacy_segments)
+            retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 
-            # Process each GDPR question
             results = {}
             for question in GDPR_QUESTIONS:
-                logger.info(f"Processing question: {question}")
-
-                # Use updated retriever configuration
-                retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-
-                # Use invoke instead of get_relevant_documents
                 docs = retriever.invoke(question)
-                relevant_segments = []
 
-                for doc in docs:
-                    original_segment = segment_lookup.get(doc.page_content.strip())
-                    if original_segment:
-                        relevant_segments.append(original_segment)
-
-                results[question] = relevant_segments
-                logger.info(
-                    f"Found {len(relevant_segments)} relevant segments for question"
-                )
+                # Only include relevant documents
+                if grade_relevance(docs, question):
+                    relevant_segments = []
+                    for doc in docs:
+                        for key in segment_lookup:
+                            if (
+                                doc.page_content.strip() in key
+                                or key in doc.page_content.strip()
+                            ):
+                                segment = segment_lookup[key]
+                                if segment not in relevant_segments:
+                                    relevant_segments.append(segment)
+                    results[question] = relevant_segments
+                else:
+                    results[question] = []
 
             # Format response
             response = "GDPR Compliance Analysis Results:\n\n"
@@ -219,11 +287,7 @@ def create_gdpr_agent():
 
     # Create simple workflow
     workflow = StateGraph(AgentState)
-
-    # Add single node for processing
-    workflow.add_node("process", agent)
-
-    # Add edges
+    workflow.add_node("process", process_segments)
     workflow.add_edge(START, "process")
     workflow.add_edge("process", END)
 

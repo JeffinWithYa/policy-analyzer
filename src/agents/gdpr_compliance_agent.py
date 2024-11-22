@@ -230,7 +230,17 @@ def create_gdpr_agent():
                 return {
                     **state,
                     "messages": [
-                        AIMessage(content="No privacy segments provided for analysis")
+                        AIMessage(
+                            content=json.dumps(
+                                {
+                                    "gdpr_analysis": {
+                                        "status": "error",
+                                        "message": "No privacy segments provided for analysis",
+                                        "results": {},
+                                    }
+                                }
+                            )
+                        )
                     ],
                 }
 
@@ -257,22 +267,31 @@ def create_gdpr_agent():
                 else:
                     results[question] = []
 
-            # Format response
-            response = "GDPR Compliance Analysis Results:\n\n"
-            for question, segments in results.items():
-                response += f"Question: {question}\n"
-                if segments:
-                    for segment in segments:
-                        response += f"- Segment: {segment['segment']}\n"
-                        response += (
-                            f"  Category: {segment['model_analysis']['category']}\n"
+            # Format response as JSON
+            response_data = {
+                "gdpr_analysis": {
+                    "status": "success",
+                    "results": {
+                        question: (
+                            [
+                                {
+                                    "segment": segment["segment"],
+                                    "category": segment["model_analysis"]["category"],
+                                    "explanation": segment["model_analysis"][
+                                        "explanation"
+                                    ],
+                                }
+                                for segment in segments
+                            ]
+                            if segments
+                            else []
                         )
-                        response += f"  Explanation: {segment['model_analysis']['explanation']}\n"
-                else:
-                    response += "No relevant segments found.\n"
-                response += "\n"
+                        for question, segments in results.items()
+                    },
+                }
+            }
 
-            return {**state, "messages": [AIMessage(content=response)]}
+            return {**state, "messages": [AIMessage(content=json.dumps(response_data))]}
 
         except Exception as e:
             logger.error(f"Error in GDPR analysis: {e}", exc_info=True)
@@ -280,7 +299,15 @@ def create_gdpr_agent():
                 **state,
                 "messages": [
                     AIMessage(
-                        content=f"An error occurred during GDPR analysis: {str(e)}"
+                        content=json.dumps(
+                            {
+                                "gdpr_analysis": {
+                                    "status": "error",
+                                    "message": str(e),
+                                    "results": {},
+                                }
+                            }
+                        )
                     )
                 ],
             }

@@ -1,4 +1,4 @@
-from typing import Annotated, Sequence, TypedDict, List, Dict
+from typing import Annotated, Sequence, TypedDict, List, Dict, Any
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
 from langgraph.graph import StateGraph, END, START
 from langgraph.prebuilt import ToolNode
@@ -9,6 +9,7 @@ from langchain.tools.retriever import create_retriever_tool
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langgraph.graph.message import add_messages
 import logging
+import json
 
 # Configure logger
 logger = logging.getLogger(__name__)
@@ -76,169 +77,154 @@ def create_vectorstore(privacy_segments: List[Dict]):
     return vectorstore, segment_lookup
 
 
+def analyze_gdpr_compliance(
+    privacy_segments: List[Dict], update_vectorstore: bool = False
+) -> Dict[str, List[Dict]]:
+    """Run GDPR compliance analysis on privacy policy segments"""
+    logger.info(f"Starting GDPR analysis with {len(privacy_segments)} segments")
+
+    try:
+        agent = create_gdpr_agent()
+        logger.info("Created GDPR agent")
+        results = {}
+
+        for question in GDPR_QUESTIONS:
+            logger.info(f"Processing question: {question}")
+            inputs = {
+                "messages": [HumanMessage(content=question)],
+                "results": {},
+                "privacy_segments": privacy_segments,
+                "update_vectorstore": update_vectorstore,
+            }
+
+            try:
+                logger.info("Invoking agent")
+                output = agent.invoke(inputs)
+                logger.info("Agent invocation complete")
+                logger.debug(f"Agent output: {output}")
+
+                results[question] = output.get("results", {}).get(question, [])
+                logger.info(
+                    f"Processed results for question: {len(results[question])} segments found"
+                )
+
+            except Exception as e:
+                logger.error(
+                    f"Error processing question '{question}': {e}", exc_info=True
+                )
+                results[question] = []
+
+        logger.info("GDPR analysis complete")
+        return results
+
+    except Exception as e:
+        logger.error(f"Error in analyze_gdpr_compliance: {e}", exc_info=True)
+        raise
+
+
+# Define state type
+class AgentState(TypedDict):
+    """Type for agent state"""
+
+    messages: Annotated[Sequence[BaseMessage], add_messages]
+
+
 def create_gdpr_agent():
-    """Create the GDPR compliance analysis agent"""
-
-    # Store components at module level
-    retriever_tool = None
-    segment_lookup = None
-    vectorstore = None
-
-    def setup_retrieval(privacy_segments: List[Dict], update_existing: bool = False):
-        """Setup or update vectorstore and retriever"""
-        nonlocal retriever_tool, segment_lookup, vectorstore
-
-        if not privacy_segments:
-            logger.debug(
-                "No privacy segments provided - deferring vectorstore creation"
-            )
-            return None, None, None
-
-        if retriever_tool is None or update_existing:
-            logger.info(
-                f"{'Updating' if update_existing else 'Setting up'} retrieval for {len(privacy_segments)} segments"
-            )
-            vectorstore, segment_lookup = create_or_update_vectorstore(
-                privacy_segments,
-                existing_vectorstore=vectorstore if update_existing else None,
-                existing_lookup=segment_lookup if update_existing else None,
-            )
-            retriever = vectorstore.as_retriever(
-                search_type="similarity",
-                search_kwargs={"k": 3, "include_metadata": True},
-            )
-            retriever_tool = create_retriever_tool(
-                retriever,
-                "search_privacy_policy",
-                "Search privacy policy segments for GDPR compliance information",
-            )
-
-        return retriever_tool, segment_lookup, vectorstore
+    """Create the GDPR compliance analysis agent for use with /invoke endpoint"""
+    logger.info("Creating GDPR agent")
 
     def agent(state):
-        """Agent to decide whether to retrieve or generate answer"""
-        nonlocal retriever_tool, segment_lookup, vectorstore
-
+        """Agent to process GDPR compliance analysis"""
+        logger.info("GDPR agent called")
         messages = state["messages"]
-        privacy_segments = state.get("privacy_segments", [])
-        update_store = state.get("update_vectorstore", False)
 
-        # Initialize or update retrieval components if we have segments
-        if privacy_segments:
-            retriever_tool, segment_lookup, vectorstore = setup_retrieval(
-                privacy_segments, update_existing=update_store
-            )
+        try:
+            # Extract privacy segments from the last message
+            last_message = messages[-1].content
+            try:
+                data = json.loads(last_message)
+                privacy_segments = data.get("privacy_segments", [])
+                logger.info(f"Received {len(privacy_segments)} privacy segments")
+            except json.JSONDecodeError:
+                logger.error("Failed to parse privacy segments from message")
+                return {
+                    **state,
+                    "messages": [
+                        AIMessage(
+                            content="Please provide privacy segments in valid JSON format"
+                        )
+                    ],
+                }
 
-        if retriever_tool is None:
-            logger.debug("No retriever tool available - returning empty response")
+            if not privacy_segments:
+                return {
+                    **state,
+                    "messages": [
+                        AIMessage(content="No privacy segments provided for analysis")
+                    ],
+                }
+
+            # Create vectorstore and retriever
+            vectorstore, segment_lookup = create_vectorstore(privacy_segments)
+
+            # Process each GDPR question
+            results = {}
+            for question in GDPR_QUESTIONS:
+                logger.info(f"Processing question: {question}")
+
+                # Use updated retriever configuration
+                retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+
+                # Use invoke instead of get_relevant_documents
+                docs = retriever.invoke(question)
+                relevant_segments = []
+
+                for doc in docs:
+                    original_segment = segment_lookup.get(doc.page_content.strip())
+                    if original_segment:
+                        relevant_segments.append(original_segment)
+
+                results[question] = relevant_segments
+                logger.info(
+                    f"Found {len(relevant_segments)} relevant segments for question"
+                )
+
+            # Format response
+            response = "GDPR Compliance Analysis Results:\n\n"
+            for question, segments in results.items():
+                response += f"Question: {question}\n"
+                if segments:
+                    for segment in segments:
+                        response += f"- Segment: {segment['segment']}\n"
+                        response += (
+                            f"  Category: {segment['model_analysis']['category']}\n"
+                        )
+                        response += f"  Explanation: {segment['model_analysis']['explanation']}\n"
+                else:
+                    response += "No relevant segments found.\n"
+                response += "\n"
+
+            return {**state, "messages": [AIMessage(content=response)]}
+
+        except Exception as e:
+            logger.error(f"Error in GDPR analysis: {e}", exc_info=True)
             return {
                 **state,
                 "messages": [
-                    AIMessage(content="No privacy segments available for analysis")
+                    AIMessage(
+                        content=f"An error occurred during GDPR analysis: {str(e)}"
+                    )
                 ],
             }
 
-        model = ChatOpenAI(temperature=0, model="gpt-4-turbo")
-        model = model.bind_tools([retriever_tool])
-        response = model.invoke(messages)
+    # Create simple workflow
+    workflow = StateGraph(AgentState)
 
-        return {**state, "messages": [response], "segment_lookup": segment_lookup}
-
-    def generate_answer(state):
-        """Generate GDPR compliance answer from retrieved segments"""
-        nonlocal segment_lookup
-
-        messages = state["messages"]
-        question = messages[0].content
-        retrieved_docs = messages[-1].content
-
-        logger.info(f"Generating answer for: {question}")
-
-        # Parse retrieved documents and look up original segments
-        retrieved_segments = []
-        for doc in retrieved_docs.split("\n\n"):
-            if doc.strip() and "Segment:" in doc:
-                original_segment = segment_lookup.get(doc.strip())
-                if original_segment:
-                    retrieved_segments.append(
-                        {
-                            "segment": original_segment["segment"],
-                            "model_analysis": original_segment["model_analysis"],
-                        }
-                    )
-
-        logger.info(f"Found {len(retrieved_segments)} relevant segments")
-
-        prompt = PromptTemplate(
-            template="""Based on the retrieved privacy policy segments, answer the following GDPR compliance question:
-            Question: {question}
-            Retrieved segments: {context}
-            
-            Provide a list of relevant segments that address this question. If no relevant segments are found, state that explicitly.""",
-            input_variables=["question", "context"],
-        )
-
-        model = ChatOpenAI(temperature=0, model="gpt-4-turbo")
-        response = model.invoke(
-            prompt.format(question=question, context=retrieved_docs)
-        )
-
-        return {
-            **state,
-            "messages": [response],
-            "results": {question: retrieved_segments},
-        }
-
-    # Create graph
-    workflow = StateGraph(GDPRState)
-
-    # Add nodes
-    workflow.add_node("agent", agent)
-    retrieve = ToolNode([])
-    workflow.add_node("retrieve", retrieve)
-    workflow.add_node("generate", generate_answer)
+    # Add single node for processing
+    workflow.add_node("process", agent)
 
     # Add edges
-    workflow.add_edge(START, "agent")
-    workflow.add_conditional_edges(
-        "agent",
-        lambda x: (
-            "retrieve"
-            if "search_privacy_policy" in x["messages"][-1].content
-            else "generate"
-        ),
-        {"retrieve": "retrieve", "generate": "generate"},
-    )
-    workflow.add_edge("retrieve", "generate")
-    workflow.add_edge("generate", END)
+    workflow.add_edge(START, "process")
+    workflow.add_edge("process", END)
 
     return workflow.compile()
-
-
-def analyze_gdpr_compliance(privacy_segments: List[Dict]) -> Dict[str, List[Dict]]:
-    """Run GDPR compliance analysis on privacy policy segments"""
-    logger.info(f"Starting GDPR analysis with {len(privacy_segments)} segments")
-    agent = create_gdpr_agent()
-    results = {}
-
-    for question in GDPR_QUESTIONS:
-        logger.info(f"Processing question: {question}")
-        inputs = {
-            "messages": [
-                HumanMessage(content=question)
-            ],  # Use HumanMessage instead of tuple
-            "results": {},
-            "privacy_segments": privacy_segments,
-        }
-
-        try:
-            output = agent.invoke(inputs)
-            logger.info(f"Got response for question: {question}")
-            logger.debug(f"Response details: {output}")
-            results[question] = output["results"][question]
-        except Exception as e:
-            logger.error(f"Error processing question '{question}': {e}", exc_info=True)
-            results[question] = []
-
-    logger.info("GDPR analysis complete")
-    return results

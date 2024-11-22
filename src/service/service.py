@@ -4,7 +4,7 @@ import os
 import warnings
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
-from typing import Annotated, Any
+from typing import Annotated, Any, List, Dict
 from uuid import uuid4
 
 from fastapi import APIRouter, Depends, FastAPI, HTTPException, status
@@ -16,8 +16,10 @@ from langchain_core.runnables import RunnableConfig
 from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from langgraph.graph.state import CompiledStateGraph
 from langsmith import Client as LangsmithClient
+from pydantic import BaseModel
 
 from agents import DEFAULT_AGENT, agents
+from agents.gdpr_compliance_agent import analyze_gdpr_compliance
 from schema import (
     ChatHistory,
     ChatHistoryInput,
@@ -71,7 +73,8 @@ def _parse_input(user_input: UserInput) -> tuple[dict[str, Any], str]:
     kwargs = {
         "input": {"messages": [HumanMessage(content=user_input.message)]},
         "config": RunnableConfig(
-            configurable={"thread_id": thread_id, "model": user_input.model}, run_id=run_id
+            configurable={"thread_id": thread_id, "model": user_input.model},
+            run_id=run_id,
         ),
     }
     return kwargs, run_id
@@ -101,9 +104,9 @@ async def invoke(user_input: UserInput) -> ChatMessage:
     logger.info(f"Received invoke request - Message: {user_input.message[:200]}...")
     logger.info(f"Using model: {user_input.model}")
     logger.info(f"Thread ID: {user_input.thread_id}")
-    
+
     response = await ainvoke(user_input=user_input)
-    
+
     logger.info(f"Returning response - Content: {response.content[:200]}...")
     return response
 
@@ -147,7 +150,9 @@ async def message_generator(
             new_messages = event["data"]["output"]["messages"]
 
         # Also yield intermediate messages from agents.utils.CustomData.adispatch().
-        if event["event"] == "on_custom_event" and "custom_data_dispatch" in event.get("tags", []):
+        if event["event"] == "on_custom_event" and "custom_data_dispatch" in event.get(
+            "tags", []
+        ):
             new_messages = [event["data"]]
 
         for message in new_messages:
@@ -159,7 +164,10 @@ async def message_generator(
                 yield f"data: {json.dumps({'type': 'error', 'content': 'Unexpected error'})}\n\n"
                 continue
             # LangGraph re-sends the input message, which feels weird, so drop it
-            if chat_message.type == "human" and chat_message.content == user_input.message:
+            if (
+                chat_message.type == "human"
+                and chat_message.content == user_input.message
+            ):
                 continue
             yield f"data: {json.dumps({'type': 'message', 'content': chat_message.model_dump()})}\n\n"
 
@@ -194,7 +202,9 @@ def _sse_response_example() -> dict[int, Any]:
     }
 
 
-@router.post("/stream", response_class=StreamingResponse, responses=_sse_response_example())
+@router.post(
+    "/stream", response_class=StreamingResponse, responses=_sse_response_example()
+)
 async def stream(user_input: StreamInput) -> StreamingResponse:
     """
     Stream the default agent's response to a user input, including intermediate messages and tokens.
@@ -204,11 +214,15 @@ async def stream(user_input: StreamInput) -> StreamingResponse:
 
     Set `stream_tokens=false` to return intermediate messages but not token-by-token.
     """
-    return StreamingResponse(message_generator(user_input), media_type="text/event-stream")
+    return StreamingResponse(
+        message_generator(user_input), media_type="text/event-stream"
+    )
 
 
 @router.post(
-    "/{agent_id}/stream", response_class=StreamingResponse, responses=_sse_response_example()
+    "/{agent_id}/stream",
+    response_class=StreamingResponse,
+    responses=_sse_response_example(),
 )
 async def agent_stream(user_input: StreamInput, agent_id: str) -> StreamingResponse:
     """
@@ -260,11 +274,65 @@ def history(input: ChatHistoryInput) -> ChatHistory:
             )
         )
         messages: list[AnyMessage] = state_snapshot.values["messages"]
-        chat_messages: list[ChatMessage] = [langchain_to_chat_message(m) for m in messages]
+        chat_messages: list[ChatMessage] = [
+            langchain_to_chat_message(m) for m in messages
+        ]
         return ChatHistory(messages=chat_messages)
     except Exception as e:
         logger.error(f"An exception occurred: {e}")
         raise HTTPException(status_code=500, detail="Unexpected error")
+
+
+# Add response model
+class GDPRAnalysisResult(BaseModel):
+    results: Dict[str, List[Dict[str, Any]]]
+
+
+class GDPRRequest(BaseModel):
+    privacy_segments: List[Dict[str, Any]]
+
+
+@router.post("/gdpr/analyze", response_model=GDPRAnalysisResult)
+async def analyze_gdpr(request: GDPRRequest) -> GDPRAnalysisResult:
+    """
+    Analyze privacy policy segments for GDPR compliance.
+    """
+    try:
+        logger.info("Received GDPR analysis request")
+        logger.debug(f"Request data: {request.model_dump()}")
+
+        # Validate privacy segments format
+        for segment in request.privacy_segments:
+            if (
+                not isinstance(segment, dict)
+                or "segment" not in segment
+                or "model_analysis" not in segment
+            ):
+                logger.error(f"Invalid segment format: {segment}")
+                raise HTTPException(
+                    status_code=400,
+                    detail="Each segment must contain 'segment' and 'model_analysis' fields",
+                )
+
+        logger.info(f"Processing {len(request.privacy_segments)} privacy segments")
+
+        # Get or create the GDPR agent
+        from agents.agents import get_gdpr_agent
+
+        agent = get_gdpr_agent()
+
+        results = analyze_gdpr_compliance(request.privacy_segments)
+
+        logger.info("Analysis complete")
+        logger.debug(f"Results: {results}")
+
+        return GDPRAnalysisResult(results=results)
+
+    except Exception as e:
+        logger.error(f"An error occurred during GDPR analysis: {e}", exc_info=True)
+        raise HTTPException(
+            status_code=500, detail="Unexpected error during GDPR analysis"
+        )
 
 
 app.include_router(router)

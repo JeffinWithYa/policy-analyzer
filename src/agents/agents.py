@@ -13,5 +13,13 @@ agents: dict[str, CompiledStateGraph] = {
     "research-assistant": research_assistant,
     "privacy-analyzer": privacy_analyzer,
     "privacy-segmenter": privacy_segmenter,
-    "gdpr-compliance": create_gdpr_agent([]),
+    "gdpr-compliance": create_gdpr_agent(),
 }
+
+
+def get_gdpr_agent():
+    """Lazy initialization of GDPR agent"""
+    global agents
+    if agents["gdpr-compliance"] is None:
+        agents["gdpr-compliance"] = create_gdpr_agent()
+    return agents["gdpr-compliance"]

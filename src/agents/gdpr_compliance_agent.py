@@ -10,9 +10,21 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langgraph.graph.message import add_messages
 import logging
 import json
+import sys
+from datetime import datetime
 
 # Configure logger
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("gdpr_agent")
+logger.setLevel(logging.INFO)
+
+# Create console handler with formatting
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+console_handler.setFormatter(formatter)
+
+# Add handler to logger
+logger.addHandler(console_handler)
 
 GDPR_QUESTIONS = [
     "What are the identity and contact details of the organization?",
@@ -220,39 +232,52 @@ def create_gdpr_agent():
 
     def process_segments(state):
         """Process privacy segments and create vectorstore"""
+        request_id = datetime.now().strftime("%Y%m%d-%H%M%S")
+        logger.info(f"[Request {request_id}] Starting GDPR analysis")
+
         messages = state["messages"]
         try:
+            # Log incoming request
             last_message = messages[-1].content
+            logger.info(
+                f"[Request {request_id}] Received request content (truncated): {last_message[:200]}..."
+            )
+
             data = json.loads(last_message)
             privacy_segments = data.get("privacy_segments", [])
+            logger.info(
+                f"[Request {request_id}] Processing {len(privacy_segments)} privacy segments"
+            )
 
             if not privacy_segments:
+                error_response = {
+                    "gdpr_analysis": {
+                        "status": "error",
+                        "message": "No privacy segments provided for analysis",
+                        "results": {},
+                    }
+                }
+                logger.error(f"[Request {request_id}] No privacy segments provided")
                 return {
                     **state,
-                    "messages": [
-                        AIMessage(
-                            content=json.dumps(
-                                {
-                                    "gdpr_analysis": {
-                                        "status": "error",
-                                        "message": "No privacy segments provided for analysis",
-                                        "results": {},
-                                    }
-                                }
-                            )
-                        )
-                    ],
+                    "messages": [AIMessage(content=json.dumps(error_response))],
                 }
 
+            logger.info(f"[Request {request_id}] Creating vectorstore")
             vectorstore, segment_lookup = create_vectorstore(privacy_segments)
             retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 
             results = {}
             for question in GDPR_QUESTIONS:
+                logger.info(f"[Request {request_id}] Processing question: {question}")
                 docs = retriever.invoke(question)
+                logger.info(f"[Request {request_id}] Retrieved {len(docs)} documents")
 
                 # Only include relevant documents
-                if grade_relevance(docs, question):
+                is_relevant = grade_relevance(docs, question)
+                logger.info(f"[Request {request_id}] Documents relevant: {is_relevant}")
+
+                if is_relevant:
                     relevant_segments = []
                     for doc in docs:
                         for key in segment_lookup:
@@ -263,11 +288,18 @@ def create_gdpr_agent():
                                 segment = segment_lookup[key]
                                 if segment not in relevant_segments:
                                     relevant_segments.append(segment)
+                                    logger.info(
+                                        f"[Request {request_id}] Added relevant segment: {segment['segment'][:100]}..."
+                                    )
                     results[question] = relevant_segments
                 else:
                     results[question] = []
 
-            # Format response as JSON
+                logger.info(
+                    f"[Request {request_id}] Found {len(results[question])} relevant segments"
+                )
+
+            # Format response
             response_data = {
                 "gdpr_analysis": {
                     "status": "success",
@@ -291,25 +323,30 @@ def create_gdpr_agent():
                 }
             }
 
+            logger.info(f"[Request {request_id}] Analysis complete")
+            logger.info(
+                f"[Request {request_id}] Total questions processed: {len(results)}"
+            )
+            logger.info(
+                f"[Request {request_id}] Questions with matches: {sum(1 for segments in results.values() if segments)}"
+            )
+            logger.info(
+                f"[Request {request_id}] Response (truncated): {str(response_data)[:200]}..."
+            )
+
             return {**state, "messages": [AIMessage(content=json.dumps(response_data))]}
 
         except Exception as e:
-            logger.error(f"Error in GDPR analysis: {e}", exc_info=True)
+            error_response = {
+                "gdpr_analysis": {"status": "error", "message": str(e), "results": {}}
+            }
+            logger.error(
+                f"[Request {request_id}] Error in GDPR analysis: {str(e)}",
+                exc_info=True,
+            )
             return {
                 **state,
-                "messages": [
-                    AIMessage(
-                        content=json.dumps(
-                            {
-                                "gdpr_analysis": {
-                                    "status": "error",
-                                    "message": str(e),
-                                    "results": {},
-                                }
-                            }
-                        )
-                    )
-                ],
+                "messages": [AIMessage(content=json.dumps(error_response))],
             }
 
     # Create simple workflow
